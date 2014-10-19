@@ -1,0 +1,54 @@
+REPORT /mm/calendarsearch HTTP/1.1
+Host: p30-caldav.icloud.com
+Content-Type: text/xml
+Connection: keep-alive
+Accept: */*
+User-Agent: Mac+OS+X/10.10 (14A389) CalendarAgent/315
+Content-Length: 311
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+<?xml version="1.0" encoding="UTF-8"?>
+<A:calendar-search xmlns:A="http://calendarserver.org/ns/" test="anyof">
+  <A:category>
+    <A:language>en</A:language>
+    <A:region>US</A:region>
+    <A:title>Holiday</A:title>
+  </A:category>
+  <A:limit>
+    <A:nresults>3</A:nresults>
+  </A:limit>
+</A:calendar-search>
+HTTP/1.1 207 Multi-Status
+Content-Length: 718
+Accept-Ranges: bytes
+Vary: accept-encoding
+Server: iCloudCalendarServer 14G54
+Last-Modified: Sun, 19 Oct 2014 19:30:37 GMT
+DAV: 
+X-Transaction-Id: 671c5348-57c6-11e4-aa9f-984be168540c
+Date: Sun, 19 Oct 2014 19:30:37 GMT
+X-Responding-Server: mr21p30ic-hpaf07173001 3 a63660a6f7d1a25b5a7ed66dab0da843
+Content-Type: text/xml
+
+<?xml version='1.0' encoding='UTF-8'?>
+<multistatus xmlns='DAV:'>
+  <response>
+    <href>https://p30-calendars.icloud.com/holidays/us_en.ics</href>
+    <match-results xmlns='http://calendarserver.org/ns/'>
+      <rank>100</rank>
+      <language>en</language>
+      <region>US</region>
+      <description>US Holidays</description>
+    </match-results>
+  </response>
+  <response>
+    <href>https://p30-calendars.icloud.com/holidays/us_es.ics</href>
+    <match-results xmlns='http://calendarserver.org/ns/'>
+      <rank>50</rank>
+      <language>es</language>
+      <region>US</region>
+      <description>Días festivos en Estados Unidos</description>
+    </match-results>
+  </response>
+</multistatus>

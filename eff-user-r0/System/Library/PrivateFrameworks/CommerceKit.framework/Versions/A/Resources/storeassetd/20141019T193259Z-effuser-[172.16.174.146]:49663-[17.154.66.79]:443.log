@@ -1,0 +1,81 @@
+POST /WebObjects/MZFinance.woa/wa/adoptionEligibilitySrv?guid=000C295240D2 HTTP/1.1
+Host: buy.itunes.apple.com
+Accept: */*
+X-Apple-Store-Front: 143441-1,13
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Date: Sun, 19 Oct 2014 19:32:59 GMT
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 407
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Connection: keep-alive
+Cookie: xp_ci=3z2fX0gnz8Ddz57vzCNRz16rZrLBq9
+X-Apple-TZ: -420
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>guid</key>
+	<string>000C295240D2</string>
+	<key>response-content-type</key>
+	<string>text/xml</string>
+	<key>rom-addr</key>
+	<string>10ddb13da482</string>
+	<key>serial-no</key>
+	<string>C02251401ECF64WAU</string>
+</dict>
+</plist>
+HTTP/1.0 200 Apple WebObjects
+x-apple-jingle-correlation-key: UW6KNTZE3MDMK
+access-control-allow-origin: *
+pod: 45
+x-apple-translated-wo-url: /WebObjects/MZFinance.woa/wa/adoptionEligibilitySrv?guid=000C295240D2
+x-apple-orig-url: https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/adoptionEligibilitySrv?guid=000C295240D2
+x-apple-application-site: ST13
+edge-control: no-store
+edge-control: cache-maxage=0
+date: Sun, 19 Oct 2014 19:33:00 GMT
+set-cookie: Pod=45; version="1"; expires=Wed, 19-Nov-2014 20:33:00 GMT; path=/; domain=.apple.com
+set-cookie: itspod=45; version="1"; expires=Wed, 19-Nov-2014 20:33:00 GMT; path=/; domain=.apple.com
+set-cookie: mzf_in=452475; version="1"; path=/WebObjects; domain=.apple.com; secure
+set-cookie: mzf_dr=0; version="1"; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/WebObjects; domain=.apple.com
+apple-timing-app: 118 ms
+cache-control: private
+cache-control: no-cache
+cache-control: no-store
+cache-control: no-transform
+cache-control: must-revalidate
+cache-control: max-age=0
+expires: Sun, 19 Oct 2014 19:33:00 GMT
+content-type: text/xml; charset=UTF-8
+x-apple-lokamai-no-cache: true
+x-apple-application-instance: 452475
+x-frame-options: SAMEORIGIN
+itspod: 45
+x-webobjects-loadaverage: 24
+connection: keep-alive
+content-length: 710
+Set-Cookie: ns-mzf-inst=179-19-80-157-90-8146-452475-45-st13; version=1; Max-Age=1800; path=/; domain=.apple.com; httponly
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>errorMessageKey</key>
+		<string>MZFinance.AppAdoptionNotEligible</string>
+
+		<key>errorNumber</key>
+		<integer>3552</integer>
+
+		<key>status</key>
+		<integer>-1</integer>
+
+		<key>userPresentableErrorMessage</key>
+		<string>Future updates of these apps can be found through Software Update.</string>
+
+		<key>errorMessage</key>
+		<string>ex.name (com.apple.jingle.foundation.exceptions.MZCodedException) -- ex.message (MZException code = MZFinance.AppAdoptionNotEligible, userInfo = null)</string>
+
+	</dict>
+</plist>

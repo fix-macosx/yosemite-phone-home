@@ -1,0 +1,83 @@
+GET /configurations/internetservices/safari/ConfigurationsMac-8.0.plist.signed HTTP/1.1
+Host: configuration.apple.com
+Accept: */*
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+
+HTTP/1.1 200 OK
+Last-Modified: Fri, 17 Oct 2014 02:06:07 GMT
+ETag: "6c6-50594ced641c0"
+Server: Apache
+Accept-Ranges: bytes
+Content-Length: 1734
+Content-Type: text/xml
+Content-Language: en-us
+Cache-Control: max-age=3
+Expires: Sun, 19 Oct 2014 19:18:11 GMT
+Date: Sun, 19 Oct 2014 19:18:08 GMT
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<integer>2</integer>
+	<key>ExtensionBlacklist</key>
+	<dict>
+		<key>Extensions</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.codec.extension</string>
+				<key>Developer Identifier</key>
+				<string>9FHEC8C8B8</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.zako.chatzum</string>
+				<key>Developer Identifier</key>
+				<string>87X4MN23Z9</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.adobe.flash</string>
+				<key>Developer Identifier</key>
+				<string>E728F995AB</string>
+			</dict>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.optimalcycling.safari.popupblocker</string>
+				<key>Developer Identifier</key>
+				<string>6AR4TE4Z39</string>
+			</dict>
+		</array>
+	</dict>
+	<key>PowerSaver</key>
+	<dict>
+		<key>version</key>
+		<integer>1</integer>
+		<key>Exceptions</key>
+		<array>
+			<string>play.google.com</string>
+			<string>music.google.com</string>
+			<string>l.yimg.com</string>
+			<string>a2.sndcdn.com</string>
+			<string>a-v2.sndcdn.com</string>
+			<string>connect.soundcloud.com</string>
+			<string>www.ninjakiwifiles.com</string>
+			<string>player.ooyala.com</string>
+			<string>pitchfork.com</string>
+			<string>www.saksfifthavenue.com</string>
+			<string>image.s5a.com</string>
+			<string>a.espncdn.com</string>
+			<string>static1.dmcdn.net</string>
+			<string>www.dailymotion.com</string>
+		</array>
+	</dict>
+</dict>
+</plist>
+----BEGIN RSA SIGNATURE----
+Î)¹“ÿ1qR‡ŸG7o©º²o+½æ¼€UÔèÇsöè¦bÎ¢FUXwìWvjï>ç°@YM¯ÆÂÎì

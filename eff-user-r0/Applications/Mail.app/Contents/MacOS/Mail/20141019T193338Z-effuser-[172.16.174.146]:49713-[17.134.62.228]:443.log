@@ -1,0 +1,21 @@
+POST /iconfig/dconf HTTP/1.1
+Host: mac-services.apple.com
+Content-Type: application/x-www-form-urlencoded
+Connection: keep-alive
+Accept: */*
+User-Agent: Apple Mail MailConfig v1990.1
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Length: 51
+
+version=1&capabilities=MACOSX&domain=fix-macosx.comHTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+x-responding-server: nwk-iphonesys-app195.apple.com
+Content-Type: text/xml;charset=utf-8
+Content-Length: 73
+Date: Sun, 19 Oct 2014 19:33:38 GMT
+
+<domain>
+      <name>fix-macosx.com</name>
+      <unknown/>
+    </domain>

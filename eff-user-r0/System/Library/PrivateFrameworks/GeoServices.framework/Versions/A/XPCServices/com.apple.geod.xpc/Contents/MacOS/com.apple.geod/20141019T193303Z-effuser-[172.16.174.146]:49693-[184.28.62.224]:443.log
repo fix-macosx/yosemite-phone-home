@@ -1,0 +1,71 @@
+GET /configurations/pep/config/geo/networkDefaults-osx-10.10.plist HTTP/1.1
+Host: configuration.apple.com
+Accept: */*
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: com.apple.geod/982.4.10 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+
+HTTP/1.1 200 OK
+Last-Modified: Fri, 17 Oct 2014 02:06:07 GMT
+ETag: "54b-50594ced641c0"
+Server: Apache
+Accept-Ranges: bytes
+Content-Length: 1355
+Content-Type: text/xml
+Content-Language: en-us
+Cache-Control: max-age=41
+Expires: Sun, 19 Oct 2014 19:33:44 GMT
+Date: Sun, 19 Oct 2014 19:33:03 GMT
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.GEO</key>
+	<dict>
+		<key>GEOResourceManifestUpdateTimeInterval</key>
+		<integer>43200</integer>
+		<key>https://gsp-ssl.ls.apple.com/search.arpc|43</key>
+		<string>50|60</string>
+		<key>https://gsp-ssl.ls.apple.com/directions.arpc|44</key>
+		<string>50|60</string>
+		<key>CountryProviders</key>
+		<dict>
+			<key>RU</key>
+			<dict>
+				<key>GEOShouldSpeakWrittenAddresses</key>
+				<true/>
+				<key>GEOShouldSpeakWrittenPlaceNames</key>
+				<true/>
+			</dict>
+			<key>CN</key>
+			<dict>
+				<key>GEOGeocoderIsEncrypted</key>
+				<false/>
+				<key>GEOAddressCorrectionEnabled</key>
+				<false/>
+				<key>GEOVoltaireSearchURLProviderID</key>
+				<integer>57879</integer>
+				<key>LocalitiesAndLandmarksSupported</key>
+				<false/>
+			</dict>
+			<key>KR</key>
+			<dict>
+				<key>GEOAddressCorrectionEnabled</key>
+				<false/>
+				<key>GEOVoltaireResourceManifestURL</key>
+				<string>https://gspe35-kr-ssl.ls.apple.com/geo_manifest/dynamic/config%{DEVICE_QUERY}</string>
+			</dict>
+			<key>TW</key>
+			<dict>
+				<key>GEOShouldSpeakWrittenAddresses</key>
+				<true/>
+				<key>GEOShouldSpeakWrittenPlaceNames</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

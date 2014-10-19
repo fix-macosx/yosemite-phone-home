@@ -1,0 +1,22 @@
+GET /config/announcements?hardware=VMware7,1&lang=en&os=osx&os_build=14A389&os_version=10.10 HTTP/1.1
+Host: gspe21.ls.apple.com
+Accept: */*
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: mapspushd (unknown version) CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+
+HTTP/1.1 404 Not Found
+Server: nginx/1.5.13
+Content-Type: text/html; charset=utf-8
+Content-Length: 169
+Date: Sun, 19 Oct 2014 20:03:16 GMT
+Connection: keep-alive
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.5.13</center>
+</body>
+</html>

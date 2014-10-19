@@ -1,0 +1,21 @@
+POST /gcsp/2.0 HTTP/1.1
+Host: c6398976.mgr.gcsp.cddbp.net
+X-GN-Encryption-Accept: gn-crypt-4; version=2; key=9400010001020b0000000c29aaaf2487d0a9916d7c0000008868aff4639ebffa91aff0e9d8a83964dca5250d00638f8596e7
+X-GN-Encryption: gn-crypt-4; version=2
+Content-Type: application/x-gn-message
+X-GN-Protocol: gcsp; version=2
+User-Agent: GCSL_GCSP 3.06.0.1977
+Content-Length: 0
+Accept-Encoding: gzip
+Connection: close
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 19:33:07 GMT
+X-GN-Encryption-Accept: gn-crypt-4; version=2; key=9400010001020b0000000f3185bc65e87d5516c3f1000000b291f030ff0b2b81e9aa71f5301a48a6dbd47b59fc6d310cd6ed; rnd=b71ea79497c7401282ef81e3cddcfc01
+Server: GracenoteHTTPD/1.1 (Production Santa Clara AP 27)
+Connection: close
+Content-type: application/x-gn-message
+Content-Length: 0
+X-GN-Protocol: gcsp; version=2
+X-GN-Encryption: gn-crypt-4; version=2; key=9400010001020b0000000c29aaaf2487d0a9916d7c0000008868aff4639ebffa91aff0e9d8a83964dca5250d00638f8596e7; 
+

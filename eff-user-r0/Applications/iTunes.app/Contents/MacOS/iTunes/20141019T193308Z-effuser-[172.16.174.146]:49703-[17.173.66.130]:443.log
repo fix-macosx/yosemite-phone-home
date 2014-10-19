@@ -1,0 +1,29 @@
+GET /register HTTP/1.1
+Host: xp.apple.com
+X-Apple-Store-Front: 143441-1,28
+Connection: close
+Cookie: s_fid=7A91854B9C94B6A0-1581381A15C2A650; s_invisit_n2_us=3; s_pathLength=homepage%3D1%2C; s_ppv=apple%2520-%2520index%2Ftab%2520%2528us%2529%2C100%2C100%2C643%2C; s_vi=[CS]v1|2A22088205011E8F-6000010A6000B2B6[CE]; s_vnum_n2_us=3%7C1
+User-Agent: iTunes/12.0 (Macintosh; OS X 10.10) AppleWebKit/0600.1.25
+Accept-Language: en-us, en;q=0.50
+X-Apple-Tz: -25200
+Accept-Encoding: gzip
+
+HTTP/1.0 200 Apple WebObjects
+x-apple-jingle-correlation-key: RUJPLJMO4SQ4U
+access-control-allow-origin: *
+vary: X-Apple-Store-Front,X-Dsid,Cookie
+x-apple-application-site: ST11
+x-apple-set-cookie: xp_ci=3z54Reukz76xz4QyzCuZz1FPnGqJSk; version="1"; expires=Fri, 17-Apr-2015 19:33:08 GMT; path=/; domain=.apple.com
+date: Sun, 19 Oct 2014 19:33:08 GMT
+set-cookie: xp_ci=3z54Reukz76xz4QyzCuZz1FPnGqJSk; version="1"; expires=Fri, 17-Apr-2015 19:33:08 GMT; path=/; domain=.apple.com
+apple-timing-app: 0 ms
+cache-control: private, max-age=60
+expires: Sun, 19 Oct 2014 19:34:08 GMT
+content-type: application/json; charset=UTF-8
+x-apple-application-instance: 21641
+x-webobjects-loadaverage: 0
+access-control-allow-credentials: true
+connection: keep-alive
+content-length: 137
+
+{"setCookies":[{"expiration":"1429299188856","name":"xp_ci","domain":".apple.com","path":"\/","value":"3z54Reukz76xz4QyzCuZz1FPnGqJSk"}]}

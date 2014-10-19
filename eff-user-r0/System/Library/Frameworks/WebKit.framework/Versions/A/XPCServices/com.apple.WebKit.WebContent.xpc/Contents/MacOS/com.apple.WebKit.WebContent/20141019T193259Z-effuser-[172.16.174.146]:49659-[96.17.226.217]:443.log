@@ -1,0 +1,81 @@
+GET /us/store HTTP/1.1
+Host: itunes.apple.com
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Date: Sun, 19 Oct 2014 19:32:58 GMT
+Cookie: xp_ci=3z2fX0gnz8Ddz57vzCNRz16rZrLBq9
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+X-Apple-Store-Front: 143441-1,13
+X-Apple-TZ: -420
+Accept-Language: en-US
+
+HTTP/1.1 200 OK
+Last-Modified: Sun, 19 Oct 2014 19:30:23 GMT
+x-apple-request-store-front: 143441-1,13
+x-apple-translated-wo-url: /WebObjects/MZStore.woa/wa/storeFront?cc=us&urlDesc=
+x-apple-orig-url: https://itunes.apple.com/us/store
+x-apple-application-site: ST11
+apple-timing-app: 9 ms
+x-apple-asset-version: 0
+x-apple-aka-ttl: Generated Sun Oct 19 12:30:23 PDT 2014, Expires Sun Oct 19 12:31:23 PDT 2014, TTL 60s
+x-apple-date-generated: Sun, 19 Oct 2014 19:30:23 GMT
+x-apple-application-instance: 2000613
+Content-Type: text/xml; charset=UTF-8
+x-webobjects-loadaverage: 0
+x-apple-jingle-correlation-key: RJ3QWIFQOFRBQ
+Server: ATS/4.1.0
+X-Apple-ATS-Cache-Key: /17.173.38.164/80/us/store/iDevice/143441-1/13/https
+Cache-Control: no-transform, max-age=7
+Date: Sun, 19 Oct 2014 19:32:59 GMT
+Content-Length: 671
+Connection: close
+X-Apple-Partner: origin.0
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"> 
+
+  <plist version="1.0">
+    <dict>
+       
+  
+    
+    
+    
+         
+  
+  
+  <key>jingleDocType</key><string></string>
+  <key>jingleAction</key><string></string>
+  
+  <key>action</key>
+  <dict>
+    <key>kind</key><string>Goto</string>
+    <key>url</key><string>https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&amp;id=29520&amp;mt=12</string>
+    
+  </dict>
+  
+       
+       
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+
+    
+    </dict>
+  </plist>
+  
+
+

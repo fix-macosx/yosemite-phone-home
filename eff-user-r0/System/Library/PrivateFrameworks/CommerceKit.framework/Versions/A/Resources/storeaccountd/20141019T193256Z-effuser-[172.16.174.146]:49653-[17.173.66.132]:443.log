@@ -1,0 +1,29 @@
+GET /register HTTP/1.1
+Host: xp.apple.com
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Date: Sun, 19 Oct 2014 19:32:56 GMT
+Cookie: xp_ci=3z6fLPlzCBrz4gZzBXtz1GUwr3Ebf
+User-Agent: iBooks/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Accept-Language: en-US
+X-Apple-TZ: -420
+X-Apple-Store-Front: 143441-1,22
+
+HTTP/1.0 200 Apple WebObjects
+x-apple-jingle-correlation-key: JIQGRARBDW3UI
+access-control-allow-origin: *
+vary: X-Apple-Store-Front,X-Dsid,Cookie
+x-apple-application-site: ST11
+date: Sun, 19 Oct 2014 19:32:56 GMT
+apple-timing-app: 1 ms
+cache-control: private, max-age=60
+expires: Sun, 19 Oct 2014 19:33:56 GMT
+content-type: application/json; charset=UTF-8
+x-apple-application-instance: 21308
+x-webobjects-loadaverage: 3
+access-control-allow-credentials: true
+connection: keep-alive
+content-length: 2
+
+{}

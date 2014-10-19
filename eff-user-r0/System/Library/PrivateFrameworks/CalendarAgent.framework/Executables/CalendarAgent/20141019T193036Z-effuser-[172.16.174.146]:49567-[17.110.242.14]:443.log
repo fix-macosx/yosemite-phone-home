@@ -1,0 +1,19 @@
+HEAD /.well-known/calendarsearchdav HTTP/1.1
+Host: caldav.icloud.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mac+OS+X/10.10 (14A389) CalendarAgent/315
+Content-Length: 0
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Server: iCloudCalendarServer 14G54
+DAV: 
+X-Transaction-Id: 66897c62-57c6-11e4-b365-78e3b50d0f74
+Location: https://p30-caldav.icloud.com:443/mm/calendarsearch
+Date: Sun, 19 Oct 2014 19:30:36 GMT
+X-Responding-Server: mr21p30ic-hpaf07191501 4 a63660a6f7d1a25b5a7ed66dab0da843
+Content-Type: text/html;charset=utf-8
+

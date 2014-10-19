@@ -1,0 +1,20 @@
+GET /reminders/mac/10.10/en.lproj/search.helpindex HTTP/1.1
+Host: help.apple.com
+Accept: */*
+If-None-Match: "346ae5-7bd5-5048ba89733c0"
+Cookie: s_fid=7A91854B9C94B6A0-1581381A15C2A650; s_vi=[CS]v1|2A22088205011E8F-6000010A6000B2B6[CE]; s_vnum_n2_us=3%7C1; xp_ci=3z54Reukz76xz4QyzCuZz1FPnGqJSk
+If-Modified-Since: Fri, 03 Oct 2014 21:45:59 GMT
+Accept-Language: en-us
+User-Agent: helpd/90 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+Content-Type: text/plain; charset=UTF-8
+Last-Modified: Fri, 03 Oct 2014 21:45:59 GMT
+ETag: "346ae5-7bd5-5048ba89733c0"
+Cache-Control: max-age=284
+Expires: Sun, 19 Oct 2014 20:49:13 GMT
+Date: Sun, 19 Oct 2014 20:44:29 GMT
+Connection: close
+

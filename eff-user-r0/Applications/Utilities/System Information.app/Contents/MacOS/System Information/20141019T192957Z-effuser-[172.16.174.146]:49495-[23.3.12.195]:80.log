@@ -1,0 +1,18 @@
+GET /sp/product?edid=10.10&lang=en_US HTTP/1.1
+Host: support-sp.apple.com
+Accept: */*
+Cookie: s_fid=7A91854B9C94B6A0-1581381A15C2A650; s_invisit_n2_us=3; s_pathLength=homepage%3D1%2C; s_ppv=apple%2520-%2520index%2Ftab%2520%2528us%2529%2C100%2C100%2C643%2C; s_vi=[CS]v1|2A22088205011E8F-6000010A6000B2B6[CE]; s_vnum_n2_us=3%7C1
+User-Agent: System%20Information/915 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: Apache/2.2.26 (Unix)
+Content-Length: 133
+Cneonction: close
+Content-Type: text/plain
+Date: Sun, 19 Oct 2014 19:29:57 GMT
+Connection: keep-alive
+
+<?xml version="1.0" encoding="utf-8" ?><root><name>CPU Name</name><configCode>OS X Yosemite</configCode><locale>en_US</locale></root>

@@ -1,0 +1,23 @@
+GET /machelp/mac/10.10/en.lproj/mh43558.html HTTP/1.1
+Host: help.apple.com
+Accept-Encoding: gzip, deflate
+Cookie: s_fid=7A91854B9C94B6A0-1581381A15C2A650; s_invisit_n2_us=3; s_pathLength=homepage%3D1%2C; s_ppv=apple%2520-%2520index%2Ftab%2520%2528us%2529%2C100%2C100%2C643%2C; s_vi=[CS]v1|2A22088205011E8F-6000010A6000B2B6[CE]; s_vnum_n2_us=3%7C1
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Help Viewer/256
+Referer: https://help.apple.com/machelp/mac/10.10/index.html?localePath=en.lproj
+Accept-Language: en-us
+X-Requested-With: XMLHttpRequest
+
+HTTP/1.1 200 OK
+Server: Apache
+Access-Control-Allow-Origin: *
+Cteonnt-Length: 533
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=954
+Expires: Sun, 19 Oct 2014 19:46:17 GMT
+Date: Sun, 19 Oct 2014 19:30:23 GMT
+Content-Length: 533
+Connection: close
+
+<html lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Mac Help</title><link rel="Index" href="index.html"><meta name="robots" content="anchors"></head><body id="mh43558" lang="en" dir="ltr" class="landing"><a name="mh43558"></a><img class="topicIcon" src="../GlobalArt/AppIconDefault_MacHelp.png" alt="" height="30" width="30"><h1>Mac Help</h1><figure class="Figure"><img src="Art/AppLanding_MacHelp.png" alt="" class="Graphic " height="242" width="372"></figure></body></html>

@@ -1,0 +1,10 @@
+GET /scds/common/u/images/logos/favicons/v1/favicon.ico HTTP/1.1
+Host: static.licdn.com
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://www.linkedin.com/
+DNT: 1
+

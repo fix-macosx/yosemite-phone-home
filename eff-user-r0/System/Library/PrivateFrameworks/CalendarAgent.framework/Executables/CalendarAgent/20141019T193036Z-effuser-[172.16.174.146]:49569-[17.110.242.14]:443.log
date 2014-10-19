@@ -1,0 +1,18 @@
+HEAD /mm/calendarsearch HTTP/1.1
+Host: p30-caldav.icloud.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mac+OS+X/10.10 (14A389) CalendarAgent/315
+Content-Length: 0
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 403 Forbidden
+Content-Length: 0
+Server: iCloudCalendarServer 14G54
+DAV: 
+X-Transaction-Id: 66d88046-57c6-11e4-b4fb-78e3b50e0038
+Date: Sun, 19 Oct 2014 19:30:36 GMT
+X-Responding-Server: mr21p30ic-hpaf07190601 4 a63660a6f7d1a25b5a7ed66dab0da843
+Content-Type: text/html;charset=utf-8
+

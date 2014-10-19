@@ -1,0 +1,28 @@
+GET /osx/mac/10.10/whats-new/ HTTP/1.1
+Host: help.apple.com
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Cookie: ccl=pH5PATNcfmauGDJwQrVDk1UW+HiCVnHGMtZZzGkJDMy/4plTG7OT2Ss96LVPdxjSJyz+fB0hzEXI/F/ChvjrK1wf7ywP2ohy69ORLCJiDUC2fHLcb8XOmrGyRdeVZVQm/N6nmf6b4EkjtjXINz/S+CsXEEa5o0W7PVSzLN4FXpKNYki1w55h59VtMEKSYahCUr+4Kcj2Qf085RwuR+0OuKuGRhh2BDlwjsREB9JN9gOJxTU2raBXg28kpDrvqG5qsYzll13PgM4=; geo=US; s_cc=true; s_fid=7A91854B9C94B6A0-1581381A15C2A650; s_invisit_n2_us=3; s_orientation=%5B%5BB%5D%5D; s_orientationHeight=643; s_pathLength=homepage%3D1%2C; s_ppv=apple%2520-%2520index%2Ftab%2520%2528us%2529%2C100%2C100%2C643%2C; s_sq=%5B%5BB%5D%5D; s_vi=[CS]v1|2A22088205011E8F-6000010A6000B2B6[CE]; s_vnum_n2_us=3%7C1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://help.apple.com/osx-yosemite/whats-new/from-mavericks/
+Content-Length: 332
+Content-Type: text/html; charset=iso-8859-1
+Cache-Control: max-age=356
+Expires: Sun, 19 Oct 2014 19:36:05 GMT
+Date: Sun, 19 Oct 2014 19:30:09 GMT
+Connection: close
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://help.apple.com/osx-yosemite/whats-new/from-mavericks/">here</a>.</p>
+<hr>
+<address>Apache Server at help.apple.com Port 80</address>
+</body></html>

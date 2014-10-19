@@ -1,0 +1,24 @@
+GET /d.js?q=Where%20is%20this%20search%20sent&l=us-en&p=1&s=0&a=osx HTTP/1.1
+Host: duckduckgo.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 20:45:35 GMT
+Content-Type: application/x-javascript; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Expires: Sun, 19 Oct 2014 20:45:36 GMT
+Cache-Control: max-age=1
+Strict-Transport-Security: max-age=31536000
+X-DuckDuckGo-Locale: en_US
+
+1044
+DDG.inject('DDG.Data.languages.resultLanguages', {"en":["http://searchandsend.com/","http://support.microsoft.com/kb/184059","http://www.yougetsignal.com/tools/reverse-email-lookup/","http://www.ibm.com/developerworks/lotus/library/sent-received/index.html","https://ca.answers.yahoo.com/question/index?qid=20081118062657AAXVEN4","http://www.msoutlook.info/question/49","http://www.webdevelopersnotes.com/basics/how-to-send-email.php"]});if (nrn) nrn('d',[{"a":"To access your mbrace account, you must first log in to Owners Online. Need Help? Call 1-866-990-9007. Login to Owners Online","d":"searchandsend.com","m":0,"s":"boss","p":0,"c":"http://searchandsend.com/","u":"http://searchandsend.com/","h":0,"k":null,"i":"searchandsend.com","t":"<b>Search</b> &amp; Send - Home | Mercedes","o":0},{"a":"<b>This</b> behavior can occur for any of the following reasons: The Save copy of <b>sent</b> messages in the <b>Sent</b> Items folder option may not be selected. The <b>Sent</b> Items folder may be damaged.","d":"support.microsoft.com/kb/184059","m":0,"s":"boss","p":0,"c":"http://support.microsoft.com/kb/184059","u":"http://support.microsoft.com/kb/184059","h":0,"k":null,"b":"lanpor\tMicrosoft Language Portal\twww.microsoft.com","i":"support.microsoft.com","t":"<b>Sent</b> messages may not be saved in the <b>Sent</b> Items folder in ...","o":0},{"a":"By typing in an e-mail address, you may find the owner&#x27;s name, address, phone number, and background records. You may also use <b>this</b> tool to identify which e-mail addresses a person owns.","d":"yougetsignal.com/tools/reverse-email-lookup/","m":0,"s":"boss","p":0,"c":"http://www.yougetsignal.com/tools/reverse-email-lookup/","u":"http://www.yougetsignal.com/tools/reverse-email-lookup/","h":0,"k":null,"i":"www.yougetsignal.com","t":"Reverse E-mail Lookup Tool - Free Lookup to Find Out Who <b>Sent</b> ...","o":0},{"a":"<b>This</b> tip describes an easy solution for viewing messages in your Inbox that were either <b>sent</b> to or received from another user. For instance, you can use <b>this</b> tip to quickly look at email messages that you <b>sent</b> to your manager or received from your manager.","d":"ibm.com/developerworks/lotus/library/sent-receive...","m":0,"s":"boss","p":0,"c":"http://www.ibm.com/developerworks/lotus/library/sent-received/index.html","u":"http://www.ibm.com/developerworks/lotus/library/sent-received/index.html","h":0,"k":null,"b":"ibm\tIBM\twww.ibm.com","i":"www.ibm.com","t":"Tip: Find all emails <b>sent</b> and received by the same person","o":0},{"a":"<b>I</b> got an email from a gmail account and I HAVE to find out who <b>sent</b> it. Is there anyway to find <b>this</b> out?","d":"ca.answers.yahoo.com/question/index?qid=20081118062657AAXVEN4","m":0,"s":"boss","p":0,"c":"https://ca.answers.yahoo.com/question/index?qid=20081118062657AAXVEN4","u":"https://ca.answers.yahoo.com/question/index?qid=20081118062657AAXVEN4","h":0,"k":null,"i":"ca.answers.yahoo.com","t":"How can I find out who <b>sent</b> an email? - Yahoo","o":0},{"a":"In <b>this</b> case, your <b>Sent</b> Items folder is configured with the &quot;From&quot; column instead of showing the &quot;To&quot; column or has not been set to the &quot;<b>Sent</b> To&quot; view.","d":"msoutlook.info/question/49","m":0,"s":"boss","p":0,"c":"http://www.msoutlook.info/question/49","u":"http://www.msoutlook.info/question/49","h":0,"k":null,"i":"www.msoutlook.info","t":"<b>Sent</b> Items folder only shows my name - MSOutlook.info","o":0},{"a":"<b>This</b> article provides detailed instructions for beginners on how to send email from their computer. Though <b>this</b> may be a simple process for many, I understand that the technologically challenged can be confused with tons of options available.","d":"webdevelopersnotes.com/basics/how-to-send-email.php","m":0,"s":"boss","p":0,"c":"http://www.webdevelopersnotes.com/basics/how-to-send-email.php","u":"http://www.webdevelopersnotes.com/basics/how-to-send-email.php","h":0,"k":null,"i":"www.webdevelopersnotes.com","t":"How to send email - WebDevelopersNotes.com","o":0},{"n":"d.js?q=Where%20is%20this%20search%20sent&l=us-en&p=1&s=30"}]);
+0
+

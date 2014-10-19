@@ -1,0 +1,57 @@
+REPORT /8078008707/calendars/tasks/ HTTP/1.1
+Host: p29-caldav.icloud.com
+Accept: */*
+Brief: t
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+X-Apple-DAV-Pushtoken: 4fd11f30cd66864e451e20619513ec796e2bd38ac47ffba7cd3ab93a4d70a31b
+Content-Type: text/xml
+Content-Length: 272
+Depth: 1
+User-Agent: Mac+OS+X/10.10 (14A389) CalendarAgent/315
+Connection: keep-alive
+Prefer: return=minimal
+
+<?xml version="1.0" encoding="UTF-8"?>
+<A:sync-collection xmlns:A="DAV:">
+  <A:sync-token>FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=9</A:sync-token>
+  <A:sync-level>1</A:sync-level>
+  <A:prop>
+    <A:getetag/>
+    <A:getcontenttype/>
+  </A:prop>
+</A:sync-collection>
+HTTP/1.1 207 Multi-Status
+Server: iCloudCalendarServer 14G54
+Last-Modified: Sun, 19 Oct 2014 14:32:12 GMT
+DAV: 1, access-control, calendar-access, calendar-schedule, calendar-auto-schedule, calendar-managed-attachments, calendarserver-sharing, calendarserver-subscribed, calendarserver-home-sync
+X-Transaction-Id: 0d3b39a4-5765-11e4-8dd4-78e3b514d254
+Date: Sun, 19 Oct 2014 07:53:45 GMT
+X-Responding-Server: st13p29ic-hpaf17260901 3 a63660a6f7d1a25b5a7ed66dab0da843
+Content-Type: text/xml
+Transfer-Encoding: chunked
+
+42
+<?xml version='1.0' encoding='UTF-8'?><multistatus xmlns='DAV:'>
+
+11F
+
+  <response>
+    <href>/8078008707/calendars/tasks/</href>
+    <status>HTTP/1.1 200 OK</status>
+    <propstat>
+      <prop>
+        <getetag>"FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=12"</getetag>
+      </prop>
+      <status>HTTP/1.1 200 OK</status>
+    </propstat>
+  </response>
+
+5B
+
+<sync-token>FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=12</sync-token>
+</multistatus>
+
+0
+

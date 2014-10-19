@@ -1,0 +1,21 @@
+GET /search?q=If%20I%20us&locale=en-US&key=andromeda&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+Accept: */*
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: []
+X-Apple-UserGuid: 4cbc0ebe-227a-4677-6ded-7bde4c47fd42
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: ["I","If"]
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 07:46:29 GMT
+Content-Length: 423
+Connection: close
+
+[{"status":"NO_RESULTS","query":"If I used to love you","prefix":"If I us","completion_score":78599.00000001142,"fbq":"eyJ1IjoiNGNiYzBlYmUtMjI3YS00Njc3LTZkZWQtN2JkZTRjNDdmZDQyIiwicCI6IklmIEkgdXMiLCJxIjoiaWYgaSB1c2VkIHRvIGxvdmUgeW91IiwidHMiOjE0MTM3MDQ3ODksImciOiJ1cy9pbGxpbm9pcy9jb29rL2NoaWNhZ28iLCJhIjoic2FmYXJpIiwiZCI6Im1hYyIsImwiOiJlbl9VUyIsImkiOiIxNDM0NDEtMSwyMSIsImMiOiI0MS44NjQzLC04Ny42NDUiLCJlY3YiOjAsImNjdiI6MH0="}]

@@ -1,0 +1,8 @@
+GET /download HTTP/1.1
+Host: macromates.com
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+

@@ -1,0 +1,28 @@
+GET /register HTTP/1.1
+Host: xp.apple.com
+X-Apple-Store-Front: 143441-1,28
+Accept-Encoding: gzip
+User-Agent: iTunes/12.0 (Macintosh; OS X 10.10) AppleWebKit/0600.1.25
+Accept-Language: en-us, en;q=0.50
+X-Apple-Tz: -25200
+Connection: close
+
+HTTP/1.0 200 Apple WebObjects
+x-apple-jingle-correlation-key: RLGET4RTWIMFS
+access-control-allow-origin: *
+vary: X-Apple-Store-Front,X-Dsid,Cookie
+x-apple-application-site: ST11
+x-apple-set-cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi; version="1"; expires=Fri, 17-Apr-2015 08:13:26 GMT; path=/; domain=.apple.com
+set-cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi; version="1"; expires=Fri, 17-Apr-2015 08:13:26 GMT; path=/; domain=.apple.com
+apple-timing-app: 0 ms
+cache-control: private, max-age=60
+expires: Sun, 19 Oct 2014 08:14:26 GMT
+content-type: application/json; charset=UTF-8
+x-apple-application-instance: 20015
+x-webobjects-loadaverage: 1
+access-control-allow-credentials: true
+connection: keep-alive
+content-length: 136
+Date: Sun, 19 Oct 2014 08:13:26 GMT
+
+{"setCookies":[{"expiration":"1429258406812","name":"xp_ci","domain":".apple.com","path":"\/","value":"3z50P3SIz24ez5LdzBeyzSGjK3BUi"}]}

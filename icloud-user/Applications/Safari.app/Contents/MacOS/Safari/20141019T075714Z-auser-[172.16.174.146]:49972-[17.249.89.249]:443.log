@@ -1,0 +1,11 @@
+GET /search?q=wikipedi&locale=en-US&key=andromeda&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: ["wb:http:\/\/wikipedia.org"]
+Accept: */*
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: ["w","wikipedia.org","wi","wik"]
+

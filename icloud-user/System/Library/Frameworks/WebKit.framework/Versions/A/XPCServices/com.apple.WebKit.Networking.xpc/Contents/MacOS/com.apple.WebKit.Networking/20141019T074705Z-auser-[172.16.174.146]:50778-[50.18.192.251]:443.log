@@ -1,0 +1,23 @@
+GET /y.js?x=1&q=If%20I%20set%20my%20search%20engine%20to%20DuckDuckGo%20because%20I%20care%20about%20privacy%2C%20who%20actually%20sees%20my%20search%3F&l=us-en&a=osx&safe=1 HTTP/1.1
+Host: duckduckgo.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 07:47:06 GMT
+Content-Type: application/x-javascript; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Expires: Sun, 19 Oct 2014 07:47:05 GMT
+Cache-Control: no-cache
+Cache-Control: no-cache
+
+5ea
+if (nrn) nrn('a',[{"a":"Discover The New Way To Start Your Business Online. <b>See</b> How\u2026","d":"Franchise-Formula.com","m":0,"s":"yahoo","p":1,"c":"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F2427732.r.msn.com%2F%3Fld%3DDvONSCtt9SdB_FPxLbeYneoDVUCUxG30ry0aEJz5j66hhTmCglj_MhrrxdIPjAZ30WFlXX4%2DM%2Dp7crevJzHozwzHpiWWcwZugXf9iLzDAH%2D0_I8ZSHs05jqWTGUx09BD8Qvl%2DAFA%26u%3Dhttps%253a%252f%252ffranchise%2Dformula.com%252findex%2Dff.php%253fkeyword%253dmy%2Bsearch%2Bengine%2526searchq%253dif%252520i%252520set%252520my%252520search%252520engine%252520to%252520duckduckgo%252520because%252520i%252520care%252520about%252520privacy%252c%252520who%252520actually%252520sees%252520my%252520search%25253F%2526ad%253dipas3%2526adgroup%253dweb_entrep_paid4%2526keyword%253dmy%2Bsearch%2Bengine","u":"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F2427732.r.msn.com%2F%3Fld%3DDvONSCtt9SdB_FPxLbeYneoDVUCUxG30ry0aEJz5j66hhTmCglj_MhrrxdIPjAZ30WFlXX4%2DM%2Dp7crevJzHozwzHpiWWcwZugXf9iLzDAH%2D0_I8ZSHs05jqWTGUx09BD8Qvl%2DAFA%26u%3Dhttps%253a%252f%252ffranchise%2Dformula.com%252findex%2Dff.php%253fkeyword%253dmy%2Bsearch%2Bengine%2526searchq%253dif%252520i%252520set%252520my%252520search%252520engine%252520to%252520duckduckgo%252520because%252520i%252520care%252520about%252520privacy%252c%252520who%252520actually%252520sees%252520my%252520search%25253F%2526ad%253dipas3%2526adgroup%253dweb_entrep_paid4%2526keyword%253dmy%2Bsearch%2Bengine","h":0,"k":0,"i":"","t":"Make $1000 Per Sale?","o":""}]);
+0
+

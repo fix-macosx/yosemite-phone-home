@@ -1,0 +1,121 @@
+GET /WebObjects/MZSearchHints.woa/wa/hints?q=C HTTP/1.1
+Host: search.itunes.apple.com
+Accept: */*
+Accept-Encoding: gzip, deflate
+iCloud-DSID: 8078008707
+Connection: keep-alive
+Date: Sun, 19 Oct 2014 08:15:57 GMT
+Cookie: xp_ci=3z4g8XADz7s3z4RnzCRNz1KGeDrrYY; mzf_in=302345; ns-mzf-inst=39-90-80-124-180-8168-302345-30-nk11; Pod=30; itspod=30; session-store-id=5DE44A670C584B2D103053AD2B555377; s_vi=[CS]v1|2A21B990850121DA-40000137400107B3[CE]
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Accept-Language: en-US
+X-Apple-TZ: -420
+X-Apple-Store-Front: 143441-1,13
+
+HTTP/1.1 200 OK
+Last-Modified: Sat, 18 Oct 2014 21:46:09 GMT
+x-apple-request-store-front: 143441-1,13
+x-apple-application-site: ST11
+apple-timing-app: 14 ms
+Content-Type: text/xml; charset=UTF-8; encoding=UTF-8
+x-apple-date-generated: Sat, 18 Oct 2014 22:36:07 GMT
+x-apple-shv: 1
+x-apple-application-instance: 203601
+x-webobjects-loadaverage: 0
+x-apple-jingle-correlation-key: 2NX44GFZB3QLI
+Cache-Control: max-age=600
+Date: Sun, 19 Oct 2014 08:15:58 GMT
+Content-Length: 3403
+Connection: close
+Vary: X-Apple-Store-Front
+X-Apple-Partner: origin.0
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0">
+  <dict>
+    <key>title</key>
+    <string>Suggestions</string>
+    <key>hints</key>
+    <array>
+      <dict>
+        <key>term</key>
+        <string>chillingo ltd</string>
+        <key>priority</key>
+        <integer>3963</integer>
+        <key>url</key>
+        <string>https://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q=chillingo%20ltd&amp;src=hint</string>
+      </dict>
+      <dict>
+        <key>term</key>
+        <string>com2us usa, inc.</string>
+        <key>priority</key>
+        <integer>3257</integer>
+        <key>url</key>
+        <string>https://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q=com2us%20usa%2C%20inc.&amp;src=hint</string>
+      </dict>
+      <dict>
+        <key>term</key>
+        <string>candywriter, llc</string>
+        <key>priority</key>
+        <integer>3169</integer>
+        <key>url</key>
+        <string>https://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q=candywriter%2C%20llc&amp;src=hint</string>
+      </dict>
+      <dict>
+        <key>term</key>
+        <string>clear sky apps ltd</string>
+        <key>priority</key>
+        <integer>2878</integer>
+        <key>url</key>
+        <string>https://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q=clear%20sky%20apps%20ltd&amp;src=hint</string>
+      </dict>
+      <dict>
+        <key>term</key>
+        <string>coconut island games limited</string>
+        <key>priority</key>
+        <integer>2592</integer>
+        <key>url</key>
+        <string>https://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q=coconut%20island%20games%20limited&amp;src=hint</string>
+      </dict>
+      <dict>
+        <key>term</key>
+        <string>cross forward consulting, llc</string>
+        <key>priority</key>
+        <integer>2544</integer>
+        <key>url</key>
+        <string>https://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q=cross%20forward%20consulting%2C%20llc&amp;src=hint</string>
+      </dict>
+      <dict>
+        <key>term</key>
+        <string>corey ledin</string>
+        <key>priority</key>
+        <integer>2496</integer>
+        <key>url</key>
+        <string>https://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q=corey%20ledin&amp;src=hint</string>
+      </dict>
+      <dict>
+        <key>term</key>
+        <string>clickgamer.com</string>
+        <key>priority</key>
+        <integer>2495</integer>
+        <key>url</key>
+        <string>https://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q=clickgamer.com&amp;src=hint</string>
+      </dict>
+      <dict>
+        <key>term</key>
+        <string>concrete software, inc.</string>
+        <key>priority</key>
+        <integer>2478</integer>
+        <key>url</key>
+        <string>https://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q=concrete%20software%2C%20inc.&amp;src=hint</string>
+      </dict>
+      <dict>
+        <key>term</key>
+        <string>crescent moon games</string>
+        <key>priority</key>
+        <integer>2421</integer>
+        <key>url</key>
+        <string>https://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q=crescent%20moon%20games&amp;src=hint</string>
+      </dict>
+    </array>
+  </dict>
+</plist>

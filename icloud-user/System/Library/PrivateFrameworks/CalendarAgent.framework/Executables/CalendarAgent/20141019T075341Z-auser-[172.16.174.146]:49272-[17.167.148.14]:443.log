@@ -1,0 +1,19 @@
+POST /mm/sub?token=4fd11f30cd66864e451e20619513ec796e2bd38ac47ffba7cd3ab93a4d70a31b&key=8078008707-20220fe832 HTTP/1.1
+Host: p29-caldav.icloud.com
+Content-Type: text/xml
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Connection: keep-alive
+Accept: */*
+User-Agent: Mac+OS+X/10.10 (14A389) CalendarAgent/315
+Content-Length: 0
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Content-Length: 0
+Server: iCloudCalendarServer 14G54
+DAV: 
+X-Transaction-Id: 0b2aa2bc-5765-11e4-b714-78e3b514d254
+Date: Sun, 19 Oct 2014 07:53:41 GMT
+X-Responding-Server: st13p29ic-hpaf17260901 4 a63660a6f7d1a25b5a7ed66dab0da843
+

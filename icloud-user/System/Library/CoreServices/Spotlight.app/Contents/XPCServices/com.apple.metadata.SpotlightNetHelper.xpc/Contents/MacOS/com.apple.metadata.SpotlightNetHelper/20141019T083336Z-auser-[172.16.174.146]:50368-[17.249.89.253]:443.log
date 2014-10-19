@@ -1,0 +1,21 @@
+GET /websearch?q=texpad&locale=en-US&time_zone=America/Los_Angeles&calendar=gregorian&key=andromeda HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+Accept-Charset: utf-8
+Accept: */*
+X-Apple-UI-Scale: 1.000000
+X-Apple-CachedResults: []
+X-Apple-UserGuid: 08185abd-70ae-4398-7ba7-264de53e985e
+User-Agent: (OS X 14A389) Spotlight/916
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: []
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 08:33:36 GMT
+Content-Length: 318
+Connection: close
+
+[{"status":"NO_RESULTS","query":"texpad","prefix":"texpad","fbq":"eyJ1IjoiMDgxODVhYmQtNzBhZS00Mzk4LTdiYTctMjY0ZGU1M2U5ODVlIiwiZSI6ImIiLCJwIjoidGV4cGFkIiwicSI6InRleHBhZCIsInRzIjoxNDEzNzA3NjE2LCJnIjpudWxsLCJhIjoic3BvdGxpZ2h0IiwiZCI6Im1hYyIsImwiOiJlbl9VUyIsImkiOiIxNDM0NDEtMSwyMSIsImMiOm51bGwsImVjdiI6MCwiY2N2IjowfQ=="}]

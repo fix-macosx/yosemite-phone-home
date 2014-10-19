@@ -1,0 +1,24 @@
+GET /y.js?x=1&q=Private%20Browsing%20Window%20%2D%2D%20Who%20is%20this%20shared%20with%20other%20than%20Duck%20Duck%20Go%3F&l=us-en&a=osx&safe=1 HTTP/1.1
+Host: duckduckgo.com
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+DNT: 1
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 08:22:05 GMT
+Content-Type: application/x-javascript; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Expires: Sun, 19 Oct 2014 08:22:04 GMT
+Cache-Control: no-cache
+Cache-Control: no-cache
+
+a85
+if (nrn) nrn('a',[{"n":2,"a":"100% Free Download. <b>Private</b> <b>Browsing</b> <b>With</b> Tor.","d":"LivelyDownloads.com/Tor-Browser","m":0,"s":"yahoo","l":"<a class=\"sponsored__sitelink\" href=\"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F2584076.r.msn.com%2F%3Fld%3DDvmUFwqL5v6d28sfwQEvXuizVUCUwKl0LiVpqFm8KgHQgEWKVr2Hljn_p3_uLq45xKiF5K7Knk6EvaNWxItttLXEZGO%2D5FbuPMJhZzPiogx2TWOKS6AkFi%2DrVeC68J_9udkVS%2DBygAxyjhho2qTo5hfM6Q5sA%26u%3D2oqd6.trackvoluum.com%252f1cf6814c%2D6fb9%2D45cb%2D8ffe%2D6713dc6f0521%253futm_term%253dprivate%252520browsing%2526utm_content%253dprivate%252520browsing%252520window%252520%252520%252520%252520who%252520is%252520this%252520shared%252520with%252520other%252520than%252520duck%252520duck%252520go%25253F%2526utm_source%253d6703789012\">Download Tor Browser Now</a><a class=\"sponsored__sitelink\" href=\"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F2584076.r.msn.com%2F%3Fld%3DDvzthEwOeYPSRO4Lbys8VUjDVUCUwRbyu2wya9tct_eBqsVyF4%2Dn8Ev5_AFhAz1Ccz9AerW7MzJ9GrXA7rqRp5EIOipgU02O8LKZ9svMRXfx7tIYv35CxIoEbOLPHIevLtRbbVVxlbzCxPY4GXvr0fpCkdq3Q%26u%3D2oqd6.trackvoluum.com%252f1cf6814c%2D6fb9%2D45cb%2D8ffe%2D6713dc6f0521%253futm_term%253dprivate%252520browsing%2526utm_content%253dprivate%252520browsing%252520window%252520%252520%252520%252520who%252520is%252520this%252520shared%252520with%252520other%252520than%252520duck%252520duck%252520go%25253F%2526utm_source%253d6703789012\">Tor Browser - Protect Your Privacy</a>","u":"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F2584076.r.msn.com%2F%3Fld%3DDvJUzGeMZDr6OZxGdO6W6CnzVUCUybNuwrFF8tJ0%2DhR4zNWz1Tp1ZvaGylRvW2uPJLzoBjVkigPW8wsGVV7HA8tcS3CJXMnseznlzOMuIotu3kCoTGA8TliOpFTxTS3Us8_S3S3A%26u%3D2oqd6.trackvoluum.com%252f1cf6814c%2D6fb9%2D45cb%2D8ffe%2D6713dc6f0521%253futm_term%253dprivate%2Bbrowsing%2526utm_content%253dprivate%252520browsing%252520window%252520%252520%252520%252520who%252520is%252520this%252520shared%252520with%252520other%252520than%252520duck%252520duck%252520go%25253F%2526utm_source%253d6703789012","p":1,"c":"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F2584076.r.msn.com%2F%3Fld%3DDvJUzGeMZDr6OZxGdO6W6CnzVUCUybNuwrFF8tJ0%2DhR4zNWz1Tp1ZvaGylRvW2uPJLzoBjVkigPW8wsGVV7HA8tcS3CJXMnseznlzOMuIotu3kCoTGA8TliOpFTxTS3Us8_S3S3A%26u%3D2oqd6.trackvoluum.com%252f1cf6814c%2D6fb9%2D45cb%2D8ffe%2D6713dc6f0521%253futm_term%253dprivate%2Bbrowsing%2526utm_content%253dprivate%252520browsing%252520window%252520%252520%252520%252520who%252520is%252520this%252520shared%252520with%252520other%252520than%252520duck%252520duck%252520go%25253F%2526utm_source%253d6703789012","h":0,"k":0,"i":"","t":"<b>Windows</b> <b>Private</b> <b>Browsing</b>","o":""}]);
+0
+

@@ -1,0 +1,36 @@
+GET /setup/icd/migrate/status HTTP/1.1
+Host: setup.icloud.com
+Accept-Encoding: gzip, deflate
+User-Agent: System%20Preferences/14.0 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+X-Mme-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.AOSKit/215>
+Connection: keep-alive
+X-Mme-Timezone: PDT
+Accept: */*
+Accept-Language: en-us
+X-Mme-Country: US
+Authorization: Basic ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+X-Mme-Device-Id: 564D33F4-CC81-F551-C2BE-08104C5240D2
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:23:24 GMT
+X-Apple-Request-UUID: f1eb1d8a-a8cc-4dfa-96fb-24a3214c154a
+X-Responding-Instance: setupservice:32600205:mr11p26ic-hpaf11130901:8005:14G54:156781
+Cache-Control: no-cache, no-store, private
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 372
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>id</key>
+		<string>f1eb1d8a-a8cc-4dfa-96fb-24a3214c154a</string>
+
+		<key>status</key>
+		<string>SUCCEEDED</string>
+
+		<key>name</key>
+		<string>NONE</string>
+
+	</dict>
+</plist>

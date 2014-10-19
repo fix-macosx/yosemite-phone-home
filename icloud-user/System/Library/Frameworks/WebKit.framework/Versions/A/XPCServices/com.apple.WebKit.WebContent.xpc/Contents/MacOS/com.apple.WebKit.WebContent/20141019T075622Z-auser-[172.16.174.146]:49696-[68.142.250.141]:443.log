@@ -1,0 +1,27 @@
+GET /lq/lib/3pm/cs_0.2.js HTTP/1.1
+Host: s.yimg.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+Accept-Language: en-us
+Referer: https://www.yahoo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public,max-age=315360000
+Content-Length: 1420
+Content-Type: application/javascript
+Date: Fri, 17 Oct 2014 02:41:26 GMT
+Etag: "YM:1:e0271b8b-858d-4f23-8898-4017dcad08500004ce6f79f46701"
+Expires: Mon, 14 Oct 2024 02:41:27 GMT
+Last-Modified: Wed, 14 Nov 2012 07:28:09 GMT
+Server: ATS
+Vary: Accept-Encoding
+Via: HTTP/1.1 web15.use44.mobstor.bf1.yahoo.com UserFiberFramework/1.0, https/1.1 l14.ycs.dxs.yahoo.com (ApacheTrafficServer)
+x-ysws-request-id: c9858105-c079-4871-a642-695e4af66952
+x-ysws-visited-replicas: gops.use44.mobstor.vip.bf1.yahoo.com
+Age: 191696
+Connection: close
+
+function udm_(a){var b="comScore=",c=document,d=c.cookie,e="",f="indexOf",g="substring",h="length",i=2048,j,k="&ns_",l="&",m,n,o,p,q=window,r=q.encodeURIComponent||escape;if(d[f](b)+1)for(o=0,n=d.split(";"),p=n[h];o<p;o++)m=n[o][f](b),m+1&&(e=l+unescape(n[o][g](m+b[h])));a+=k+"_t="+ +(new Date)+k+"c="+(c.characterSet||c.defaultCharset||"")+e,a[h]>i&&a[f](l)>0&&(j=a[g](0,i-8).lastIndexOf(l),a=(a[g](0,j)+k+"cut="+r(a[g](j+1)))[g](0,i)),c.images?(m=new Image,q.ns_p||(ns_p=m),m.src=a):c.write("<","p","><",'img src="',a,'" height="1" width="1" alt="*"',"><","/p",">")}typeof _comscore=="undefined"&&(_comscore=[]),function(){var a="length",b=self,c=b.encodeURIComponent?encodeURIComponent:escape,d=".scorecardresearch.com",e=Math,f="script",g="width",h=/c2=(\d*)&/,i,j=function(b){if(!!b){var e,f=[],g,h=0,i,j,k="";for(var l in b){g=typeof b[l];if(g=="string"||g=="number")f[f[a]]=l+"="+c(b[l]),l=="c2"?k=b[l]:l=="c1"&&(h=1)}if(f[a]<=0||k=="")return;j=b.options||{},j.d=j.d||document;if(typeof j.url_append=="string"){i=j.url_append.replace(/&amp;/,"&").split("&");for(var l=0,m=i[a],n;l<m;l++)n=i[l].split("="),n[a]==2&&(f[f[a]]=n[0]+"="+c(n[1]))}e=["http",j.d.URL.charAt(4)=="s"?"s://sb":"://b",d,"/p?",h?"":"c1=2&",f.join("&").replace(/&$/,"")],udm_(e.join(""))}},k=function(b){b=b||_comscore;for(var c=0,d=b[a];c<d;c++)j(b[c]);b=_comscore=[]};k(),(i=b.COMSCORE)?(i.purge=k,i.beacon=j):COMSCORE={purge:k,beacon:j}}()

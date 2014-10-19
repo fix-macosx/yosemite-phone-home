@@ -1,0 +1,82 @@
+POST /dsservices/dsxmlrpc HTTP/1.1
+Host: identity.apple.com
+Content-Type: text/xml
+Connection: keep-alive
+Accept: text/xml
+User-Agent: AppleIDXMLRPC
+Content-Length: 2777
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+<?xml version="1.0"?><methodCall><methodName>com.apple.ist.idm.web.collaboration.PersonService.fetchCert</methodName><params><param><value><struct><member><name>encDsId</name><value><string>353951647866707369536f596e36427933354e3545773d3d</string></value></member><member><name>ClientTime</name><value><dateTime.iso8601>20141019T07:28:10Z</dateTime.iso8601></value></member><member><name>AppleIDAuthProtocolVersion</name><value><i4>101</i4></value></member><member><name>CertificateToken</name><value><string>10453091360--38303738303038373037</string></value></member><member><name>SystemVersion</name><value><string>14A389</string></value></member><member><name>ProductName</name><value><string>Mac OS X</string></value></member><member><name>dsSession</name><value><string>KQXZV2000802b7084e4b4a309d2d5d48fdd3826f1e73VKZZDf46feea9b7ba0912fb00eba6ce98f6050e370793d8e46f6fcd30c7d5bd0f5cd688a6fd314c5f82886517b4d80155c0db353c386f73d87c263018f69d2071e63cf852edde7cc79b387d6b678cbaca91fe51586da1044942a6a8649759595c367587a78dc9212ba5084606a365cf7fa29914ed0be0b96dbd6fb44d749e866a0adaec4bb9ec315e953819fef675d96a0c8f349971ce09b7e6c84506de29fb19327465a23a5ba6cd17dedbce3a0a7f185fa552d733a19dab092dad3a7e0e546641784f43528978c9879e4d9f49f9444c2dad1a14c1ce39f58f795a74dca020f68f2794af696c441ed5f6551dc209f58d679f9e433d78e7b278f8e8d656a57818ff4175757b43ffdeba6966cd48a2809bfda7bc4567ddbaf096405ce748b9d3802f2695a1f5bf3640e0f444431d9f849114e2987ff8464891bc0540d4b6fa766763326f3927aed2868e2b5e9b1c9545f1ddf940756c43fc7645a5fcb8634aa5f3ca515097089c3e86288b081f6efb426d39f0d79755c2323e132368ed135179bd06ef1820b4ec22f9c9da4b84200373c9820a7c9d3afa20425a3c1488682c88244e4bc921da47b8705009bb5baa93cf6b253301383393ea7fa915490e586049e325dbcfb9aeec28abc5a9ad0ac8894d70b7cad962798194ae4c700cc3f671345fe93cfeb85352a7715aad221adc718d878e737d4034be2b5a522bbe9e8156661513cc98d1d2e9328722d324f8fcf62460cdd01e8ff96d170b1076dd6aa6507a21735f839edb736331db8f4ec65a7f01455a704f01917954420aaafcc610960dcf4a08be18e43816078ab364133feae4cd3cd22b24ef5e8ccc45efbf597cab0c09cbea0a19d9680f5016a903f55b3f9da3776b8d13c643a37df5d876727b846e5c5ea1496d9f78a70737531beeae21e6eb73cbf23b4f9eeee243451fd3b4bed4919194767022f73abf8589368b246d8eb8c5bd55c085622b8124d0aae3e81e123d3e71b6896c4012e1d2dbbf8ad2429444cb69a99202d0b1d3e348f018c92dcc2e4fe612241717707080b1e37f38acaa327a4599ac8baa25aa26fe19cac05fe2562b0b05986ba319af220973d5fdb986d8bde923da1c24f12273bf1fd9c5d3a3792f75a921fe50af9672bacc9a9fe24436c753532c800db89cb26343e190b45d76ec3a74ecfaf13d7dbdbe9b2acf5f2eee6087539199c34de66bae1ce1d64bdadf2c994e28cbbe7481cc80e915dc3ef09a8d039dc1fd85297154b53a6c16e1253dccabVRSZ</string></value></member><member><name>OSServicesVersion</name><value><string>640.3</string></value></member></struct></value></param></params></methodCall>HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:28:10 GMT
+Server: Apache-Coyote/1.1
+Content-Type: text/xml
+Content-Length: 5008
+Keep-Alive: timeout=10, max=745
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="UTF-8"?><methodResponse xmlns:ex="http://ws.apache.org/xmlrpc/namespaces/extensions"><params><param><value><struct><member><name>respTimeStamp</name><value><ex:i8>1413703691280</ex:i8></value></member><member><name>encDsId</name><value>353951647866707369536f596e36427933354e3545773d3d</value></member><member><name>Delay</name><value><i4>60</i4></value></member><member><name>dsCert</name><value><struct><member><name>SerialNumber</name><value>57d6e7bc285afb8</value></member><member><name>CertType</name><value>AUTH</value></member><member><name>Expires</name><value><dateTime.iso8601>20161122T07:13:10</dateTime.iso8601></value></member><member><name>CertificateToken</name><value>10453091360--38303738303038373037</value></member><member><name>CertStatus</name><value>CERT_ISSUED</value></member><member><name>dsId</name><value>8078008707</value></member><member><name>Certificate</name><value>-----BEGIN CERTIFICATE-----
+MIIFZDCCBEygAwIBAgIIBX1ue8KFr7gwDQYJKoZIhvcNAQELBQAwgYoxCzAJBgNV
+BAYTAlVTMRMwEQYDVQQKDApBcHBsZSBJbmMuMSYwJAYDVQQLDB1BcHBsZSBDZXJ0
+aWZpY2F0aW9uIEF1dGhvcml0eTE+MDwGA1UEAww1QXBwbGUgQXBwbGljYXRpb24g
+SW50ZWdyYXRpb24gQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMTQxMDE5MDcx
+MzEwWhcNMTYxMDE4MDcxMzEwWjBWMVQwUgYDVQQDDEtjb20uYXBwbGUuaWRtcy5h
+cHBsZWlkLnByZC4zNTM5NTE2NDc4NjY3MDczNjk1MzZmNTk2ZTM2NDI3OTMzMzU0
+ZTM1NDU3NzNkM2QwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDR5VwB
+MmRV2jHb0CfjqW9EiuijTOo5rfQypP36GRbFn3U3Khs6OVpR7saPQuulLDdg9U23
+loVH1bs6LHTzOiVH8GfGzo1NeT/PCtCKxoiIQPwmHGeI3XU3vklzGNEqcB5x5u4U
+MAuJmVqQA3Sf5KOQmUGTRNslKMkmqaIxAE2DlKfgDwFxkFnmjgul1hVSj2sP9K7t
+LZkuZGTbNd7aNDK0GBHVJdL/NciKfOeLR/EcqHvwq1nYL/9bbLHvWsg9MhtgAHU6
+oAdJb0rkDPnOA4CU1b+zK9JeGLles/QtQrl2YayVBB0Rs3rSB7jSshEbvO9S01wF
+gAnBCTzkX29cI9UHAgMBAAGjggH/MIIB+zBABggrBgEFBQcBAQQ0MDIwMAYIKwYB
+BQUHMAGGJGh0dHA6Ly9vY3NwLmFwcGxlLmNvbS9vY3NwMDQtYWFpY2EwMTAdBgNV
+HQ4EFgQUY1zEdS5huqQgZL4GZS+9NjH+qYswCQYDVR0TBAIwADAfBgNVHSMEGDAW
+gBQx6napI3Sl39T97qDBpp7GEQ4R7DCCASoGA1UdIASCASEwggEdMAwGCiqGSIb3
+Y2QFBwEwggELBgkqhkiG92NkBQEwgf0wgcMGCCsGAQUFBwICMIG2DIGzUmVsaWFu
+Y2Ugb24gdGhpcyBjZXJ0aWZpY2F0ZSBieSBhbnkgcGFydHkgYXNzdW1lcyBhY2Nl
+cHRhbmNlIG9mIHRoZSB0aGVuIGFwcGxpY2FibGUgc3RhbmRhcmQgdGVybXMgYW5k
+IGNvbmRpdGlvbnMgb2YgdXNlLCBjZXJ0aWZpY2F0ZSBwb2xpY3kgYW5kIGNlcnRp
+ZmljYXRpb24gcHJhY3RpY2Ugc3RhdGVtZW50cy4wNQYIKwYBBQUHAgEWKWh0dHA6
+Ly93d3cuYXBwbGUuY29tL2NlcnRpZmljYXRlYXV0aG9yaXR5MA4GA1UdDwEB/wQE
+AwIDiDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDwYJKoZIhvdjZAQH
+BAIFADANBgkqhkiG9w0BAQsFAAOCAQEAnjnWC1qGElm/rqYm1PuBOITXb8fhaXjD
+53f5ASK6BBalFxMtau2C3YFAvLlR4OJzUh9lFGzIsa9KDL+OizkQPeM5YFLLLkMJ
+s52ETbjyTknRCMGd4fdOV4aaVXDge0Yku1zQBS82txTS5YxjTg+hfOziHSUmwflk
+xHDzsA+r0gIp6Zb8tq7//DAmSrlMpYavtBTwhTATXBcpjf6MiZBoDAzkmaI7bpAO
+jS7qe+qKQvnYOrU92q9ydoyyZbwcsMQpZsmDUpJMmNEfJ8B8AFRS9tQgGibkWGFE
+Jgjro3EIny85Xxk5Py0tTt91rmi8mD29ki+SoNrj9uaK9lXO1MVr0g==
+-----END CERTIFICATE-----</value></member><member><name>IntermediateCert</name><value>-----BEGIN CERTIFICATE-----
+MIIEFzCCAv+gAwIBAgIBGzANBgkqhkiG9w0BAQUFADBiMQswCQYDVQQGEwJVUzET
+MBEGA1UEChMKQXBwbGUgSW5jLjEmMCQGA1UECxMdQXBwbGUgQ2VydGlmaWNhdGlv
+biBBdXRob3JpdHkxFjAUBgNVBAMTDUFwcGxlIFJvb3QgQ0EwHhcNMTAwNTI2MTkx
+NjA5WhcNMTcwNzI2MTkxNjA5WjCBijELMAkGA1UEBhMCVVMxEzARBgNVBAoMCkFw
+cGxlIEluYy4xJjAkBgNVBAsMHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5
+MT4wPAYDVQQDDDVBcHBsZSBBcHBsaWNhdGlvbiBJbnRlZ3JhdGlvbiBDZXJ0aWZp
+Y2F0aW9uIEF1dGhvcml0eTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AONbsydqDL9uqkznxT9vbUzmopXV69UCr3B0RrnRj6w7t94MhNCQX//nWUPOutXG
+xe1P/L/Dl1k5+WToDkqfn/bseojq37bnYgF/mg/FShbrrOaYX0I+gssds2rvG8KL
+tgmZyfAsEtcriL4qqPZhO4nqv39pRgLMZD4k6V+O9Pviiv4D+iks2smUSNDe7i+I
+TPcgtWwiyumGxUtdz4OvT8awDLPr0Jltrfcmbwkvh7jitDJRjfbML4iX3NcMa5LK
+px7S+iM+gfYJpomKPUgJjQgNsF26BVnxeQWkCVtmpu2Lk7zHXXk34UQ1kY7Y1w+V
+kmdDrHUrEkkjNhFd0/KCuBMCAwEAAaOBrjCBqzAOBgNVHQ8BAf8EBAMCAYYwDwYD
+VR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUMep2qSN0pd/U/e6gwaaexhEOEewwHwYD
+VR0jBBgwFoAUK9BpR5R2Cf70a40uQKb3R01/CF4wNgYDVR0fBC8wLTAroCmgJ4Yl
+aHR0cDovL3d3dy5hcHBsZS5jb20vYXBwbGVjYS9yb290LmNybDAQBgoqhkiG92Nk
+BgIDBAIFADANBgkqhkiG9w0BAQUFAAOCAQEAjWWE0f87PSdikBX2Wc47ycL/nEU8
+j8b5RIfL/eB5NiAtHvcqyglNKPT+vzATwZF2WRmKwEyZ71r1vY6Hk3A7nMwWdElV
+ZTr1W2rKFyvnnSiTmKBnNBri6ZYNR+/InDfk09r1odhC671RFgM1lB1aMUI9eIH+
+T6K/Orx4CeTLKG5mT+lPt7XSoj0ZsSMdP2aTslHDADuSquP9LBci2UCUKDAIVPgp
+KtWu7XfD1IAyoMJno2HRsWeZWgXXu10lVbwW/Q5OhmqekJ3INIAB9CtQUupGMyBU
+uHsjzk1FMi5mWx2M2RbKbK2D3QTPtlGNo7ahN6ipi5S2xMBaLvjUoyidqg==
+-----END CERTIFICATE-----
+</value></member><member><name>CertificatePublicKey</name><value>-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0eVcATJkVdox29An46lv
+RIroo0zqOa30MqT9+hkWxZ91NyobOjlaUe7Gj0LrpSw3YPVNt5aFR9W7Oix08zol
+R/Bnxs6NTXk/zwrQisaIiED8JhxniN11N75JcxjRKnAecebuFDALiZlakAN0n+Sj
+kJlBk0TbJSjJJqmiMQBNg5Sn4A8BcZBZ5o4LpdYVUo9rD/Su7S2ZLmRk2zXe2jQy
+tBgR1SXS/zXIinzni0fxHKh78KtZ2C//W2yx71rIPTIbYAB1OqAHSW9K5Az5zgOA
+lNW/syvSXhi5XrP0LUK5dmGslQQdEbN60ge40rIRG7zvUtNcBYAJwQk85F9vXCPV
+BwIDAQAB
+-----END PUBLIC KEY-----
+</value></member></struct></value></member></struct></value></param></params></methodResponse>

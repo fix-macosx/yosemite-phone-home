@@ -1,0 +1,20 @@
+GET /search?q=www.a&locale=en-US&key=andromeda&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: []
+Accept: */*
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: ["w","ww"]
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 18:04:48 GMT
+Content-Length: 2021
+Connection: close
+
+[{"status":"OK","query":"amazon.com","prefix":"www.a","completion_score":59499.007091823,"fbq":"eyJ1IjoiIiwicCI6Ind3dy5hIiwicSI6ImFtYXpvbi5jb20iLCJ0cyI6MTQxMzc0MTg4OCwiZyI6InVzL2lsbGlub2lzL2Nvb2svY2hpY2FnbyIsImEiOiJzYWZhcmkiLCJkIjoibWFjIiwibCI6ImVuX1VTIiwiaSI6IjE0MzQ0MS0xLDIxIiwiYyI6IjQxLjg2NDMsLTg3LjY0NSIsImVjdiI6MCwiY2N2IjowfQ==","results":[{"type":"web_suggest","id":"wb:http://amazon.com","score":6,"fbr":"eyJkIjoid2ViX3N1Z2dlc3QiLCJyIjoid2I6aHR0cDovL2FtYXpvbi5jb20ifQ==","url":"http://amazon.com","report_problem_url":"","filtered":false,"tophit":1,"engagement_score":0,"qi_engagement_score":0,"hide_rank":15,"template":"simple","completion":"http://amazon.com","completion_icon":{"content_type":"image/png","data":"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABZUlEQVR42mP4//8/IxBnAfGT/8QDkNo8kF4GIJGKLnvz5s3/ZWVl/0NCQ/+HhoX9X7RoES6DckAGPEcWOXPmzH9mVtb/LGgYZCAW8BxkwAdkkbT0dLAGF1fX/zdu3IDzZWRlsRnwAcOAZ8+egV2xd+/e/+s3bAB7AeYKogwA+d/AyAjDC0QbALMRZAjINZOnTCHNAJjilrY2MD81LQ0u9unTJ8IGGBgawjWAAhI5RkCuwW7A12co0SgNDHGQBhAN0hQC9JYz0LDP757//3cDmCZOFUEw3IDNWv//v79BOP3tC4JovND0//9yBiQDnu75/38FkHkSKPn5GW4Dvjz9///+Wohla4XRwuDBOoghILzDFmLL1Qn//18B4qsTgbYHQGwFqQNZCJKHGoBIyq9OQxSCDFkOwf+g9P/NmsAstBui7tcnCIYm5XQMp4KceGs+wgVP9uDNTKDsXADE30jIziC1pSC9ACqjTCJSIcITAAAAAElFTkSuQmCC"},"section_header":"Suggested Website","title":"amazon.com","title_maxlines":1,"description":"— Amazon.com","description_follows_title":true,"icon":{"content_type":"image/png","data":"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABZUlEQVR42mP4//8/IxBnAfGT/8QDkNo8kF4GIJGKLnvz5s3/ZWVl/0NCQ/+HhoX9X7RoES6DckAGPEcWOXPmzH9mVtb/LGgYZCAW8BxkwAdkkbT0dLAGF1fX/zdu3IDzZWRlsRnwAcOAZ8+egV2xd+/e/+s3bAB7AeYKogwA+d/AyAjDC0QbALMRZAjINZOnTCHNAJjilrY2MD81LQ0u9unTJ8IGGBgawjWAAhI5RkCuwW7A12co0SgNDHGQBhAN0hQC9JYz0LDP757//3cDmCZOFUEw3IDNWv//v79BOP3tC4JovND0//9yBiQDnu75/38FkHkSKPn5GW4Dvjz9///+Wohla4XRwuDBOoghILzDFmLL1Qn//18B4qsTgbYHQGwFqQNZCJKHGoBIyq9OQxSCDFkOwf+g9P/NmsAstBui7tcnCIYm5XQMp4KceGs+wgVP9uDNTKDsXADE30jIziC1pSC9ACqjTCJSIcITAAAAAElFTkSuQmCC"}}]}]

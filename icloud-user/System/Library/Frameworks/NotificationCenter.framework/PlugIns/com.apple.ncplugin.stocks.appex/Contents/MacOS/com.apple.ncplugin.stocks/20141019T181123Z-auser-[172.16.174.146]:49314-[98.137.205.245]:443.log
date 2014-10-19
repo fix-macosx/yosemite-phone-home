@@ -1,0 +1,30 @@
+GET /v1/yql/applewf/multiquote?crossProduct=optimized&format=json&lang=en-US&region=US&tickers=%5EIXIC%2C%5ENYA%2C%5EDJI%2CAAPL%2CSBUX%2CNKE%2CYHOO HTTP/1.1
+Host: apple-finance.query.yahoo.com
+Connection: keep-alive
+X-Device-Info: make="Apple"; model="iPhone"; os="iPhone"; osver="1.0"
+X-Client-Info: vendor="Apple"; model="Stocks"; version="1.0.0.1.0"
+X-Client-UUID: 91F63C20-7D39-4600-B427-C36AC822C5C3
+Accept: */*
+Accept-Language: en-us
+Authorization: OAuth oauth_nonce="DD78528C-185E-459F-85F4-EFF74E1CF01E", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1413742283", oauth_consumer_key="dj0yJmk9cU51ZlhUZ2ZneDBJJmQ9WVdrOU1rOVVlWE5vTkhNbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1hNw--", oauth_signature="7gKchwjhYt6ysvTzSpc4LlB2EvI%3D", oauth_version="1.0"
+Accept-Encoding: gzip, deflate
+User-Agent: com.apple.ncplugin.stocks/14 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+
+HTTP/1.1 200 OK
+X-AntiCRIME: P_K5ie
+Set-Cookie: X-AC=dE2APjSLwD
+X-YQL-Host: engine23.apple-finance.yql.bf1.yahoo.com
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache
+Content-Type: application/json;charset=utf-8
+Date: Sun, 19 Oct 2014 18:11:23 GMT
+Server: ATS
+Age: 0
+Transfer-Encoding: chunked
+Connection: close
+
+a28
+{"query":{"count":1,"created":"2014-10-19T18:11:23Z","lang":"en-us","results":{"item":{"response":{"finance":{"quote_service":{"data_sources":{"count":"1","start":"0","total":"1","data_source":{"id":"1","name":"DataSource_Quote_Generic_Delayed","text":"Delayed Quote","yrb_token":"YFT_DATASOURCE_QUOTE_GENERIC_DELAYED"}},"exchanges":{"count":"5","start":"0","total":"5","exchange":[{"id":"DJI","name":"DJI","reset_local_time":"2:45:00","status":"MARKET_CLOSED","stream_interval":"120"},{"id":"NIM","delay":"15","name":"Nasdaq GIDS","reset_local_time":"2:45:00","status":"MARKET_CLOSED","stream_interval":"15"},{"id":"NMS","delay":"15","name":"NasdaqGS","reset_local_time":"2:45:00","status":"MARKET_CLOSED","stream_interval":"15"},{"id":"NYQ","delay":"15","name":"NYSE","reset_local_time":"2:45:00","status":"MARKET_CLOSED","stream_interval":"15"},{"id":"NYS","delay":"15","name":"NYSE","reset_local_time":"2:45:00","status":"MARKET_CLOSED","stream_interval":"15"}]},"quotes":{"quote":[{"id_symbol":"^IXIC","change":{"data_source":"1","raw":"41.047363","fmt":"+41.05"},"data_type":"index","exchange":"Nasdaq GIDS","price":{"data_source":"1","raw":"4258.437988","fmt":"4,258.44"}},{"id_symbol":"^NYA","change":{"data_source":"1","raw":"126.806641","fmt":"+126.81"},"data_type":"index","exchange":"NYSE","price":{"data_source":"1","raw":"10250.537109","fmt":"10,250.54"}},{"id_symbol":"^DJI","change":{"data_source":"1","raw":"263.169922","fmt":"+263.17"},"data_type":"index","exchange":"DJI","price":{"data_source":"1","raw":"16380.410156","fmt":"16,380.41"}},{"id_symbol":"AAPL","change":{"data_source":"1","raw":"1.409996","fmt":"+1.41"},"data_type":"equity","exchange":"NasdaqGS","market_cap":{"data_source":"1","raw":"584834940928.000000","fmt":"584.83B"},"price":{"data_source":"1","raw":"97.669998","fmt":"97.67"}},{"id_symbol":"SBUX","change":{"data_source":"1","raw":"0.900002","fmt":"+0.90"},"data_type":"equity","exchange":"NasdaqGS","market_cap":{"data_source":"1","raw":"55243247616.000000","fmt":"55.24B"},"price":{"data_source":"1","raw":"73.540001","fmt":"73.54"}},{"id_symbol":"NKE","change":{"data_source":"1","raw":"0.139999","fmt":"+0.14"},"data_type":"equity","exchange":"NYSE","market_cap":{"data_source":"1","raw":"75106263040.000000","fmt":"75.11B"},"price":{"data_source":"1","raw":"87.180000","fmt":"87.18"}},{"id_symbol":"YHOO","change":{"data_source":"1","raw":"0.334999","fmt":"+0.33"},"data_type":"equity","exchange":"NasdaqGS","market_cap":{"data_source":"1","raw":"38242488320.000000","fmt":"38.24B"},"price":{"data_source":"1","raw":"38.450001","fmt":"38.45"}}]}}}}}}}}
+0
+

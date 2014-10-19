@@ -1,0 +1,13 @@
+GET /websearch?q=co&locale=en-US&time_zone=America/Los_Angeles&calendar=gregorian&key=andromeda HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+Accept-Charset: utf-8
+Accept: */*
+X-Apple-UI-Scale: 1.000000
+X-Apple-CachedResults: []
+X-Apple-UserGuid: f8f40c1c-0384-4e19-7aad-28e0e684c78e
+User-Agent: (OS X 14A389) Spotlight/916
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: []
+

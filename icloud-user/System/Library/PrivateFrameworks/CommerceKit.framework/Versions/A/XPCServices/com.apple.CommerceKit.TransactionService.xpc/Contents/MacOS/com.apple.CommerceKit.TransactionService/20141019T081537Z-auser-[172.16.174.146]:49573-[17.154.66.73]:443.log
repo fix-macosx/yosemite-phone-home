@@ -1,0 +1,58 @@
+GET /htmlResources/0414/desktop-finance-billingpage.js HTTP/1.1
+Host: p30-buy.itunes.apple.com
+Accept: */*
+X-Apple-Store-Front: 143441-1,13
+Accept-Language: en-US
+Accept-Encoding: gzip, deflate
+Date: Sun, 19 Oct 2014 08:15:37 GMT
+X-Apple-TZ: -420
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Connection: keep-alive
+Referer: https://p30-buy.itunes.apple.com/WebObjects/MZFinance.woa/wo/4.2.1.1.1.3.1.5.1.1.7.3.7?guid=000C295240D2
+Cookie: s_vi=[CS]v1|2A21B990850121DA-40000137400107B3[CE]; xp_ci=3z4g8XADz7s3z4RnzCRNz1KGeDrrYY; ns-mzf-inst=39-90-80-124-180-8168-302345-30-nk11; Pod=30; itspod=30
+iCloud-DSID: 8078008707
+
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Fri, 17 Oct 2014 21:37:50 GMT
+ETag: "1f21-505a52d435190"
+Accept-Ranges: bytes
+Content-Length: 7969
+X-Server: nk11p00it-web017
+Cache-Control: public,max-age=31536000,no-transform
+Keep-Alive: timeout=5
+Connection: Keep-Alive
+Content-Type: application/x-javascript; charset=utf-8
+Date: Sun, 19 Oct 2014 08:15:37 GMT
+
+/*
+** Copyright © 2014 Apple Inc.
+** All rights reserved.
+*/
+
+its.kit.createController("iTSCaptcha",{binding:"div.captcha-container",component:{init:function(){try{if(typeof nucaptcha!="undefined"&&nucaptcha!=null){this.nci=nucaptcha.getInterface(1);
+if(this.nci){this.addCaptchaListeners();
+if(this.nci.getPlayerMode()==="PLAYERMODE_NOCAPTCHA"){this.element.addClassName("none");
+return}this.hiddenCaptchaPlayerMode=this.element.querySelector("input#hidden-captcha-player-mode"),this.nci.addListener(this),this.isCaptchaInAudioMode()?(this.playAudioOnSetup=!1,this.nci.cmdSetPlayerMode(this.nci.PLAYERMODE_AUDIO)):this.setup()}}}catch(e){console.log("Error: "+e)}},setup:function(){this.refreshButton=this.element.querySelector("button#new-challenge"),this.textCaptchaButton=this.element.querySelector("button#player-mode-video"),this.audioCaptchaButton=this.element.querySelector("button#player-mode-audio"),this.instructionElement=this.element.querySelector("p.captcha-instruction"),this.captchaInput=this.element.querySelector("#"+this.nci.ID_NUCAPTCHA_ANSWER),this.mediaContainer=this.element.querySelector("#"+this.nci.ID_NUCAPTCHA_MEDIACONTAINER),this.audioCaptcha=this.element.querySelector("audio#nucaptcha-media"),this.captchaInput&&(this.listen(this.captchaInput,"keypress","keypressEvent"),its.client.platformIsP2&&this.listen(this.captchaInput,"focus","focusCaptchaInputEvent"),this.captchaInput.setAttribute("placeholder",its.loc("JS.MZFinance.Required")));
+if(!this.textCaptchaButton||!this.audioCaptchaButton)return;this.refreshButton&&this.listen(this.refreshButton,"click","getNewCaptcha"),this.textCaptchaButton&&this.listen(this.textCaptchaButton,"click","togglePlayerModeText"),this.audioCaptchaButton&&this.listen(this.audioCaptchaButton,"click","togglePlayerModeAudio"),this.audioCaptcha&&this.listen(this.audioCaptcha,"ended","audioFinished");
+var e=this.element.querySelector("div.pill");
+e&&e.setAttribute("role","radio-group"),this.textCaptchaButton.setAttribute("role","radio"),this.audioCaptchaButton.setAttribute("role","radio");
+if(!this.isCaptchaInAudioMode()){this.textCaptchaButton.hasClassName("active")||(this.textCaptchaButton.addClassName("active"),this.audioCaptchaButton.removeClassName("active"),this.textCaptchaButton.setAttribute("aria-checked","true"),this.audioCaptchaButton.setAttribute("aria-checked","false")),this.element.removeClassName("audio");
+if(this.instructionElement){var t=its.loc("JS.MZFinance.EditAccount.CaptchaTitle.Text");
+this.instructionElement.innerHTML=t,this.captchaInput.setAttribute("title",t);
+var n=this.mediaContainer.firstElementChild;
+n&&(n.setAttribute("alt",t),n.removeAttribute("title"))}}else if(this.isCaptchaInAudioMode()){this.audioCaptchaButton.hasClassName("active")||(this.audioCaptchaButton.addClassName("active"),this.textCaptchaButton.removeClassName("active"),this.textCaptchaButton.setAttribute("aria-checked","false"),this.audioCaptchaButton.setAttribute("aria-checked","true")),this.element.hasClassName("audio")||this.element.addClassName("audio");
+if(this.instructionElement){var t=its.loc("JS.MZFinance.EditAccount.CaptchaTitle.Audio");
+this.instructionElement.innerHTML=t,this.captchaInput.setAttribute("title",t),this.audioCaptcha&&(this.audioCaptcha.parentNode.setAttribute("aria-label",t),this.audioCaptcha.parentNode.setAttribute("tabindex","0"),this.audioCaptcha.setAttribute("aria-label",t),this.audioCaptcha.setAttribute("tabindex","0"))}this.captchaAudioInFinalRender()&&(this.playAudioOnSetup===!0?(this.element.hasClassName("audio-finished")&&this.element.removeClassName("audio-finished"),this.nci.cmdReplay()):this.setCaptchaAudioToReplayMode())}this.captchaInFinalRender()&&(this.playAudioOnSetup=!0)},addCaptchaListeners:function(){var e=document.forms[0].elements;
+for(i=0,x=e.length;
+i<x;
+i++)e[i].type!="hidden"&&e[i].type!="submit"&&(this.listen(e[i],"focus","onPageInputFocus"),this.listen(e[i],"blur","onPageInputBlur"));
+this.listen(document,"keypress","onPageKeyPress"),this.listen(document,"click","onPageMouseClick"),this.listen(document,"touchstart","onPageTouchEvent")},captchaAudioInFinalRender:function(){return this.nci.getPlayerMode()==this.nci.PLAYERMODE_AUDIO&&this.nci.getReadyState()},captchaVideoInFinalRender:function(){return this.nci.getPlayerMode()==this.nci.PLAYERMODE_VIDEO&&this.nci.getReadyState()},captchaInFinalRender:function(){return this.captchaAudioInFinalRender()||this.captchaVideoInFinalRender()},isCaptchaInAudioMode:function(){return this.hiddenCaptchaPlayerMode&&this.hiddenCaptchaPlayerMode.value==="AUDIO"?!0:!1},setPlayerMode:function(e){this.hiddenCaptchaPlayerMode.value=e},setCaptchaAudioToReplayMode:function(){if(!this.element.hasClassName("audio-finished")){this.element.addClassName("audio-finished"),this.replayButton=this.element.querySelector("button.replay-button"),this.replayButton&&this.listen(this.replayButton,"click","replayChallenge"),typeof this.audioCaptcha!="undefined"&&this.audioCaptcha!=null&&this.audioCaptcha.setAttribute("aria-label",its.loc("JS.MZFinance.Captcha.ReplayAudioCaptcha"));
+if(defined("iTunes")&&iTunes.addEventListener)try{its.client.accessibilityPostLayoutChange()}catch(e){its.client.log(e)}}},setCaptchaAudioToPlayingMode:function(){this.mediaContainer&&(this.element.removeClassName("audio-finished"),this.replayButton.removeEventListener("click"),this.mediaContainer.setAttribute("aria-label",its.loc("JS.MZFinance.EditAccount.CaptchaTitle.Audio")),typeof this.audioCaptcha!="undefined"&&this.audioCaptcha!=null&&this.audioCaptcha.setAttribute("aria-label",its.loc("JS.MZFinance.EditAccount.CaptchaTitle.Audio")))},onNuCaptchaEvent:function(e,t){try{e===this.nci.EVENT_REFRESH_HTML?(this.setup(),its.client.screenReaderRunning()&&this.captchaInput.focus()):e===this.nci.EVENT_MEDIA_DOWNLOAD_WAIT?this.updateStatusMessage(its.loc("JS.MZFinance.Captcha.Loading")):e===this.nci.EVENT_MEDIA_DOWNLOAD_WAIT_TIMEOUT&&this.updateStatusMessage(its.loc("JS.MZFinance.Captcha.ServerTimeout"))}catch(n){console.log("Error: "+n)}},audioFinished:function(e){this.setCaptchaAudioToReplayMode()},replayChallenge:function(e){try{this.nci.cmdRefreshChallenge()}catch(t){console.log("Error: "+t)}},getNewCaptcha:function(e){e.preventDefault();
+try{this.nci.cmdGetANewChallenge()}catch(t){console.log("Error: "+t)}},togglePlayerModeText:function(e){try{e.preventDefault();
+if(!this.isCaptchaInAudioMode())return;this.setPlayerMode("VIDEO"),this.nci.cmdSetPlayerMode(this.nci.PLAYERMODE_VIDEO)}catch(t){console.log("Error: "+t)}},togglePlayerModeAudio:function(e){try{e.preventDefault();
+if(this.isCaptchaInAudioMode())return;this.setPlayerMode("AUDIO"),this.nci.cmdSetPlayerMode(this.nci.PLAYERMODE_AUDIO)}catch(t){console.log("Error: "+t)}},keypressEvent:function(e){if(e.keyCode==13){var t=document.querySelector("input.continue");
+t&&(e.preventDefault(),e.stopPropagation(),t.click())}},focusCaptchaInputEvent:function(e){var t=e.target.getPosition();
+t.top>10&&(t.top-=10,document.body.scrollTop=t.top)},updateStatusMessage:function(e){e&&this.mediaContainer&&(this.mediaContainer.innerHTML='<span class="media-status">'+e+"</span>")},onPageInputFocus:function(e){try{this.nci.logInputEvent(this.nci.INPUTEVENT_FORMFIELDFOCUS,[e.target.id])}catch(t){console.log("Error: "+t)}},onPageInputBlur:function(e){try{this.nci.logInputEvent(this.nci.INPUTEVENT_FORMFIELDBLUR,[e.target.id])}catch(t){console.log("Error: "+t)}},onPageKeyPress:function(){try{this.nci.logInputEvent(this.nci.INPUTEVENT_KEYDOWN)}catch(e){console.log("Error: "+e)}},onPageMouseClick:function(e){try{this.nci.logInputEvent(this.nci.INPUTEVENT_MOUSECLICK,[e.pageX,e.pageY])}catch(t){console.log("Error: "+t)}},onPageTouchEvent:function(e){try{this.nci.logInputEvent(this.nci.INPUTEVENT_TOUCHEVENT,[e.pageX,e.pageY])}catch(t){console.log("Error: "+t)}}}}),OnNuCaptchaJSError=function(e){var t=document.querySelector("div#nucaptcha-error-message");
+if(t){var n=its.loc("JS.MZFinance.Captcha.LoadError");
+t.innerHTML=n}}

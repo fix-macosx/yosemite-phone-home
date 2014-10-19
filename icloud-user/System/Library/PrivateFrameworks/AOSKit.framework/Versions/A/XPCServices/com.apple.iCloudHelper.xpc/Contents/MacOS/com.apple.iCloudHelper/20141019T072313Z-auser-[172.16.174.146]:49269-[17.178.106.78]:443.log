@@ -1,0 +1,69 @@
+POST /setup/account/registerDevice HTTP/1.1
+Host: setup.icloud.com
+X-Mme-Nas-Qualify: AvZSKd/s677bcSrOcolPpPExLh8XpsLaATPP0pXi3X2SAAAB4AUAAAABAAABgNEMJ+y70eBnc7WuCmxxNv96VpeEwyU02GNmZFSrYexvX0q5SSrQurEAKjeV6vfGooLF50uRe4ziQvt92XczFCtSuntu+mIAiyxY/j0cgxlSBeUlSHX0Ko5vj8NUzdVZmXfrRPkXp+IorM7xN+NlHiXrE9vYPXaQSl9s27rTMbSGZiwxtoeuSnZaPY9TrtwXKDTAzJMPCrovwUzk298oGPjcdqHXd4zOgxdMFcP7pfnsBfKtxKYNr9pLDmCn6ek63UA4EEOr1cPSKLtEDxY3hy5A0ZBN0hB3Cs8wfi87GNbLSo21WOCK3kj/sbio7D0+PEpOfa74Wuszy4+EdVc/iY0x6LG6Qq3htWg0GE+/u8Ed4FDrV44KGU08nzUAkBOChpwDaLl/uB5VKcrhRVKnpChkte89/lt3RzRUhutBqIIihKWB1tHqZ2h3ZUqGfRFJgrhgNQSA3kuSXH6I6/j9DjNFQtlEjsqjoBbK0dse5srkhTrgPNipC/pmxB8Aiw26nQAAAAAAAABPAZDJaizwIu8iRwoyVa+6ZBLslQC1AAAANgIHma9V+qrlNWMnIsxGpMOtvVRDZtaCkahqTfwQERjIuaj10qla3RcFxajEp5HxbcL0p+3TJA==
+Accept: */*
+Authorization: Basic ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+X-Mme-Timezone: PDT
+X-Mme-Country: US
+X-Mme-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.AOSKit/215 (com.apple.systempreferences/14.0)>
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+X-Mme-Device-Id: 564D33F4-CC81-F551-C2BE-08104C5240D2
+Content-Length: 881
+User-Agent: com.apple.iCloudHelper/215 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Connection: keep-alive
+Content-Type: text/plist
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cause</key>
+	<string>login</string>
+	<key>deviceInfo</key>
+	<dict>
+		<key>appleId</key>
+		<string>admin@fix-macosx.com</string>
+		<key>deviceClass</key>
+		<string>VMware</string>
+		<key>deviceName</key>
+		<string>Defaults’s Mac</string>
+		<key>dsid</key>
+		<string>8078008707</string>
+		<key>productType</key>
+		<string>VMware7,1</string>
+		<key>productVersion</key>
+		<string>Mac OS X;10.10;14A389</string>
+		<key>serialNumber</key>
+		<string>VMM/TMgfVRwr</string>
+		<key>storageCapacity</key>
+		<string>42.09 GB</string>
+		<key>udid</key>
+		<string>564D33F4-CC81-F551-C2BE-08104C5240D2</string>
+	</dict>
+	<key>enabledDataClasses</key>
+	<array/>
+	<key>isPrimaryAccount</key>
+	<true/>
+</dict>
+</plist>
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:23:13 GMT
+X-Apple-Request-UUID: 62bcd6a4-eb2a-41ae-96ad-4a881228423b
+X-Responding-Instance: setupservice:32600301:mr11p26ic-hpaf11130701:8001:14G54:156781
+Cache-Control: no-cache, no-store, private
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 317
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>status</key>
+		<integer>0</integer>
+
+		<key>registration-ttl-in-sec</key>
+		<integer>1098586</integer>
+
+	</dict>
+</plist>

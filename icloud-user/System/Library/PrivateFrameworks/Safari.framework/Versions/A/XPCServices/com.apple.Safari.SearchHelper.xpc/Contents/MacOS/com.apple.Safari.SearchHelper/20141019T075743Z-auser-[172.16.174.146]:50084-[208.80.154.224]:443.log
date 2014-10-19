@@ -1,0 +1,29 @@
+GET /w/opensearch_desc.php HTTP/1.1
+Host: en.wikipedia.org
+Accept: */*
+Cookie: centralnotice_bucket=1-4.2; GeoIP=US:San_Antonio:29.4889:-98.3987:v4
+User-Agent: com.apple.Safari.SearchHelper/10600.1.25 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Date: Sun, 19 Oct 2014 07:57:43 GMT
+Content-Type: application/opensearchdescription+xml
+Transfer-Encoding: chunked
+Connection: close
+X-Content-Type-Options: nosniff
+Expires: Sun, 19 Oct 2014 08:03:37 GMT
+Vary: Accept-Encoding,X-Use-HHVM
+X-Varnish: 2836796999 2836796216, 597657958 597474814
+Via: 1.1 varnish, 1.1 varnish
+Age: 246
+X-Cache: cp1066 hit (12), cp1052 frontend hit (447)
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Analytics: php=zend
+
+380
+<?xml version="1.0"?><OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/"><ShortName>Wikipedia (en)</ShortName><Description>Wikipedia (en)</Description><Image height="16" width="16" type="image/x-icon">http://bits.wikimedia.org/favicon/wikipedia.ico</Image><Url type="text/html" method="get" template="http://en.wikipedia.org/w/index.php?title=Special:Search&amp;search={searchTerms}" /><Url type="application/x-suggestions+json" method="get" template="http://en.wikipedia.org/w/api.php?action=opensearch&amp;search={searchTerms}&amp;namespace=0" /><Url type="application/x-suggestions+xml" method="get" template="http://en.wikipedia.org/w/api.php?action=opensearch&amp;format=xml&amp;search={searchTerms}&amp;namespace=0" /><moz:SearchForm>http://en.wikipedia.org/wiki/Special:Search</moz:SearchForm></OpenSearchDescription>
+0
+

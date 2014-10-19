@@ -1,0 +1,24 @@
+GET /search?q=wikipe&locale=en-US&key=andromeda&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: []
+Accept: */*
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: ["w","wi","wik"]
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 07:57:14 GMT
+Connection: close
+Transfer-Encoding: chunked
+
+87e
+[{"status":"OK","query":"wikipedia.org","prefix":"wikipe","completion_score":69299.00638296004,"fbq":"eyJ1IjoiIiwicCI6Indpa2lwZSIsInEiOiJ3aWtpcGVkaWEub3JnIiwidHMiOjE0MTM3MDU0MzQsImciOiJ1cy9pbGxpbm9pcy9jb29rL2NoaWNhZ28iLCJhIjoic2FmYXJpIiwiZCI6Im1hYyIsImwiOiJlbl9VUyIsImkiOiIxNDM0NDEtMSwyMSIsImMiOiI0MS44NjQzLC04Ny42NDUiLCJlY3YiOjAsImNjdiI6MH0=","results":[{"type":"web_suggest","id":"wb:http://wikipedia.org","score":6,"fbr":"eyJkIjoid2ViX3N1Z2dlc3QiLCJyIjoid2I6aHR0cDovL3dpa2lwZWRpYS5vcmcifQ==","url":"http://wikipedia.org","report_problem_url":"","filtered":false,"tophit":1,"engagement_score":0,"qi_engagement_score":0,"hide_rank":15,"template":"simple","completion":"http://wikipedia.org","completion_icon":{"content_type":"image/png","data":"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABk0lEQVR42q1Tz6uBQRSdJytbrKSUhY2y9olE0RNlYfPtv2y+/AHWdlaKLCxE2Uqy8C+oR5ZslMRGsSK/O8/c3kzp83o/b92ac5s599yZMwzAyz1f7/mG7wffm+Rn2cfh30aS/bCzQQm7Xq84HA6Ux+ORqgKfz2fcbjeJ+ZrXBOZn2Xg8RjgcBmMMlUqFNsXjccL1eh2LxQKKoiAajWK1WqHT6cBqtSKdTmMymYCPgPl8DrPZjG63Swr2+z1cLhfK5TLhSCSC7XZL69PphEAggMvlQpiJYVRVRTAYlMPVajU4nU60220Ui0VZb7VaqFarEkuC0WhEsgeDAWHewe12w+fz0bwiEokEKTQQCKmZTEZiXddhs9mk3OFwiHw+//AMDwT9fh8mkwmz2YxwKpWC3W5Hs9kknM1m6SI/JeDh9Xqpc6/Xo0ssFArweDxYr9fQNM1gBANBo9GAxWJBLBYjX2w2G8J+v59G+JKAG8XhcKBUKslaLpdDKBR6asWnVp5Op2QoEbvdDsvl8rmV/+Mz/ek7vwN5eHkWaUJzUwAAAABJRU5ErkJggg=="},"section_header":"Suggested Website","title":"wikipedia.org","title_maxlines":1,"description":"— Wikipedia","description_follows_title":true,"icon":{"content_type":"image/png","data":"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABk0lEQVR42q1Tz6uBQRSdJytbrKSUhY2y9olE0RNlYfPtv2y+/AHWdlaKLCxE2Uqy8C+oR5ZslMRGsSK/O8/c3kzp83o/b92ac5s599yZMwzAyz1f7/mG7wffm+Rn2cfh30aS/bCzQQm7Xq84HA6Ux+ORqgKfz2fcbjeJ+ZrXBOZn2Xg8RjgcBmMMlUqFNsXjccL1eh2LxQKKoiAajWK1WqHT6cBqtSKdTmMymYCPgPl8DrPZjG63Swr2+z1cLhfK5TLhSCSC7XZL69PphEAggMvlQpiJYVRVRTAYlMPVajU4nU60220Ui0VZb7VaqFarEkuC0WhEsgeDAWHewe12w+fz0bwiEokEKTQQCKmZTEZiXddhs9mk3OFwiHw+//AMDwT9fh8mkwmz2YxwKpWC3W5Hs9kknM1m6SI/JeDh9Xqpc6/Xo0ssFArweDxYr9fQNM1gBANBo9GAxWJBLBYjX2w2G8J+v59G+JKAG8XhcKBUKslaLpdDKBR6asWnVp5Op2QoEbvdDsvl8rmV/+Mz/ek7vwN5eHkWaUJzUwAAAABJRU5ErkJggg=="}}]}]
+
+0
+

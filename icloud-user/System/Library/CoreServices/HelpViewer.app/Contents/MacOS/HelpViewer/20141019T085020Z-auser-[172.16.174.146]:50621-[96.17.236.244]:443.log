@@ -1,0 +1,40 @@
+GET /machelp/mac/10.10/en.lproj/redirect.html?topic=mh27990 HTTP/1.1
+Host: help.apple.com
+Accept: */*
+Cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Help Viewer/256
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: Apache
+Access-Control-Allow-Origin: *
+Cteonnt-Length: 857
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=1784
+Expires: Sun, 19 Oct 2014 09:20:05 GMT
+Date: Sun, 19 Oct 2014 08:50:21 GMT
+Content-Length: 857
+Connection: close
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex" />
+    <script type="text/javascript">
+      (function apd_language_redirect () {
+        var lproj_match = location.pathname.match(/([\-_a-z]+\.lproj)/i) || [],
+        topic_match = location.search.match(/topic=([-_a-z0-9]+)/i) || [],
+        search = (lproj_match.length > 1 ? "?localePath=" + lproj_match.pop() : ""),
+        hash = (topic_match.length > 1 ? "#" + topic_match.pop() : location.hash),
+        url = "../index.html" + search + hash;
+        location.replace(url);
+      }());
+    </script>
+    <meta http-equiv="refresh" content="1;url=../index.html" />
+    <title></title>
+  </head>
+  <body></body>
+</html>

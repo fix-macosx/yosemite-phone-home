@@ -1,0 +1,20 @@
+GET /setup/account/getPhoto HTTP/1.1
+Host: setup.icloud.com
+Accept-Encoding: gzip, deflate
+User-Agent: com.apple.iCloudHelper/215 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+X-Mme-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.AOSKit/215 (com.apple.systempreferences/14.0)>
+Connection: keep-alive
+X-Mme-Timezone: PDT
+Accept: */*
+Accept-Language: en-us
+X-Mme-Country: US
+Authorization: Basic ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+X-Mme-Device-Id: 564D33F4-CC81-F551-C2BE-08104C5240D2
+
+HTTP/1.1 404 Not Found
+Date: Sun, 19 Oct 2014 07:25:07 GMT
+X-Apple-Request-UUID: a8706e83-23ee-49ae-a132-dfb670004ede
+X-Responding-Instance: setupservice:32400401:mr11p24ic-quav08181302:8001:14G54:156781
+Cache-Control: no-cache, no-store, private
+Content-Length: 0
+

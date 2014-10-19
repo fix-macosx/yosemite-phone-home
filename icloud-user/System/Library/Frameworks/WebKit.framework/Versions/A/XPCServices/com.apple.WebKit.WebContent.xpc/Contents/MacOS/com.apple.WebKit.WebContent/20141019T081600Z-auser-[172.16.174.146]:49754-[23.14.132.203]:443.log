@@ -1,0 +1,43 @@
+GET /htmlResources/0414/da-storefront-search.css HTTP/1.1
+Host: s.mzstatic.com
+Accept-Language: en-US
+Accept-Encoding: gzip, deflate
+iCloud-DSID: 8078008707
+Connection: keep-alive
+Date: Sun, 19 Oct 2014 08:16:00 GMT
+Accept: text/css,*/*;q=0.1
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Referer: https://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q=Conduit%20Bending
+X-Apple-TZ: -420
+X-Apple-Store-Front: 143441-1,13
+
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Fri, 17 Oct 2014 21:37:45 GMT
+ETag: "4e8-505a52cf018a8"
+X-Server: nk11p00it-web014
+Cache-Control: public,max-age=31536000,no-transform
+Access-Control-Allow-Origin: *
+Content-Type: text/css; charset=utf-8
+Date: Sun, 19 Oct 2014 08:16:00 GMT
+Content-Length: 1256
+Connection: close
+
+/*
+** Copyright © 2014 Apple Inc.
+** All rights reserved.
+*/
+
+body.search div.no-result div.content-and-controls{text-align:center;padding-top:200px;padding-bottom:200px;color:#6D83A2}
+body.search div.no-result div.content-and-controls>h2{margin-bottom:6px;font-weight:bold;font-size:14px}
+body.search h2>span.alert{display:inline-block;background:url(da-storefront/images/-dsi-/alert.png) 0 0 no-repeat;-webkit-background-size:25px 21px;width:25px;height:21px;text-indent:-9999px;margin-right:4px}
+body.search div.no-result div.content-and-controls>p{font-size:12px}
+body.search div.no-result div.content-and-controls>p a{font-weight:bold;color:#6D83A2}
+body.search div.no-result h2 span.did-you-mean{font-weight:normal}
+body.search h2 span.did-you-mean h2{display:inline}
+body.search div.no-result .did-you-mean a{font-weight:bold;color:#6D83A2}
+body.search div.container.results{background-image:none;margin:16px 0;height:55px;text-align:center}
+body.search div.results>h2{font-size:14px;padding-top:17px}
+body.search div.results span.did-you-mean>h2{margin:0 auto;font-size:14px;font-weight:normal;color:#6D83A2}
+body.search div.results span.did-you-mean a{font-weight:bold;color:#6D83A2}
+body.search div.pagination-controls a.page-link{display:none}

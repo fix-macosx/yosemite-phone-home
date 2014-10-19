@@ -1,0 +1,16 @@
+GET /generate_204 HTTP/1.1
+Host: clients1.google.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+Accept-Language: en-us
+Referer: https://www.google.com/?client=safari&channel=mac_bm
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 204 No Content
+Content-Length: 0
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 19 Oct 2014 07:56:28 GMT
+Server: GFE/2.0
+Connection: close
+

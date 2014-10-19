@@ -1,0 +1,8 @@
+GET /complete/search?client=safari&q=If+I+use+ HTTP/1.1
+Host: clients1.google.com
+Accept: */*
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+

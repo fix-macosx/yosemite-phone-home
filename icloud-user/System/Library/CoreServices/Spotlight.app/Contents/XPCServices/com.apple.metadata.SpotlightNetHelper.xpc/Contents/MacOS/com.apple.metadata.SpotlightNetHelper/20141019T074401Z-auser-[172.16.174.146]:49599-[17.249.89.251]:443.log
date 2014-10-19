@@ -1,0 +1,21 @@
+POST /fb?key=andromeda HTTP/1.1
+Host: api.smoot.apple.com
+Content-Type: application/json
+Accept-Charset: utf-8
+Connection: keep-alive
+X-Apple-ActionSignature: AvGJHRR8h3+oPAl/AtfQxMNOZrzQSdii/L6SJ766n4E8AAAB0AMAAAABAAABAJB19RIwrfoY/hH1xtAERuvsLMLdnOBJD7cqf4GmFK+t+Ngs1J4TvRDeXZ56Wh+CEwWh5Z7Px10faXobklCUmG3+4kDmSg4mkYXGQCxBKc9E1KvzkqA2kkfTTkaHdPTE6+rIrxsaaqKQdEdR9Gvmvb0az0JZPZzbxVU5YdZAmWosefhU5gvDLLhiLr3pUL3wQshCbDLpRLjndJPPNJMMfE+QIgrfZmYJZ0vK8X1EgD7g9FvmY4MKvwoU4bb7u83X24yeITTIZKdtp7n1DDvbp8dxOQAGTOSM1wZfINkSAogI55fP4PbHK64NCR3+ef7S+dc9blbgauW+GrBHUtT9JJ8AAAATfbRf3JHxVgpdmkeQivcqOf4ftQAAAJ8BSSlz6pq7jfUegYhVUgI0kXUw3esAAACGAgaNTcZ17jYNlCICHa8YQ+lDVENo/PCp3zR4uaHIkGKlrPV4gAEluIhTTRQ88WP7ukkDaPHmUxPfg/3KVlWI2ggd6wWGP7NsYaAJFOc8WtDKeTF6IYOrnV1hDN+WuAE7DoxILJSipavs2YVduCFuUHzzvZf5zp2SifZTALD2oEp2+kbVUAcAAAAAAAAAAAAAAAAA
+Accept: application/json
+X-Apple-UserGuid: b5c8a280-c5bc-46db-46c9-6057ad9cf249
+User-Agent: (OS X 14A389) Spotlight/916
+Content-Length: 888
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+
+[{"results":["app","dictionary","sys_pref","font","developer"],"timestamp":2601,"input":"add","type":"render","trigger_timestamp":473},{"results":["app","dictionary","sys_pref","font","developer"],"timestamp":2639,"input":"add","type":"render","trigger_timestamp":473},{"results":["app","dictionary","sys_pref","font","developer"],"timestamp":3600,"input":"add","type":"render","trigger_timestamp":473},{"results":["app","dictionary","sys_pref","font","developer"],"timestamp":3666,"input":"add","type":"render","trigger_timestamp":473},{"results":["app","dictionary","sys_pref","font","developer"],"timestamp":30283,"input":"add","type":"render","trigger_timestamp":473},{"results":["app","dictionary","sys_pref","mail","font","developer"],"timestamp":113211,"input":"add","type":"render","trigger_timestamp":473},{"timestamp":529992,"input":"add","type":"abandonment","method":"clear"}]HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 07:44:01 GMT
+Content-Length: 3
+Connection: close
+
+""

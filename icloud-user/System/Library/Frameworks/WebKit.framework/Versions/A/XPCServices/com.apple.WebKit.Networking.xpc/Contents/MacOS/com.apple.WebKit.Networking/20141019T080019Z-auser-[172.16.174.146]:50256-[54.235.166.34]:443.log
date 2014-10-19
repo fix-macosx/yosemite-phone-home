@@ -1,0 +1,441 @@
+GET /osx HTTP/1.1
+Host: www.texpadapp.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://www.texpadapp.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Connection: close
+Server: gunicorn/0.17.4
+Date: Sun, 19 Oct 2014 08:00:19 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Vary: Cookie
+Set-Cookie: csrftoken=l6sKToGMbu4POhZRNuGON6EOTQefMclh; expires=Sun, 18-Oct-2015 08:00:19 GMT; Max-Age=31449600; Path=/
+Via: 1.1 vegur
+
+7557
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Texpad &middot; LaTeX on Mac</title>
+		<meta name="description" content="LaTeX editor for Mac OS X, iOS, iPad, iPhone and iPod Touch, with syntax highlighting, multi-file support and integrated PDF"/>
+		<meta name="author" content="Valletta Ventures"/>
+		<link rel="shortcut icon" href="https://static.texpadapp.com/www/images/favicon.ico" type="image/x-icon"/>
+		
+			<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<![endif]-->
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		
+		<link href="https://static.texpadapp.com/www/layout/external/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+		<script src="https://static.texpadapp.com/www/layout/external/bootstrap/js/bootstrap.min.js"></script>
+		<link href="https://static.texpadapp.com/www/layout/external/fontawesome/css/font-awesome.css" rel="stylesheet"/>
+		<!--[if IE 7]>
+			<link href="https://static.texpadapp.com/www/layout/external/fontawesome/css/font-awesome-ie7.min.css" rel="stylesheet"/>
+		<![endif]-->
+		<link href="https://static.texpadapp.com/www/layout/external/ionicons/css/ionicons.css" rel="stylesheet"/>
+		<link rel="stylesheet" type="text/css" href="https://static.texpadapp.com/www/layout/external/fancybox/source/jquery.fancybox.css" media="screen" />
+		<script type="text/javascript" src="https://static.texpadapp.com/www/layout/external/fancybox/source/jquery.fancybox.js"></script>
+		<link href="https://static.texpadapp.com/www/layout/css/texpadapp.css" rel="stylesheet"/>
+		
+<script type="text/javascript" src="https://static.texpadapp.com/www/layout/external/fancybox/source/helpers/jquery.fancybox-media.js"></script>
+<script>
+$(document).ready(function() {
+	$(".fancybox-image").fancybox();
+	$('.fancybox-media').fancybox({ openEffect  : 'none', closeEffect : 'none', helpers : { media : {} } });
+	$("#downloadlink").tooltip({ 'placement':'bottom', 'trigger':'hover' });
+});
+</script>
+<script type="text/javascript" src="https://static.texpadapp.com/www/scripts/retinajs/retina-1.1.0.min.js"></script>
+
+		
+		<!-- google analytics -->
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-34534554-1']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+			 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			 })();
+		</script>
+		<script>$(document).ready(function() { $(".tooltipelement").tooltip({ 'placement':'bottom','trigger':'hover','container':'body'}); });</script>
+	</head>
+	<body>
+		<div class="page-wide" style="width: 100%;margin: 0px;">
+			<div class="row centred text-centred" style="padding-top: 5px; padding-bottom: 5px; width: 900px;">
+				<div class="col-xs-2 col-md-2" style="text-align:left; padding-top: 0px; text-shadow: 0 1px 1px #fff;">
+					<a href="/">
+						<img src="https://static.texpadapp.com/www/images/logos/texpad-logo.png" alt="Texpad" width="70px" style="padding-top: 7px;"/>
+					</a>
+				</div>
+				<div class="col-xs-10 col-md-10 right " style="font-size: 15px;padding-top: 6px; padding-bottom: 5px;">
+					<div class="btn-group" style="text-shadow: 0 1px 1px #fff;">
+						<a href="/osx" 
+								class="blue"
+							><span class="heading">Mac</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+	
+						<a href="/ios" 
+								class="charcoal"
+							><span class="heading">iPad/iPhone</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+						
+						<a href="/connect" 
+								class="charcoal"
+							><span class="heading">Connect</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+						
+						<a href="/api" 
+								class="charcoal"
+							><span class="heading">API</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="/support" 
+								class="charcoal"
+							><span class="heading">Support</span></a>&nbsp;&nbsp;&nbsp;<span class="grey"></span>&nbsp;&nbsp;&nbsp;
+					</div>
+					
+					
+					<div class="btn-group left ">
+						
+							<a href="/signup" class="btn btn-default btn-md dark-grey">Create a free account</a>
+							<a href="/signin" class="btn btn-default btn-md dark-grey">Sign in</a>
+						
+					</div>
+				</div>
+			</div>
+			
+		</div>
+			
+		<div class="main-separator"></div>
+		<!--
+-->
+		
+<div class="centred text-centred" style="margin-top: 30px;">
+	<div style="margin-top: 20px;"><img class="img-rounded tile3d" src="https://static.texpadapp.com/www/images/osx-icon.png" width="100px" alt="Texpad"/></div>
+	<div style="margin-top: 30px;"><img width="200px" alt="" src="https://static.texpadapp.com/www/images/logos/texpad-logo-osx.png"/></div>
+	<div class="centred text-centred larger" style="width: 520px; margin-top: 40px;">Native Mac OS app with efficient LaTeX environment, feature-laden, not feature-cluttered.</div>
+	<div style="margin-top: 20px;">
+		<a class="fancybox-media" href="http://vimeo.com/79229546" title="See a short video on features of Texpad OS X"><span class="feature-box feature-box-video" style="background-size: 100%;background-image: url('https://static.texpadapp.com/www/images/features/osx-video-cover.jpg');"><img class="feature-box-icon" width="40px" src="https://static.texpadapp.com/www/images/icons/play.png"/></span><br/><span class="large">See it in action</span></a>
+	</div>
+</div>
+<div class="container centred" style="min-height: 500px; margin-top: 50px;">
+	
+		<div class="heading huge osx">Gallery
+			<div class="pull-right tinier blue"><a href="#features">See all features&nbsp;&nbsp;<span class="ion-ios7-arrow-forward"></span></a></div>
+		</div>
+		<div class="centred text-centred feature-gallery" style="margin-bottom: 20px;">
+	<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-full.png" title="Streamlined, native UI lets you focus on writing while providing aids in a non-intrusive manner."><span class="feature-box" style="border-color: #D75500;background-size: 100%;background-image: url('https://static.texpadapp.com/www/images/features/osx-clean-ui.png');"></span></a>
+	<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-autocomplete.png" title="Autocompletion of LaTeX commands helps write faster and with fewer errors."><span class="feature-box" style="border-color: #D75500;background-size: 100%;background-image: url('https://static.texpadapp.com/www/images/features/osx-autocomplete.png');"></span></a>
+	<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-view-editor-and-pdf.png" title="Syntax-highlighting lets you discern between various elements of your LaTeX code."><span class="feature-box" style="border-color: #2479c1;background-size: 100%;background-image: url('https://static.texpadapp.com/www/images/features/syntax-highlighting.png');"></span></a>
+	<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-typesetting.png" title="Typesetting is both powerful and easy to use in Texpad."><span class="feature-box" style="background-size: 100%;background-image: url('https://static.texpadapp.com/www/images/features/osx-typesetting.png');"></span></a>
+	<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-outline-and-synctex.png" title=""><span class="feature-box" style="background-size: 100%;background-image: url('https://static.texpadapp.com/www/images/features/osx-document-outline.png');"></span></a>
+	<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-error-view.png" title="With the navigable error list, it's easy to jump to LaTeX errors in your code to fix them."><span class="feature-box" style="background-size: 100%;background-image: url('https://static.texpadapp.com/www/images/features/osx-error-view.png');"></span></a>
+	<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-view-editor-and-pdf.png" title=""><span class="feature-box" style="background-size: 100%;background-image: url('https://static.texpadapp.com/www/images/features/osx-pdf-view.png');"></span></a>
+	<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-markdown.png" title=""><span class="feature-box" style="background-size: 100%;background-image: url('https://static.texpadapp.com/www/images/features/markdown.png');"></span></a>
+</div>
+	
+	<div class="heading huge osx">Obtaining Texpad OS X</div>
+	<div class="centred text-centred" style="margin-top: 20px; margin-bottom: 30px; padding-bottom: 10px;">
+<div class="row">
+	<div class="col-xs-4 col-md-4 dark-grey" style="font-size: 85%; padding-top: 50px;">
+		Download the current version and enjoy a 14-day trial period of 
+		all its features.
+		<div class="centred text-centred" style="width: 200px; margin-top: 20px;">
+			<a href='http://cloud.texpadapp.com/bundles/Texpad_1_6_14.zip' class="btn btn-danger btn-block">Download</a>
+		</div>
+		<div class="centred text-centred" style="margin-top: 20px;;">
+			Beyond the trial, a <b>Purchase Certificate</b> is required to authenticate them for unlimited use. 
+			You may obtain one by either buying one now or migrating your copy of the App Store version.
+		</div>
+		<div class="smaller" style="margin-top: 30px;">
+			<b>Current Version:</b> 1.6.14<br/>
+			<b>System Requirements:</b> Needs OS X 10.6 or later.
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-4 text-centred">
+		<div class="panel panel-default padding10 margin0" style="height: 310px;max-height: 310px;min-height: 310px;text-shadow: none !important; opacity: 0.9;">
+			<div class="panel-heading heading larger" style="background-color: transparent;">
+				Buy
+			</div>
+			<div class="grey huger" style="height: 80px;max-height: 80px;min-height: 80px; padding-bottom: 20px; padding-top: 20px;">
+				<i class="fa fa-desktop"></i>
+			</div>
+			<div style="height: 50px;max-height: 50px;min-height: 50px;">
+				<div class="bold">$19.99&nbsp;·&nbsp;£13.99&nbsp;·&nbsp;€17.99</div>
+			</div>
+			<div style="height: 80px;max-height: 80px;min-height: 80px;">
+				<div class="smaller">Volume licensing <a href="/osx/buy/">available</a>.</div>
+			</div>
+			<form class="form-horizontal" id="osx-with-tpc-buy-form" action="/osx/buy" method="POST">  <input type='hidden' name='csrfmiddlewaretoken' value='l6sKToGMbu4POhZRNuGON6EOTQefMclh' />
+				<input id="productcode" name="productcode" type="hidden" value="osx"/>
+				<button class="btn btn-success btn-block" type="submit" id="osx-with-tpc-buy-button" name="submit-button" value="create">Select</button>
+			</form>
+		</div>
+	</div>
+	<div class="col-xs-4 col-md-4 text-centred">
+		<div class="panel panel-default padding10 margin0" style="height: 310px;max-height: 310px;min-height: 310px;text-shadow: none !important; opacity: 0.9;">
+			<div class="panel-heading heading larger" style="background-color: transparent;">
+				Buy with Texpad Connect
+			</div>
+			<div class="grey huger" style="height: 80px;max-height: 80px;min-height: 80px; padding-bottom: 20px; padding-top: 20px;">
+				<i class="fa fa-desktop"></i>&nbsp;&nbsp;+&nbsp;&nbsp;<i class="glyphicon glyphicon-link"></i>
+			</div>
+			<div style="height: 50px;max-height: 50px;min-height: 50px;">
+				<div class="bold">$4.99&nbsp;&nbsp;+&nbsp;&nbsp;6 month subscription* of Texpad Connect</div>
+			</div>
+			<div class="smaller" style="height: 80px;max-height: 80px;min-height: 80px;">
+				Offer applies to a minimum of six month subscription to the <a href="/connect/plans">Personal 
+				plan</a> of <a href="/connect">Texpad Connect</a> at $4.99 a month.
+				<br/>
+				<span class="grey">* May be renewed thereafter.</span>
+			</div>
+			<form class="form-horizontal" id="osx-with-tpc-buy-form" action="/osx/buy" method="POST">  <input type='hidden' name='csrfmiddlewaretoken' value='l6sKToGMbu4POhZRNuGON6EOTQefMclh' />
+				<input id="productcode" name="productcode" type="hidden" value="osx+connect"/>
+				<button class="btn btn-success btn-block" type="submit" id="osx-with-tpc-buy-button" name="submit-button" value="create">Select</button>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="panel panel-default left padding15">
+		<div class="heading large">Bought Texpad from Mac App Store?</div>
+		<div class="small" style="margin-top: 15px;">
+			You needn't pay again! 
+			Simply migrate the copy of Texpad purchased from <a href="https://itunes.apple.com/app/texpad-latex-editor/id458866234?mt=12">Mac App Store</a> for 
+			future updates directly from us.
+		</div>
+	<div style="margin-top: 15px;"><a class="btn btn-primary" href="/upgrade-mas-tposx">Migrate from App Store</a></div>
+</div>
+</div>
+	
+	<div class="heading huge osx"><a id="features"></a>Features
+		<div class="pull-right tinier blue"><a href="/support/osx">Documentation&nbsp;&nbsp;<span class="ion-ios7-arrow-forward"></span></a></div>
+	</div>
+	<div class="centred columns column-rule" style="margin-top: 20px;">
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Write projects of all sizes</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-full.png" title="Writing small or large projects could not be easier with Texpad OS X's advanced management of your LaTeX source code."><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">
+			Simply open your root* <span class="filename">.tex</span> file and let Texpad load your full project,
+			including sub-files, bibliographies and stylesheets therein.
+			<div style="margin-top: 5px;">
+			* Files containing <span class="latex">\begin{document}...\end{document}</span> blocks.
+			</div>
+		</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Templates</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-templates.png" title="In-built and custom templates make it easy to start new files and projects quickly."><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-welcome-window.png" title="Texpad Organiser is your central place to quickly resume work or start a new file or a project."><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">Open your recent documents straight from the Texpad Organiser window or create new ones from standard and custom templates.</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Integrated PDF viewer</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-view-pdf-only.png" title="The integrated PDF viewer presented on its own."><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-view-editor-and-pdf.png" title="PDF viewer in sync with the editor."><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">Quickly switch to PDF after typesetting lends to a smooth workflow, where the editor and the output work in tandem.</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Auto-complete</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-autocomplete.png" title="The autocomplete window for speeding up writing LaTeX"><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">
+			Use the magic of auto-complete to write faster and with fewer LaTeX errors. Texpad autocompletes all common TeX commands and autofills <span class="latex">\ref</span> and <span class="latex">\cite</span> commands with the labels and cite keys defined elsewhere in your document.
+			<br/><br/>
+			Texpad's autocomplete window also acts a quick reference on LaTeX commands, as well as showing you context information on all labels and citation keys.
+		</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Document Outline</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-outline-and-synctex.png" title="The document outline"><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-outline-settings-menu.png" title="The document outline may be customised to show different level of detail"><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">
+			Outline view makes Texpad perfect for large documents. When you open a LaTeX file in Texpad, it will scan through to find all included LaTeX and BibTeX files. These are presented in a customisable outline view to make it as easy as possible to navigate your document.
+		</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">TODOs</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-todos.png" title="Never forget your TODO items through their markers in the outline"><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">
+			The outline also lists any <a href="http://support.texpadapp.com/kb/texpads-document-outline/todos-in-texpads-outline">TODOs</a> 
+			you've entered in the code as reminders, providing quick and easy access to them.
+		</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">LaTeX/PDF synchronisation</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-full.png" title=""><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">Never lose track of where you are in a large project by synchronising between the document outline, the editor and the PDF viewer.</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Syntax-Highlighting Editor</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-prefs-editor.png" title="The custom editor is designed for to aid writing LaTeX."><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">
+			Texpad's editor is LaTeX and BibTeX aware and highlights your code to make it easy to write it. Bundled with Texpad are a number of themes that allow you to change the look of the editor. In addition to syntax highlighting, you can <b>block comment/un-comment</b>, <b>block indent/un-indent</b> and spell-check as you type.
+		</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Snippets -- LaTeX code blocks</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-snippets.png" title="Snippets make it even faster to add code blocks to your LaTeX source."><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">
+			Snippets are little pieces of LaTeX code designed to aid fast editing of documents. In a typical Texpad style of course, they interact smoothly with the editor via hotkeys and are aware of any text that's currently selected.
+			<br/><br/>
+			An example would be selecting a piece of text and pressing <span class="latex">Ctrl-Shift-B</span> to put the bold markers around it. Snippets are totally configurable and may be added, deleted and assigned new keys as needed.
+		</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Global Search</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-global-search.png" title="Search across all files in a project and replace text."><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">
+			The Global Search and Replace feature presents all instances of your search text in the source that you can readily jump to and forth between. This is particularly useful for large, multi-file projects such as theses, lecture notes and books.
+		</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Typesetting</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-typesetting.png" title=""><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-prefs-pane-typeset.png" title="Typesetting in Texpad may be customised to meet your needs."><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-typeset-main-menu.png" title="The Typeset menu"><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">One of Texpad's design principles has been to take the pain out of interacting with your LaTeX distribution. LaTeX, pdfLaTeX, Ghostscript, XeLaTeX, LuaLaTeX, pLaTeX all work with no configuration.</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Clean workspace</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-clean-workspace.png" title="Texpad keeps your work folders tidy by removing intermedtae files when no longer needed after a typeset."><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">Texpad keeps your workspace uncluttered by hiding the intermediate files and allows setting various LaTeX and BibTeX options, all through a simple settings interface.</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Custom Typesetting</div>
+		<div class="feature-text"><span class="filename">.tpbuild</span> scripts let you cater for your own special typesetting needs. Texpad ships with a few out-of-the-box (<i>Sweave, ePub publishing, Plain TeX</i>) and you may add your own. <a href="/support/osx/typesetting">Learn more</a>.</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Troubleshooting LaTeX errors made easy</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-error-view.png" title=""><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">Texpad simplifies LaTeX's cryptic error logs by presenting a simple, navigable list of errors that you can jump to, fix, and carry on writing.</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Multiple LaTeX Distributions</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-prefs-distributions.png" title=""><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">Managing and upgrading LaTeX distributions is often not without pain. Now with Texpad switching between multiple distributions is as easy as selecting one from the dropdown list in Preferences.</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Beautiful, Native UI</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-welcome-window.png" title="Streamlined, beautiful native app."><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-automations.png" title="Automations design to write and typeset your projects with the least amount of effort."><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-three-pane.png" title="Three pane design: view document outline, editor and the output at once."><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-view-editor-only.png" title="The editor only mode"><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-view-pdf-only.png" title="The PDF only mode"><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-view-editor-and-pdf.png" title="PDF and editor side by side"><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">We've designed the UI to meet high expectations of Mac users. Starting from the Welcome window itself,
+			it's all streamlined, distraction-free and automates common tasks accompanied by hotkeys for fast access.</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Multi-lingual Interface</div>
+		<div class="feature-text">
+			Thanks to the wonderful help of Texpad users, Texpad is now localised into languages other than English, with more languages being added
+			This is just the beginning, and soon we'll be adding more languages. If you wish for Texpad to be talking your language and have a few hours 
+			to spare, please <a href="mailto:jawad@vallettaventures.com">be in touch with us</a>.
+		</div>
+	</div>
+	
+	<div class="nocolumnbreak">
+		<div class="feature-heading">Markdown support</div>
+		<div class="screenshot-icon-container">
+			<a class="text-centred fancybox-image" href="https://static.texpadapp.com/www/support-images/osx-markdown.png" title=""><img src="https://static.texpadapp.com/www/images/icons/screenshot.png" width="18px"/></a>
+		</div>
+		<div class="feature-text">Markdown is treated at equal footing as LaTeX, with PDF output as well as document outline.</div>
+	</div>
+		
+</div>
+</div>
+<div class="centred text-centred" style="margin-top: -20px; margin-bottom: 50px;">
+<div class="circularbullet-medium red-text-on-hover" style="margin-top: 20px;"><i class="fa fa-desktop"></i></div>
+</div>
+
+		<div class="main-separator"></div>
+		
+		<div style="margin-top: 40px;margin-bottom: 50px;">
+			<div class="container centred row small grey">
+				<div class="col-xs-5 col-md-5 left">
+					<div style="padding-bottom: 5px;">
+						<a class="grey" href="/blog">Blog</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+						<a class="grey" href="/aboutus">About us</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+						<a class="grey" href="http://support.texpadapp.com/discussion/new">Contact us</a>
+					</div>
+					<a class="grey" href="https://twitter.com/vallettav" alt="Follow us on twitter"><span class="ion-social-twitter"></span>&nbsp;&nbsp;Follow</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+					<a class="grey" href="https://twitter.com/intent/tweet?button_hashtag=texpad&text=Check%20out%20Texpad%20%3A%20LaTeX%20editor%20for%20Mac%20and%20iOS" alt="Tweet about your favourite feature in Texpad!">
+						<span class="ion-social-twitter-outline"></span>&nbsp;&nbsp;Tweet</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+					<a class="grey" href="https://www.facebook.com/pages/Texpad/392333077501279" alt="Like us on facebook"><span class="ion-social-facebook-outline large"></span>&nbsp;&nbsp;Like</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+					<a class="grey" href="mailto:?subject=Check out Texpad&body=Hi,%0D%0A%0D%0AHere's my new favourite LaTeX editor: http://texpadapp.com . Available for your Mac/iPad and iPhone.%0D%0A%0D%0ADownload now and rediscover the joy of LaTeX!%0D%0A%0D%0ABest,%0D%0A%0D%0A..." alt="Recommend to a friend/colleague">
+						<span class="ion-ios7-heart-outline"></span>&nbsp;&nbsp;Tell a Friend</a>
+				</div>
+				<div class="col-xs-2 col-md-2 text-centred">
+					<div style="margin-top: 10px;">
+						<img src="https://static.texpadapp.com/www/images/logos/vv/vvlogo-grey.png" alt="Vellette Ventures" width="20px" class="opaque75"/>
+						
+					</div>
+				</div>
+				<div class="col-xs-5 col-md-5 right">
+					<div style="padding-bottom: 5px;">
+						<a class="grey" href="/company">Company</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+						<a class="grey" href="/terms-and-conditions">Terms &amp; Conditions</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+						<a class="grey" href="/privacy-security">Privacy &amp; Security</a>
+					</div>
+					<span class="grey">&copy; 2011-2014 Valletta Ventures LLP. All rights reserved.</span>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
+
+0
+

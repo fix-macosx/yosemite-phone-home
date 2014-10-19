@@ -1,0 +1,24 @@
+GET /search?q=textmate&locale=en-US&key=andromeda&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: ["wb:http:\/\/textnow.com"]
+Accept: */*
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: ["te","tex","textnow.com","t"]
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 08:00:55 GMT
+Connection: close
+Transfer-Encoding: chunked
+
+e07
+[{"status":"OK","query":"textmate","prefix":"textmate","completion_score":89999.00000056114,"fbq":"eyJ1IjoiIiwicCI6InRleHRtYXRlIiwicSI6InRleHRtYXRlIiwidHMiOjE0MTM3MDU2NTUsImciOiJ1cy9pbGxpbm9pcy9jb29rL2NoaWNhZ28iLCJhIjoic2FmYXJpIiwiZCI6Im1hYyIsImwiOiJlbl9VUyIsImkiOiIxNDM0NDEtMSwyMSIsImMiOiI0MS44NjQzLC04Ny42NDUiLCJlY3YiOjAsImNjdiI6MH0=","results":[{"type":"web_suggest","id":"wb:http://macromates.com","score":5.6057668099999995,"fbr":"eyJkIjoid2ViX3N1Z2dlc3QiLCJyIjoid2I6aHR0cDovL21hY3JvbWF0ZXMuY29tIn0=","url":"http://macromates.com","report_problem_url":"","filtered":false,"tophit":1,"engagement_score":0,"qi_engagement_score":0,"hide_rank":15,"template":"simple","completion":"http://macromates.com","completion_icon":{"content_type":"image/png","data":"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADlElEQVR42j2RbUzbVRTG/7oppRZIpjBDYUxLi5MFDYmJRmNMTEQsL4O+rV1bWgpt13Zt/6XlpRPW0lraldKylQGNY29Gt4AUOzq3KZDNmDicuM0xTFxmssVs3i/TD2YfH29r8MPv5p6be57znHOYpkIt/6Otqoy4QEXEz2yiJM00buFqSBtPQyTFHaSFoyZ7uGoieU5DZDxtjksymss0c9TZ5oJ9aClUo5WrwZ4CNcRPKyDeIoeEp4WspANNjBytz+5FG0cFeRF94/3PEtOeUyvRQUo/SrlaSLhq/PHbI2TGvkYj00aRYLAhgLWlm9BXWCDhKKEo6tgUIEzuUG7TI0fLU3JoSg148s8TPP7zL6xdvoGr577HreXbuH5hDcYdFsgKVFDRgvJNAQXtT1GsoclSarUd58ezeHjvEdav3sGPX13HyqdXcHHyWyynVjCmSEC+VQFloSbvNi8gL1QTXXkXrs1fw/rKHdzfeECr/YRj+gmwr/fAVGWCp96DGfMMZodnMWWYRLgxBCPfgnaOijAdRVpiqbLh/q8PcHf1LlYXVxGTx9D9khUGoRFmgRXut/sQavgEU7oJpPRTSOqPwiS0QE63wrCVZqLcooDvAz9uXbyJheA8bDutsFZTykywUUxlXXlHM50pjDVHMPBWL8zbOqF7vpMwjnIzMRbr4K5l8d2JK5jungYrOABnhRWOSgucdHBdtOfT1hmkfbMIvjuI/hon7C9Qd9u7/xOwlOiRkI5iYXgO05okQu/4cLDODQtdrZGnoS4M2Fj6BYuBNBIfRpBsjYLdbkQul3GUmsmAkMU51xmc1KVwTBZHrCmCk8ZpTMrj+fj3H+7h74ePcVx9FF86T2M5cR5HxCNwl1IHLv5+0ldpg/dNDw6+9zGijUGMvx/AcWUSl8MZrC/+TKvfxhwtkPZ8hvi+cYSlIwi80Qdf1QHC9FZZSf8OG/rKTVSxC976HpzQTuCMdhJp9hQy3i8wbz+Fb0ILGN8bQ++LRgzRuQQETgRFTsJ4d9qIl65x8GU7/CInfCI7FvrPIuufQ0J1GKOSMC6MprGRvYHD9QPw0+SQiMVIjQuRV1yE8QkcWQoOCewI1LAICJ1IGZIYaRjCUOV+HCozw1/H4qz/c4TrPIgIWER39WD0VXeOJSYoYvnDQmdmuNpBQlQxuttDAvQeqXGSGL1Ha90kWu0igQoLie5yk3ith8R357k09hrL/xfU4TSJrpgePwAAAABJRU5ErkJggg=="},"section_header":"Suggested Website","title":"macromates.com","title_maxlines":1,"description":"— TextMate — The Missing Editor for Mac OS X","description_follows_title":true,"icon":{"content_type":"image/png","data":"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADlElEQVR42j2RbUzbVRTG/7oppRZIpjBDYUxLi5MFDYmJRmNMTEQsL4O+rV1bWgpt13Zt/6XlpRPW0lraldKylQGNY29Gt4AUOzq3KZDNmDicuM0xTFxmssVs3i/TD2YfH29r8MPv5p6be57znHOYpkIt/6Otqoy4QEXEz2yiJM00buFqSBtPQyTFHaSFoyZ7uGoieU5DZDxtjksymss0c9TZ5oJ9aClUo5WrwZ4CNcRPKyDeIoeEp4WspANNjBytz+5FG0cFeRF94/3PEtOeUyvRQUo/SrlaSLhq/PHbI2TGvkYj00aRYLAhgLWlm9BXWCDhKKEo6tgUIEzuUG7TI0fLU3JoSg148s8TPP7zL6xdvoGr577HreXbuH5hDcYdFsgKVFDRgvJNAQXtT1GsoclSarUd58ezeHjvEdav3sGPX13HyqdXcHHyWyynVjCmSEC+VQFloSbvNi8gL1QTXXkXrs1fw/rKHdzfeECr/YRj+gmwr/fAVGWCp96DGfMMZodnMWWYRLgxBCPfgnaOijAdRVpiqbLh/q8PcHf1LlYXVxGTx9D9khUGoRFmgRXut/sQavgEU7oJpPRTSOqPwiS0QE63wrCVZqLcooDvAz9uXbyJheA8bDutsFZTykywUUxlXXlHM50pjDVHMPBWL8zbOqF7vpMwjnIzMRbr4K5l8d2JK5jungYrOABnhRWOSgucdHBdtOfT1hmkfbMIvjuI/hon7C9Qd9u7/xOwlOiRkI5iYXgO05okQu/4cLDODQtdrZGnoS4M2Fj6BYuBNBIfRpBsjYLdbkQul3GUmsmAkMU51xmc1KVwTBZHrCmCk8ZpTMrj+fj3H+7h74ePcVx9FF86T2M5cR5HxCNwl1IHLv5+0ldpg/dNDw6+9zGijUGMvx/AcWUSl8MZrC/+TKvfxhwtkPZ8hvi+cYSlIwi80Qdf1QHC9FZZSf8OG/rKTVSxC976HpzQTuCMdhJp9hQy3i8wbz+Fb0ILGN8bQ++LRgzRuQQETgRFTsJ4d9qIl65x8GU7/CInfCI7FvrPIuufQ0J1GKOSMC6MprGRvYHD9QPw0+SQiMVIjQuRV1yE8QkcWQoOCewI1LAICJ1IGZIYaRjCUOV+HCozw1/H4qz/c4TrPIgIWER39WD0VXeOJSYoYvnDQmdmuNpBQlQxuttDAvQeqXGSGL1Ha90kWu0igQoLie5yk3ith8R357k09hrL/xfU4TSJrpgePwAAAABJRU5ErkJggg=="}}]}]
+
+0
+

@@ -1,0 +1,166 @@
+GET /o/orwell/george/o79n/ HTTP/1.1
+Host: ebooks.adelaide.edu.au
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+
+HTTP/1.1 200 OK
+Set-Cookie: EBOOKS-ACE=R3869537093; path=/
+Date: Sun, 19 Oct 2014 08:16:55 GMT
+Server: Apache/2.4.6 (Red Hat)
+Accept-Ranges: bytes
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+7ad
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en" />
+<title>Nineteen Eighty-four, by George Orwell</title>
+<meta name="dc:title" content="Nineteen Eighty-four" />
+<meta name="dc:creator" content="Orwell, George, 1903-1950" />
+<meta name="dc:description" content="Nineteen Eighty-four / George Orwell" />
+<meta name="dc:publisher" content="The University of Adelaide Library" />
+<meta name="dc:identifier" content="http://ebooks.adelaide.edu.au/o/orwell/george/o79n/" />
+<meta name="dcterms:created" content="" />
+<meta name="dcterms:issued" content="2008" />
+<meta name="dcterms:modified" content="2014-03-06" />
+<meta name="dc:rights" content="http://creativecommons.org/licenses/by-nc-sa/3.0/au/" />
+<meta name="dc:type" content="text" />
+<meta name="dc:format" content="text/html" />
+<meta name="dc:language" content="en" />
+<meta property="og:title" content="Nineteen Eighty-four" />
+<meta property="og:description" content="Nineteen Eighty-four / George Orwell" />
+<meta property="og:url" content="http://ebooks.adelaide.edu.au/o/orwell/george/o79n/" />
+<meta property="og:image" content="http://ebooks.adelaide.edu.au/o/orwell/george/o79n/widgets/cover.jpg" />
+<link rel="stylesheet" href="widgets/style.css" type="text/css" />
+<link rel="next" href="http://ebooks.adelaide.edu.au/o/orwell/george/o79n/contents.html" />
+<script type="text/javascript">
+//<![CDATA[
+<!--
+function getKey(keyStroke) {
+    k = event.keyCode;
+if (k == 38) window.location='index.html';
+if (k == 39) window.location='contents.html';
+
+}
+document.onkeydown = getKey;
+// -->
+//]]>
+</script>
+<meta http-equiv="Content-Language" content="en" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+1da
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4561916-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+10
+
+</head>
+<body>
+
+746
+
+<div id="controls">
+<a href="#" onclick="document.getElementById('controls').style.display = 'none';return false;"
+class="closebtn" title="Hide strip">✕</a>
+<ul>
+<li><a rel="author" title="About this book" href="/o/orwell/george/"><img src="/lib/info.png" alt="info" /> about</a></li>
+<li><a title="read in browser" href="/o/orwell/george/o79n/index.html"><img src="/lib/read.png" alt="read" /> read</a></li>
+<li><a title="the complete book in a single page" href="/o/orwell/george/o79n/complete.html"><img src="/lib/print.png" alt="print" /> complete</a></li>
+<li><a title="Download a zip archive" href="/cgi-bin/zip/o/orwell/george/o79n"><img src="/lib/zip.png" alt="zip" /> download</a></li>
+<li><a title="Download an ePub version" href="/o/orwell/george/o79n/o79n.epub"><img src="/lib/epub.png" alt="epub" /> ePub</a></li>
+<li><a title="Download a Kindle version" href="/o/orwell/george/o79n/o79n.mobi"><img src="/lib/kindle.png" alt="Kindle" /> Kindle</a></li>
+<li><div id="fb-root"></div><fb:like class="fb-like-button" href='http://ebooks.adelaide.edu.au/o/orwell/george/o79n/'
+send="false" layout="button_count" show_faces="false" font=""></fb:like>
+<li><g:plusone size="small" href="http://ebooks.adelaide.edu.au/o/orwell/george/o79n/"></g:plusone></li>
+</ul>
+<script type="text/javascript">
+(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=111845687996";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+(function() {
+var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+</script>
+</div>
+
+5c6
+
+
+<div id="cover"><img src="cover.png" width="100%" alt="cover" />
+</div>
+
+<div class="page"><!-- reverse side of the cover -->
+</div>
+
+<div id="titlepage" class="titlepage">
+<h1><span class="title fs150">Nineteen Eighty-four</span>
+</h1>
+
+<hr />
+
+<h2><span class="author fs200">George Orwell</span>
+</h2>
+
+<p class="imprint"><img src="widgets/imprint.png" alt="logo" />
+</p>
+</div>
+
+<div class="titleverso">
+<p>This web edition published by <a href="http://ebooks.adelaide.edu.au/">eBooks@Adelaide</a>.</p>
+
+<p>Last updated Thursday, March 6, 2014 at 20:48.</p>
+
+<div id="licence">
+<p>To the best of our knowledge, <strong>the text</strong> of this<br />
+work is in the “<strong>Public Domain</strong>” in Australia.<br />
+HOWEVER, copyright law varies in other countries, and the work may still be under copyright in the country from which
+you are accessing this website. It is your responsibility to check the applicable copyright laws in your country before
+downloading this work.</p>
+</div>
+
+<p>eBooks@Adelaide<br />
+The University of Adelaide Library<br />
+University of Adelaide<br />
+South Australia 5005</p>
+</div>
+
+<div class="docfoot">
+<div class="nav"><a href="contents.html">Table of Contents</a> <a href="contents.html">Next</a></div>
+
+<p><a href=
+"http://ebooks.adelaide.edu.au/o/orwell/george/o79n/index.html">http://ebooks.adelaide.edu.au/o/orwell/george/o79n/index.html</a>
+</p>
+
+<p>Last updated Thursday, March 6, 2014 at 20:48</p>
+</div>
+</body>
+</html>
+
+0
+

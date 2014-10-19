@@ -1,0 +1,5 @@
+GET /MacPorts/MacPorts-2.3.2-10.10-Yosemite.pkg HTTP/1.1
+User-Agent: curl/7.37.1
+Host: distfiles.macports.org
+Accept: */*
+

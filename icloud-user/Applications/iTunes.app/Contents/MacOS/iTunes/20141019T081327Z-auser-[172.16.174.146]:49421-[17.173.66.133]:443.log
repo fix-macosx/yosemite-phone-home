@@ -1,0 +1,27 @@
+GET /register HTTP/1.1
+Host: xp.apple.com
+X-Apple-Store-Front: 143441-1,28
+Connection: close
+Cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi
+User-Agent: iTunes/12.0 (Macintosh; OS X 10.10) AppleWebKit/0600.1.25
+Accept-Language: en-us, en;q=0.50
+X-Apple-Tz: -25200
+Accept-Encoding: gzip
+
+HTTP/1.0 200 Apple WebObjects
+x-apple-jingle-correlation-key: UHTC5MUJDSH7U
+access-control-allow-origin: *
+vary: X-Apple-Store-Front,X-Dsid,Cookie
+x-apple-application-site: ST11
+apple-timing-app: 0 ms
+cache-control: private, max-age=60
+expires: Sun, 19 Oct 2014 08:14:27 GMT
+content-type: application/json; charset=UTF-8
+x-apple-application-instance: 21235
+x-webobjects-loadaverage: 0
+access-control-allow-credentials: true
+connection: keep-alive
+content-length: 2
+Date: Sun, 19 Oct 2014 08:13:27 GMT
+
+{}

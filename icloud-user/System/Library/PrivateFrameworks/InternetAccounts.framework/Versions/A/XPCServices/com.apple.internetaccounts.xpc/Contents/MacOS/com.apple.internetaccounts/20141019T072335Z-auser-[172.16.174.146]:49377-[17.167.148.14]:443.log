@@ -1,0 +1,52 @@
+PROPFIND /8078008707/calendars/tasks/ HTTP/1.1
+Host: p29-caldav.icloud.com
+Accept: */*
+Brief: t
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Content-Length: 145
+Depth: 1
+Connection: keep-alive
+User-Agent: Mac+OS+X/10.10 (14A389) CalendarAgent/315
+Prefer: return=minimal
+
+<?xml version="1.0" encoding="UTF-8"?>
+<A:propfind xmlns:A="DAV:">
+  <A:prop>
+    <A:getcontenttype/>
+    <A:getetag/>
+  </A:prop>
+</A:propfind>
+HTTP/1.1 207 Multi-Status
+Server: iCloudCalendarServer 14G54
+Last-Modified: Sun, 19 Oct 2014 14:23:32 GMT
+DAV: 1, access-control, calendar-access, calendar-schedule, calendar-auto-schedule, calendar-managed-attachments, calendarserver-sharing, calendarserver-subscribed, calendarserver-home-sync
+X-Transaction-Id: d6692962-5760-11e4-a278-78e3b51338f8
+Date: Sun, 19 Oct 2014 07:23:35 GMT
+X-Responding-Server: st13p29ic-hpaf18250701 6 a63660a6f7d1a25b5a7ed66dab0da843
+Content-Type: text/xml
+Transfer-Encoding: chunked
+
+42
+<?xml version='1.0' encoding='UTF-8'?><multistatus xmlns='DAV:'>
+
+137
+
+  <response>
+    <href>/8078008707/calendars/tasks/</href>
+    <propstat>
+      <prop>
+        <getetag>"FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=9"</getetag>
+        <getcontenttype>httpd/unix-directory</getcontenttype>
+      </prop>
+      <status>HTTP/1.1 200 OK</status>
+    </propstat>
+  </response>
+
+F
+</multistatus>
+
+0
+

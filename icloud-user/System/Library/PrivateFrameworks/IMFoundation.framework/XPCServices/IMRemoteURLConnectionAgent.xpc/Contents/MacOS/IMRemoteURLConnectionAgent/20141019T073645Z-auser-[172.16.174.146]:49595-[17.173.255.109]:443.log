@@ -1,0 +1,52 @@
+GET /WebObjects/QueryService.woa/wa/query?uri=mailto%3Aadmin%40fix-macosx.com HTTP/1.1
+Host: service1.ess.apple.com
+x-id-cert: MIIFbzCCBFegAwIBAgIQReB3LFdhEeSJ91UIbDjkAzANBgkqhkiG9w0BAQUFADBuMQswCQYDVQQGEwJVUzETMBEGA1UECgwKQXBwbGUgSW5jLjESMBAGA1UECwwJQXBwbGUgSURTMREwDwYDVQQPDAhpZGVudGl0eTEjMCEGA1UEAwwaQXBwbGUgSURTIElkZW50aXR5IENBIC0gUjEwHhcNMTQxMDE5MDcyNjM2WhcNMTQxMjAzMDcyNjQyWjCBzTETMBEGA1UECgwKQXBwbGUgSW5jLjESMBAGA1UECwwJTWVzc2VuZ2VyMQ4wDAYDVQQPDAVkcy1pZDEcMBoGCgmSJomT8ixkAQEMDEQ6ODA3ODAwODcwNzF0MHIGA1UEBRNrYjo3Q0M1QTg3QTA1MkU4NDQzM0Q5MzBGNkNCQ0Y2RkI2MjI4OEU0QzZCLzRGRDExRjMwQ0Q2Njg2NEU0NTFFMjA2MTk1MTNFQzc5NkUyQkQzOEFDNDdGRkJBN0NEM0FCOTNBNEQ3MEEzMUIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDZeBlZRc3yXznvF0vV9lD5v8YYiA1MIImCw9fgyD4vO401RzjkhXelTojvG5Se63ssZORGFfj65tJb3YPmeJeTNS4heN1LXa5fvLNyhuKPP7UwBxXxueiaK3UNZL60noZiQu1l2h9g0Jfug+weBgyzGqaFDZlzqlg2I4Lp5qkx/TMwbJbWQtC/56p9UeHdZHFzPJg5mA3Rrnb3Sq7KFroP9p5wHNVttBMSCz5Gv6r5J0kKb7Xs6nWxwPuuRaUoJAdO6rmjkeMIgGDmXfKN7lQ0UcoZa+aVUxBFq6BF8taVwGONuRfYnSXhlly0D/9O9Zl8qtoLYmPy0WmxssmnzPBJAgMBAAGjggGnMIIBozCCAR8GA1UdEQSCARYwggEShhttYWlsdG86YWRtaW5AZml4LW1hY29zeC5jb22gLwYKKoZIhvdjZAYEBgMhAE/RHzDNZoZORR4gYZUT7HluK9OKxH/7p806uTpNcKMboCwGCiqGSIb3Y2QGBAQDHgABAwQAAAABAAAAAQAAAAAaAAAAAH0AAAAaAAAAAKCBkwYKKoZIhvdjZAYEBwOBhABGVVNQACK/wpHGrDQ7T/92lgt2SShsjTCkBAoukw1byl6YTb8GfLoUq8lefkSG+TFk+ZOnyCliZKbsAKgfIgWK4/X9YXwf/6hvRZuls1QQveSSafKEnMUjzQXd6Syl9kt588iMZGsSc99s9z7CAq15/8PfecwpDiHMKuuQdFvJRQjBrjAfBgNVHSMEGDAWgBTGe2m+ScBBDsDIqzIyOOQ/kUCL2jAdBgNVHQ4EFgQU48HIpnZnyVT5toXvru2FofAv2J8wDAYDVR0TAQH/BAIwADAOBgNVHQ8BAf8EBAMCA/gwIAYDVR0lAQH/BBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMA0GCSqGSIb3DQEBBQUAA4IBAQAy4o960TmCiCG2Pd3ChbKYYBlDJoJ0yahc56goOFjpwBPo8/UFYq6DzVguP+FVPJhFsDBQhlQg51EsM3B75ZCeU/ec4zsAEZ5LPTDvjUOn5Kelem8MBfX6j0aDlwvXJTuG3YwXsZtJ6MonvSvZwpnqSv85sCnw0pCJtUmRR8tdCi7TdLAPVMLVcZBZmBNJ9ZRwMrOeWxWS/txWtf/51+cmoEuTSZUGALPVUvGwtOLsnDO4e78hWQ2DGCR+kFASFYJKQ4wPNPqX5DTB0jgx4aOMRhSxvLhAuV7OOUAyw6onqO0as84Z0sdZhPNY6z4LANq49mag8DDF+CnFvnI3wj2y
+Accept: */*
+Connection: keep-alive
+x-id-sig: AQFguQXtNr45G/bqs9WTOsw9WWH6DzlOFcge7BaEhQQP2EdR7WyQfLzuPS1B6AzuScQ2BIvtSfluJ42nKhlxiuNL4vBdMoFx0ayrUNuVC+RAJtB/Y1Q6mrg7mMftTLMGLxnKtaqolFEDmnjmHCjx7fvQvy3/GeV3XbQC4UnpjtGXVrvBCLY6cgL3Xntkh/w7vW2YHqeJwR+TP+1nal9wSiGTH8iZFdDUTR9LT5ff/8XT8Bt2/1gxTnRougcszSFAL/Jy0zNKR+xGX+t+/QjyRjtLkUvm8wq6e+qtYKWJcafQyiWpL0AdOHF3/m3v1LiHz+3Y4rZ5++1s9L98vJQTr5n6
+x-id-self-uri: mailto:admin@fix-macosx.com
+User-Agent: com.apple.madrid-lookup [Mac OS X,10.10,14A389,VMware7,1]
+Accept-Language: en-us
+x-id-nonce: AQAAAUknVkLI0ITlAKYVZ7g=
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:36:45 GMT
+X-Apple-Request-UUID: 6cff91fd-6f85-491b-988c-c58f09798323
+X-Responding-Instance: QueryService:205201:st11p00vn-apps052:9008:14E37:16344
+x-id-session-token-0: MFMCAQIXDTE0MTAxOTA3MzY0NVoDPwAwPAIcXZR7uvutuJT8odcUNq7IoXxXJtp+zSyuWwopbQIcW6jnecJVoftl4LO9WtAlwqsv7CwdvLuPQd+Tsw==
+cache-control: max-age=0, must-revalidate
+content-type: application/x-apple-plist
+x-apple-application-site: ST11
+x-apple-lokamai-no-cache: true
+edge-control: no-store
+edge-control: max-age=0
+cache-control: private
+cache-control: no-cache
+cache-control: no-store
+cache-control: no-transform
+cache-control: must-revalidate
+cache-control: max-age=0
+Content-Length: 1074
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>identities</key>
+  <array>
+    <dict>
+      <key>push-token</key><data>T9EfMM1mhk5FHiBhlRPseW4r04rEf/unzTq5Ok1woxs=</data>
+      <key>client-data</key>
+      <dict>
+        <key>public-message-identity-version</key><real>2</real>
+        <key>supports-location-sharing</key><true/>
+        <key>supports-keep-receipts</key><true/>
+        <key>supports-inline-attachments</key><true/>
+        <key>public-message-identity-key</key><data>MIH2gUMAQQSjRWoCtuggzg36OYrClr1lBXCDICM6gWEz+RTePU4JeZPwTNaVHC9SzBx+8NsfCH8sjZL8UQjeDYIukl1dcxEJgoGuAKwwgakCgaEA1vf8coGfyZsHSWI6zkKaXwyxX9vKcKa4560S01H0N/PpyeJT/Ya601oyg/8yMiX6GFnqoV4pz5DOUlGrQ0JXi2PhgcCot8qW0l/B91Rbd/WGwxpGvrRk4x2GaQ9jlWSdDUg4FkvgRFk0T9t5Z4nRY6k/H4rKByruFOgrrbQEsFwuJSSe8Y6vSwy//EAVjusi4OlxZaxGe7PotWDFxHou0wIDAQAB</data>
+      </dict>
+    </dict>
+  </array>
+  <key>status</key><integer>0</integer>
+</dict>
+</plist>

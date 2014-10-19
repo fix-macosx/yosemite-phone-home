@@ -1,0 +1,20 @@
+GET /p?c1=2&c2=7241469&c4=https%253A%252F%252Fwww.yahoo.com&c5=2023538075&ns__t=1413705382784&ns_c=UTF-8 HTTP/1.1
+Host: sb.scorecardresearch.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+Accept-Language: en-us
+Referer: https://www.yahoo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 302 Moved Temporarily
+Content-Length: 0
+Location: https://sb.scorecardresearch.com/p2?c1=2&c2=7241469&c4=https%253A%252F%252Fwww.yahoo.com&c5=2023538075&ns__t=1413705382784&ns_c=UTF-8
+Date: Sun, 19 Oct 2014 07:56:23 GMT
+Connection: close
+Set-Cookie: UID=1b4fee7e-96.17.235.120-1413705383; expires=Sat, 08-Oct-2016 07:56:23 GMT; path=/; domain=.scorecardresearch.com
+Set-Cookie: UIDR=1413705383; expires=Sat, 08-Oct-2016 07:56:23 GMT; path=/; domain=.scorecardresearch.com
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Cache-Control: private, no-cache, no-cache=Set-Cookie, no-store, proxy-revalidate
+

@@ -1,0 +1,21 @@
+OPTIONS /8078008707/principal/ HTTP/1.1
+Host: p29-contacts.icloud.com
+Content-Length: 0
+Connection: keep-alive
+Accept: */*
+User-Agent: Mac OS X/10.10 (14A389) AddressBook/1498
+Accept-Language: en-us
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 18:11:18 GMT
+X-Apple-Request-UUID: 0279552e-186d-44fe-b7d0-43882d9ce66c
+X-Responding-Instance: carddav:12900601:st13p29ic-hpaf18251001:8001:14G54:155647
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 0
+Allow: DELETE, GET, HEAD, MKCOL, MOVE, OPTIONS, POST, PROPFIND, PROPPATCH, PUT, REPORT
+DAV: 1, 2, access-control, addressbook, extended-mkcol, sync-collection
+Date: Sun, 19 Oct 2014 18:11:18 GMT
+X-Accept-Client-Encoding: gzip
+

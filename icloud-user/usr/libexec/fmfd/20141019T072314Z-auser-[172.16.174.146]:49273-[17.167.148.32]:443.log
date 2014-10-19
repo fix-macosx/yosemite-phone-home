@@ -1,0 +1,30 @@
+POST /fmipservice/friends/fmfd/8078008707/564d33f4cc81f551c2be08104c5240d2/initClient HTTP/1.1
+Host: p29-fmfmobile.icloud.com
+X-Apple-Realm-Support: 1.0
+Accept: */*
+Authorization: Basic ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJQ29aOEpYTzdGMlJrc3FQMVNuZFQtMmFwVEV+
+X-MMe-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.icloud.fmfd/100.000000>
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Type: application/json; charset=utf-8
+Content-Length: 292
+User-Agent: FMFD/1.0 VMware7,1/10.10(14A389)
+Connection: keep-alive
+X-Apple-Find-API-Ver: 3.0
+
+{"clientContext":{"productType":"VMware7,1","deviceHasPasscode":true,"appName":"fmfd","osVersion":"10.10","buildVersion":"14A389","deviceClass":"Mac","currentTime":1413703393837,"signedInAs":"admin@fix-macosx.com","userInactivityTimeInMS":441,"deviceUDID":"564d33f4cc81f551c2be08104c5240d2"}}HTTP/1.1 200 OK
+X-Responding-Instance: fmipservice-12900401-st13p29ic-hpaf18260801-8001-14G54
+X-Request-UUID: d78c7d0a-8ad1-4b62-954e-bd7af1895f50-initClient
+X-Responding-Server: st13p29ic-hpaf18260801_001
+X-Responding-Partition: p29
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+Date: Sun, 19 Oct 2014 07:23:13 GMT
+Server: Apple-iCloud
+Set-Cookie: NSC_q29-gnjqtfswjdf=ffffffff12abd94d45525d5f4f58455e445a4a422971;path=/;secure;httponly
+
+522
+{"pendingOffers":[],"following":[],"followers":[],"prefs":{"allowFriendRequests":"Yes","hideLocation":"No","primaryEmail":"admin@fix-macosx.com","fenceNotification":"EVERYONE","shouldReceiveEmails":"Yes","favorites":null},"modelVersion":"1","config":{"familyPhotoCheckIntervalInSecs":345600,"graceInterval401InSec":60,"userLocateWaitIntervalInMS":100,"maxFollowers":100,"upsellTimeoutInSec":604800,"systemInactivityTimeoutInSec":180,"transcriptDelegateStartEnabled":true,"maxWaitTimeForRegisterMS":12000,"graceInterval5XXInSec":60,"maxLocatingIntervalInMS":22000,"lazyInitTimeoutInSec":543600,"transcriptDelegateStopEnabled":true,"locationTTL":7200000,"maxFriends":100,"maxTriesToRegisterDevice":1},"dataContext":{"2":0,"1":0,"10":0,"0":0,"6":27,"19":1,"9":"7BF7EF14BAD9C0AC01BDEF65AE68BCA8","8":0},"devices":[],"myInfo":{"imessageSupported":false,"deviceTimeStamp":0,"emails":["admin@fix-macosx.com"],"firstName":"Defaults","deviceId":"NTY0ZDMzZjRjYzgxZjU1MWMyYmUwODEwNGM1MjQwZDI~","meDeviceId":null},"serverContext":{"heartbeatIntervalInSec":543600,"res":null,"minCallbackIntervalInMS":5000,"callbackTimeoutIntervalInMS":0,"transientDataContext":{"4":0},"iterationNumber":1,"maxCallbackIntervalInMS":60000,"prsId":8078008707,"clientId":"ZnJpZW5kcy9mbWZkfn44MDc4MDA4NzA3fn4xNDEzNzAzMzk0MzM1"},"fetchStatus":"200"}
+0
+

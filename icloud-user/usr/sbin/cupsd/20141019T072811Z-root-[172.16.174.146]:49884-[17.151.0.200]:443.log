@@ -1,0 +1,19 @@
+POST /dsservices/dsxmlrpc HTTP/1.1
+Host: identity.apple.com
+Content-Type: text/xml
+Connection: keep-alive
+Accept: text/xml
+User-Agent: AppleIDXMLRPC
+Content-Length: 2788
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+<?xml version="1.0"?><methodCall><methodName>com.apple.ist.idm.web.collaboration.PersonService.downloadCertComplete</methodName><params><param><value><struct><member><name>encDsId</name><value><string>353951647866707369536f596e36427933354e3545773d3d</string></value></member><member><name>ClientTime</name><value><dateTime.iso8601>20141019T07:28:11Z</dateTime.iso8601></value></member><member><name>AppleIDAuthProtocolVersion</name><value><i4>101</i4></value></member><member><name>CertificateToken</name><value><string>10453091360--38303738303038373037</string></value></member><member><name>SystemVersion</name><value><string>14A389</string></value></member><member><name>ProductName</name><value><string>Mac OS X</string></value></member><member><name>dsSession</name><value><string>KQXZV2000802b7084e4b4a309d2d5d48fdd3826f1e73VKZZDf46feea9b7ba0912fb00eba6ce98f6050e370793d8e46f6fcd30c7d5bd0f5cd688a6fd314c5f82886517b4d80155c0db353c386f73d87c263018f69d2071e63cf852edde7cc79b387d6b678cbaca91fe51586da1044942a6a8649759595c367587a78dc9212ba5084606a365cf7fa29914ed0be0b96dbd6fb44d749e866a0adaec4bb9ec315e953819fef675d96a0c8f349971ce09b7e6c84506de29fb19327465a23a5ba6cd17dedbce3a0a7f185fa552d733a19dab092dad3a7e0e546641784f43528978c9879e4d9f49f9444c2dad1a14c1ce39f58f795a74dca020f68f2794af696c441ed5f6551dc209f58d679f9e433d78e7b278f8e8d656a57818ff4175757b43ffdeba6966cd48a2809bfda7bc4567ddbaf096405ce748b9d3802f2695a1f5bf3640e0f444431d9f849114e2987ff8464891bc0540d4b6fa766763326f3927aed2868e2b5e9b1c9545f1ddf940756c43fc7645a5fcb8634aa5f3ca515097089c3e86288b081f6efb426d39f0d79755c2323e132368ed135179bd06ef1820b4ec22f9c9da4b84200373c9820a7c9d3afa20425a3c1488682c88244e4bc921da47b8705009bb5baa93cf6b253301383393ea7fa915490e586049e325dbcfb9aeec28abc5a9ad0ac8894d70b7cad962798194ae4c700cc3f671345fe93cfeb85352a7715aad221adc718d878e737d4034be2b5a522bbe9e8156661513cc98d1d2e9328722d324f8fcf62460cdd01e8ff96d170b1076dd6aa6507a21735f839edb736331db8f4ec65a7f01455a704f01917954420aaafcc610960dcf4a08be18e43816078ab364133feae4cd3cd22b24ef5e8ccc45efbf597cab0c09cbea0a19d9680f5016a903f55b3f9da3776b8d13c643a37df5d876727b846e5c5ea1496d9f78a70737531beeae21e6eb73cbf23b4f9eeee243451fd3b4bed4919194767022f73abf8589368b246d8eb8c5bd55c085622b8124d0aae3e81e123d3e71b6896c4012e1d2dbbf8ad2429444cb69a99202d0b1d3e348f018c92dcc2e4fe612241717707080b1e37f38acaa327a4599ac8baa25aa26fe19cac05fe2562b0b05986ba319af220973d5fdb986d8bde923da1c24f12273bf1fd9c5d3a3792f75a921fe50af9672bacc9a9fe24436c753532c800db89cb26343e190b45d76ec3a74ecfaf13d7dbdbe9b2acf5f2eee6087539199c34de66bae1ce1d64bdadf2c994e28cbbe7481cc80e915dc3ef09a8d039dc1fd85297154b53a6c16e1253dccabVRSZ</string></value></member><member><name>OSServicesVersion</name><value><string>640.3</string></value></member></struct></value></param></params></methodCall>HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:28:11 GMT
+Server: Apache-Coyote/1.1
+Content-Type: text/xml
+Content-Length: 282
+Keep-Alive: timeout=10, max=989
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="UTF-8"?><methodResponse xmlns:ex="http://ws.apache.org/xmlrpc/namespaces/extensions"><params><param><value><struct><member><name>respTimeStamp</name><value><ex:i8>1413703691769</ex:i8></value></member></struct></value></param></params></methodResponse>

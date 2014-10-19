@@ -1,0 +1,52 @@
+GET /configurations/macosx/facetime/2/clientConfiguration.plist HTTP/1.1
+Host: configuration.apple.com
+Accept: */*
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: FaceTime/2142 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+
+HTTP/1.1 200 OK
+Last-Modified: Fri, 17 Oct 2014 02:06:06 GMT
+ETag: "58b-50594cec6ff80"
+Server: Apache
+Accept-Ranges: bytes
+Content-Length: 1419
+Content-Type: text/plain
+Content-Language: en-us
+Cache-Control: max-age=50
+Expires: Sun, 19 Oct 2014 08:14:11 GMT
+Date: Sun, 19 Oct 2014 08:13:21 GMT
+Connection: close
+
+{
+	configurationURL = "https://configuration.apple.com/configurations/macosx/facetime/2/clientConfiguration.plist";
+	learnMoreURL = {
+		nl = "http://www.apple.com/nl/mac/facetime/";
+		en = "http://www.apple.com/mac/facetime/";
+		fr = "http://www.apple.com/fr/mac/facetime/";
+		de = "http://www.apple.com/de/mac/facetime/";
+		it = "http://www.apple.com/it/mac/facetime/";
+		ja = "http://www.apple.com/jp/mac/facetime/";
+		es = "http://www.apple.com/es/mac/facetime/";
+		ca = "http://www.apple.com/ca/mac/facetime/";
+		da = "http://www.apple.com/dk/mac/facetime/";
+		fi = "http://www.apple.com/fi/mac/facetime/";
+		ko = "http://www.apple.com/kr/mac/facetime/";
+		nb = "http://www.apple.com/no/mac/facetime/";
+		pl = "http://www.apple.com/pl/mac/facetime/";
+		pt = "http://www.apple.com/br/mac/facetime/";
+		"pt-PT" = "http://www.apple.com/pt/mac/facetime/";
+		ru = "http://www.apple.com/ru/mac/facetime/";
+		sv = "http://www.apple.com/se/mac/facetime/";
+		th = "http://www.apple.com/th/mac/facetime/";
+		tr = "http://www.apple.com/tr/mac/facetime/";
+		id = "http://www.apple.com/id/mac/facetime/";
+		mx = "http://www.apple.com/mx/mac/facetime/";
+		"en-AU" = "http://www.apple.com/au/mac/facetime/";
+		"en-GB" = "http://www.apple.com/uk/mac/facetime/";				
+		"zh-Hans" = "http://www.apple.com/cn/mac/facetime/";
+		"zh-Hant" = "http://www.apple.com/tw/mac/facetime/";
+		default = "http://www.apple.com/mac/facetime/";
+	};
+}

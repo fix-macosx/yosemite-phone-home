@@ -1,0 +1,23 @@
+GET /configurations/macosx/ichat/1/bwd.txt HTTP/1.1
+Host: configuration.apple.com
+Accept: */*
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: Messages/4725 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+
+HTTP/1.1 200 OK
+Last-Modified: Fri, 17 Oct 2014 02:06:06 GMT
+ETag: "2d-50594cec6ff80"
+Server: Apache
+Accept-Ranges: bytes
+Content-Length: 45
+Content-Type: text/plain
+Content-Language: en-us
+Cache-Control: max-age=1
+Expires: Sun, 19 Oct 2014 07:35:45 GMT
+Date: Sun, 19 Oct 2014 07:35:44 GMT
+Connection: close
+
+bwdstart://snatmap.apple.com:16384
+bwdcount:1

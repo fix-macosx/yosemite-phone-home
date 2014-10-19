@@ -1,0 +1,22 @@
+GET /websearch?q=add&locale=en-US&time_zone=America/Los_Angeles&calendar=gregorian&key=andromeda HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+Accept-Charset: utf-8
+Accept: */*
+X-Apple-UI-Scale: 1.000000
+X-Apple-CachedResults: []
+X-Apple-UserGuid: b5c8a280-c5bc-46db-46c9-6057ad9cf249
+User-Agent: (OS X 14A389) Spotlight/916
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: []
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=0, no-cache
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 07:35:11 GMT
+Content-Length: 5
+Connection: close
+
+null

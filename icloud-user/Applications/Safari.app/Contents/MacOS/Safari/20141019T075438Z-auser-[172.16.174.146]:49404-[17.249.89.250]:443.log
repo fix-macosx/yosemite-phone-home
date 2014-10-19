@@ -1,0 +1,20 @@
+GET /search?q=how%20to%20leav&locale=en-US&key=andromeda&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: []
+Accept: */*
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: ["how ","how to ","ho","how","h"]
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 07:54:39 GMT
+Content-Length: 389
+Connection: close
+
+[{"status":"NO_RESULTS","query":"how to leave your body","prefix":"how to leav","completion_score":118899.00000003426,"fbq":"eyJ1IjoiIiwicCI6ImhvdyB0byBsZWF2IiwicSI6ImhvdyB0byBsZWF2ZSB5b3VyIGJvZHkiLCJ0cyI6MTQxMzcwNTI3OSwiZyI6InVzL2lsbGlub2lzL2Nvb2svY2hpY2FnbyIsImEiOiJzYWZhcmkiLCJkIjoibWFjIiwibCI6ImVuX1VTIiwiaSI6IjE0MzQ0MS0xLDIxIiwiYyI6IjQxLjg2NDMsLTg3LjY0NSIsImVjdiI6MCwiY2N2IjowfQ=="}]

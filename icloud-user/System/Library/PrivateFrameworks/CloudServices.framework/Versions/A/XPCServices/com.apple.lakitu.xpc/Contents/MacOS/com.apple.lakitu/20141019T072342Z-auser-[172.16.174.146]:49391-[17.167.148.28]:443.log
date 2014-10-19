@@ -1,0 +1,63 @@
+POST /escrowproxy/api/get_records HTTP/1.1
+Host: p29-escrowproxy.icloud.com:443
+Content-Type: application/x-apple-plist
+User-Agent: com.apple.lakitu/1 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Connection: keep-alive
+Accept: */*
+Accept-Language: en-us
+Content-Length: 345
+Accept-Encoding: gzip, deflate
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>GETRECORDS</string>
+	<key>label</key>
+	<string>com.apple.securebackup.record</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:23:42 GMT
+X-Apple-Request-UUID: dd94f797-0c20-4700-92b5-452176c5600c
+X-Responding-Instance: escrowproxy:12900101:st13p29ic-hpaf18220501:8001:14G54:155647
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 1147
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>version</key>
+		<integer>1</integer>
+
+		<key>status</key>
+		<string>0</string>
+
+		<key>message</key>
+		<string>Success</string>
+
+		<key>metadataList</key>
+		<array>
+			<dict>
+				<key>recordStatus</key>
+				<string>valid</string>
+
+				<key>label</key>
+				<string>com.apple.protectedcloudstorage.record</string>
+
+				<key>metadata</key>
+				<string>YnBsaXN0MDDTAQIDBAUIXxAgY29tLmFwcGxlLnNlY3VyZWJhY2t1cC50aW1lc3RhbXBeQ2xpZW50TWV0YWRhdGFfEBJCYWNrdXBLZXliYWdEaWdlc3RfEBMxOS0xMC0yMDE0IDAwOjIzOjA30QYHXxAkU2VjdXJlQmFja3VwaUNsb3VkSWRlbnRpdHlQdWJsaWNEYXRhTxCUYYGRMIGOAgECAgEBBCBdHUX6/cWk6Ri5QE2WbuEvX6WoBm1BFrLpc88GKaFVAqFkMGIEFN89Va7b9o3zuSlh/0ONC3YIhy16AgEBBEcwRQIgCcfMrWVFZ4RQubveP5Et2EBlr2APgyZAxtpZvcK4w/kCIQCNPkLPrXAAdXjFiHYqSy3QpE0KluczvKhxwrxVPQskok8QFPPh6YWXlPR8TU/D0b6u2+d60nyMAAgADwAyAEEAVgBsAG8AlgEtAAAAAAAAAgEAAAAAAAAACQAAAAAAAAAAAAAAAAAAAUQ=</string>
+
+			</dict>
+		</array>
+
+		<key>dsid</key>
+		<integer>8078008707</integer>
+
+	</dict>
+</plist>

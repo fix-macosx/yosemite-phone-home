@@ -1,0 +1,23 @@
+GET /y.js?s=1&q=macports&l=us-en&a=osx HTTP/1.1
+Host: duckduckgo.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 08:03:10 GMT
+Content-Type: application/x-javascript; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Expires: Sun, 19 Oct 2014 08:03:09 GMT
+Cache-Control: no-cache
+Cache-Control: no-cache
+
+41
+if ((!k1 || k1!='-1') && DDG.set_ad_height) DDG.set_ad_height(1);
+0
+

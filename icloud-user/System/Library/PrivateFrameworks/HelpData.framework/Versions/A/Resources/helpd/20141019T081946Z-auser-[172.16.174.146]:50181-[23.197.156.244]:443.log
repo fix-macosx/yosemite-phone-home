@@ -1,0 +1,20 @@
+GET /itunes/mac/12/en.lproj/search.helpindex HTTP/1.1
+Host: help.apple.com
+Accept: */*
+If-None-Match: "1c0cf5-306f3-5051a19ff3ec0"
+Cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi
+If-Modified-Since: Fri, 10 Oct 2014 23:42:27 GMT
+Accept-Language: en-us
+User-Agent: helpd/90 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+Content-Type: text/plain; charset=UTF-8
+Last-Modified: Fri, 10 Oct 2014 23:42:27 GMT
+ETag: "1c0cf5-306f3-5051a19ff3ec0"
+Cache-Control: max-age=167
+Expires: Sun, 19 Oct 2014 08:22:33 GMT
+Date: Sun, 19 Oct 2014 08:19:46 GMT
+Connection: close
+

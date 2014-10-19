@@ -1,0 +1,15 @@
+GET /macSubmissions/diagnosticwhitelist.jsp?osv=14A389-policy HTTP/1.1
+Host: radarsubmissions.apple.com
+Accept: */*
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: SubmitDiagInfo (unknown version) CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/plain;charset=ISO-8859-1
+Content-Length: 0
+Date: Sun, 19 Oct 2014 07:32:18 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

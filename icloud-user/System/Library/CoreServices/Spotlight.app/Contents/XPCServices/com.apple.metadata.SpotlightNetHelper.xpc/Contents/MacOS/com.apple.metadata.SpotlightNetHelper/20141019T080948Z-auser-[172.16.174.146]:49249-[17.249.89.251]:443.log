@@ -1,0 +1,16 @@
+GET /user_guid?key=andromeda HTTP/1.1
+Host: api.smoot.apple.com
+Accept: */*
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: (OS X 14A389) Spotlight/916
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 08:09:49 GMT
+Content-Length: 62
+Connection: close
+
+{"guid":"a2245b69-767a-4185-4089-d04d7bc7c391","timeout":900}

@@ -1,0 +1,58 @@
+PROPFIND / HTTP/1.1
+Host: p29-caldav.icloud.com
+Accept: */*
+Brief: t
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Content-Length: 181
+Depth: 0
+Connection: keep-alive
+User-Agent: Mac+OS+X/10.10 (14A389) com.apple.internetaccounts/1-Calendar
+Prefer: return=minimal
+
+<?xml version="1.0" encoding="UTF-8"?>
+<A:propfind xmlns:A="DAV:">
+  <A:prop>
+    <A:current-user-principal/>
+    <A:principal-URL/>
+    <A:resourcetype/>
+  </A:prop>
+</A:propfind>
+HTTP/1.1 207 Multi-Status
+Content-Length: 558
+Accept-Ranges: bytes
+Vary: accept-encoding
+Server: iCloudCalendarServer 14G54
+Last-Modified: Sun, 19 Oct 2014 07:23:22 GMT
+DAV: 1, access-control, calendar-access, calendar-schedule, calendar-auto-schedule, calendar-managed-attachments, calendarserver-sharing, calendarserver-subscribed, calendarserver-home-sync
+ETag: "5FD02-25000-544366EA"
+Date: Sun, 19 Oct 2014 07:23:24 GMT
+X-Transaction-Id: cfb69ba4-5760-11e4-aeaf-78e3b513cdf4
+X-Responding-Server: st13p29ic-hpaf17221001 1 a63660a6f7d1a25b5a7ed66dab0da843
+Content-Type: text/xml
+
+<?xml version='1.0' encoding='UTF-8'?>
+<multistatus xmlns='DAV:'>
+  <response>
+    <href>/</href>
+    <propstat>
+      <prop>
+        <current-user-principal>
+          <href>/8078008707/principal/</href>
+        </current-user-principal>
+        <resourcetype>
+          <collection/>
+        </resourcetype>
+      </prop>
+      <status>HTTP/1.1 200 OK</status>
+    </propstat>
+    <propstat>
+      <prop>
+        <principal-URL/>
+      </prop>
+      <status>HTTP/1.1 404 Not Found</status>
+    </propstat>
+  </response>
+</multistatus>

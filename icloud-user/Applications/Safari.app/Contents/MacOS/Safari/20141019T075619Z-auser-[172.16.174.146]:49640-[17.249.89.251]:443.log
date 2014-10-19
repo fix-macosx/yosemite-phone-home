@@ -1,0 +1,24 @@
+GET /search?q=twitt&locale=en-US&key=andromeda&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: []
+Accept: */*
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: []
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 07:56:19 GMT
+Connection: close
+Transfer-Encoding: chunked
+
+881
+[{"status":"OK","query":"twitter.com","prefix":"twitt","completion_score":59399.00530749098,"fbq":"eyJ1IjoiIiwicCI6InR3aXR0IiwicSI6InR3aXR0ZXIuY29tIiwidHMiOjE0MTM3MDUzNzksImciOiJ1cy9pbGxpbm9pcy9jb29rL2NoaWNhZ28iLCJhIjoic2FmYXJpIiwiZCI6Im1hYyIsImwiOiJlbl9VUyIsImkiOiIxNDM0NDEtMSwyMSIsImMiOiI0MS44NjQzLC04Ny42NDUiLCJlY3YiOjAsImNjdiI6MH0=","results":[{"type":"web_suggest","id":"wb:http://twitter.com","score":6,"fbr":"eyJkIjoid2ViX3N1Z2dlc3QiLCJyIjoid2I6aHR0cDovL3R3aXR0ZXIuY29tIn0=","url":"http://twitter.com","report_problem_url":"","filtered":false,"tophit":1,"engagement_score":0,"qi_engagement_score":0,"hide_rank":15,"template":"simple","completion":"http://twitter.com","completion_icon":{"content_type":"image/png","data":"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABnUlEQVR42s2TP0vDQBjG4yK6CCrSRVehIKKLky6Ck1B7ubtJBHFxEUcXP4KDs7S0TWzT5NrBb9HNQXCwpklrm/5Jm0JBEbH2vEttS21LuwgGHgJvuN/73PO+EYR/8RyE9JVR347D5gyQ9Csgmw5TQ4wYQRx6XvJHMhBImVXBFzA8QDJq/nB6YxgASKYClQKFaokitUyhYlEx+tICt6YGpeymAOSsF8YKvPjql4wzgdKpzmGfYnjY4RYiVYqTjiuUqFGk2RQplgVkfU3A5HGakctIq1AOYjYfQEQ/B3LaCyVjndfbh+s9JRwKlMrej8XCItJKF6z4wTtxq9wyc+S+293rfXJrsfyWC8DB/AKMl744tUN3bRKb9qz/Btit/VhuvhsUVMs3XcAEQqRy35e0m4NWvWbd3scCuEOleDowLnb31CQuIKmZmORnBwBitLCMiZ0a072J4sWdkRt5GHXmYLKqDguO1ZpQs08GrbNZA9m4bG9cvsGXZMjcM5jUdkd2BnJuW1SsAMvhiY3wjQE+mXI4Ub/DpHLEQ/6zH/EbQbyi5/Lz3+gAAAAASUVORK5CYII="},"section_header":"Suggested Website","title":"twitter.com","title_maxlines":1,"description":"— Twitter","description_follows_title":true,"icon":{"content_type":"image/png","data":"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABnUlEQVR42s2TP0vDQBjG4yK6CCrSRVehIKKLky6Ck1B7ubtJBHFxEUcXP4KDs7S0TWzT5NrBb9HNQXCwpklrm/5Jm0JBEbH2vEttS21LuwgGHgJvuN/73PO+EYR/8RyE9JVR347D5gyQ9Csgmw5TQ4wYQRx6XvJHMhBImVXBFzA8QDJq/nB6YxgASKYClQKFaokitUyhYlEx+tICt6YGpeymAOSsF8YKvPjql4wzgdKpzmGfYnjY4RYiVYqTjiuUqFGk2RQplgVkfU3A5HGakctIq1AOYjYfQEQ/B3LaCyVjndfbh+s9JRwKlMrej8XCItJKF6z4wTtxq9wyc+S+293rfXJrsfyWC8DB/AKMl744tUN3bRKb9qz/Btit/VhuvhsUVMs3XcAEQqRy35e0m4NWvWbd3scCuEOleDowLnb31CQuIKmZmORnBwBitLCMiZ0a072J4sWdkRt5GHXmYLKqDguO1ZpQs08GrbNZA9m4bG9cvsGXZMjcM5jUdkd2BnJuW1SsAMvhiY3wjQE+mXI4Ub/DpHLEQ/6zH/EbQbyi5/Lz3+gAAAAASUVORK5CYII="}}]}]
+
+0
+

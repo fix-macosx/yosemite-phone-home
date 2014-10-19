@@ -1,0 +1,64 @@
+PROPFIND /.well-known/carddav HTTP/1.1
+Host: p29-contacts.icloud.com
+X-Apple-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.coredav/1.0.1 (com.apple.AddressBookSourceSync/9.0)>
+Accept: */*
+Brief: t
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: text/xml
+Content-Length: 181
+Depth: 0
+User-Agent: Mac OS X/10.10 (14A389) AddressBook/1498
+Connection: keep-alive
+Prefer: return=minimal
+
+<?xml version="1.0" encoding="UTF-8"?>
+<A:propfind xmlns:A="DAV:">
+  <A:prop>
+    <A:current-user-principal/>
+    <A:principal-URL/>
+    <A:resourcetype/>
+  </A:prop>
+</A:propfind>
+HTTP/1.1 207 Multi-Status
+Date: Sun, 19 Oct 2014 07:23:34 GMT
+X-Apple-Request-UUID: 183186be-2701-41c9-93bb-58b0c2beeaca
+X-Responding-Instance: carddav:12900501:st13p29ic-hpaf18261001:8001:14G54:155647
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 834
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<multistatus xmlns="DAV:">
+	<response>
+		<href>/.well-known/carddav/</href>
+        
+		    <propstat>
+			    <prop>
+                    
+                        
+                            <principal-URL><href>/8078008707/principal/</href></principal-URL>
+                        
+                    
+                        
+                            <resourcetype><collection/></resourcetype>
+                        
+                    
+			    </prop>
+			<status>HTTP/1.1 200 OK</status>
+		</propstat>
+
+		    <propstat>
+			    <prop>
+                    
+                        
+				            <current-user-principal/>
+                        
+                    
+			    </prop>
+			<status>HTTP/1.1 404 Not Found</status>
+		</propstat>
+
+	</response>
+</multistatus>
+

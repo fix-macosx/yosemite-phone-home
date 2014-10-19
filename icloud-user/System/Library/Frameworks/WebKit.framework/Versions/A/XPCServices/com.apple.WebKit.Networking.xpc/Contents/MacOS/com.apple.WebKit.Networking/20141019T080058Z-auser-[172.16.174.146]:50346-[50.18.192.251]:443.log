@@ -1,0 +1,24 @@
+GET /share/spice/amazon/1052/amazon.spice.js HTTP/1.1
+Host: duckduckgo.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 08:00:58 GMT
+Content-Type: application/x-javascript
+Content-Length: 1189
+Last-Modified: Fri, 17 Oct 2014 18:22:03 GMT
+Connection: close
+ETag: "54415e4b-4a5"
+Expires: Mon, 19 Oct 2015 08:00:58 GMT
+Cache-Control: max-age=31536000
+Strict-Transport-Security: max-age=31536000
+X-DuckDuckGo-Locale: en_US
+Accept-Ranges: bytes
+
+(function(env){"use strict";env.ddg_spice_amazon=function(api_result){if(!api_result||!api_result.results||!api_result.results.length||api_result.results.length==0){return Spice.failed("products")}var items=api_result.results,loadedRatingsData=false;Spice.add({id:"products",name:"Products",data:items,allowMultipleCalls:true,model:"Product",meta:{itemType:"Products",sourceName:"Amazon",sourceUrl:api_result.more_at,sourceIcon:true,next:api_result.next},templates:{group:"products",options:{buy:"products_amazon_buy"}},onItemShown:function(item){if(item.loadedRatings){return}var arg=item.rating,url="/m.js?r=";arg=arg.replace(/(?:.com.au|.com.br|.cn|.fr|.de|.in|.it|.co.jp|.mx|.es|.co.uk|.com|.ca?)/i,"");arg=arg.replace("http://www.amazon/reviews/iframe?","");$.getJSON(url+encodeURIComponent(arg),function(r){if(r.stars.match(/stars-(\d)-(\d)/)){item.rating=RegExp.$1+"."+RegExp.$2}item.reviewCount=r.reviews;if(item.$html){var $ratingsWrapper=item.$html.find(".tile__rating,.detail__rating");if($ratingsWrapper&&$ratingsWrapper.length){$ratingsWrapper.html(Handlebars.helpers.starsAndReviews(item.rating,item.reviewCount,item.url_review,true))}}});item.loadedRatings=true}})}})(this);

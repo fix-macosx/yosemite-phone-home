@@ -1,0 +1,50 @@
+GET /htmlResources/0414/da-storefront-sharing.js HTTP/1.1
+Host: itunes.apple.com
+Accept: */*
+X-Apple-Store-Front: 143441-1,13
+Accept-Language: en-US
+Accept-Encoding: gzip, deflate
+Date: Sun, 19 Oct 2014 08:15:46 GMT
+X-Apple-TZ: -420
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Connection: keep-alive
+Referer: https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&id=29520&mt=12
+Cookie: s_vi=[CS]v1|2A21B990850121DA-40000137400107B3[CE]; xp_ci=3z4g8XADz7s3z4RnzCRNz1KGeDrrYY; ns-mzf-inst=39-90-80-124-180-8168-302345-30-nk11; Pod=30; itspod=30
+iCloud-DSID: 8078008707
+
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Fri, 17 Oct 2014 21:37:44 GMT
+ETag: "7aa-505a52cea117e"
+Accept-Ranges: bytes
+Content-Length: 1962
+X-Server: st11p00it-web004
+Content-Type: application/x-javascript; charset=utf-8
+Cache-Control: public, no-transform, max-age=31536000
+Date: Sun, 19 Oct 2014 08:15:46 GMT
+Connection: close
+X-Apple-Partner: origin.0
+
+/*
+** Copyright © 2014 Apple Inc.
+** All rights reserved.
+*/
+
+its.kit.createController("iTSMultiButtonShareOptions",{controller:{init:function(){its.notifications.subscribe(iTSMultiButtonEvents.MENU_OPENED,bind(this,this.onMenuOpened)),its.notifications.subscribe(iTSMultiButtonEvents.SHARE_OPTION_SELECTED,bind(this,this.onShare)),this._optionElements=[];
+var e=iTunes.availableSharingServices,t=its.property("DAH.SharingMenu.ServiceInfo"),n=its.property("DAH.SharingMenu.WhitelistedServiceIds")||[];
+if(e&&n.length>0)for(var r=0;
+r<n.length;
+r++){var i=n[r];
+if(!its.contains(e,i)||!t[i])continue;var s=t[i];
+if(s){var o=document.createElement("option");
+o.className="share",o.setAttribute("action","share-service"),o.setAttribute("share-id",i),o.innerHTML=its.loc(s.locKey),this._optionElements.push(o)}}},onMenuOpened:function(e){if(this._optionElements.length>0&&!e._sharingServicesAdded){var t=e.parentByClassName("multi-button").querySelector("button");
+iTunes.setLargeIconUrlForAdamId(t.getAttribute("adam-id"),t.getAttribute("large-icon"));
+for(var n=0;
+n<this._optionElements.length;
+n++){var r=this._optionElements[n].cloneNode(!0);
+e.appendChild(r)}e._sharingServicesAdded=!0}},onShare:function(e){var t=e.getAttribute("share-id"),n=e.parentByClassName("multi-button"),r=n.querySelector("button"),i=r.getAttribute("adam-id"),s=r.getAttribute("large-icon"),o=n.querySelector("option[action=copy-link]"),u=o?o.getAttribute("href"):"",a=r.getAttribute("item-name"),f=null,l=r.parentByClassName("lockup");
+if(l){var c=l.querySelector("img.artwork");
+c&&c.isVisible()&&(f=c)}var h="",p=its.property("DAH.SharingMenu.HashTag")||"",d=r.getAttribute("share-message-data");
+if(d){var v=JSON.parse(d);
+switch(t){case"com.apple.share.Twitter.post":h=a+" - "+p;
+break;case"com.apple.share.Messages.compose":case"com.apple.share.Facebook.post":h=a+" - "+v.tinyUrl}}iTunes.share(t,{adamId:i,productURL:u,imageURL:s,productName:a,animationElement:f,message:h})}}})

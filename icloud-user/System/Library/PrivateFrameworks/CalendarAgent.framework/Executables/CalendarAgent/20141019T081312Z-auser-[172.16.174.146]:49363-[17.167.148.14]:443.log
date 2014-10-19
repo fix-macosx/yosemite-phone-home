@@ -1,0 +1,74 @@
+REPORT /8078008707/calendars/ HTTP/1.1
+Host: p29-caldav.icloud.com
+Accept: */*
+Brief: t
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+X-Apple-DAV-Pushtoken: 4fd11f30cd66864e451e20619513ec796e2bd38ac47ffba7cd3ab93a4d70a31b
+Content-Type: text/xml
+Content-Length: 2281
+Depth: 1
+User-Agent: Mac+OS+X/10.10 (14A389) CalendarAgent/315
+Connection: keep-alive
+Prefer: return=minimal
+
+<?xml version="1.0" encoding="UTF-8"?>
+<A:sync-collection xmlns:A="DAV:">
+  <A:sync-token>FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=16</A:sync-token>
+  <A:sync-level>1</A:sync-level>
+  <A:prop>
+    <C:pushkey xmlns:C="http://calendarserver.org/ns/"/>
+    <C:push-transports xmlns:C="http://calendarserver.org/ns/"/>
+    <C:publish-url xmlns:C="http://calendarserver.org/ns/"/>
+    <B:default-alarm-vevent-datetime xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <B:calendar-timezone xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <A:quota-available-bytes/>
+    <D:language-code xmlns:D="http://apple.com/ns/ical/"/>
+    <C:subscribed-strip-todos xmlns:C="http://calendarserver.org/ns/"/>
+    <A:resource-id/>
+    <A:sync-token/>
+    <B:schedule-calendar-transp xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <A:supported-report-set/>
+    <D:calendar-order xmlns:D="http://apple.com/ns/ical/"/>
+    <C:invite xmlns:C="http://calendarserver.org/ns/"/>
+    <B:supported-calendar-component-set xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <A:owner/>
+    <B:calendar-description xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <B:supported-calendar-component-sets xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <C:pre-publish-url xmlns:C="http://calendarserver.org/ns/"/>
+    <C:allowed-sharing-modes xmlns:C="http://calendarserver.org/ns/"/>
+    <D:location-code xmlns:D="http://apple.com/ns/ical/"/>
+    <A:resourcetype/>
+    <A:displayname/>
+    <D:refreshrate xmlns:D="http://apple.com/ns/ical/"/>
+    <A:current-user-privilege-set/>
+    <B:schedule-default-calendar-URL xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <C:subscribed-strip-alarms xmlns:C="http://calendarserver.org/ns/"/>
+    <C:subscribed-strip-attachments xmlns:C="http://calendarserver.org/ns/"/>
+    <A:quota-used-bytes/>
+    <B:calendar-free-busy-set xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <C:getctag xmlns:C="http://calendarserver.org/ns/"/>
+    <A:add-member/>
+    <D:calendar-color xmlns:D="http://apple.com/ns/ical/"/>
+    <B:default-alarm-vevent-date xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <C:source xmlns:C="http://calendarserver.org/ns/"/>
+    <D:autoprovisioned xmlns:D="http://apple.com/ns/ical/"/>
+    <E:bulk-requests xmlns:E="http://me.com/_namespace/"/>
+  </A:prop>
+</A:sync-collection>
+HTTP/1.1 207 Multi-Status
+Content-Length: 160
+Accept-Ranges: bytes
+Server: iCloudCalendarServer 14G54
+Last-Modified: Sun, 19 Oct 2014 14:23:31 GMT
+DAV: 1, access-control, calendar-access, calendar-schedule, calendar-auto-schedule, calendar-managed-attachments, calendarserver-sharing, calendarserver-subscribed, calendarserver-home-sync
+X-Transaction-Id: c4d35eb4-5767-11e4-b465-78e3b51bc5dc
+Date: Sun, 19 Oct 2014 08:13:12 GMT
+X-Responding-Server: st13p29ic-hpaf17250501 0 a63660a6f7d1a25b5a7ed66dab0da843
+Content-Type: text/xml
+
+<?xml version='1.0' encoding='UTF-8'?>
+<multistatus xmlns='DAV:'>
+  <sync-token>FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=16</sync-token>
+</multistatus>

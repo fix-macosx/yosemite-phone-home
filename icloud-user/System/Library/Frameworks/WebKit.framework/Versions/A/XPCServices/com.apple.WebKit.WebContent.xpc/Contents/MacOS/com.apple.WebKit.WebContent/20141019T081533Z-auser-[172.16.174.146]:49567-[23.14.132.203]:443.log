@@ -1,0 +1,31 @@
+POST /WebObjects/MZUserXP.woa/wa/recordStats?eventType=ITSLoadTimes&version=2.1 HTTP/1.1
+Host: metrics.mzstatic.com
+Accept: */*
+X-Apple-Store-Front: 143441-1,13
+Accept-Language: en-US
+Accept-Encoding: gzip, deflate
+Date: Sun, 19 Oct 2014 08:15:33 GMT
+Content-Type: application/json
+Origin: https://p30-buy.itunes.apple.com
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Referer: https://p30-buy.itunes.apple.com/WebObjects/MZFinance.woa/wo/2.2.1.1.1.3.1.5.1.1.7.1.1.7?guid=000C295240D2
+Content-Length: 1766
+Connection: keep-alive
+iCloud-DSID: 8078008707
+X-Apple-TZ: -420
+
+{"ITSLoadTimes_elapsedTimeSinceTimerCreation":1050,"ITSLoadTimes_itsKitDispatchPreloadDuration":1,"ITSLoadTimes_itsKitDispatchInitDuration":0,"ITSLoadTimes_itsKitDispatchDomReadyDuration":6,"ITSLoadTimes_itsKitDispatchLoadDuration":0,"ITSLoadTimes_itsKitDispatchAfterLoadDuration":1,"ITSLoadTimes_itsKitDispatchPreloadStart":578,"ITSLoadTimes_DOMContentLoaded":583,"ITSLoadTimes_itsKitDispatchInitStart":583,"ITSLoadTimes_itsKitDispatchDomReadyStart":585,"ITSLoadTimes_load":971,"ITSLoadTimes_itsKitDispatchLoadStart":972,"ITSLoadTimes_itsKitDispatchAfterLoadStart":1049,"ITSLoadTimes_message":"undefined","ITSLogger_messageParam":"undefined","ITSLogger_loggerName":"ITSLoadTimes","ITSLogger_loggingThreshold":5,"ITSLogger_version":"2.1","ITSLogger_eventType":"ITSLoadTimes","ITSLogger_serverEnvironment":"prod","ITSLogger_serverEnvironmentDetailsString":"undefined","ITSLogger_serverInstance":"302345","ITSLogger_dsid":"undefined","ITSLogger_visitorId":"[LS]|v5|0|1413706529586saSst77NjS|[LE]","ITSLogger_visitorIds":"[\"[LS]|v5|0|1413706529586saSst77NjS|[LE]\"]","ITSLogger_visitorCount":1,"ITSLogger_omnitureVisitorId":"undefined","ITSLogger_resourceRevNum":"0414","ITSLogger_windowLocationHref":"https://p30-buy.itunes.apple.com/WebObjects/MZFinance.woa/wo/2.2.1.1.1.3.1.5.1.1.7.1.1.7?guid=000C295240D2","ITSLogger_timeOfLog":1413706533148,"ITSLogger_markupLoadStartTime":1413706532098,"ITSLogger_markupLoadEndTime":1413706532681,"ITSLogger_markupLoadTotalTime":583,"ITSLogger_timeElapsedFromLoadStart":1050,"ITSLogger_pageName":"Signup View Terms-US","ITSLogger_pageChannel":"Signup","ITSLogger_pageClassName":"usa enno-country-nav account terms sd-device","ITSLogger_allowDeferJsLoad":true,"ITSLogger_clientForceServerNotifications":false,"sender":"ITSClient"}HTTP/1.1 204 No Content
+x-apple-jingle-correlation-key: VIQEOUZTORYOO
+apple-timing-app: 1 ms
+access-control-allow-origin: https://p30-buy.itunes.apple.com
+x-apple-application-instance: 5422
+x-apple-application-site: NWK
+x-webobjects-loadaverage: 0
+access-control-allow-credentials: true
+Content-Length: 0
+Expires: Sun, 19 Oct 2014 08:15:33 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 19 Oct 2014 08:15:33 GMT
+Connection: close
+

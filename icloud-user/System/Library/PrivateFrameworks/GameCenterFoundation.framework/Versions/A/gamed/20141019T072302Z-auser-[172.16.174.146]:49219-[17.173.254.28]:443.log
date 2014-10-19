@@ -1,0 +1,43 @@
+POST /WebObjects/GKProfileService.woa/wa/sapSetup HTTP/1.1
+Host: service.gc.apple.com
+Content-Type: application/x-apple-plist
+x-gk-bundle-version: 3.0
+x-gk-region-format: en
+Accept: */*
+Connection: keep-alive
+x-gk-bundle-id: com.apple.gamecenter
+User-Agent: gamed/4.10.18.4.6.15.5.3.2 (VMware7,1; 10.10; 14A389; GameKit-190.14)
+Accept-Language: en
+Accept-Encoding: gzip, deflate
+Content-Length: 752
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>sap-setup-buffer</key>
+	<string>AQhKdD/RkztjkG/J8clYhPbDk4sjWrxpItdmVGBA2WrD4NkAbRNO31QLuoSxUCJeaiOUnkql5roaTZj5/zFLDuUdMItk67MIJL/6rdlb3a95XGQ0yDBLYt+hEv4t0mYlB/fIEkU56StRJ7PAqPIogZ3wzF21QEkPQmADS5W2zyPbzuVMXw/g6tIULtfacLVenKXsBRZUsXU3ByB97iF1oLSoHGLVUgevckiaF8nHqMgPA22Xq87Lii+HtRVOPszgCKlHBu6Uye1uAPkmcmBucfILSe+U6t0V6JdGtyYdGfms558W5qFLuzp0BOSX4o4wCK5eLBjBRKbunU2FrW/Q3QiQKL7KHCjuIDqhSRI1lgiW1iqLAhuh5vsoAAAAMOlv6tHb1fBy6XfIwu65cj18Ki46VV6xE0s3N4B6CuzRAtAm+nOINh7TN6pfwROaMafUGK12puBlAeBDzfZh6hV7EreS</string>
+	<key>sap-version</key>
+	<string>2</string>
+</dict>
+</plist>
+HTTP/1.1 200 Apple WebObjects
+x-apple-jingle-correlation-key: 02202d56-267d-4674-82e3-2568e3c5aea9
+apple-timing-app: 14 ms
+cache-control: max-age=0, must-revalidate
+x-request-id: 764297818
+date: Sun, 19 Oct 2014 07:23:02 GMT
+x-apple-application-instance: 100715
+x-apple-application-site: ST
+x-webobjects-loadaverage: 0
+content-type: application/x-apple-plist
+content-length: 2204
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>status</key><integer>0</integer>
+  <key>sap-setup-buffer</key><string>AgUTMjXlTqHSFcnf4z/AzCkAAATgjyD/uDveiOs/CpJh9CQeRBGqNkZK38MzkbMDfdnUQWSFdq1BStM2SGfxiq2v++heqP9rmgXEzEXzlQ00hbwIUpnm/8b4zFUBwJc3iPXmPmuguT+l9NjqN3x7aTfi/xPvFYXHGUwrofN8xZzeVmbK4hN6eqta1JE0Dv559rhdlAIDS3jRq2gKGCyWQuDVuk/CwS9Z2Sdcxbwju+40P6fC4nu8DLqrreJaCpAfuODf3e4rYAnPm8Muv6pWB10DB0tSDlMmCvtts86L1OL1oQWcR+TYqHOXHf53/szz5rIlstFeb8qZTgbIRfqMXVZ/EM+wrROjCHLaY4VszfFDfjzUs82CQPn9cGkAvgprta7MumY3Ie8nGwgwcUoyr5GtSkB0u9FIyYldl1DXyvLt9mAKckNDiH7xXBUwsNyFeLuolZkIpj9XpovyJ7YtLAB5JFSXb18fTGGZ7EVPcvhr92OV+DhTfyrLXufs3GUCQf/5CHYpCP2FlpZfuTmxD66BP5nkwSj67PRlknsPK8UBvY7VBCHlKzMpfgcsr/YyCtd+3yvBez1q6rbGl0AXFHzdoA2flt7/4s11VK6h+Smwt7tV0t3Spp20/r7l1Qcvki0Dq+I0W3/QjGTaC5KY9PEW400qbHmSMhuQNQ7BIdQX1AzjvOcEVW/IlD2k4sSiByF/I7h7uvZYrpnbzIKSZhveWoi6f8a3lcetCMdmPwUr1M9Ruk3oTnoaHqe6SBst71hCHIMsi+MjtBDZ+6L2AG1yREDIk5FFXKw3KUakv1eh5Deasg8VMtiYBWvefFEnqr8sv2GRDxruRMZ1YKzZ6UI4dF0plZfpb6RusccTN6WeJwcHDlj6npuO0pLxcwU749OGkojERapvWT+K7auoMsjg9tXq5Mx2Qv84Vajl5UbVSqrXhUWRmvBfuZ9r2/vFOU1O0sHj/PaQRkHTsSg5kIIFzSep0RTlo5pCwv4dyElX6BlW4w+S/vnQohqQybqHv7FQDYKN3LQw9Svq1AiaUsnf5H932V4OAkkQCQxSzfnStA46i4M48qbj5Hg+O3n9mqXcoya/pW0knJbNFy55hJca81B4jPBGKV9kJm4FbjzpWJhnb7pAp7+xxQXuQfK5aUqaQ0E7mffQYrP1jwpDgTmjvF7y78YV/Soz1AShq2UP8vuPjjG7WBnrRZZ4L+eSKIngMy+g7H+SLpFUiQ3RWelxvpgLPZ8P5343FY98YA5ahIRVI0q4Gtg3VtYwlAralr4ATzmnGoh+awvYsIY+lhlaLZZb4uPDVT2ckfgl0WlXYux/frAFeY8xlmj/YjluAzFYmgBKOoXwu4GkjvNUj5s4vBpP6oZGVdQCG0VNQdjDaFZ5X3YMGlkx44/zAmOy57DRcXJdhuk6kYJui79HjfdGpPZGHa7DKUotnvu/jroxoijipWO+8td4zwp9ykBbajcHpW+FQ0z/W2Jjctcy87nkSmpdCAgAQCF0c8bj/mJROSR2wgTCPAnwH2DGpUc+yMFtNwY4SA7YSJ4l7hMWb5Z/OgRlLHTkbbRdpwozunSB5HqnZZ5pajfbafwkTpzdUyM41RUSMTrnSh4A+Cul8bgjk5KxnDQ4dOGUTvDfSLGAu3x5bFcjP8a0LLQQMX1oLgK2DQSYhfqf7FtXMlhT5V4MrmtrARtjaWQS5NGMpqGPj6pjRfm/YJOfAAAAhgMEhQ0s1YbZGyUbc2WYWkysVlRDZtYwPKjNbeqnSBSBhi7mozAszj8ccWQE8Bd1c5ix5TmfAOuNnOGYsBC0Q5NUys6UmOoYAz3W2UtJcva7qB7T9dkkHvttVlYSFmQxSTFsSz8XqVNNHbc1L0/Cm8Bby1fq35Mo6qDU/IUy/SdvH0IXXdZf</string>
+</dict>
+</plist>

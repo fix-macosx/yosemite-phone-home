@@ -1,0 +1,45 @@
+POST /safebrowsing/downloads?pver=2.2&client=Safari&appver=8.0 HTTP/1.1
+Host: safebrowsing.google.com
+Accept: */*
+Content-Type: application/x-www-form-urlencoded
+Connection: keep-alive
+Cookie: PREF=ID=fabc36ae1d68fab3:TM=1413708192:LM=1413708192:S=4MFh4jdIAdTflOAS
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Length: 102
+
+goog-phish-shavar;a:352001-354953:s:186801-188772
+goog-malware-shavar;a:151841-154448:s:143681-145457
+HTTP/1.1 200 OK
+Content-Type: application/vnd.google.safebrowsing-update
+X-Content-Type-Options: nosniff
+Date: Sun, 19 Oct 2014 18:02:05 GMT
+Server: HTTP server (unknown)
+Content-Length: 2835
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 443:quic,p=0.01
+Connection: close
+
+n:1748
+i:goog-malware-shavar
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYofAIIMDxCCoURjgCAP___________________wcyCSE4AgD_____Hw
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYgeAIIMDiCDItATACAP__v_________________________________________________8A
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEY4d4IIIDgCDIZYS8CAP___7______________________AA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYwd0IIODeCDIZwS4CAP__________________________AA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYgdsIIMDdCDItgS0CAP___-__________________________f_____________________8A
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAYybYJIPC2CSoFb1sCAAMyCUlbAgD_____Pw
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAYgaEJIKCiCTIZgVACAP____3_7____-_-____________AA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAYwZ4JIIChCTIsSU8CAAEg7__3___f____________________d-___33______________wA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAYgZwJIMCeCTIsAU4CAP___________________________f__-_____v_____-_____8IAAQ
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAYwZkJIICcCTItwUwCAP________v9___________f______________________________8A
+i:goog-phish-shavar
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGIHDCyCAyAsqUpnhAgD______________________________________________________________________________________________________wAyCIHhAgD___8A
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGNnCCyCAwwsyClnhAgD______wA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGIGqCyCAtAsypQEB1QIA______________________v______________9-_______9_______________________________________________-3_________________________________________________3f7_________________________________3_______________________________wA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGMHUFSCA1xUqG89qBQD_____________________________AzIWQWoFAP_____v________________Pw
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGMG7FSCAvhUyLcFdBQD_____________________________________________________AA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGIG5FSDAuxUyLYFcBQD_____________________________________________________AA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGMG2FSCAuRUyLUFbBQD_____________________________________________________AA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGIG0FSDAthUyLQFaBQD________________3________________________________8___AA

@@ -1,0 +1,41 @@
+PROPFIND /.well-known/caldav HTTP/1.1
+Host: p29-caldav.icloud.com
+Accept: */*
+Brief: t
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Content-Length: 181
+Depth: 0
+Connection: keep-alive
+User-Agent: Mac+OS+X/10.10 (14A389) com.apple.internetaccounts/1-Calendar
+Prefer: return=minimal
+
+<?xml version="1.0" encoding="UTF-8"?>
+<A:propfind xmlns:A="DAV:">
+  <A:prop>
+    <A:current-user-principal/>
+    <A:principal-URL/>
+    <A:resourcetype/>
+  </A:prop>
+</A:propfind>
+HTTP/1.1 301 Moved Permanently
+Content-Length: 276
+Server: iCloudCalendarServer 14G54
+DAV: 
+X-Transaction-Id: cf7ebe82-5760-11e4-a798-78e3b5131c54
+Location: https://p29-caldav.icloud.com:443/
+Date: Sun, 19 Oct 2014 07:23:23 GMT
+X-Responding-Server: st13p29ic-hpaf18210601 0 a63660a6f7d1a25b5a7ed66dab0da843
+Content-Type: text/html;charset=utf-8
+
+<html>
+          <head>
+              <title>301 Moved Permanently</title>
+          </head>
+        <body>
+            <h1>Moved Permanently</h1>
+            The document has permanently moved <a href="https://p29-caldav.icloud.com:443/">here</a>.
+        </body>
+    </html>

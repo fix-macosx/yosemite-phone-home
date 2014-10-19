@@ -1,0 +1,26 @@
+GET /search?q=cons&locale=en-US&time_zone=America/Los_Angeles&calendar=gregorian&key=andromeda HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+Accept-Charset: utf-8
+Accept: */*
+X-Apple-UI-Scale: 1.000000
+X-Apple-CachedResults: []
+X-Apple-UserGuid: 3f2f8c4d-4f6e-463b-7800-ce5287b7c142
+User-Agent: (OS X 14A389) Spotlight/916
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: []
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 08:34:42 GMT
+Connection: close
+Transfer-Encoding: chunked
+
+918
+[{"status":"OK","query":"constantcontact","prefix":"cons","completion_score":48899.00115064433,"fbq":"eyJ1IjoiM2YyZjhjNGQtNGY2ZS00NjNiLTc4MDAtY2U1Mjg3YjdjMTQyIiwicCI6ImNvbnMiLCJxIjoiY29uc3RhbnRjb250YWN0IiwidHMiOjE0MTM3MDc2ODIsImciOiJ1cy9pbGxpbm9pcy9jb29rL2NoaWNhZ28iLCJhIjoic3BvdGxpZ2h0IiwiZCI6Im1hYyIsImwiOiJlbl9VUyIsImkiOiIxNDM0NDEtMSwyMSIsImMiOiI0MS44NjQzLC04Ny42NDUiLCJlY3YiOjAsImNjdiI6MH0=","results":[{"type":"web_suggest","id":"wb:http://constantcontact.com","score":6,"fbr":"eyJkIjoid2ViX3N1Z2dlc3QiLCJyIjoid2I6aHR0cDovL2NvbnN0YW50Y29udGFjdC5jb20ifQ==","url":"http://constantcontact.com","report_problem_url":"","filtered":false,"tophit":1,"engagement_score":0,"qi_engagement_score":0,"hide_rank":15,"template":"simple","completion":"constantcontact.com — Constant Contact","completion_icon":{"id":"mac_safari_icon"},"section_header":"SUGGESTED WEBSITE","section_header_more":"Show all…","section_header_more_url":"http://constantcontact.com","card_align":"center","card_sections":[{"type":"website","title":"constantcontact.com","title_nowrap":true,"image":{"id":"mac_safari_icon_big"}},{"type":"description","description":"Constant Contact","description_maxlines":2,"text_align":"center"}],"title":"constantcontact.com","title_note":"— Constant Contact","icon":{"content_type":"image/png","data":"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACuklEQVR42p2TSUxUQRCGHxf1ogjuGTa5GI8uF8VoPJB48qpX8aIJojLqqEAwGFwhgEEQEGQZld244BIVQTQuaCSAiooRZBmGGVlmeSO8fu+zH7hdTIidVNLpqvr676pqBQiSZpX2jZkvM9Zm5io/N/+74k2AOtNo4R1ED4z8feRVZpKo+/rxPE1mID+MocotYOi/ff8GGBrC/Rpf0w7cZRachQtxFEXxNWcRY8+z/gGQZEPtQ+u+gP/2GjxXQhizL2DEHo6rPApnyXIGC6PpzbEQ6Hs2DdCEzsfeIZwjXvnIcSZuWlCrZ+OvW4Sv1oKnOpzRqxF8q4hkuDQKR3E0/XmR9J5fgSZroqzenk5IzB5Wbj2Cxz8Jvg6+XwtBvbYEf70Fb00Y45XhjFyOwP1LRUEEPZnBfC1cg7J48yHCYg8RGhPPll2ZaGZ9XPcJ1M1DrV8mVYThqbIwal+KuyQU58XFOO1rGW/NQRvtQbHEHsUSe1hCDhK8bjdxKcUIQ5aj7zJq1Rx8VXPxVi/F07ARtT0bbaxblkozeyMHoBcldJON+RusBK9PkIB4Zq2K40h2LbphYAw2IPqvY3x3SaKYTppwoTtuoXUcRWvdibLNVsq+MzUU1bXQ+PI9PQNuxr1+dN340xx/D/rQPcSnc4jOVES7Da3NivZmL4ph3iRjzW74A5P0DXt40dlP0fVX3GjpwvSjdqN/ykV8zEJ0nUG8TZtW0JaIUna7Tc2teUGG/QnHS5pILWwk+cIDkvIfcCDnLlfudTAlZtKF6M5DfDiLeH9CKklBa7cNKyfLm62ny1sw7ZS0k2WPSb/UTFrxoylYYvYd8utbmdAkRfcgPudLQDriXRqT7UlTnykow95iPWt/4jhdMQ05Udo8peZYUSMpBQ/Zn3VHApsY88k50QPoX4od+tvUBDmHQT8AueJMhuAO5gcAAAAASUVORK5CYII="}}]}]
+
+0
+

@@ -1,0 +1,29 @@
+GET /language.js HTTP/1.1
+Host: www.macports.org
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://www.macports.org/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 08:03:13 GMT
+Server: Apache/2.2
+Last-Modified: Sat, 01 Dec 2007 00:20:18 GMT
+ETag: "1609db-11a-4402e830a3480"
+Accept-Ranges: bytes
+Content-Length: 282
+Strict-Transport-Security: max-age=15768000
+Connection: close
+Content-Type: text/javascript
+
+window.addEvent('domready', function(){
+    var langSlider = new Fx.Slide('languages', {mode:'horizontal'});
+    langSlider.hide();
+    $('language').addEvent('click', function(e){
+            e = new Event(e);
+            langSlider.toggle();
+            e.stop();
+        });
+});

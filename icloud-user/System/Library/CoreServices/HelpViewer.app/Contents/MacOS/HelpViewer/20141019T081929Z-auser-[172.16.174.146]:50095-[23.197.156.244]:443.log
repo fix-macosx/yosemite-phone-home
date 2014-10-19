@@ -1,0 +1,22 @@
+GET /apps/eagle/2.1/js/vendor.js HTTP/1.1
+Host: help.apple.com
+Accept-Encoding: gzip, deflate
+Cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi
+Connection: keep-alive
+If-None-Match: "5e0d2a-6ecdd-501b4211f6540"
+Accept: */*
+If-Modified-Since: Thu, 28 Aug 2014 17:47:25 GMT
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Help Viewer/256
+Referer: https://help.apple.com/ibooks/mac/10.10/index.html?localePath=en.lproj
+Cache-Control: max-age=0
+Accept-Language: en-us
+
+HTTP/1.1 304 Not Modified
+Content-Type: application/x-javascript
+Last-Modified: Thu, 28 Aug 2014 17:47:25 GMT
+ETag: "5e0d2a-6ecdd-501b4211f6540"
+Cache-Control: max-age=435
+Expires: Sun, 19 Oct 2014 08:26:44 GMT
+Date: Sun, 19 Oct 2014 08:19:29 GMT
+Connection: close
+

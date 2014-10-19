@@ -1,0 +1,22 @@
+HEAD /machelp/mac/10.10/en.lproj/redirect.html?topic=mh27990 HTTP/1.1
+Host: help.apple.com
+Accept: */*
+Connection: keep-alive
+Cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi
+If-Modified-Since: Tue, 15 Jul 2014 21:48:24 GMT
+Accept-Language: en-us
+User-Agent: Help%20Viewer/256 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Accept-Encoding: gzip, deflate
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Server: Apache
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Content-Length: 857
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=1741
+Expires: Sun, 19 Oct 2014 09:19:21 GMT
+Date: Sun, 19 Oct 2014 08:50:20 GMT
+Connection: close
+

@@ -1,0 +1,43 @@
+GET /WebObjects/MZSearchHints.woa/wa/hints?q=Conduit%20B HTTP/1.1
+Host: search.itunes.apple.com
+Accept: */*
+Accept-Encoding: gzip, deflate
+iCloud-DSID: 8078008707
+Connection: keep-alive
+Date: Sun, 19 Oct 2014 08:15:58 GMT
+Cookie: xp_ci=3z4g8XADz7s3z4RnzCRNz1KGeDrrYY; mzf_in=302345; ns-mzf-inst=39-90-80-124-180-8168-302345-30-nk11; Pod=30; itspod=30; session-store-id=5DE44A670C584B2D103053AD2B555377; s_vi=[CS]v1|2A21B990850121DA-40000137400107B3[CE]
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Accept-Language: en-US
+X-Apple-TZ: -420
+X-Apple-Store-Front: 143441-1,13
+
+HTTP/1.1 200 OK
+Last-Modified: Sat, 18 Oct 2014 21:47:11 GMT
+x-apple-request-store-front: 143441-1,13
+x-apple-application-site: NWK
+apple-timing-app: 1 ms
+Content-Type: text/xml; charset=UTF-8; encoding=UTF-8
+x-apple-date-generated: Sun, 19 Oct 2014 08:15:59 GMT
+x-apple-shv: 1
+x-apple-application-instance: 101101
+x-webobjects-loadaverage: 0
+x-apple-jingle-correlation-key: NFDBWPEFKMSRU
+Expires: Sun, 19 Oct 2014 08:15:59 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Sun, 19 Oct 2014 08:15:59 GMT
+Content-Length: 315
+Connection: close
+Vary: X-Apple-Store-Front
+X-Apple-Partner: origin.0
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0">
+  <dict>
+    <key>title</key>
+    <string>Suggestions</string>
+    <key>hints</key>
+    <array>
+    </array>
+  </dict>
+</plist>

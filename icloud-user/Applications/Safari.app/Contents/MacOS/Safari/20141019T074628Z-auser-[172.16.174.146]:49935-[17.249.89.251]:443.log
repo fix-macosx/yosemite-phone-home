@@ -1,0 +1,20 @@
+POST /fb?key=andromeda HTTP/1.1
+Host: api.smoot.apple.com
+Content-Type: application/json
+Connection: keep-alive
+X-Apple-ActionSignature: ApyErbwTkrI6M7zE0nqLkEG4xEappM7MEjBfgovxhhUGAAAB0AMAAAABAAABAOVijCikcKyM5CP1YWlAhz/6nieVFxy4m7FNK6i9Uzp47d6YdZSbOIHRkynTfWGZZ7kjnsTpca35yYsPYK2ej5LLXCLOJJNdLp+m+EHS/rIxAs67MHD5c1G2IEnmuzYg/ilankHdwC9kSK7CRzPIjj5n4s8mTldgs2+dUhTmdpMyTjl6L+ja+K1bTL3qJ9IlCp2W3TO3j4qUNregdOn++aPUe+zZxvZZLKc4li8+DRLnbvqs9dKVQs/hrzW8139OUq58SnchxDLXxeNHVHHshb4vQsTxIE0CTgNHCc+Z2ss772ZqUOZdQKHwBOsODBiWLmOWLNRa0uMQ3juqHelYOWMAAAARaOdP/4Fa8k2tZtiEyjpl9WgAAACfAdUnBWZyNfgb5MHI4pJPc4eLohXoAAAAhgcA6n1pOott6+/kojsyCuDKIlRDbC3Tlutzpmp899qNO24X5iFyRjnEJNNVX84JNEYmvscVoBZ7i37Zh+gtjWBBFtNEEC2KkWlUMB7wzrmIkuaGq0xl0roKx0Hn3qcL6MHdSttgTtr41ETICrNMXOZrLCF6tqRK5pHH8v20ee6Y4CiF/qw3AAAAAAAAAAAAAAAAAAAA
+Accept: */*
+X-Apple-UserGuid: 4cbc0ebe-227a-4677-6ded-7bde4c47fd42
+Accept-Language: en-us
+Content-Length: 1496
+Accept-Encoding: gzip, deflate
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+
+[{"local_results":["other"],"timestamp":913180,"input":"","type":"render","trigger_timestamp":0,"fbr":[]},{"latency":419,"input":" ","ttfb":417.7860021591187,"headers":{"Accept":"*\/*","X-Apple-UI-Scale":"1.0","X-Apple-CachedResults":"[]","X-Apple-UserGuid":"4cbc0ebe-227a-4677-6ded-7bde4c47fd42","Accept-Language":"en-us","User-Agent":"SafariShared\/10600.1.25 (Mac OS X 14A389) Version\/8.0 Safari\/600.1.25","Accept-Encoding":"gzip, deflate","X-Apple-CachedQueries":"[]"},"type":"search_remote","timestamp":913599,"url":"https:\/\/api.smoot.apple.com\/search?q=%20&locale=en-US&key=andromeda&time_zone=America\/Los_Angeles&calendar=gregorian&region=en-US"},{"timestamp":2,"input":"G","type":"search_local","latency":2},{"local_results":["google_search","bookmark","history_search","go_to_site"],"timestamp":138,"input":"G","type":"render","trigger_timestamp":0,"fbr":[]},{"latency":395,"input":"G","ttfb":393.9679861068726,"headers":{"Accept":"*\/*","X-Apple-UI-Scale":"1.0","X-Apple-CachedResults":"[]","X-Apple-UserGuid":"4cbc0ebe-227a-4677-6ded-7bde4c47fd42","Accept-Language":"en-us","User-Agent":"SafariShared\/10600.1.25 (Mac OS X 14A389) Version\/8.0 Safari\/600.1.25","Accept-Encoding":"gzip, deflate","X-Apple-CachedQueries":"[]"},"type":"search_remote","timestamp":395,"url":"https:\/\/api.smoot.apple.com\/search?q=G&locale=en-US&key=andromeda&time_zone=America\/Los_Angeles&calendar=gregorian&region=en-US"},{"timestamp":464,"input":"G","type":"abandonment","method":"lost_focus"}]HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 07:46:28 GMT
+Content-Length: 3
+Connection: close
+
+""

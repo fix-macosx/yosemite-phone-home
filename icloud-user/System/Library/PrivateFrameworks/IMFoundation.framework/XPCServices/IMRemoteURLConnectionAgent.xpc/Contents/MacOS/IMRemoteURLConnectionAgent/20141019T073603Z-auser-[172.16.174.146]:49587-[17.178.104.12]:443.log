@@ -1,0 +1,40 @@
+GET /WebObjects/QueryService.woa/wa/query?uri=mailto%3Alandon%40landonf.org HTTP/1.1
+Host: service1.ess.apple.com
+x-id-cert: MIIFbzCCBFegAwIBAgIQReB3LFdhEeSJ91UIbDjkAzANBgkqhkiG9w0BAQUFADBuMQswCQYDVQQGEwJVUzETMBEGA1UECgwKQXBwbGUgSW5jLjESMBAGA1UECwwJQXBwbGUgSURTMREwDwYDVQQPDAhpZGVudGl0eTEjMCEGA1UEAwwaQXBwbGUgSURTIElkZW50aXR5IENBIC0gUjEwHhcNMTQxMDE5MDcyNjM2WhcNMTQxMjAzMDcyNjQyWjCBzTETMBEGA1UECgwKQXBwbGUgSW5jLjESMBAGA1UECwwJTWVzc2VuZ2VyMQ4wDAYDVQQPDAVkcy1pZDEcMBoGCgmSJomT8ixkAQEMDEQ6ODA3ODAwODcwNzF0MHIGA1UEBRNrYjo3Q0M1QTg3QTA1MkU4NDQzM0Q5MzBGNkNCQ0Y2RkI2MjI4OEU0QzZCLzRGRDExRjMwQ0Q2Njg2NEU0NTFFMjA2MTk1MTNFQzc5NkUyQkQzOEFDNDdGRkJBN0NEM0FCOTNBNEQ3MEEzMUIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDZeBlZRc3yXznvF0vV9lD5v8YYiA1MIImCw9fgyD4vO401RzjkhXelTojvG5Se63ssZORGFfj65tJb3YPmeJeTNS4heN1LXa5fvLNyhuKPP7UwBxXxueiaK3UNZL60noZiQu1l2h9g0Jfug+weBgyzGqaFDZlzqlg2I4Lp5qkx/TMwbJbWQtC/56p9UeHdZHFzPJg5mA3Rrnb3Sq7KFroP9p5wHNVttBMSCz5Gv6r5J0kKb7Xs6nWxwPuuRaUoJAdO6rmjkeMIgGDmXfKN7lQ0UcoZa+aVUxBFq6BF8taVwGONuRfYnSXhlly0D/9O9Zl8qtoLYmPy0WmxssmnzPBJAgMBAAGjggGnMIIBozCCAR8GA1UdEQSCARYwggEShhttYWlsdG86YWRtaW5AZml4LW1hY29zeC5jb22gLwYKKoZIhvdjZAYEBgMhAE/RHzDNZoZORR4gYZUT7HluK9OKxH/7p806uTpNcKMboCwGCiqGSIb3Y2QGBAQDHgABAwQAAAABAAAAAQAAAAAaAAAAAH0AAAAaAAAAAKCBkwYKKoZIhvdjZAYEBwOBhABGVVNQACK/wpHGrDQ7T/92lgt2SShsjTCkBAoukw1byl6YTb8GfLoUq8lefkSG+TFk+ZOnyCliZKbsAKgfIgWK4/X9YXwf/6hvRZuls1QQveSSafKEnMUjzQXd6Syl9kt588iMZGsSc99s9z7CAq15/8PfecwpDiHMKuuQdFvJRQjBrjAfBgNVHSMEGDAWgBTGe2m+ScBBDsDIqzIyOOQ/kUCL2jAdBgNVHQ4EFgQU48HIpnZnyVT5toXvru2FofAv2J8wDAYDVR0TAQH/BAIwADAOBgNVHQ8BAf8EBAMCA/gwIAYDVR0lAQH/BBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMA0GCSqGSIb3DQEBBQUAA4IBAQAy4o960TmCiCG2Pd3ChbKYYBlDJoJ0yahc56goOFjpwBPo8/UFYq6DzVguP+FVPJhFsDBQhlQg51EsM3B75ZCeU/ec4zsAEZ5LPTDvjUOn5Kelem8MBfX6j0aDlwvXJTuG3YwXsZtJ6MonvSvZwpnqSv85sCnw0pCJtUmRR8tdCi7TdLAPVMLVcZBZmBNJ9ZRwMrOeWxWS/txWtf/51+cmoEuTSZUGALPVUvGwtOLsnDO4e78hWQ2DGCR+kFASFYJKQ4wPNPqX5DTB0jgx4aOMRhSxvLhAuV7OOUAyw6onqO0as84Z0sdZhPNY6z4LANq49mag8DDF+CnFvnI3wj2y
+Accept: */*
+Connection: keep-alive
+x-id-sig: AQEsySCVSQWf+95yKDbSAXh0Ik7XBT2RmQbaZvj0Q1IGky9Aax4MYfTl148VnFufMbM0ETSOWLsqp2X+HAebDK9axhND9jHOfwKhnCqyjAJoWr/uLITW0a6iBvz8dM8PuaqJI4AUbZrZ3UEK0A93sFn2I+yuaDDdL1xZm4BgBKod8UuhSV7hC1BaeFIpeLHS/9enmdt40KgWHApJZQfLOt4nJpIODUwGzlrzO28CBjNt4EPRFxzeKc94n9o18EuhS7zDonMpo3lqn9o97Fmg2XTARgBUKZMIEmsIyaqR5a+DjecrGMTXY+Jz6ZO9C0NB03GQbZrThFPzjZIah+DRkHKv
+x-id-self-uri: mailto:admin@fix-macosx.com
+User-Agent: com.apple.madrid-lookup [Mac OS X,10.10,14A389,VMware7,1]
+Accept-Language: en-us
+x-id-nonce: AQAAAUknVZrQdn9oHfi1u+Y=
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:36:03 GMT
+X-Apple-Request-UUID: b1a0a719-f161-45b8-9903-7cf61bbbfe7b
+X-Responding-Instance: QueryService:303201:mr11p00vn-ztav04193801:9008:14E37:16344
+cache-control: max-age=0, must-revalidate
+content-type: application/x-apple-plist
+x-apple-application-site: NK11
+x-apple-lokamai-no-cache: true
+edge-control: no-store
+edge-control: max-age=0
+cache-control: private
+cache-control: no-cache
+cache-control: no-store
+cache-control: no-transform
+cache-control: must-revalidate
+cache-control: max-age=0
+Content-Length: 298
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>identities</key>
+  <array>
+  </array>
+  <key>status</key><integer>0</integer>
+</dict>
+</plist>

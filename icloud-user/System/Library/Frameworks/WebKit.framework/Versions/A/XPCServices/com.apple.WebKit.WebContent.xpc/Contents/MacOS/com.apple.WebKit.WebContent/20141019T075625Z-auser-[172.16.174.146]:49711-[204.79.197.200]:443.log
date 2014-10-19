@@ -1,0 +1,37 @@
+POST /rewardsapp/reportActivity HTTP/1.1
+Host: www.bing.com
+Content-Type: application/x-www-form-urlencoded
+Origin: https://www.bing.com
+Cookie: _SS=C=20
+Content-Length: 33
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+Referer: https://www.bing.com/
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+url=https%3A//www.bing.com/&V=webHTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 271
+Content-Type: application/x-javascript; charset=utf-8
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: _FS=NU=1; domain=.bing.com; path=/
+Set-Cookie: _SS=SID=78254FDE916C422BA4A077E5052B21CC&C=20; domain=.bing.com; path=/
+Set-Cookie: SRCHD=AF=NOFORM; expires=Tue, 18-Oct-2016 07:56:25 GMT; domain=.bing.com; path=/
+Set-Cookie: SRCHUID=V=2&GUID=248581BC727A4D77839A6E54066617F5; expires=Tue, 18-Oct-2016 07:56:25 GMT; path=/
+Set-Cookie: SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20141019; expires=Tue, 18-Oct-2016 07:56:25 GMT; domain=.bing.com; path=/
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 72972BA05FE941A0B3468EAE29FAE2B5 Ref B: 16A84E41B3CD033769C5740C8AC192BD Ref C: Sun Oct 19 00:56:25 2014 PST
+Set-Cookie: _EDGE_S=F=1; path=/; httponly; domain=bing.com
+Set-Cookie: _EDGE_V=1; path=/; httponly; expires=Tue, 18-Oct-2016 07:56:25 GMT; domain=bing.com
+Set-Cookie: MUID=3470754077D1647103E27398764465C5; path=/; expires=Tue, 18-Oct-2016 07:56:25 GMT; domain=bing.com
+Set-Cookie: MUIDB=3470754077D1647103E27398764465C5; path=/; httponly; expires=Tue, 18-Oct-2016 07:56:25 GMT
+Date: Sun, 19 Oct 2014 07:56:24 GMT
+Connection: close
+
+c=sj_cook.set;var t=_ge('id_rc');if(o=_ge('id_r')){o.style.display='block';}if(t)t.innerHTML='0';c('_SS','R','0',0,'/');c('_RwBf','s','70',1,'/');c('_RwBf','o','16',1,'/');f=_w.top!==_w.self;f&&c('_SS','F',f,0,'/');sj_evt.bind("bepready",function(args){args[1]('2');},1);

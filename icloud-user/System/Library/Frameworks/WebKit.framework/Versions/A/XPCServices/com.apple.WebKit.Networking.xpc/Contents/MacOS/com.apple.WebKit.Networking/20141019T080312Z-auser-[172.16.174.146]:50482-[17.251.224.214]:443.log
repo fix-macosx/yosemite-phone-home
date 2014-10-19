@@ -1,0 +1,178 @@
+GET / HTTP/1.1
+Host: www.macports.org
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 08:03:12 GMT
+Server: Apache/2.2
+X-Powered-By: PHP/5.3.3
+Strict-Transport-Security: max-age=15768000
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xhtml+xml; charset=utf-8
+
+20b2
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+    <head>
+        <title>The MacPorts Project -- Home</title>
+        <meta name="author" content="Jim Mock (mij@macports.org)" />
+        <meta name="author" content="Juan Manuel Palacios (jmpp@macports.org)" />
+        <meta name="author" content="Chris Pickel (sfiera@macports.org)" />
+        <meta name="copyright" content="2003, OpenDarwin" />
+        <meta name="copyright" content="2007, The MacPorts Project" />
+        <meta name="description" content="The MacPorts Project is an open-source community initiative to design an easy-to-use
+        system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on the Mac
+        OS X operating system." />
+        <meta name="verify-v1" content="Gx4BI7CyPR+VN1q1Ckc6dcbuLF5NQGUaKEcm1Y/TFlY=" />
+        <meta name="robots" content="all" />
+        <link rel="stylesheet" type="text/css" href="macports.css" />
+        <script type="text/javascript" src="mootools.v1.11.js"></script>
+        <script type="text/javascript" src="language.js"></script>
+    </head>
+
+
+    <body>
+
+        <h1><a href="http://www.macports.org/" title="The MacPorts Project"><span class="accessibility">The MacPorts Project
+        </span></a></h1>
+
+        <p class="accessibility"><a href="#content">Skip to Content</a></p>
+
+
+        <div id="header">
+
+            <a id="download" href="install.php"><span class="accessibility">Download MacPorts</span></a>
+<!--
+            <span class="accessibility">View site in</span>
+            <span><a href="#" id="language"><img src="img/en-enabled.png" alt="English" /></a></span>
+            <span id="languages">
+                <a href="#"><img src="img/fr-disabled.png" alt="Fran&#xE7;ais" /></a>
+                <a href="#"><img src="img/es-disabled.png" alt="Espa&#xF1;ol" /></a>
+                <a href="#"><img src="img/ru-disabled.png" alt="&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;&#160;(Russkij)"/></a>
+                <a href="#"><img src="img/it-disabled.png" alt="Italiano" /></a>
+            </span>
+-->
+        </div>
+
+
+        <div id="navigation">
+
+            <dl>
+                <dt>Getting Started</dt>
+                <dd>
+                    <ul>
+<li class="selected"><a href="index.php" title="Home">Home</a></li>
+<li><a href="install.php" title="Installing MacPorts">Installing MacPorts</a></li>
+<li><a href="ports.php" title="Available Ports">Available Ports</a></li>
+<li><a href="https://guide.macports.org/" title="Documentation">Documentation</a></li>
+<li><a href="https://trac.macports.org/" title="Support &amp; Development">Support &amp; Development</a></li>
+<li><a href="contact.php" title="Contact Us">Contact Us</a></li>
+<li><a href="https://trac.macports.org/news/" title="News">News</a></li>
+                    </ul>
+                </dd>
+                <dt>Shortcuts</dt>
+                <dd>
+                    <ul>
+<li><a href="https://distfiles.macports.org/MacPorts/" title="Available Downloads">Available Downloads</a></li>
+<li><a href="https://trac.macports.org/wiki/FAQ" title="MacPorts FAQ">MacPorts FAQ</a></li>
+<li><a href="https://trac.macports.org/newticket" title="Report a Bug">Report a Bug</a></li>
+<li><a href="https://guide.macports.org/#project.tickets" title="Bug reporting Guidelines">Bug reporting Guidelines</a></li>
+<li><a href="https://svn.macports.org/repository/macports/" title="Subversion Repository">Subversion Repository</a></li>
+<li><a href="https://trac.macports.org/wiki/MacPortsDevelopers" title="MacPorts Team">MacPorts Team</a></li>
+<li><a href="https://guide.macports.org/#project.membership" title="Becoming a Member">Becoming a Member</a></li>
+<li><a href="http://www.macosforge.org/" title="Mac OS Forge">Mac OS Forge</a></li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+
+
+
+
+<div id="content">
+
+    <h2 class="hdr">The MacPorts Project Official Homepage</h2>
+
+    <p>The MacPorts Project is an open-source community initiative to design an easy-to-use system for compiling, installing,
+    and upgrading either command-line, X11 or Aqua based open-source software on the <a href="http://www.apple.com/osx/">
+    OS X</a> operating system. To that end we provide the command-line driven MacPorts software package under a <a
+    href="http://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>, and through it easy access to thousands of ports
+    that <a href="https://guide.macports.org/#introduction"> greatly simplify</a> the task of <a href="https://guide.macports.org/#using">compiling and installing</a> open-source software on your Mac.</p>
+    
+    <p>We provide a single software tree that attempts to track the latest release of every software title (port) we distribute,
+    without splitting them into &#8220;stable&#8221; Vs. &#8220;unstable&#8221; branches, targeting mainly the current OS
+    X release (OS X 10.10 Yosemite) and the immediately previous two (OS X 10.9 Mavericks and OS X 10.8 Mountain Lion).
+    There are currently <a href="ports.php">
+    <b>20490</b> ports</a> in our tree, distributed among 83    different categories, and more are being added on a regular basis.</p>
+    
+    
+    <h3 class="subhdr">Getting started</h3>
+
+    <p>For information on installing MacPorts please see the <a href="install.php">installation</a> section of this site and
+    explore the myriad of download options we provide and our base system requirements.</p>
+    
+    <p>If you run into any problems installing and/or using MacPorts we also have many options to help you, depending on how
+    you wish to get <a href="contact.php">get in touch with us</a>. Other important help resources are our online documentation,
+    A.K.A <a href="https://guide.macports.org/"> The MacPorts Guide</a>, and our Trac <a href="https://trac.macports.org/">Wiki
+    server &amp; bug tracker</a>.</p>
+            
+    <p><b>Latest MacPorts <a href="install.php">release</a>: 2.3.2</b></p>
+
+    
+    <h3 class="subhdr">Getting involved</h3>
+    
+    
+    <p>There are many ways you can get involved with MacPorts and peer users, system administrators &amp; developers alike.
+    Browse over to the &#8220;<a href="contact.php">Contact Us</a>&#8221; section of our site and:</p>
+    
+    <ul>
+        <li>Explore our <a href="contact.php#Lists">mailing lists</a>, either if it is for some general user support or to 
+        keep on top of the latest MacPorts developments and commits to our software repository.</li>
+        <li>Check out our <a href="contact.php#Tracker">Support &amp; Development</a> portal for some bug reporting and live
+        tutorials through the integrated Wiki server.</li>
+        <li>Or simply come join us for a friendly <a href="contact.php#IRC">IRC chat</a> if you wish for more direct contact
+        with the <a href="contact.php#Individuals">people behind</a> it all.</li>
+    </ul>
+
+    <p>If on the other hand you are interested in joining The MacPorts Project in any way, then don't hesitate to contact the
+    project's management team, &#8220;<a href="contact.php#PortMgr">PortMgr</a>&#8221;, to explain your particular interest
+    and present a formal application. We're always looking for more helping hands that can extend and improve our ports tree
+    and documentation, or take MacPorts itself beyond its current limitations and into new areas of the vast software packaging
+    field. We're eager to hear from you!</p>
+
+    <br />
+
+    <p>Browse over to our generous landlord's homepage, <a href="http://www.macosforge.org">Mac OS Forge</a>, for information
+    on other related projects.</p>
+
+</div>
+
+
+
+
+        <div id="footer">
+        
+            <p><a href="http://validator.w3.org/check?uri=referer"><img src="img/valid-xhtml11-blue.png" alt="Valid XHTML 1.1" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="img/vcss.png" alt="Valid CSS!" /></a></p>
+            
+            <p>Copyright &#xA9; 2002&#x2013;2014, <a href="http://www.macports.org/">The MacPorts Project</a>.
+            Hosted by <a href="http://www.macosforge.org">Mac OS Forge</a>. All rights reserved.</p>
+
+        </div>
+
+    </body>
+
+</html>
+
+0
+

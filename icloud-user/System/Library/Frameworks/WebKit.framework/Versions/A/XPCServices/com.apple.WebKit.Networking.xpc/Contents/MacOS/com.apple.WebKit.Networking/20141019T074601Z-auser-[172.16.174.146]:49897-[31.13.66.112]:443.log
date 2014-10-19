@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: www.facebook.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+X-Purpose: preview
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53
+Accept-Language: en-us
+DNT: 1
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 301 Moved Permanently
+Location: https://m.facebook.com/?refsrc=https%3A%2F%2Fwww.facebook.com%2F&_rdr
+Vary: User-Agent
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+P3P: CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"
+Pragma: no-cache
+Cache-Control: private; max-age: 31536000
+Expires: Mon, 19 Oct 2015 07:46:01 GMT
+Set-Cookie: datr=OWxDVNdUZuZMhtgT1_KzNgih; expires=Tue, 18-Oct-2016 07:46:01 GMT; Max-Age=63072000; path=/; domain=.facebook.com; httponly
+Content-Type: text/html; charset=utf-8
+X-FB-Debug: HjZPAC8blRVZzUC5ay/PWavrhiY1oFREKbbIAnljoM/tJ5/F/4CO8P/ZsqDvojpGuh2c44ecHFLDX94iDaXarA==
+Date: Sun, 19 Oct 2014 07:46:01 GMT
+Connection: close
+Content-Length: 0
+

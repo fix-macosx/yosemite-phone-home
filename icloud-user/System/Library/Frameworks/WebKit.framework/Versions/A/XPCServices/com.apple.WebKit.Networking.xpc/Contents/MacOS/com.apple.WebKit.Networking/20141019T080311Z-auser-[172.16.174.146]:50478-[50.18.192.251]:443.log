@@ -1,0 +1,28 @@
+GET /iu?u=https://s.yimg.com/pp/favicons-new/16x16_100_yVUGActvfgC-j19Yvj66fw.png HTTP/1.1
+Host: duckduckgo.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 19 Oct 2014 08:03:11 GMT
+Content-Type: text/html
+Content-Length: 178
+Location: https://duckduckgo.com/iu/?u=https://s.yimg.com/pp/favicons-new/16x16_100_yVUGActvfgC-j19Yvj66fw.png
+Connection: close
+Expires: Tue, 18 Nov 2014 08:03:11 GMT
+Cache-Control: max-age=2592000
+Strict-Transport-Security: max-age=31536000
+X-DuckDuckGo-Locale: en_US
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

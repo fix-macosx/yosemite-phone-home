@@ -1,0 +1,21 @@
+OPTIONS /8078008707/principal/ HTTP/1.1
+Host: p29-bookmarks.icloud.com
+Content-Length: 0
+Connection: keep-alive
+Accept: */*
+User-Agent: CoreDAV/261 (14A389)
+Accept-Language: en-us
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:23:24 GMT
+X-Apple-Request-UUID: 78d86743-0615-4827-805c-edc5be5a5bdd
+X-Responding-Instance: bookmarkdav:12900401:st13p29ic-hpaf18230501:8001:14G54:155647
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 0
+Allow: DELETE, GET, HEAD, MKCOL, MOVE, OPTIONS, ORDERPATCH, POST, PROPFIND, PROPPATCH, PUT, REPORT
+DAV: 1, access-control, extended-mkcol, bookmark
+Date: Sun, 19 Oct 2014 07:23:24 GMT
+X-Accept-Client-Encoding: gzip
+

@@ -1,0 +1,31 @@
+POST /fmipservice/friends/fmfd/8078008707/564d33f4cc81f551c2be08104c5240d2/apsTokenChange/refreshClient HTTP/1.1
+Host: p29-fmfmobile.icloud.com
+X-Apple-Realm-Support: 1.0
+Accept: */*
+Authorization: Basic ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJQ29aOEpYTzdGMlJrc3FQMVNuZFQtMmFwVEV+
+X-MMe-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.icloud.fmfd/100.000000>
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Type: application/json; charset=utf-8
+Content-Length: 897
+User-Agent: FMFD/1.0 VMware7,1/10.10(14A389)
+X-Apple-Find-API-Ver: 3.0
+Connection: keep-alive
+X-FMF-Model-Version: 1
+Cookie: NSC_q29-gnjqtfswjdf=ffffffff12abd94d45525d5f4f58455e445a4a422971
+
+{"clientContext":{"productType":"VMware7,1","deviceHasPasscode":true,"skippedRefreshes":"(Total: 1), {apsTokenChange (1) }","signedInAs":"admin@fix-macosx.com","osVersion":"10.10","buildVersion":"14A389","type":"immediate-lowPriority(after -194.789354)","deviceUDID":"564d33f4cc81f551c2be08104c5240d2","deviceClass":"Mac","apsToken":"8360b554c41df49df19bba92ce0f2f4ea9d28fe15c4f8af40d5ba766b47e4862","appName":"fmfd","currentTime":1413703594203,"reason":"5 - apsTokenChange","userInactivityTimeInMS":480},"serverContext":{"res":null,"callbackTimeoutIntervalInMS":0,"prsId":8078008707,"heartbeatIntervalInSec":543600,"minCallbackIntervalInMS":5000,"iterationNumber":1,"clientId":"ZnJpZW5kcy9mbWZkfn44MDc4MDA4NzA3fn4xNDEzNzAzMzk0MzM1","maxCallbackIntervalInMS":60000,"transientDataContext":{"4":0}},"dataContext":{"8":0,"19":1,"0":0,"9":"7BF7EF14BAD9C0AC01BDEF65AE68BCA8","1":0,"6":27,"2":0,"10":0}}HTTP/1.1 200 OK
+X-Responding-Instance: fmipservice-12900401-st13p29ic-hpaf18260801-8001-14G54
+X-Request-UUID: 4efd0bd9-ca1f-41bf-ad34-f9f1caa1a401-refreshClient
+X-Responding-Server: st13p29ic-hpaf18260801_001
+X-Responding-Partition: p29
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+Date: Sun, 19 Oct 2014 07:26:34 GMT
+Server: Apple-iCloud
+
+16a
+{"following":[],"followers":[],"modelVersion":"1","serverContext":{"heartbeatIntervalInSec":543600,"res":null,"minCallbackIntervalInMS":5000,"callbackTimeoutIntervalInMS":0,"transientDataContext":{"4":0},"iterationNumber":2,"maxCallbackIntervalInMS":60000,"prsId":8078008707,"clientId":"ZnJpZW5kcy9mbWZkfn44MDc4MDA4NzA3fn4xNDEzNzAzMzk0MzM1"},"fetchStatus":"200"}
+0
+

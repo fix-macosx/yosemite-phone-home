@@ -1,0 +1,357 @@
+GET /mactex/ HTTP/1.1
+Host: www.tug.org
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 08:33:36 GMT
+Server: Apache/2.4.10 (Unix) OpenSSL/1.0.1g
+Accept-Ranges: bytes
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+fc
+
+<html><head>
+<!-- $Id: index.html,v 1.3 2010/07/31 19:07:03 wendy Exp $ -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>MacTeX - TeX Users Group</title>
+<link rel="stylesheet" href="./tugstylemactex.css">
+</head><body>
+
+
+128
+<STYLE type="text/css">
+A:link { text-decoration: none }
+A:active { text-decoration: none }
+A:visited { text-decoration: none }
+A:hover {text-decoration: underline;}
+BODY {
+  margin-top: 0px;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  font-family: serif;
+}
+ </STYLE>
+<br>
+
+137
+
+
+<table width=100%>
+<tr>
+<td>
+
+<img align="left" border=0 src="./images/mactexlogoX5.png">
+</td>
+<td align='center'>
+&nbsp;
+</td>
+<td><A TARGET="hwin" HREF="http://www.tug.org">
+    <img valign="top" align="right" border=0 alt="logonavy"
+    SRC="images/logonavy.jpg" WIDTH="80"></A>
+</td>
+</tr>
+</table>
+<hr>
+
+38d
+<p align="center">
+<small><a href="http://www.tug.org/twg/mactex/">TWG</a></small>
+&nbsp;|&nbsp;
+<small><a href="http://www.tug.org/mactex/index.html">MacTeX</a></small>
+&nbsp;|&nbsp;
+<small><a href="http://www.tug.org/mactex/donate.html">Donate</a></small>
+&nbsp;|&nbsp;
+<small><a href="http://www.tug.org/mactex/faq/index.html">FAQ</a></small>
+&nbsp;|&nbsp;
+<small><a href="http://www.tug.org/mactex/fonts/index.html">Fonts</a></small>
+&nbsp;|&nbsp;
+<small><a href="http://www.tug.org/mactex/gettinghelp.html">Help</a></small>
+&nbsp;|&nbsp;
+<small><a href="http://www.tug.org/mactex/bookrefs.html">References</a></small>
+&nbsp;|&nbsp;
+<small><a href="http://www.tug.org/mactex/support/emailform/index.html">Support</a></small>
+&nbsp;|&nbsp;
+<small><a href="http://www.tug.org/mactex/acknowledgments.html">Acknowledgments</a></small>
+&nbsp;|&nbsp;
+<small><a href="http://www.tug.org/">TUG</a></small>
+
+</p>
+
+
+358
+
+
+<BR>
+<BR>
+<BR>
+<DIV ALIGN='center'>
+<FONT COLOR="#aa9922" SIZE="+2"><B>The MacTeX-2014 Distribution </B></FONT>
+<BR> <small>[ for Mac OS 10.5, 10.6,  10.7,  10.8, 10.9  --- Intel and PowerPC]</small>
+<BR>
+<BR>
+<HR WIDTH="43%">
+</DIV>
+<BR>
+
+<TABLE ALIGN='CENTER'  BORDER='0'  CELLSPACING=0 >
+<TR><TD ALIGN='CENTER'>
+The current distribution is MacTeX-2014
+<TR><TD ALIGN='CENTER'>
+This distribution requires Mac OS 10.5 Leopard or higher and runs on Intel or PowerPC processors: 
+<TR><TD ALIGN='CENTER'>
+See links below for Mac OS 10.3, 10.4.
+<BR>
+<BR>
+For Information on MacTeX and Yosemite, click <a href="./yosemite.html"><b>here</b></a>
+<BR>
+<BR>
+To obtain the distribution, click the link below.      
+<BR>
+<!-- NOT YET AVAILABLE -->
+<a href="http://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg">
+<b>MacTeX.pkg</b></a>
+<BR>
+<small>
+[ approximately  
+
+13
+2.4G	- 25 May 2014
+
+37f
+
+]
+<BR>
+[ Download with Safari <I>strongly recommended</I> ]
+</small>
+<BR>
+<BR>
+<SMALL> Once you have the package, double click it to install.  
+<BR>
+<B>
+If the previous link fails, use one of the           
+specific sites on 
+<a href='./mirrorpage.html'><i>this mirror page</i></a>. 
+</B> 
+<br>
+MacTeX-2014 is also available via the <a href='./MacTeX.pkg.torrent'><i>torrent network</i></a>.
+</SMALL>
+<br>
+<hr width=42%>
+
+<!-- <SMALL>*NOTE*</SMALL>   --!>
+<!-- <br>   --!>
+<!-- <A HREF="./prefpane.html">Pref Pane Bug & Fix</A>   --!>
+<!-- <br>   --!>
+<!-- <br>   --!>
+<!-- </TD></TR>   --!>
+<!-- <TR><TD ALIGN='CENTER'>  *** </TD></TR>   --!>
+<!-- <TR><TD ALIGN='CENTER'>   --!>  
+<!-- <br>   --!>
+
+<SMALL>The two links below lead to other optional download         
+packages:</SMALL>
+<BR>
+<a href="http://mirror.ctan.org/systems/mac/mactex/MacTeXtras.zip"><b>MacTeXtras.zip</b></a>
+<SMALL>
+[
+
+17
+535M	- 18 October 2014
+
+bf7
+
+ ]
+ <br>
+</SMALL>
+
+</TD></TR>
+<TR><TD ALIGN='CENTER'>  
+<a href="./morepackages.html"><b>Smaller Packages</b></a>
+<small>[ for users with slow download speed ]</small>
+<BR>
+<hr width=42%>
+
+<BR>
+<BR>
+<BR>
+</TD></TR>
+</TABLE>
+
+<div align="center" style="margin-left:100px; margin-right:100px; margin-top:5px; margin-botto
+m:5px; text-align:center; border-style:dotted; border-width:1px; padding:8px; font-size:0.9em;
+ color:#006699;">
+<div style="font-size:1.1em;" align="center">
+<TABLE WIDTH="100%" ALIGN="CENTER" CELLSPACING="9" CELLPADDING="0" BORDER="0">
+<TR><TD NOWRAP COLSPAN=4 ALIGN='CENTER'>    
+<span style="font-variant: small-caps;">
+for help and information on what is installed 
+<BR>please check the links in this box 
+</span>
+<BR>
+|
+<BR>
+<a href="./newfeatures.html">New Features in MacTeX-2014 and TeX Live 2014</a>
+<BR>
+<a href="./TeXLive2012+Changes.pdf">About Shell Escape and Installing Fonts in 2012, 2013 and 2014</a>
+<BR>
+<small>[ <a href='faq/3-4.html'>Click Here If You Are Running Mac OS 10.3 or 10.4</i></a> ]
+</small>
+<BR>
+<BR>
+</TD></TR>
+<TR> 
+<TD VALIGN="TOP" WIDTH='32%' ALIGN='CENTER'>
+<A HREF="http://www.tug.org/whatis.html">Just what is TeX?</A>
+<BR> <A HREF="./downloading.html">Downloading Issues</A>
+<BR> <A HREF="./aboutmactex.html">About MacTeX</A>
+<BR> <A HREF="./theinstaller.html">The MacTeX Installer</A>
+<BR> <A HREF="./whatsinthepackage.html">What's in the MacTeX package</A>
+<BR> <A HREF="http://code.google.com/p/mactlmgr/">TeX Live Utility</A>
+</TD>
+
+<TD VALIGN="TOP" WIDTH='6%'>&nbsp;</TD>
+
+<TD VALIGN="TOP" WIDTH='32%' ALIGN='CENTER'>
+<A HREF="./mactextras.html">MacTeXtras: optional pieces</A>
+<BR> <A HREF="./multipletexdistributions.html">Multiple TeX Distributions</A>
+<BR> <A HREF="./tryingoutTeX.html">Trying out TeX</A>
+<BR> <A HREF="./gettinghelp.html">Getting Help</A>
+<BR> <A HREF="./faq/index.html">Frequently Asked Questions</A>
+<BR> <A HREF="./fontcache/fix-font-cache-bug.html">The Font Cache Bug in Mac OS X</A>
+</TD>
+</TR>
+<TR>
+<TD COLSPAN='3'>
+<BR>
+<table HSPACE=15 align='center' cellpadding='5' cellspacing='1' bgcolor='#999999'>
+<tr><td align='center'  bgcolor='#FFFFFF'>
+<small>
+Welcome to TeX! Now What?<br>
+<a target='_blank' 
+href="src/WelcomeToMacTeX.pdf"><img border='1' align='left' alt='Welcome to MacTeX! Now What' src='images/WelcomeToMacTeX_thumb.png'></a><br clear='all'>[ click on image ]
+</small> 
+<br clear='all'>
+</td></tr></table>
+</TR></TABLE>
+</div></div>
+
+
+<BR><BR><BR>
+<table valign='bottom' align="left">
+<tr><td valign='bottom'>
+<small>
+<br>
+<br>
+<a href='./acknowledgments.html'><i>Acknowledgments</i></a> ...</small>  
+<br>
+<font COLOR="#887700">
+<i><b>Happy TeXing on Mac OS X </i>!</b> 
+</font>
+</td></tr></table>
+<table align='right' valign='bottom'>
+<tr><td align='center' valign='bottom'>
+<a href='./donate.html'>
+<small><i>Donate</i></small>
+<br><img border='0' align='center' src='./images/TeXLionRight-button.jpg'>&nbsp;
+</a> 
+</td></tr></table>
+<br clear='all'>
+<br>
+
+<hr>
+<small>
+<a href="./support/emailform/index.html">MacTeX Installer Support</a></small>
+
+1ce
+<!-- $Id: footer_mactex.html,v 1.0 2012/07/11 22:56:42 wendy Exp $ (generic mactex footer) -->
+<form method=get action="http://www.google.com/search">
+<small>
+<a href="/index.html">TUG home page</a>;
+     <input type="hidden" name="sitesearch" value="www.tug.org">
+     <input name=q size=13 maxlength=99><input type=submit name=btnG
+            value="Search tug.org">
+     (via&nbsp;<a href="http://www.google.com/">Google</a>)
+</small>
+</form>
+</body></html>
+
+14
+
+
+</body></html>
+
+
+
+
+0
+
+GET /mactex/images/WelcomeToMacTeX_thumb.png HTTP/1.1
+Host: www.tug.org
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+Accept-Language: en-us
+Referer: http://www.tug.org/mactex/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 08:33:36 GMT
+Server: Apache/2.4.10 (Unix) OpenSSL/1.0.1g
+Last-Modified: Sat, 14 Jun 2014 16:58:08 GMT
+ETag: "2c68-4fbceb2c60800"
+Accept-Ranges: bytes
+Content-Length: 11368
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: image/png
+
+‰PNG
+
+   IHDR   È   –   ¾PN   	pHYs  Â  ÂnĞu>   #tEXtSoftware GraphicConverter (PowerPC)¶¦s¡  +ëIDATxœì}p×µ¶gR'“‰'¿Lş÷b'“¼¸ÅİŠ-É–«Y‘lÉ’e;¶%«R’iõN›j”¨B‰¢(Rì ÁŞ@ X@hA`EaAÛ^ şg±|0cI‘©„
+¾ÁwïŞ½{ıpÎwöì½¸k$Œ0‚€»B=€0nO„‰FP&VAA˜Xaab…„‰FP&VAA˜Xaab…„‰FP&VAA˜Xaã#VÍGoÕ,z3üº3_´Ç,b9µªğë}ùX&XÄ
+#Œï‰0±Â
+ÂÄ
+#(+Œ  L¬0‚‚0±Â
+ÂÄ
+#(±ÊËJŠ‹‹‡PnÕëáïğà@qqq›±=ĞF$ÌŠ
+'v”WÂå.))ÖŒŠÄ‹ŠŠ´:ıµWWÁPKü‰D.Ê×ë´ê*±„/wwuê·Ë©Óø½NGµ¨µ#ş·ìƒ>z¨‘Jór2K*®;T™D<0ìüNeo7|’ö!~Ó ×ÁY:Íİ×í¦©Šò2E}ãu[†ã#VuiÁ{—AG\xàOã…òöm[ÖhÓT/ûbíú	œÛ1˜˜”r­½§}óà£O²^¿yñÜéûø_Ÿïš½=}º»»û¹§«­W‰ò²t¦¾¾·Ûüäc­Wi	Y».‚fØ³'ïŒú†ßË2ô¿ÿFr÷g¾ö²\©Bæå¥¦­¶ªhÃ–=×:İ¹Ó±|>>ï›o¼äXD¬üü™ç^ÄIÊ¿åÛ»{ß¿ı0|_Í);#M Ìwæ›Y‚âÛ>Ä±HÌóğ_Ÿ„BJbü;o¿%(‚ï«oß¾(/Ë–•–
+óàT)å<±à’ˆò…9y¨´ôõdeeŠ%µP?`·6*›Õ5Îá¡ÄÄÄ¾~ÔÓYT(**)\³QóÙÊˆa‡úc™‘‘étyƒ¹pöÄÂóÓsDPö2ôŞ=ÛÿøĞ£|?9ÙYyÂ¾»Õ’œ”¤Rk	‚€Íé/Léµ:µ2Y­ •JÛŒ¦yÍs/¾zhÿ>û gŒ³SOÇ'N´øƒ¹²†fk¯yÎìwW­ß5QûöAç
+qñ†Í»…¹9¥e•|KiMuRR²Á <{öìF¹Lªà¬‹N£ÎÌÌhÖèİ<³oÇæ—}ÎoÆ;	qÍÏVVKà]dggqfÕç«®û|Ş—^f³øü_ãÑÒ²Æuí&ãÖX/şíi»ÃsàÀAEMù¼EŸtµ©Ùë×­î·¦^Šß÷õqX­]»ÖÔÑ¹cû®Îö/VGÀ'²-rİñÓñ…yOMyA"•¾øü”‡
+§Íx¾Ù‹>\èt!Ç¾Ù>1?WJÂ™×ŞœY^Y½vÕ
+SWŸÙÔöÌ³#©ÑÄKÕÜôä”à“ÎNKÖêt<±ÒÓÓÌfó²EóËÄr…´êğ±“¦öÃGñGñÄ‚aÿñÁÇ[[[êëúEóÿ±{4ßFRQ”_xË`À¢cÎœ;{Æát<øĞÃ`<4â'Öko¿+W(Ş|åeY}scLV×æÄ—[w[ûzzò‰óçÏ{PZ:­k6|Å²LfvN [ –ÏË¾7ë­oŸñ¼ùÂá¹yãZaQezÒ…÷-K¹” R·6ÖÕ>ø—¿$&]†–í­Ú-Û¯i)oŒ›X_E¬›œŸ»ÏûÄ_9vôè°}äá‡RRRÏ9}òôyXe¢Ü]û¿†öÀ§³Ç£OÇ_„r_GÛK3Şìi×,úd%lnÛ°V,ç¾ÍÏ¿8µßlxè±§SSSO;–œšÅŸËlPEDnÛ÷Äcó5æÌªWiø2£½ï¿û–¨´zïŞ(ƒóÄR)â.®]½"1-oñ‚9=V~üQ<±ÜõèÓ/À¦Óéğ hy×®]>ø}ˆCµ²îÿÎĞ6Õ½·`ÉñãÿV}¶ìÔ©Ó™yœˆä,–ßøzz®hÈn;}öì…ógøw÷ŞœÙÌ3í¥ŞùNâå´@%ş"nçã}¸J¢ b5)ÄÏ½ôjZZZô¡ƒù…e°÷Ã÷g:zÒßÜ7ãÕéüGñş—s`ÜÄf¥<ğ¿Ó~u–ü­YïCáé'Ÿ@q‚oÀ«^VõÖ»ïó5éÉÖlÜ…Nƒú“ë®J,cà/?F³ìØs±üúşüÇÜş¯ş‚÷çØ†Fsì<±”òšÿùïÿ‘+ÕbıíÙ)à|}ÄZ³üãË™Â±}ˆõß÷=·dÑR’¦W,_†0ñ\ìÂ¥œc´[ûú­C|,uïÿû¯²jÎ×K*ïù¯ß8=Ü`Æë kÍç×6jtÍü»›3{Vàâ»]Ã=}6s/¾8-Ğ-O,@G›îá‡Ù¹û€Ù¨›òÂ+Î İ;şüsëµØaÓ§½Ì×kZšÿ§q3cÜÄ´ô:2ú‰´4±q	PfgÌ›ÿÁ‘£GëU‰ñqk"6@¼³sKägË¿ˆ9‹øòÏ?;áâéÓ§.avúŠ•kZõºÈ±g/ÀáK–,Vkuq±Ç?\ôÑ±ãÇµú6¾Ô5<kÖ»å•â¢üÜUkÖgge	DEü.çĞÀÎm[òDœ€ŠâdoUyñ¬ÙsêU›6®İº}×‰ãG£´öu¿7wî®İ»KÊ¡º¹iáï_LNX,©X|êä1óPÇ´lñ¢ŠjI~nÆÅäŒ±ïzSdä¨‘ğy×oü’¯<w*fÃ—›†®¼ôÔ¯£gg¦,^úqVfúŠUk.÷¡¨İ#·0~ÙnéîX³nCjÊåôÌQWØÓeŞ¸aC]£’ßÌËJ‹Ü²
+÷îZöñ?ÇÄ´Œû÷ ·+WÀYhÖ»èƒ÷cbÏB›è{›µã½p“Œ;ô>9ybrEhs[â%Va^æË¯¼vîÜùØØØı‡¢C=œÛw(±Â6ÂÄ
+#(+Œ  L¬0‚‚0±Â
+ÂÄ
+#(+Œ  L¬0‚‚0±Â
+ÂÄ
+#(ëöÁĞĞÅb	õ(F&Ö-ÜÜ\(”””ˆUVVÒA…‰uë£¨¨H£Ñ‚©S§®ZµjÓ¦M'O|ûí·/^¼¸k×®êêêŒjˆÕÕIÛìl_ƒx¼:Õj »Ü+ãédFº¿aYŸ^O5·Pc{`_‹Š4w1>ïH}=›+ÛŞN56äÕ8¹j·pjeyeãköüí0Gzºi¥Š;ÖÔNõ[Xk?c4ÑWv%•àCÃŞ+ëC‹õë×:tH­VŸ={Öíva0Àbutt,^¼8’Qİ±|~´¨Õü¦¥‡V4:ÌôÀ0{şœxc³2ÍÍ¤ËåU7‘ÆNÆËøróĞôw«‘Vk¨ËÉ¹œp±µrÂÜNåæ£·7OÀÍÇÊÎFZuTz&ÒÔDÖTbU5¸Ëím7R40C§¥Ôj®ı•İ6©ÈŒt\A8lKij§á=}Ìµz®–àııŒFC™L”Ûí…½Ğ¦¡W·R­j²¶ìì¤µ:J«%aœCl‡‰¶Y˜Šª›ëÑMŠ¢"##ív;¿Y[[«Õj³²²€dQQQ¡Ø¸‰å²_öã\\œœŸİæ9zÄi2Rq<@:a>V(B…BÔÖGKä¤V;jœ’İmF:æ˜sØå…½E"LWVºÇl¦ë›HC+EûSeV%!rsF/ÿÀ ›–êÉ ÀàG~¢ÕS-ZêÊn‡œ\·eXfÒÔH¡æ>Fr­_E9›‹hÔ¤k˜íµpOE±TJ«"%R\TŒ‹Ğê*¼´ÊöYØÀIo€×3™L|ŒVAA‚ à­V+ì
+áÀÆM,¯×‹ùQ_W¨lòû …‚@=^‰” G#©ÁU*Òåñ.F}Á·¡i_E%®i!+*0àAo/#–­z~’âÈ éìfúºi¸ÒuKVK ]]tY9Öe¦«ªq§ë*İzY_Y¦×R2^WO ·º{yí5{tx…·².ÛÛÏ±OÕHtt1]tCY^†Áû¢oƒ’Ë
+{CH, Ê••à7âããùim £Ñ&
+<à©S§ÎŸ?Ÿ><<<¹Ãüw´x'qo­‚õ(®³ÙÜÔÔ_éïÔgfföõõ¥¤¤0ÌU¤(xÉãÇOÊ ¯‚àë¦Ÿ¤t ÌD|Üétº±õ@¦sçÎµ¶¶®]»Öwèx­]ÁÆ+`õ:
+dÜÿÕ7µQ52B^‹³Ş»•‘]aŒmte)æÁ¿}·¯–‡ø®JLÈ¤8I}»+3‹Ô®A¦ü&“Ì“	½^ÿç?ÿÙétîŞ½{l}EEEll,¸¿K—.*FİİİpiÀu‚x?}ú4(-›Í6é£?±0iğãRRÒĞÿ­uQR„I«1©œPkÈ3';'„å\Ñ@€$‚À-/‘ûeJB¼»¤…Ø
+”SE^TÂÍFÏËE•dF²¬º/ÈG++°lZPˆkëåxiÅK,àÇ§Ÿ~
+ª|×®]cë-·:A__Q7%C¹\ŞŞŞ-Y–…Àğ{î©¬¬Œˆˆ k7ùvkÜÄÂ1TíGnvVG§™¯ÌÎBä5¸DNT–cj•|Ùz QktT~!$fç"Í½·Ül¤D„¹½9±.½“ÃQ-%$Õ¸JM¥‚ñ“ápˆ¹ÉÊA„´UKB€6‘oúVÃÒ¥K%àòÆVvuu}ñÅ8CTXUU{nn®Çãéïï‡ ëá/ĞQ«Á$Äw…(úíÅv:½Ueê*ÿmFó±0ÔG¾á!Ç}n·—÷q(âõx¼$éC¯ËéEQ®:PŸ,ãcØÄãu¹¸z÷AŠâE;]¬i4š?ıéOàÇVBôƒ È´iÓÚÚÚÁ\û$×	"ì;ÊlÒ0aâ¨àpxQìNg@ğğÙgŸ	…ß. Zê‰'X·n]~~>)±X<cÆp`ÀÀ-‚ï‹ëªÑN ±¬î&{SÉ°×o<Ã±Ğ9Ì64’ªæ«dc®„Ù|•LË•èê¤-V.ËDà^SÇ¿‚c^½ó¿ª&²¥…v^?EQF„şóÉ'Ÿ€‰
+lÎŸ?ÿG?úQBBÂ‚€@P z)Š·ß~;22XÄ
+áh' ¥cí¦Ay\lvw›»½¶Y ŠNGqØÂÔÖõõ„à›[Èv£?ÙÒË\ˆw»Ü^†ğ
+D(w¸Ì--ßÃà r¾¿i3ÒæNº»›z`•VK54I°YËSDE¹»ºhuÉ_K][OvXú¥Ÿ@6+•à44
+G3<›™ƒŠ«A¦Ğ-Í$˜[èè¨Ó’½}ŒVCv÷0P§†Œ¹½ƒ†a ÃdW¯^=6 ¼÷Ş{ï¾ûîıû÷ƒÜ±cGqq1ƒ å¡œ’’"‘H–-[6ùƒ`R:<±À6?âPëé¬,DT€‚®®l ÑÅex~*¢9Ù\-ØË'[à‡±RÒp£yB´MKíáÒE·DJä‘ª*<%ÅÓ¤¢ NZ@  ¯% ²YÃÂL¥Š4è¹»(#Ã7r$ÚÑİE=îPĞp9¹h ÍÍåî_@ç#~bK¼Œ/¯ ƒ2‰ywí¶y«Ë0EYVŠ¦¥yŠ
+1èS,ÆÛŒ”TAÂ€!€-Q$qèĞ¡6/^<uêÔ?ş|¢R©Ù¢B0T0FEEıáÉ8yL@JÇÒËÔHp0Kn——ËÕh©ªJ¸´L‚——a`cüw0•’T6ÒZ¢I9šl‘ÖàÄëd+ÅÜİ„ÊJÌ1Ìò=È¤ÜßÊ
+ÌĞF76`6Àà©Õ$´)+ÃLFª¡ÈÈBªª¹1·©™ËR+É&Õ¨Ñ
+¤zt
+,Œ§¢
+×k¹äŒ¸†;ª¬ƒ³ƒ¡K‰¦FÎªtI)Öa¢KıÃÖhÈ	}B'àèÄ0føn¢ı¶qzı‰ è'àV`ówŞùíoûÚk¯õöönÙ²eåÊ•`¥ r<zô(øDh	»&Üª)½–2¨æï§Ì&Õ`&UäĞ¤»Bø&<x¿eÅ,ÖôéÓÁ÷ååå]¸p¡²²255LWCCË²999.œäAÅ­J¬;MMM_~ù%ĞkÄŸlVHê «’’’ÀhC!ÖÕÕ¹İîŒŒûß|óMDDDIIÉuûŸp1¥£n"J+ğõUŒJg;·$ Aø’’ÜµRœãXò²æÚX—‰jh"YÚŞJ*û^ùcc=hg¯x@Ü+Ò±•ùy>ßN›<$''/Z´ˆ/>|ø÷¿ÿıæÍ›Ÿşy N||¼J¥	Â7p‡œ#ĞbÃóçÏ;vlòÄ”N»,(Æ4*1Ñ-ÈCAÄ”•ãÉÉ¼<4'ÃÓÕÇ]@!ÈRÖÅ¥&‰?ë2©ÊJd¸s˜ÍÉB (KÏD„ùh“’¬,Åê•$Cù=ùù(¼ú{h™‚H¹ìIOóÑ*1ı€ËËåù*¯Ââİ
+9®l&
+1`<¨7ÿ4;:l³‰{v´¼bôÒb´®‘„8ñf{N$ÔŠ+øò?şñåË—oİºõ½÷Ş[ºti?Ä†ßi—,Yòë_ÿzİºu@¾Iï¤tP¤ÉìÌLcûè#fg5ÔâÕRô8Èç”4.ø2êÈf-EÓ¾| óQ7â-,Ä <¬ªÀË
+Q‡‡»véé»•£ºûÙ¢|4%IMòôö3Â\ÄØÁÔÉp èh±Œ @Y£"€XÊõô3%E(D|:5)«'ASËexYÖÕËˆ«°Ì´²+€Ğ’ä! ÙuF:; á\œÂ~İu¶¤
+ë³³`¨‡´uĞ©—=NäÇüã©§!Å—ö³Ÿıâ¿ V-X°`õêÕ «öìù—E”Án½ûî»sçÎ]¶lĞ+..nò|ã®Ğéø6½ ½¸3u1J%çY†`í,Eú:;i†ñ4‚x{{ıœN¯ÃÉ%v`¼l66­VÆfeø¿í&.³Hà^‹…ééaìvÖngÜno?30Èú¼#­­‚"\œ%-Åãr{åb\oän‡Zú™¡aºrº¼vÖjc††XÄOe—sô–)885Œ¡İH“”/pœÎÜuÓ¹C A›pÙ3ç<pÏ=÷€ÌÚµkWtt´Éd
+p0<<\]]=eÊ”3fÜÿıÀ­[ŒXßÁ€ëW}¢:üş 	ŸÚC«£rºo.K3Qxå•W@TAÔúöíÛïºë®iÓ¦7z•——Â^ (-ùà÷»ß½öÚk			CCC“?à‰!†rYÂá!Öb½±4šyºLVwç}­WëÌ¨o½éB"##(™™™B¡P$ıæ7¿9qâˆ­¬¬,Ğõv»ı7Ş á’4{LLÈùgŸ}ª¨¸ş¯ı7ÒÑé¿ı9$•’Èa›‘Àõ¶ZFœ+´³F'Y†^×›”Šää uõÏ'ÜŸ€ã§Ç )u:ÊáÏ:†X™”Pµp“´À«67“*w—¼*tkhãYJ
+—^—j0P Ò¬6¶NA(•äà¾¬³ƒîé½éÜÙ³ÙüóŸÿ„x}}}Ÿşù3Ï<djnnŞ¹s'Ã0QQQkÖ¬‰à‹ŠŠ^}õU~"kH0)P<¥¥X\œË1ÈŠk	Ôv´dUB» ğÛÔMi‘5*ˆ=ZÙŞÉ]{ –—å"•×rùÄ¬tHìJ1×îa%µäUÓ8FóöĞyg;¥o§ó¨­Ÿ¿­:ŠŸÕ3‘ŸÓM€üü|0Q_|ñÅˆß€½ğÂóçÏôÑGsrrÁå—lmmÅqZBƒyóæUVV†j´Òé4QıV¢30Å%XG'-ØPIºœ¬¨ƒ…œËÚúX_I)VîOÈH ~¬%ÔKS¾ÚPGT×àJR&#*Ê0jT‘5bÜãberâªi•’”H	CU_Gˆ«ñf5ÅÏøÃÆĞ>îzûn+‹ ïÚÀ'‚éñşƒü ""bÇ6›måÊ•]]]`¥€[/^Ü¸q£Ëå
+Õ8o¥;ï¡JãÜTP*•@šºººşğ‡ÙÙÙÀªÿøÇÿüç?a—D"ùÕ¯~µnİ:*F£ôşU'Mn%

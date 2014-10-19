@@ -1,0 +1,21 @@
+GET /search?q=p&locale=en-US&key=andromeda&context=com.apple.Maps&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+Accept: */*
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: []
+X-Apple-UserGuid: e34a9107-8c1b-4aaf-7152-d9101e13a1b8
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: []
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=0, no-cache
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 08:16:20 GMT
+Content-Length: 51
+Connection: close
+
+[{"status":"NO_RESULTS","query":"p","prefix":"p"}]

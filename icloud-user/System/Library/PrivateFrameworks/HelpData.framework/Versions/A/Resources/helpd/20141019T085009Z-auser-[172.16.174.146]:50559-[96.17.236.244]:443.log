@@ -1,0 +1,20 @@
+GET /systemprofiler/mac/10.10/en.lproj/search.helpindex HTTP/1.1
+Host: help.apple.com
+Accept: */*
+If-None-Match: "3169a9-443c-503dc12d216c0"
+Cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi
+If-Modified-Since: Thu, 25 Sep 2014 04:17:07 GMT
+Accept-Language: en-us
+User-Agent: helpd/90 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 304 Not Modified
+Content-Type: text/plain; charset=UTF-8
+Last-Modified: Thu, 25 Sep 2014 04:17:07 GMT
+ETag: "3169a9-443c-503dc12d216c0"
+Cache-Control: max-age=423
+Expires: Sun, 19 Oct 2014 08:57:12 GMT
+Date: Sun, 19 Oct 2014 08:50:09 GMT
+Connection: close
+

@@ -1,0 +1,20 @@
+POST /fb?key=andromeda HTTP/1.1
+Host: api.smoot.apple.com
+Content-Type: application/json
+Connection: keep-alive
+X-Apple-ActionSignature: AmA1KLPPLhrM7Q9+P0BnvH6sa7PiTEN8ppwtgbICR6XFAAAB0AMAAAABAAABAIu7XzCihibna5IHjO0GPM4vmrSV9hR07GXvX5YZt+4XhwM/hXT5LUpz/i6sYgs9wgJQqMtYN/exCaalKJNLXj6VNfJAwd9pp6wTecv1CIv6Vs/ZZ/5MlKAunlBvmRoR5X4RqNzmA7cpkINzvUfw/HDWIIq6VLbbnDJGrgpQPVmMnNOMJxkrB4Pwk0FB4O11LY7FYISRwdMHznsLF1W5DtIKRwtYQ+6rhFQPqExODGCHdPSMcq2Jy9XvXNK3Cr+gwMrPYJ8mwg5As24/chgP2C9XD9+Zqcuoub6BXFjoggadUgIFQU1xfc2lCgQWwCW2gBwG5VB7yM66WKkxidcOPFAAAAAYMGwZvBKFEZA1oul/sUCjPfz8ZHwF25iQAAAAnwG4qp3m9NSm9HPuq0eBiSHfOf7PuwAAAIYBBjC/TZzzFzQgd8BGjIA8gztUQ3HQL8ouf7VfACdZrxHkKzwUBmg0a3t8oP0WkdCEg4WWDzLxMNY8oJ/VguQJ5q25VqMiitcQ+JBWR/2HX/7g9mRDeJ9ae+Vxpv48k2CzLCfd+kNv9xXP7/SRj+8NEoPhzI+3dnqPECI/dDvM8wMRGZVbbwAAAAAAAAAA
+Accept: */*
+X-Apple-UserGuid: 06227bdf-e0a6-427a-7717-83b66d826f8a
+Accept-Language: en-us
+Content-Length: 270
+Accept-Encoding: gzip, deflate
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+
+[{"timestamp":1,"input":"https:\/\/ebooks.adelaide.edu.au\/o\/orwell\/george\/o79n\/o79n.epub","type":"search_local","latency":1},{"timestamp":139,"input":"https:\/\/ebooks.adelaide.edu.au\/o\/orwell\/george\/o79n\/o79n.epub","type":"abandonment","method":"lost_focus"}]HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 08:36:38 GMT
+Content-Length: 3
+Connection: close
+
+""

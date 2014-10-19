@@ -1,0 +1,315 @@
+GET /static-collected/upgrades/texpadappcast.xml HTTP/1.1
+Host: www.texpadapp.com
+Accept: */*
+Cookie: csrftoken=l6sKToGMbu4POhZRNuGON6EOTQefMclh
+User-Agent: Texpad/1.6.14 Sparkle/d2b7fd6
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Connection: close
+Server: gunicorn/0.17.4
+Date: Sun, 19 Oct 2014 08:10:06 GMT
+Content-Type: application/xml
+Content-Length: 16540
+Last-Modified: Sun, 12 Oct 2014 06:58:00 GMT
+Via: 1.1 vegur
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Texpad</title>
+        <link>http://www.texpadapp.com/static-collected/upgrades/texpadappcast.xml</link>
+        <description>Texpad Appcast</description>
+        <language>en</language>
+       
+        <item>
+       	    <title>Texpad 1.6.14</title>
+       	    <description>1.6.14 update</description>
+       	    <pubDate>Tue, 7 Oct 2014 00:00:00 +0000</pubDate>
+       	    <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_6_14.html</sparkle:releaseNotesLink>
+       	    <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+       	    <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_6_14.zip"
+       	                sparkle:version="1.6.14"
+       	                length="15380574"
+       	                type="application/octet-stream"
+       	                sparkle:dsaSignature="MC0CFEcobqKYzCdtxzX/ddZNIyn5pp1+AhUAnHh+ECF5j/3wky0dK6K2ya0Jbq4=" />
+       	</item>
+       
+        <item>
+       	    <title>Texpad 1.6.13</title>
+       	    <description>1.6.13 update</description>
+       	    <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
+       	    <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_6_13.html</sparkle:releaseNotesLink>
+       	    <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+       	    <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_6_13.zip"
+       	                sparkle:version="1.6.13"
+       	                length="15370482"
+       	                type="application/octet-stream"
+       	                sparkle:dsaSignature="MC0CFDxni9Q15kMLG+Rssbg+/bMSJmWdAhUAnoy36AT0pmpT0cBUxyZn6ZLTwJs=" />
+       	</item>
+
+        <item>
+       	    <title>Texpad 1.6.12</title>
+       	    <description>1.6.12 update</description>
+       	    <pubDate>Wed, 30 Apr 2014 00:00:00 +0000</pubDate>
+       	    <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_6_12.html</sparkle:releaseNotesLink>
+       	    <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+       	    <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_6_12.zip"
+       	                sparkle:version="1.6.12"
+       	                length="15369711"
+       	                type="application/octet-stream"
+       	                sparkle:dsaSignature="MC0CFE/Tqvhw5Yceu5Kizp+jQFPhyTuEAhUA1jA9fq4qb+pyHEHcVZuYSpWwEA8=" />
+       	</item>
+       	
+       	<item>
+       	    <title>Texpad 1.6.11</title>
+       	    <description>1.6.11 update</description>
+       	    <pubDate>Wed, 2 Apr 2014 00:00:00 +0000</pubDate>
+       	    <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_6_11.html</sparkle:releaseNotesLink>
+       	    <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+       	    <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_6_11.zip"
+       	                sparkle:version="1.6.11"
+       	                length="15368649"
+       	                type="application/octet-stream"
+       	                sparkle:dsaSignature="MC0CFQChsUgKXhtO92ncXwHVeD3By3rNXAIUSrhK5Lfi7vYOfBtbPSckYO78tAA=" />
+       	</item>
+
+
+        <item>
+       	    <title>Texpad 1.6.10</title>
+       	    <description>1.6.10 update</description>
+       	    <pubDate>Mon, 31 Mar 2014 00:00:00 +0000</pubDate>
+       	    <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_6_10.html</sparkle:releaseNotesLink>
+       	    <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+       	    <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_6_10.zip"
+       	                sparkle:version="1.6.10"
+       	                length="15354394"
+       	                type="application/octet-stream"
+       	                sparkle:dsaSignature="MCwCFDA6bFOX2MmbzVTivgXN2SbnM64DAhRGC7I65EUYkp5SAdnSVrneRtarhw==" />
+       	</item>
+
+     	<item>
+       	    <title>Texpad 1.6.9</title>
+       	    <description>1.6.9 update</description>
+       	    <pubDate>Mon, 17 Feb 2014 00:00:00 +0000</pubDate>
+       	    <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_6_9.html</sparkle:releaseNotesLink>
+       	    <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+       	    <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_6_9.zip"
+       	                sparkle:version="1.6.9"
+       	                length="15376769"
+       	                type="application/octet-stream"
+       	                sparkle:dsaSignature="MC0CFQCiiZW0F4cntc72O7LVmzd4eo9alwIUYZeYGFrpj066AQ2wwtDUGwVdVJo=" />
+       	</item>
+
+      	<item>
+       	    <title>Texpad 1.6.8</title>
+       	    <description>1.6.8 update</description>
+       	    <pubDate>Wed, 21 Jan 2014 00:00:00 +0000</pubDate>
+       	    <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_6_8.html</sparkle:releaseNotesLink>
+       	    <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+       	    <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_6_8.zip"
+       	                sparkle:version="1.6.8"
+       	                length="15315403"
+       	                type="application/octet-stream"
+       	                sparkle:dsaSignature="MC4CFQCEzdLrCq2uxftU8zBdF7kAtyKg3gIVAK/czN19W1gSpY9sBpstQDWHRjH2" />
+       	</item>
+
+       	<item>
+       	    <title>Texpad 1.6.7</title>
+       	    <description>1.6.7 update</description>
+       	    <pubDate>Tue, 21 Jan 2014 00:00:00 +0000</pubDate>
+       	    <sparkle:releaseNotesLink>http://cloud.texpadapp.com/bundles/Texpad_1_6_7.html</sparkle:releaseNotesLink>
+       	    <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+       	    <enclosure  url="http://cloud.texpadapp.com/bundles/Texpad_1_6_7.zip"
+       	                sparkle:version="1.6.7"
+       	                length="15301183"
+       	                type="application/octet-stream"
+       	                sparkle:dsaSignature="MC0CFAwfKCRJdfnGknxwmtOk3JM3NM2fAhUAxEppfNbQ/FqtS/dH5NvBzWJPbrw=" />
+       	</item>
+
+        <item>
+            <title>Texpad 1.6.6</title>
+            <description>1.6.6 update</description>
+            <pubDate>Sun, 15 Dec 2013 00:00:00 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_6_6.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+            <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_6_6.zip"
+                        sparkle:version="1.6.6"
+                        length="8363895"
+                        type="application/octet-stream"
+                        sparkle:dsaSignature="MC0CFQCk6y3kvJz4aJvXDEIyqA4O22cZfQIUUxcU74Y3SIQTFw/yrndCNwKltMc=" />
+        </item>
+
+        
+        <item>
+            <title>Texpad 1.6.5</title>
+            <description>1.6.5 update</description>
+            <pubDate>Wed, 11 Dec 2013 00:00:00 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_6_5.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+            <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_6_5.zip"
+                        sparkle:version="1.6.5"
+                        length="8363743"
+                        type="application/octet-stream"
+                        sparkle:dsaSignature="MC0CFQCbELQLkopyeGNpu1fRXXCASHCKwQIUb0x516GCF5FoTE17WHUdKcUZ26U=" />
+        </item>
+
+        <item>
+            <title>Texpad 1.6.4</title>
+            <description>1.6.4 update</description>
+            <pubDate>Tue, 10 Dec 2013 15:00:00 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_6_4.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+            <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_6_4.zip"
+                        sparkle:version="1.6.4"
+                        length="8364250"
+                        type="application/octet-stream"
+                        sparkle:dsaSignature="MC0CFQCDyhYWsMn+Z1z9xgVtSqfMDBc2SgIUCqQVuuqwGFgRRkzdMUFyI13yyT0=" />
+        </item>
+
+        <item>
+            <title>Texpad 1.6.3</title>
+            <description>1.6.3 update</description>
+            <pubDate>Tue, 10 Dec 2013 00:00:00 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_6_3.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+            <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_6_3.zip"
+                        sparkle:version="1.6.3"
+                        length="8364142"
+                        type="application/octet-stream"
+                        sparkle:dsaSignature="MC0CFFrHxd0VOQfmxLdcpEc357ya5j28AhUAxPi1XZ7HYrwkM9CQXD0AsX8888U=" />
+        </item>
+
+        <item>
+            <title>Texpad 1.6.2</title>
+            <description>1.6.2 update</description>
+            <pubDate>Mon, 9 Dec 2013 00:00:00 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_6_2.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+            <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_6_2.zip"
+                        sparkle:version="1.6.2"
+                        length="8341824"
+                        type="application/octet-stream"
+                        sparkle:dsaSignature="MC0CFDot+SAFOb/iRaAhBSaU95f0pYwhAhUA2To0dUJuP9D3awAboHSQkziJt5E=" />
+        </item>
+
+        <item>
+            <title>Texpad 1.6.1</title>
+            <description>1.6.1 update</description>
+            <pubDate>Tue, 12 Nov 2013 21:00:00 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_6_1.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+            <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_6_1.zip"
+                        sparkle:version="1.6.1"
+                        length="7998757"
+                        type="application/octet-stream"
+                        sparkle:dsaSignature="MC0CFBHbGpII/ednMWN52xxvLzrnp/I2AhUApdJ0dsLm4T4DLQk2cymXbZsbriI=" />
+        </item>
+
+        <item>
+            <title>Texpad 1.6</title>
+            <description>1.6 update</description>
+            <pubDate>Mon, 28 Oct 2013 21:00:00 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_6_0.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+            <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_6_0.zip"
+                        sparkle:version="1.6.0"
+                        length="7993163"
+                        type="application/octet-stream"
+                        sparkle:dsaSignature="MCwCFCOApbPEB1/OMKpHmzuF+YX3uUZ6AhRXEB8Ljtrxm2n5M7xMd/IMtZvh+Q==" />
+        </item>
+        
+        <item>
+            <title>Texpad 1.5.7</title>
+            <description>1.5.7 update</description>
+            <pubDate>Fri, 16 Aug 2013 21:00:00 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_5_7.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+            <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_5_7.zip"
+                        sparkle:version="1.5.7"
+                        length="10265961"
+                        type="application/octet-stream"
+                        sparkle:dsaSignature="MC0CFAslNtKsHMSLnWtlhgt1YWfEeSwiAhUAg1vPawrByun4gb8R67i5qo+Hkx0=" />
+        </item>
+        
+        <item>
+            <title>Texpad 1.5.6</title>
+            <description>1.5.6 update</description>
+            <pubDate>Fri, 16 Aug 2013 00:00:00 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_5_6.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+            <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_5_6.zip"
+                        sparkle:version="1.5.6"
+                        length="10266703"
+                        type="application/octet-stream"
+                        sparkle:dsaSignature="MC0CFQCb1jZjepKQQ1Zgr+yj2t+wIAGX9wIUH9f4Q/OTQdJsVhZrummooXAP4Hs=" />
+        </item>
+        
+        <item>
+            <title>Texpad 1.5.5</title>
+            <description>1.5.5 update</description>
+            <pubDate>Tue, 06 Aug 2013 00:00:00 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://cloud.texpadapp.com/bundles/Texpad_1_5_5.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+            <enclosure  url="https://cloud.texpadapp.com/bundles/Texpad_1_5_5.zip"
+                        sparkle:version="1.5.5"
+                        length="10234879"
+                        type="application/octet-stream"
+                        sparkle:dsaSignature="MCwCFC3afo0T8gloa5H51Eqe2V0Gbtk4AhRueENe1yDz2PyNNbyE08vjrdjSlg==" />
+        </item>
+
+        <item>
+            <title>Texpad 1.5.3</title>
+            <description>1.5.3 update</description>
+            <pubDate>Fri, 26 June 2013 00:00:00 +0000</pubDate>
+            <sparkle:releaseNotesLink>http://cloud.texpadapp.com/bundles/Texpad_1_5_3.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+            <enclosure  url="http://cloud.texpadapp.com/bundles/Texpad_1_5_3.zip"
+                        sparkle:version="1.5.3"
+                        length="10235791"
+                        type="application/octet-stream"
+                        sparkle:dsaSignature="MCwCFENjn6qyFAhvdLTMjP0HH59MOnW7AhR52Y+035WeZQw5nN/FTRZvbOqW2g==" />
+        </item>
+
+        <item>
+            <title>Texpad 1.5.2</title>
+            <description>1.5.2 update</description>
+            <pubDate>Fri, 14 June 2013 00:00:00 +0000</pubDate>
+            <sparkle:releaseNotesLink>http://cloud.texpadapp.com/bundles/Texpad_1_5_2.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+            <enclosure  url="http://cloud.texpadapp.com/bundles/Texpad_1_5_2.zip"
+                        sparkle:version="1.5.2"
+                        length="10190550"
+                        type="application/octet-stream"
+                        sparkle:dsaSignature="MC0CFESm17BRtkKrtW+rO/FEFMkPEoZXAhUA1LoL3LCL39pnC0Rtlu4prLSz06Y=" />
+        </item>
+        
+        <item>
+            <title>Texpad 1.5.1</title>
+            <description>1.5.1 update</description>
+            <pubDate>Tue, 04 June 2013 00:00:00 +0000</pubDate>
+            <sparkle:releaseNotesLink>http://cloud.texpadapp.com/bundles/Texpad_1_5_1.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+            <enclosure  url="http://cloud.texpadapp.com/bundles/Texpad_1_5_1.zip"
+                        sparkle:version="1.5.1"
+                        length="10189400"
+                        type="application/octet-stream"
+                        sparkle:dsaSignature="MC0CFQDQMTumeZCA1H8lfiXbyn2J5ShW5QIUZvNyp0iyGieV5/DhRN8cNDAyqaI=" />
+        </item>
+        
+        <item>
+            <title>Texpad 1.5</title>
+            <description>1.5 update</description>
+            <pubDate>Mon, 20 May 2013 00:00:00 +0000</pubDate>
+            <sparkle:releaseNotesLink>http://cloud.texpadapp.com/bundles/Texpad_1_5_0.html</sparkle:releaseNotesLink>
+            <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+            <enclosure  url="http://cloud.texpadapp.com/bundles/Texpad_1_5_0.zip"
+                        sparkle:version="1.5.0"
+                        length="10433885" 
+                        type="application/octet-stream"
+                        sparkle:dsaSignature="MCwCFAvWC+oloT5NQdu7i1dBrt9a8xEpAhQC1LOMKEL93ZHdZQ6PlC9uokoHXw==" />
+        </item>
+    </channel>
+</rss>

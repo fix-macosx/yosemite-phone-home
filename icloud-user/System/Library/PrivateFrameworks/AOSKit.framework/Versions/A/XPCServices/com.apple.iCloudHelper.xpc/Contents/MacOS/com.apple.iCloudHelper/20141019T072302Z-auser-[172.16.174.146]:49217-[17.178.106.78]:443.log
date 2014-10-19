@@ -1,0 +1,23 @@
+POST /setup/qualify/session HTTP/1.1
+Host: setup.icloud.com
+X-Mme-Timezone: PDT
+X-Mme-Country: US
+X-Mme-Nas-Session: AQhLLJFIHZt9oJ0xH8oqWaoLX+sdX6duT34I/GkfAqcGG6b3JVTjmNApqF5UZDOxrD814GAMU6t3DT19sera5WlAeLL2mBKH2Rzd/XPn/a4SQ/6w6KoxmLb8P0Qcw7iuoS8Y2m8sZFnqb70tMGFW2sWs00ZoYs4SUUR/aZCvo55z4QxXnXTYHFOAbl8udoAwpRXzMk8ZDv4D3VEZn8r3Mkvx+jJieK789xh2ijNLU+KtR+ESO4Uug43T942JFGYynrd3LJlS8WPZBZ0ByV9QiA1SOL/5byMM6EiDwMoK1V5lbWAB3vEZYYCIHueULgMCYIievBv7YQ6fSAgH4ae6MxPVzmeymJZEyUy6EJfLoINp6P+7EfHlkFMtAAAAIPwN1V2UmBZUVr7DmOsrhTuMEe6hC634RD189vIdOih9ytP5Wj5ucx+WyuN7SYCO/yKz0zI=
+X-Mme-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.AOSKit/215 (com.apple.accountsd/113)>
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+X-Mme-Device-Id: 564D33F4-CC81-F551-C2BE-08104C5240D2
+Content-Length: 0
+User-Agent: com.apple.iCloudHelper/215 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Connection: keep-alive
+Accept: */*
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:23:02 GMT
+X-Apple-Request-UUID: 4e509034-4866-4901-892a-15c0212cef93
+X-Responding-Instance: setupservice:32600203:mr11p26ic-hpaf11130901:8003:14G54:156781
+Cache-Control: no-cache, no-store, private
+Content-Type: application/json; charset=UTF-8
+Content-Length: 962
+
+{"success":true,"session-info":"Avg0tYJpFiHoNw427ywnmZYAAAJQqGJ66rhVkPf7Sg0sAOOAdyf1dzZQWYWaoQbdID9hnQ1qM3z48GbHzDZeA/rtrYsGx4EhfWv89nL3yXZl0lAcJ3QZyzAQz6sRWwrd+naxQmbUi6ZMonLz47qG2H6frJNr/X4gMKVJY7sAg62lobqi0rxqfXBYV9FbgJizVj381WRRs3FGNyHmC/MUxrGZlzLHT4iAVc/PRIHbOku+9nE9965k7oSD5Ehei62zfArk12xK8t8hBwx68BpiCTqP+QByo/nBDwX4AucIMVoeOqLdaFoF4VuDG/zQZMSQF06N4wUenzbjyVBY3ydjZPJfIkUoitPa7YkNA03clQ7Cq2tvHygBmnKw7G+xB628uiEt72EZFJ9UfWVzVyk5/thkTV0Mkpbj/918IEGTbB82DkZ3SycnECBFOqoo56ExcEAnTx6iIXHpnzz634eEUO9XbqVxmMtrClu2wX0uFqDoFzovhnp9hsSLEkBFZSdNY7aDOsQsKYEXKjUicEjjmpMIvK9KmhKo3GIBOe74M0MTN4GU1/MYeWpcx30/XZCG5WCConFJ3PwabU3TI57qkJz1yYwvlbv+HekvqL95ILjf8kp5DO+aUlsME1pNCR6t9er+bqTk1FpojCy0pqPMidJejhpggIpB4KbfLCKgnOD9+s6D4GyDuhJLN5g8ZeUjtNbdbrcVyuOAcKcmJfY+zMU7L+DbP6QB8sqgXF508wEVQtT0JobR2GANC0dpHmlXdFJdE3Lu2WU2BFqJxITmUV5njj/7qG03orvdQ7l/tuNFyXlwMAGQyWos8CLvIkcKMlWvumQS7JUAtQAAADYCB5mvVfqq5TVjJyLMRqTDrb1UQ2bWgpGoak38EBEYyLmo9dKpWt0XBcWoxKeR8W3C9Kft0yRXAEwA"}

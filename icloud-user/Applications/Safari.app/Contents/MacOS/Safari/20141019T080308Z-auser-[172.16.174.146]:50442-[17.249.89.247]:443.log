@@ -1,0 +1,25 @@
+GET /search?q=macpo&locale=en-US&key=andromeda&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+Accept: */*
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: []
+X-Apple-UserGuid: 5f4b3e5e-d4e7-4b12-5c9b-7f17a15db86b
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: []
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 08:03:08 GMT
+Connection: close
+Transfer-Encoding: chunked
+
+954
+[{"status":"OK","query":"macports.org","prefix":"macpo","completion_score":59299.000003543166,"fbq":"eyJ1IjoiNWY0YjNlNWUtZDRlNy00YjEyLTVjOWItN2YxN2ExNWRiODZiIiwicCI6Im1hY3BvIiwicSI6Im1hY3BvcnRzLm9yZyIsInRzIjoxNDEzNzA1Nzg4LCJnIjoidXMvaWxsaW5vaXMvY29vay9jaGljYWdvIiwiYSI6InNhZmFyaSIsImQiOiJtYWMiLCJsIjoiZW5fVVMiLCJpIjoiMTQzNDQxLTEsMjEiLCJjIjoiNDEuODY0MywtODcuNjQ1IiwiZWN2IjowLCJjY3YiOjB9","results":[{"type":"web_suggest","id":"wb:http://macports.org","score":1,"fbr":"eyJkIjoid2ViX3N1Z2dlc3QiLCJyIjoid2I6aHR0cDovL21hY3BvcnRzLm9yZyJ9","url":"http://macports.org","report_problem_url":"","filtered":false,"tophit":1,"engagement_score":0,"qi_engagement_score":0,"hide_rank":15,"template":"simple","completion":"http://macports.org","completion_icon":{"content_type":"image/png","data":"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB0UlEQVR42s2TQUgUURiAPXSIKAo8efFikNipa+DBLh0yzKCLp6CoxIOJEbmWYgRZhrJEEbgsSYQShW2iIWuBskphJSaShlGxbs7uzE67O7O7M7a7X++puwOBgqf84WMe73//9977H1NUtCMCqBSc2SaV+WIfW8SPaIaxBQv/F4fAkk1qNSfTPinIbVa8GP7Dkdsah26qlP9D/UBcLslJAWPzFm2DcUwrh5rIcv1FnPffbPqn05TdiFDn/Y1nMsXD8SSnHulrcxVCImNN0NQfY8+FECOzaXrHTfZeDNE9avDkXYrSljDuNyZvF2xcLxNoZpby9ggHhaQgONurc/yeSuPTGDVujRM9Gh1i8eOpFCVXFLr9JkOzFvUiryezlLWGKb0WdgSn70fpem1wuFXh6K0IrudxmgdieANJii+v0CVOs6xnGPyUpvZBlOLGFUqaFUdQ1akyOmdR4VK4+izGneEE5706nokk+xp+0Tli0De1Ps4jJQVBn9gpKHYIfLX5qWWY/m7zaiaNR/Rjt+jNsbsqJ8XV5DjPASEpCDaLuaDN/ktBdp1bFoQ2vuvUup0eGFtJlhRxmo8JfB8c/J8N8eQZmTakoFqgsf2QNdX//0f8C5Z0e7zov7RZAAAAAElFTkSuQmCC"},"section_header":"Suggested Website","title":"macports.org","title_maxlines":1,"description":"— The MacPorts Project -- Home","description_follows_title":true,"icon":{"content_type":"image/png","data":"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB0UlEQVR42s2TQUgUURiAPXSIKAo8efFikNipa+DBLh0yzKCLp6CoxIOJEbmWYgRZhrJEEbgsSYQShW2iIWuBskphJSaShlGxbs7uzE67O7O7M7a7X++puwOBgqf84WMe73//9977H1NUtCMCqBSc2SaV+WIfW8SPaIaxBQv/F4fAkk1qNSfTPinIbVa8GP7Dkdsah26qlP9D/UBcLslJAWPzFm2DcUwrh5rIcv1FnPffbPqn05TdiFDn/Y1nMsXD8SSnHulrcxVCImNN0NQfY8+FECOzaXrHTfZeDNE9avDkXYrSljDuNyZvF2xcLxNoZpby9ggHhaQgONurc/yeSuPTGDVujRM9Gh1i8eOpFCVXFLr9JkOzFvUiryezlLWGKb0WdgSn70fpem1wuFXh6K0IrudxmgdieANJii+v0CVOs6xnGPyUpvZBlOLGFUqaFUdQ1akyOmdR4VK4+izGneEE5706nokk+xp+0Tli0De1Ps4jJQVBn9gpKHYIfLX5qWWY/m7zaiaNR/Rjt+jNsbsqJ8XV5DjPASEpCDaLuaDN/ktBdp1bFoQ2vuvUup0eGFtJlhRxmo8JfB8c/J8N8eQZmTakoFqgsf2QNdX//0f8C5Z0e7zov7RZAAAAAElFTkSuQmCC"}}]}]
+
+0
+

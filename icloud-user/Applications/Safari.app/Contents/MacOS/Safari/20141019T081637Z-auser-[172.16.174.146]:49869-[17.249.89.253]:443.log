@@ -1,0 +1,12 @@
+GET /search?q=1984%20epub&locale=en-US&key=andromeda&context=com.apple.Maps&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+Accept: */*
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: ["w:1984+European+Cup+Final","i:298892404"]
+X-Apple-UserGuid: e34a9107-8c1b-4aaf-7152-d9101e13a1b8
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: ["1","1984 european cup final","19","198","1984"]
+

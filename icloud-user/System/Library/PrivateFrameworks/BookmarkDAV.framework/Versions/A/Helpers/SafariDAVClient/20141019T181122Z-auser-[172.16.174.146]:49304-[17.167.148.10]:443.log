@@ -1,0 +1,19 @@
+POST /8078008707/mm/push/register?token=8360b554c41df49df19bba92ce0f2f4ea9d28fe15c4f8af40d5ba766b47e4862&key=8078008707 HTTP/1.1
+Host: p29-bookmarks.icloud.com
+Accept-Encoding: gzip, deflate
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Connection: keep-alive
+Accept: */*
+User-Agent: CoreDAV/261 (14A389)
+Content-Length: 0
+Accept-Language: en-us
+X-Apple-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.coredav/1.0.1 (com.apple.safaridavclient/1.0)>
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 18:11:22 GMT
+X-Apple-Request-UUID: 3f16c54a-299d-404a-bd32-170b9e591936
+X-Responding-Instance: bookmarkdav:12900401:st13p29ic-hpaf18230501:8001:14G54:155647
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 2
+
+OK

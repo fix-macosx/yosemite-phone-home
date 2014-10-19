@@ -1,0 +1,442 @@
+POST /setup/get_account_settings HTTP/1.1
+Host: setup.icloud.com
+Authorization: Basic ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+X-Aos-Accept-Tos: false
+X-Mme-Timezone: PDT
+X-Mme-Country: US
+X-Mme-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.AOSKit/215>
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+X-Mme-Device-Id: 564D33F4-CC81-F551-C2BE-08104C5240D2
+Content-Length: 0
+User-Agent: com.apple.iCloudHelper/215 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Connection: keep-alive
+X-Apple-ADSID: 000802-10-847696a1-12d7-4604-876a-ee9454027322
+Accept: */*
+X-APNS-Token: 8360b554c41df49df19bba92ce0f2f4ea9d28fe15c4f8af40d5ba766b47e4862
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:26:34 GMT
+X-Apple-Request-UUID: d1463a45-2225-47f6-8735-1f0d848dee75
+X-Responding-Instance: setupservice:32400401:mr11p24ic-quav08181302:8001:14G54:156781
+Cache-Control: no-cache, no-store, private
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 9244
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>protocolVersion</key>
+		<string>2</string>
+
+		<key>tokens</key>
+		<dict>
+			<key>cloudKitToken</key>
+			<string>AQAAAABUQ2eqkI8veZebhOaaMbqftSoIudSP-Lc~</string>
+
+			<key>mmeFMFAppToken</key>
+			<string>AQAAAABUQ2eq9hgurz6_7Cnnhy7xpruSJEaxmpo~</string>
+
+			<key>mmeAuthToken</key>
+			<string>AQAAAABUQ2bYIE1qLcepPrdlGzErj4sQ1x6d7Hg=</string>
+
+			<key>mapsToken</key>
+			<string>AQAAAABUQ2eqF4EgzV0qV9CmSW2QQ7c81FVYBaM~</string>
+
+			<key>mmeFMIPToken</key>
+			<string>AQAAAABUQ2eqHNzZp3RxP-9N5log0W_qrmXPbfU~</string>
+
+			<key>mmeBTMMInfiniteToken</key>
+			<string>AQAAAABUQ2eqqaX5u0SabyullaIi0UFCJpDs3gM~</string>
+
+		</dict>
+
+		<key>appleAccountInfo</key>
+		<dict>
+			<key>primaryEmailVerified</key>
+			<true/>
+
+			<key>lastName</key>
+			<string>Users</string>
+
+			<key>iCloudAppleIdAlias</key>
+			<string></string>
+
+			<key>appleIdAlias</key>
+			<string></string>
+
+			<key>appleId</key>
+			<string>admin@fix-macosx.com</string>
+
+			<key>primaryEmail</key>
+			<string>admin@fix-macosx.com</string>
+
+			<key>statusCode</key>
+			<integer>2</integer>
+
+			<key>brMigrated</key>
+			<true/>
+
+			<key>aDsID</key>
+			<string>000802-10-847696a1-12d7-4604-876a-ee9454027322</string>
+
+			<key>dsPrsID</key>
+			<string>8078008707</string>
+
+			<key>fullName</key>
+			<string>Defaults Users</string>
+
+			<key>locked</key>
+			<false/>
+
+			<key>firstName</key>
+			<string>Defaults</string>
+
+			<key>appleIdAliases</key>
+			<array>
+			</array>
+
+		</dict>
+
+		<key>com.apple.mobileme</key>
+		<dict>
+			<key>com.apple.Dataclass.Reminders</key>
+			<dict>
+				<key>beta</key>
+				<false/>
+
+				<key>authMechanism</key>
+				<string>token</string>
+
+				<key>protocol</key>
+				<string>dav</string>
+
+				<key>url</key>
+				<string>https://p29-caldav.icloud.com:443</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.iwmb</key>
+			<dict>
+				<key>url</key>
+				<string>https://p29-iwmb.icloud.com:443</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.Account</key>
+			<dict>
+				<key>iCloudEnv</key>
+				<string>PROD</string>
+
+				<key>apsEnv</key>
+				<string>production</string>
+
+				<key>accountStatusCode</key>
+				<integer>2</integer>
+
+				<key>beta</key>
+				<false/>
+
+				<key>url</key>
+				<string>https://p29-setup.icloud.com:443</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.DeviceLocator</key>
+			<dict>
+				<key>authMechanism</key>
+				<string>token</string>
+
+				<key>hostname</key>
+				<string>p29-fmip.icloud.com</string>
+
+				<key>apsEnv</key>
+				<string>Production</string>
+
+				<key>url</key>
+				<string>https://p29-fmip.icloud.com:443</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.CloudPhotos</key>
+			<dict>
+			</dict>
+
+			<key>com.apple.Dataclass.CKDatabaseService</key>
+			<dict>
+				<key>apsEnv</key>
+				<string>production</string>
+
+				<key>url</key>
+				<string>https://p29-ckdatabase.icloud.com:443</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.KeychainSync</key>
+			<dict>
+				<key>authMechanism</key>
+				<string>token</string>
+
+				<key>escrowProxyUrl</key>
+				<string>https://p29-escrowproxy.icloud.com:443</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.Quota</key>
+			<dict>
+				<key>quotaInfoURL</key>
+				<string>https://p29-quota.icloud.com:443/quotaservice/external/osx/8078008707/getQuotaInfo</string>
+
+				<key>storagePlanURL</key>
+				<string>https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/presentOffers?appleId=$apple_id$&amp;dsid=$dsid$&amp;authToken=$MMeAuthToken$</string>
+
+				<key>quotaUpdateURL</key>
+				<string>https://p29-quota.icloud.com:443/quotastatic/desktopclient/v2/index.html</string>
+
+				<key>storageInfoURL</key>
+				<string>https://p29-quota.icloud.com:443/quotaservice/external/osx/8078008707/storageUsageInfo</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.Content</key>
+			<dict>
+				<key>url</key>
+				<string>https://p29-content.icloud.com:443</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.Mail</key>
+			<dict>
+			</dict>
+
+			<key>com.apple.Dataclass.ShareLocation</key>
+			<dict>
+				<key>beta</key>
+				<false/>
+
+				<key>authMechanism</key>
+				<string>token</string>
+
+				<key>hostname</key>
+				<string>p29-fmf.icloud.com</string>
+
+				<key>appHostname</key>
+				<string>p29-fmfmobile.icloud.com</string>
+
+				<key>apsEnv</key>
+				<string>Production</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.KeyValue</key>
+			<dict>
+				<key>beta</key>
+				<false/>
+
+				<key>authMechanism</key>
+				<string>token</string>
+
+				<key>apsEnv</key>
+				<string>production</string>
+
+				<key>configURL</key>
+				<string>https://keyvalueservice.icloud.com:443/config</string>
+
+				<key>url</key>
+				<string>https://p29-keyvalueservice.icloud.com:443</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.Ubiquity</key>
+			<dict>
+				<key>authMechanism</key>
+				<string>token</string>
+
+				<key>wsUrl</key>
+				<string>https://p29-ubiquityws.icloud.com:443</string>
+
+				<key>apsEnv</key>
+				<string>production</string>
+
+				<key>url</key>
+				<string>https://p29-ubiquity.icloud.com:443</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.Notes</key>
+			<dict>
+			</dict>
+
+			<key>availableFeatures</key>
+			<array>
+				<string>com.apple.Dataclass.Reminders</string>
+				<string>com.apple.Dataclass.iwmb</string>
+				<string>com.apple.Dataclass.CloudPhotos</string>
+				<string>com.apple.Dataclass.DeviceLocator</string>
+				<string>com.apple.Dataclass.CKDatabaseService</string>
+				<string>com.apple.Dataclass.KeychainSync</string>
+				<string>com.apple.Dataclass.Content</string>
+				<string>com.apple.Dataclass.ShareLocation</string>
+				<string>com.apple.Dataclass.Mail</string>
+				<string>com.apple.Dataclass.KeyValue</string>
+				<string>com.apple.Dataclass.Ubiquity</string>
+				<string>com.apple.Dataclass.Notes</string>
+				<string>com.apple.Dataclass.AccountSync</string>
+				<string>com.apple.Dataclass.MediaStream</string>
+				<string>com.apple.Dataclass.CKDeviceService</string>
+				<string>com.apple.Dataclass.BackToMyMac</string>
+				<string>com.apple.Dataclass.Contacts</string>
+				<string>com.apple.Dataclass.Bookmarks</string>
+				<string>com.apple.Dataclass.Calendars</string>
+				<string>com.apple.Dataclass.SharedStreams</string>
+				<string>com.apple.Dataclass.CKShareService</string>
+				<string>com.apple.Dataclass.Availability</string>
+			</array>
+
+			<key>com.apple.Dataclass.AccountSync</key>
+			<dict>
+			</dict>
+
+			<key>com.apple.Dataclass.MediaStream</key>
+			<dict>
+				<key>beta</key>
+				<false/>
+
+				<key>authMechanism</key>
+				<string>token</string>
+
+				<key>apsEnv</key>
+				<string>production</string>
+
+				<key>url</key>
+				<string>https://p29-streams.icloud.com:443</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.CKDeviceService</key>
+			<dict>
+				<key>url</key>
+				<string>https://p29-ckdevice.icloud.com:443</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.BackToMyMac</key>
+			<dict>
+				<key>seed</key>
+				<string>M9mFViZ7IZYHbTu4ZX8sNw==</string>
+
+				<key>iterationCount</key>
+				<integer>100000</integer>
+
+				<key>relayHost</key>
+				<string>p29-conduit.connectivity.icloud.com</string>
+
+				<key>keyValueConfigURL</key>
+				<string>https://keyvalueservice.icloud.com:443/config</string>
+
+				<key>apsEnv</key>
+				<string>production</string>
+
+				<key>relayPort</key>
+				<integer>443</integer>
+
+				<key>keyValueURL</key>
+				<string>https://p29-keyvalueservice.icloud.com:443</string>
+
+				<key>url</key>
+				<string>https://p29-btmm.icloud.com:443/v1/hello</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.Contacts</key>
+			<dict>
+				<key>beta</key>
+				<false/>
+
+				<key>authMechanism</key>
+				<string>token</string>
+
+				<key>protocol</key>
+				<string>dav</string>
+
+				<key>url</key>
+				<string>https://p29-contacts.icloud.com:443</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.Bookmarks</key>
+			<dict>
+				<key>protocol</key>
+				<string>dav</string>
+
+				<key>apsEnv</key>
+				<string>production</string>
+
+				<key>url</key>
+				<string>https://p29-bookmarks.icloud.com:443</string>
+
+				<key>authMechanism</key>
+				<string>token</string>
+
+				<key>beta</key>
+				<false/>
+
+			</dict>
+
+			<key>com.apple.Dataclass.Calendars</key>
+			<dict>
+				<key>beta</key>
+				<false/>
+
+				<key>authMechanism</key>
+				<string>token</string>
+
+				<key>protocol</key>
+				<string>dav</string>
+
+				<key>url</key>
+				<string>https://p29-caldav.icloud.com:443</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.SharedStreams</key>
+			<dict>
+				<key>beta</key>
+				<false/>
+
+				<key>authMechanism</key>
+				<string>token</string>
+
+				<key>apsEnv</key>
+				<string>production</string>
+
+				<key>url</key>
+				<string>https://p29-sharedstreams.icloud.com:443</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.CKShareService</key>
+			<dict>
+				<key>url</key>
+				<string>https://p29-ckshare.icloud.com:443</string>
+
+			</dict>
+
+			<key>com.apple.Dataclass.Availability</key>
+			<dict>
+				<key>authMechanism</key>
+				<string>token</string>
+
+				<key>apsEnv</key>
+				<string>production</string>
+
+				<key>url</key>
+				<string>https://p29-availability.icloud.com:443</string>
+
+			</dict>
+
+		</dict>
+
+	</dict>
+</plist>

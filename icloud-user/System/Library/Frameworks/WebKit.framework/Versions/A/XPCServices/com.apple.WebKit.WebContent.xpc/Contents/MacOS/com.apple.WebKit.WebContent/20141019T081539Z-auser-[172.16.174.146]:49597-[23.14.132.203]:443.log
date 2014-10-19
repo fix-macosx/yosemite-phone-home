@@ -1,0 +1,31 @@
+POST /WebObjects/MZUserXP.woa/wa/recordStats?eventType=ITSLoadTimes&version=2.1 HTTP/1.1
+Host: metrics.mzstatic.com
+Accept: */*
+X-Apple-Store-Front: 143441-1,13
+Accept-Language: en-US
+Accept-Encoding: gzip, deflate
+Date: Sun, 19 Oct 2014 08:15:38 GMT
+Content-Type: application/json
+Origin: https://p30-buy.itunes.apple.com
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Referer: https://p30-buy.itunes.apple.com/WebObjects/MZFinance.woa/wo/4.2.1.1.1.3.1.5.1.1.7.3.7?guid=000C295240D2
+Content-Length: 1817
+Connection: keep-alive
+iCloud-DSID: 8078008707
+X-Apple-TZ: -420
+
+{"ITSLoadTimes_elapsedTimeSinceTimerCreation":2313,"ITSLoadTimes_itsKitDispatchPreloadDuration":1,"ITSLoadTimes_itsKitDispatchInitDuration":0,"ITSLoadTimes_itsKitDispatchDomReadyDuration":0,"ITSLoadTimes_itsKitDispatchLoadDuration":0,"ITSLoadTimes_itsKitDispatchAfterLoadDuration":1,"ITSLoadTimes_itsKitDispatchPreloadStart":1082,"ITSLoadTimes_DOMContentLoaded":1322,"ITSLoadTimes_itsKitDispatchInitStart":1323,"ITSLoadTimes_itsKitDispatchDomReadyStart":1328,"ITSLoadTimes_load":2254,"ITSLoadTimes_itsKitDispatchLoadStart":2255,"ITSLoadTimes_itsKitDispatchAfterLoadStart":2312,"ITSLoadTimes_message":"undefined","ITSLogger_messageParam":"undefined","ITSLogger_loggerName":"ITSLoadTimes","ITSLogger_loggingThreshold":5,"ITSLogger_version":"2.1","ITSLogger_eventType":"ITSLoadTimes","ITSLogger_serverEnvironment":"prod","ITSLogger_serverEnvironmentDetailsString":"undefined","ITSLogger_serverInstance":"302345","ITSLogger_dsid":"undefined","ITSLogger_visitorId":"[LS]|v5|0|1413706529586saSst77NjS|[LE]","ITSLogger_visitorIds":"[\"[LS]|v5|0|1413706529586saSst77NjS|[LE]\"]","ITSLogger_visitorCount":1,"ITSLogger_omnitureVisitorId":"undefined","ITSLogger_resourceRevNum":"0414","ITSLogger_windowLocationHref":"https://p30-buy.itunes.apple.com/WebObjects/MZFinance.woa/wo/4.2.1.1.1.3.1.5.1.1.7.3.7?guid=000C295240D2","ITSLogger_timeOfLog":1413706538992,"ITSLogger_markupLoadStartTime":1413706536679,"ITSLogger_markupLoadEndTime":1413706538001,"ITSLogger_markupLoadTotalTime":1322,"ITSLogger_timeElapsedFromLoadStart":2313,"ITSLogger_pageName":"Convert Address Wizard-US","ITSLogger_pageChannel":"Convert Address Wizard","ITSLogger_pageClassName":"usa enno-country-nav account app-store edit-address convert sd-device","ITSLogger_allowDeferJsLoad":true,"ITSLogger_clientForceServerNotifications":false,"sender":"ITSClient"}HTTP/1.1 204 No Content
+x-apple-jingle-correlation-key: 6EFQPMRUX3KDA
+apple-timing-app: 1 ms
+access-control-allow-origin: https://p30-buy.itunes.apple.com
+x-apple-application-instance: 5205
+x-apple-application-site: NWK
+x-webobjects-loadaverage: 0
+access-control-allow-credentials: true
+Content-Length: 0
+Expires: Sun, 19 Oct 2014 08:15:39 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 19 Oct 2014 08:15:39 GMT
+Connection: close
+

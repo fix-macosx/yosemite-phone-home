@@ -1,0 +1,51 @@
+POST /WebObjects/MZSoftwareUpdate.woa/wa/availableSoftwareUpdatesExtended HTTP/1.1
+Host: su.itunes.apple.com
+X-Apple-TZ: -420
+Accept: */*
+X-Apple-Store-Front: 143441-1,13
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Date: Sun, 19 Oct 2014 08:14:15 GMT
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 225
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Connection: keep-alive
+Cookie: xp_ci=3z4g8XADz7s3z4RnzCRNz1KGeDrrYY; mzf_in=242408; ns-mzf-inst=35-179-80-112-66-8192-242408-24-nk11; Pod=24; itspod=24
+iCloud-DSID: 8078008707
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>local-software</key>
+	<array/>
+</dict>
+</plist>
+HTTP/1.1 200 OK
+x-apple-jingle-correlation-key: IA5U5G26OFQTK
+x-apple-application-site: ST11
+apple-timing-app: 5 ms
+Cache-Control: max-age=0, no-cache, must-revalidate, private, no-store, no-transform
+Content-Type: text/xml; charset=UTF-8; encoding=UTF-8
+x-apple-lokamai-no-cache: true
+x-apple-application-instance: 39705
+x-webobjects-loadaverage: 0
+Date: Sun, 19 Oct 2014 08:14:15 GMT
+Content-Length: 465
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>page-type</key>
+  <dict>
+    <key>template-name</key><string>software-updates</string>
+    <key>template-parameters</key>
+    <dict>
+    </dict>
+  </dict>
+  <key>title</key><string>Updates</string>
+  <key>store-version</key><string>1.0</string>
+</dict>
+</plist>

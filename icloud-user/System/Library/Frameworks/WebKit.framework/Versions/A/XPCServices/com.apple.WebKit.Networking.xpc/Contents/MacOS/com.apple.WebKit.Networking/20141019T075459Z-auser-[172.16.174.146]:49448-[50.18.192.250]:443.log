@@ -1,0 +1,192 @@
+GET / HTTP/1.1
+Host: duckduckgo.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 07:54:59 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 7187
+Connection: close
+ETag: "5442d11d-1c13"
+Expires: Sun, 19 Oct 2014 07:55:00 GMT
+Cache-Control: max-age=1
+Strict-Transport-Security: max-age=31536000
+Accept-Ranges: bytes
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]> <html lang="en_US" class="no-js iem7"> <![endif]-->
+<!--[if lt IE 7]> <html class="ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7 no-js" lang="en_US"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 lt-ie10 lt-ie9 lt-ie8 no-js" lang="en_US"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 lt-ie10 lt-ie9 no-js" lang="en_US"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9 lt-ie10 no-js" lang="en_US"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en_US"><!--<![endif]-->
+
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8;charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
+<meta name="HandheldFriendly" content="true"/>
+
+<link rel="canonical" href="https://duckduckgo.com/">
+
+<link rel="stylesheet" href="/s897.css" type="text/css">
+<link rel="stylesheet" href="/t897.css" type="text/css">
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 24x24 32x32 64x64"/>
+<link rel="apple-touch-icon" href="/assets/icons/meta/DDG-iOS-icon_60x60.png"/>
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/meta/DDG-iOS-icon_76x76.png"/>
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/meta/DDG-iOS-icon_120x120.png"/>
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/meta/DDG-iOS-icon_152x152.png"/>
+<link rel="image_src" href="/assets/icons/meta/DDG-icon_256x256.png"/>
+
+<link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="/opensearch.xml">
+
+<meta name="twitter:site" value="@duckduckgo">
+<meta name="twitter:url" value="https://duckduckgo.com/">
+
+<meta property="og:url" content="https://duckduckgo.com/" />
+<meta property="og:site_name" content="DuckDuckGo" />
+
+
+	<title>DuckDuckGo</title>
+<meta property="og:title" content="DuckDuckGo" />
+<meta name="twitter:title" value="DuckDuckGo">
+
+
+<meta name="description" content="The search engine that doesn't track you. A superior search experience with smarter answers, less clutter and real privacy.">
+
+
+  </head>
+  <body id="pg-index" class="page-index  body--home">
+	<script type="text/javascript">settings_js_version = "/s1695.js";</script>
+<script type="text/javascript" src="/locales/en_US/LC_MESSAGES/duckduckgo-duckduckgo+sprintf+gettext+locale-simple.20141017.050413.js"></script>
+<script type="text/javascript" src="/d1695.js"></script>
+
+
+<script type="text/javascript">
+	DDG.ready(function(){
+		DDG.page = new DDG.Pages.Home();
+	});
+</script>
+
+	<div class="site-wrapper  site-wrapper--home">
+	    
+	
+		  
+			<div class="header-wrap--home">
+	<div class="header--home-aside">
+		 <a class="header__button--menu  js-trigger-main-menu" href="javascript:;">&#8694;</a>
+	</div>
+</div>
+
+<div class="nav-menu--slideout  js-main-menu">
+    <ul class="nav-menu__list">
+		<i class="nav-menu__close  js-trigger-main-menu">X</i>
+		
+	<ul class="nav-menu--theme  hide--mob">
+	    <li class="nav-menu__heading"><span>Theme</span></li>
+		<li class="nav-menu__item"><a href="#" class="nav-menu__theme  nav-menu__theme--default" data-theme="" tabindex="-1">Default</a></li>
+		<li class="nav-menu__item"><a href="#" class="nav-menu__theme  nav-menu__theme--b" data-theme="b" tabindex="-1">Basic</a></li>
+		<li class="nav-menu__item"><a href="#" class="nav-menu__theme  nav-menu__theme--c" data-theme="c" tabindex="-1">Contrast</a></li>
+		<li class="nav-menu__item"><a href="#" class="nav-menu__theme  nav-menu__theme--d" data-theme="d" tabindex="-1">Dark</a></li>
+		<li class="nav-menu__item"><a href="/settings#appearance" tabindex="-1">More...</a></li>
+    </ul>
+
+	<ul class="nav-menu--main">
+	<li class="nav-menu__heading"><span>Menu</span></li>
+
+	<li class="nav-menu__item"><a href="/settings/" tabindex="-1">Settings</a></li>
+
+
+	<li class="nav-menu__item"><a href="/about/" tabindex="-1">About</a></li>
+
+	<li class="nav-menu__item"><a href="/privacy/" tabindex="-1">Privacy</a></li>
+
+	<li class="nav-menu__item  hide--mob"><a href="https://duck.co/help" tabindex="-1">Help</a></li>
+	</ul>
+	
+	<ul class="nav-menu--community  hide--mob">
+	<li class="nav-menu__heading"><span>Get Involved</span></li>
+	<li class="nav-menu__item"><a href="https://duck.co/" tabindex="-1">Community</a></li>
+	<li class="nav-menu__item"><a href="/feedback/" tabindex="-1">Feedback</a></li>
+	</ul>
+	
+	<ul class="nav-menu--add-to">
+	<li class="nav-menu__heading"><span>Add DuckDuckGo</span></li>
+	<li class="nav-menu__item js-menu-add-to-browser"></li>
+	<li class="nav-menu__item js-menu-add-to-homepage"></li>
+	</ul>
+
+	</ul>
+</div>
+	
+			<div id="" class="content-wrap--home">
+			  <div id="content_homepage" class="content--home">
+				<div class="cw--c">
+							<div class="logo-wrap--home">
+			<a id="logo_homepage_link" class="logo_homepage" title="About DuckDuckGo" href="/about">About DuckDuckGo</a>
+		</div>
+<!--
+		<div class="logo-wrap--home">
+			<a id="logo_homepage_link" class="logo_homepage  logo_homepage--resetthenet" title="Reset the Net" href="https://www.resetthenet.org/" target="_new">Reset the Net</a>
+		</div>
+		//-->
+
+					<div class="search-wrap--home">
+								<form id="search_form_homepage" class="search  search--home  js-search-form" name="x" method="POST" action="/html">			
+			<input id="search_form_input_homepage" class="search__input  js-search-input" type="text" autocomplete="off" name="q" tabindex="1" value="">
+			<input id="search_button_homepage" class="search__button  js-search-button" type="submit" tabindex="2" value="S" />
+			<input id="search_form_input_clear" class="search__clear  empty  js-search-clear" type="button" tabindex="3" value="X" />
+			<div id="search_elements_hidden" class="search__hidden  js-search-hidden"></div>
+		</form>
+
+					</div>
+				
+		  
+		
+
+		<!-- en_US All Settings -->
+		
+<div id="tagline_homepage" class="tag-home">
+
+	The search engine that doesn&#39;t track you.
+	<span class="tag-home__links">
+		<span class="js-homepage-cta"><a href="/spread" class="tag-home__link">Help Spread DuckDuckGo!</a> <span class="tag-home__links__sep">|</span> </span><a href="/tour" class="tag-home__link">Take a Tour.</a>
+	</span>
+</div>
+		
+		<div id="error_homepage"></div>
+
+
+	
+		
+				</div> <!-- cw -->
+			 </div> <!-- content_homepage //-->
+		  </div> <!-- content_wrapper_homepage //-->
+		  <div id="footer_homepage" class="foot-home  js-foot-home"></div>
+
+<script type="text/javascript">
+	{function seterr(str) {
+		var error=document.getElementById('error_homepage');
+		error.innerHTML=str;
+		$(error).css('display','block');
+	}
+	var err=new RegExp('[\?\&]e=([^\&]+)');var errm=new Array();errm['2']='no search';errm['3']='search too long';errm['4']='not UTF\u002d8 encoding';if (err.test(window.location.href)) seterr('Oops, '+(errm[RegExp.$1]?errm[RegExp.$1]:'there was an error.')+' &nbsp;Please try again');};if (ip) setTimeout('nuo(1)',250);nip(1)
+	
+	if (kurl) {
+	  document.getElementById("logo_homepage_link").href += (document.getElementById("logo_homepage_link").href.indexOf('?')==-1 ? '?t=i' : '') + kurl;
+	}
+</script>
+
+		
+	    
+	
+    </div> <!-- site-wrapper -->
+  </body>
+</html>

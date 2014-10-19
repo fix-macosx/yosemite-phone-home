@@ -1,0 +1,24 @@
+GET /notifications/render?bnptrigger=%7B%22PartnerId%22%3A%22HomePage%22%2C%22IID%22%3A%22SERP.2000%22%2C%22Attributes%22%3A%7B%22RawRequestURL%22%3A%22%2F%22%7D%7D&IG=a13d514c4e1f48d2a1787bbee0511485&IID=SERP.2000 HTTP/1.1
+Host: www.bing.com
+Accept: */*
+Connection: keep-alive
+Cookie: MUIDB=3470754077D1647103E27398764465C5; SRCHUID=V=2&GUID=248581BC727A4D77839A6E54066617F5; _EDGE_S=F=1; _EDGE_V=1; _FS=NU=1; _RwBf=s=70&o=16; _SS=SID=78254FDE916C422BA4A077E5052B21CC&C=20&R=0&bIm=400; MUID=3470754077D1647103E27398764465C5; SRCHD=AF=NOFORM; SRCHHPGUSR=CW=1024&CH=1009; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20141019
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+Accept-Language: en-us
+Referer: https://www.bing.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: 6DE03442027D421EA72669415920AE88 Ref B: 502E927201273F57DD0CBFB9A79FB5FE Ref C: Sun Oct 19 00:56:27 2014 PST
+Date: Sun, 19 Oct 2014 07:56:27 GMT
+Connection: close
+Content-Length: 0
+

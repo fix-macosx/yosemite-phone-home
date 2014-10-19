@@ -1,0 +1,53 @@
+PROPFIND / HTTP/1.1
+Host: p29-bookmarks.icloud.com
+X-Apple-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.coredav/1.0.1 (com.apple.safaridavclient/1.0)>
+Accept: */*
+Brief: t
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+Content-Type: text/xml
+Content-Length: 181
+Depth: 0
+User-Agent: CoreDAV/261 (14A389)
+Connection: keep-alive
+Prefer: return=minimal
+
+<?xml version="1.0" encoding="UTF-8"?>
+<A:propfind xmlns:A="DAV:">
+  <A:prop>
+    <A:current-user-principal/>
+    <A:principal-URL/>
+    <A:resourcetype/>
+  </A:prop>
+</A:propfind>
+HTTP/1.1 207 Multi-Status
+Date: Sun, 19 Oct 2014 07:23:24 GMT
+X-Apple-Request-UUID: df8e9393-6f6d-4f38-a4b1-4524b20c01db
+X-Responding-Instance: bookmarkdav:12900501:st13p29ic-hpaf17241401:8001:14G54:155647
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 630
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<multistatus xmlns="DAV:">
+	<response>
+		<href>/</href>
+        
+		    <propstat>
+			    <prop>
+                    
+                        
+                            <current-user-principal><href>https://p29-bookmarks.icloud.com:443/8078008707/principal/</href></current-user-principal>
+                        
+                    
+                        
+                            <resourcetype><collection/></resourcetype>
+                        
+                    
+			    </prop>
+			<status>HTTP/1.1 200 OK</status>
+		</propstat>
+
+	</response>
+</multistatus>
+

@@ -1,0 +1,1012 @@
+GET /WebObjects/MZFinance.woa/wo/2.2.1.1.1.3.1.5.1.1.7.1.1.7?guid=000C295240D2 HTTP/1.1
+Host: p30-buy.itunes.apple.com
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+X-Apple-Store-Front: 143441-1,13
+Accept-Language: en-US
+Accept-Encoding: gzip, deflate
+Date: Sun, 19 Oct 2014 08:15:31 GMT
+X-Apple-TZ: -420
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Connection: keep-alive
+Referer: https://p30-buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/com.apple.jingle.app.finance.DirectAction/convertWizard
+Cookie: itspod=30; mzf_in=302345; ns-mzf-inst=39-90-80-124-180-8168-302345-30-nk11; Pod=30; woinst=-1; session-store-id=5DE44A670C584B2D103053AD2B555377; wosid=HnCPKbRZ6MzlKnb83uHttw; xp_ci=3z4g8XADz7s3z4RnzCRNz1KGeDrrYY; s_vi=[CS]v1|2A21B990850121DA-40000137400107B3[CE]
+iCloud-DSID: 8078008707
+
+HTTP/1.1 200 Apple WebObjects
+x-apple-jingle-correlation-key: 2ULDKRP3LICZY
+x-frame-options: SAMEORIGIN
+pod: 30
+x-apple-translated-wo-url: /WebObjects/MZFinance.woa/wo/2.2.1.1.1.3.1.5.1.1.7.1.1.7?guid=000C295240D2
+x-apple-orig-url: https://p30-buy.itunes.apple.com/WebObjects/MZFinance.woa/wo/2.2.1.1.1.3.1.5.1.1.7.1.1.7?guid=000C295240D2
+x-apple-application-site: NWK
+edge-control: no-store
+edge-control: cache-maxage=0
+date: Sun, 19 Oct 2014 08:15:32 GMT
+set-cookie: wosid=HnCPKbRZ6MzlKnb83uHttw; version="1"; path=/WebObjects/MZFinance.woa; domain=.apple.com; secure; HttpOnly
+set-cookie: woinst=-1; version="1"; path=/WebObjects/MZFinance.woa; domain=.apple.com; secure; HttpOnly
+set-cookie: session-store-id=5DE44A670C584B2D103053AD2B555377; version="1"; expires=Sun, 19-Oct-2014 08:45:32 GMT; path=/WebObjects; domain=.apple.com; secure
+set-cookie: Pod=30; version="1"; expires=Wed, 19-Nov-2014 09:15:32 GMT; path=/; domain=.apple.com
+set-cookie: itspod=30; version="1"; expires=Wed, 19-Nov-2014 09:15:32 GMT; path=/; domain=.apple.com
+set-cookie: mzf_in=302345; version="1"; path=/WebObjects; domain=.apple.com; secure
+set-cookie: mzf_dr=0; version="1"; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/WebObjects; domain=.apple.com
+apple-timing-app: 153 ms
+cache-control: private
+cache-control: no-cache
+cache-control: no-store
+cache-control: no-transform
+cache-control: must-revalidate
+cache-control: max-age=0
+expires: Sun, 19 Oct 2014 08:15:32 GMT
+content-type: text/html; charset=UTF-8
+x-apple-lokamai-no-cache: true
+x-apple-application-instance: 302345
+pragma: no-cache
+itspod: 30
+x-webobjects-loadaverage: 33
+content-length: 131863
+Set-Cookie: ns-mzf-inst=39-90-80-124-180-8168-302345-30-nk11; version=1; Max-Age=1800; path=/; domain=.apple.com; httponly
+
+
+
+
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.apple.com/itms/" lang="en">
+
+
+    <head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="keywords" content="Mac App Store" /><meta name="description" content="Mac App Store" /><meta name="platform-cache-id" content="13" />
+
+
+
+<title>Connections Get Started</title>
+
+
+
+
+
+
+<script>
+if (!window.its) {
+    window.its = {};
+}
+its.markupLoadStartTime = new Date().getTime();
+
+if (!window.onerror) window.onerror = function(message, url, lineNumber) {
+    if (!window._earlyOnerrorException) {
+        window._earlyOnerrorException = {message: message,
+                                         url: url,
+                                         lineNumber: lineNumber};
+    }
+};
+</script>
+
+
+<link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/0414/desktop-finance-base.css" />
+<link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/0414/desktop-finance-appstore.css" />
+<link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/0414/desktop-finance-classic_ui.css" />
+
+
+
+
+
+
+
+
+
+
+
+    
+<script type="text/javascript" charset="utf-8" src="/htmlResources/0414/frameworks-primaryinit01.js"></script>
+
+
+
+
+
+
+
+
+<script type="text/javascript" charset="utf-8">its.serverData={"storePlatformData":{},"pageData":{},"constants":{"fetchSoftwareUpdatesUrl":"https://su.itunes.apple.com/WebObjects/MZSoftwareUpdate.woa/wa/fetchSoftwareUpdates","Urls":{"upgradeITunesUrl":"http://www.apple.com/itunes/download/","upgradeSafariUrl":"http://www.apple.com/safari/download/"},"MZMediaType":{"MacSoftware":{"id":12,"name":"DesktopApps"},"ClassicSoftware":{"id":7,"name":"iPodGames"},"Podcasts":{"id":2,"name":"Podcasts"},"Ringtones":{"id":9,"name":"Ringtones"},"Movies":{"id":6,"name":"Movies"},"TVShows":{"id":4,"name":"TVShows"},"MobileSoftware":{"id":8,"name":"MobileSoftwareApplications"},"MusicVideos":{"id":5,"name":"MusicVideos"},"Music":{"id":1,"name":"Music"},"EBooks":{"id":11,"name":"EBooks"},"iTunesU":{"id":10,"name":"iTunesU"},"Audiobooks":{"id":3,"name":"Audiobooks"}},"SFSortOrder":{"SeriesOrder":{"id":17},"Popularity":{"id":3},"DateAdded":{"id":15},"AllTimeBestSellers":{"id":14},"DiscNumber":{"id":12},"ExpirationDate":{"id":6},"Name":{"id":0},"PlaylistName":{"id":9},"TrackNumber":{"id":13},"PurchaseDate":{"id":4},"CmcRecommended":{"id":10},"MostRecent":{"id":16},"TopRated":{"id":5},"Price":{"id":7},"ArtistName":{"id":8},"Duration":{"id":11},"RecentBestSellers":{"id":18},"Featured":{"id":1},"ReleaseDate":{"id":2}},"SFEntityType":{"TopAuthors":{"id":12},"TopContents":{"id":7},"Search":{"id":6},"Room":{"id":5},"WeMix":{"id":8},"Wishlist":{"id":9},"TheyMix":{"id":11},"Playlist":{"id":4},"Work":{"id":10},"Cmc":{"id":2},"Artist":{"id":1},"MultiRoom":{"id":3}},"countryCode":"usa","languageCode":"en","SFCustomComponentCountryCode":"usa","IXDisplayableKind":{"Book":{"id":3,"cssClasses":["audiobook"],"name":"book","mtId":"3"},"TVEpisode":{"id":6,"cssClasses":["tv-episode","tv","video"],"name":"tvEpisode","mtId":"4"},"ClassicSoftware":{"id":10,"cssClasses":["ipod-game"],"name":"ipodGame","mtId":"7"},"SocialPerson":{"id":27,"cssClasses":[],"name":"socialPerson"},"SocialArtist":{"id":28,"cssClasses":[],"name":"socialArtist"},"MovieBundle":{"id":24,"cssClasses":["bundle","movie","video"],"name":"movieBundle","mtId":"6"},"ApplePubEBook":{"id":36,"cssClasses":["ebook"],"name":"ibook","mtId":"11"},"ToneAlbum":{"id":32,"cssClasses":[],"name":"toneAlbum","mtId":"9"},"Booklet":{"id":13,"cssClasses":["booklet","music"],"name":"booklet","mtId":"1"},"Mix":{"id":14,"cssClasses":["mix","music"],"name":"mix","mtId":"1"},"ClassicSoftwarePackage":{"id":18,"cssClasses":["ipod-game"],"name":"gamePackage","mtId":"7"},"Course":{"id":34,"cssClasses":["course","itunes-u"],"name":"course","mtId":"10"},"WeMix":{"id":19,"cssClasses":["wemix","music"],"name":"itunesMix","mtId":"1"},"ApplePubTextbook":{"id":37,"cssClasses":["ebook"],"name":"ibookTextbook","mtId":"13"},"ShortFilm":{"id":8,"cssClasses":["short-film","movie","video"],"name":"shortFilm","mtId":"6"},"TheyMix":{"id":33,"cssClasses":[],"name":"thirdPartyMix"},"MobileSoftware":{"id":11,"cssClasses":["application"],"name":"iosSoftware","mtId":"8"},"Movie":{"id":9,"cssClasses":["movie","video"],"name":"movie","mtId":"6"},"RingtoneAlbum":{"id":22,"cssClasses":[],"name":"ringtoneAlbum","mtId":"9"},"Artist":{"id":20,"cssClasses":[],"name":"artist"},"Album":{"id":2,"cssClasses":["album","music"],"name":"album","mtId":"1"},"Podcast":{"id":4,"cssClasses":["podcast"],"name":"podcast","mtId":"2"},"Song":{"id":1,"cssClasses":["song","music"],"name":"song","mtId":"1"},"EBook":{"id":25,"cssClasses":["ebook"],"name":"epubBook","mtId":"11"},"Concert":{"id":26,"cssClasses":[],"name":"concert","mtId":"1"},"TVSeason":{"id":7,"cssClasses":["tv-season","tv","video"],"name":"tvSeason","mtId":"4"},"Tone":{"id":31,"cssClasses":[],"name":"tone","mtId":"9"},"PodcastEpisode":{"id":15,"cssClasses":["podcast-episode"],"name":"podcastEpisode","mtId":"2"},"MetaEBook":{"id":35,"cssClasses":["ebook"],"name":"metaEbook","mtId":"13"},"MacSoftware":{"id":30,"cssClasses":["application","mac-application"],"name":"desktopApp","mtId":"12"},"Ringtone":{"id":21,"cssClasses":[],"name":"ringtone","mtId":"9"},"SoftwareAddOn":{"id":16,"cssClasses":["software-add-on","application"],"name":"softwareAddOn","mtId":"8"},"iTunesPass":{"id":12,"cssClasses":["itunes-pass","album","music"],"name":"itunesPass","mtId":"1"},"MusicVideo":{"id":5,"cssClasses":["music-video","music","video"],"name":"musicVideo","mtId":"5"}},"AddToWishlistResult":{"SomeContentAlreadyOwned":{"id":4},"SomeContentAlreadyInWishlist":{"id":1},"ListFull":{"id":3},"Failure":{"id":2},"SomeContentAlreadyOwnedButUnfulfilled":{"id":5},"Success":{"id":0},"ItemIsFree":{"id":6}},"getEmailUrl":"https://itunes.apple.com/WebObjects/MZStore.woa/wa/generateEmail?cc=us"},"properties":{"clientStatsLoadTimeGroup":"4006","MZHtmlResourcesUtil.allowDeferJsLoad":true,"ITSServerEnvironment":"prod","ITSServerInstance":"302345","ITSResourceRevNum":"0414","resourceUrlPrefix":"https://s.mzstatic.com","ITSLogger.ServerReportingProtocol":"https","ITSLogger.ServerReportingDomain":"metrics.mzstatic.com","ITSLogger.ServerReportingApp":"MZUserXP","ITSLogger.RecordStatsAction":"recordStats","ITSLogger.SenderName":"ITSClient","ITSLogger.mirrorToServerByDefaultOnErrors":true,"DynaLoader.allowDynaLoading":true,"itsLoggerQueueProcessingInterval":10000,"cobaltBundleId":"com.apple.itunesu","getCobaltAppLink":"https://itunes.apple.com/us/app/id490217893","iTunesUEnrollLink":"https://itunes.apple.com/WebObjects/DZR.woa/wa/iTunesEnrollPopover?cc=us","cobaltLearnMore":"https://itunes.apple.com/us/learn-more?about=iTunesUUpgradePage&type=2","isCobaltEnabled":true,"isCobaltJavascriptRedirectEnabled":true,"isCobaltUpsellPageEnabled":true,"isRadioHistoryEnabled":true,"personalizedButtonsEnabled":true,"SF6.Personalization.isCMAEnabled":true,"SF6.Personalization.isCMSEnabled":true,"SFJ.isNFAEnabledInStorefront":true,"SF6.StorePlatform.whitelistParams":["caller","dsid","id","p"],"vendLastSupportedVersionIfAvailable":true,"vendLastSupportedVersionMacOs":true,"isBookGiftingEnabled":true,"metrics":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"blacklistedEvents":[],"blacklistedFields":["capacitySystem","capacitySystemAvailable","capacityDisk","capacityData","capacityDataAvailable"],"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","fcId","station-hash"]},"multi":{},"cookies":["itcCt"],"custom":{"impressions":["id","adamId","station-hash"],"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","station-hash","core-seed-name"]}},"metricsBase":{"storeFrontHeader":"143441-1,13","language":"1","platformId":"13","platformName":"MacAppStore","storeFront":"143441","environmentDataCenter":"NWK"}},"MZStore.shouldAttemptToEvaluateXpathSecondTime":true,"MZStore.shouldCacheElementTypeProtoObjects":true}}</script>
+<script type="text/javascript" charset="utf-8">
+if (!window.iTSLocalization) { iTSLocalization = {}; }
+iTSLocalization._strings = {"Js.CNConnections.RequestSent":"Request sent", "Js.CNConnections.LoginRequired.Title":"Sign in to access Ping.", "MHJavascriptLocalizations.DIBuyButtonDownload":"Download", "Js.ManageArtistAlerts.CheckAll.Artists":"Check All Artists", "Js.InlineReview.Error":"Error", "_thousandsSeparator":",", 
+"Js.CNConnections.OptInRequired.Message":"This requires Ping. Ping will no longer be available as of September 30, and we are not accepting new members. If you are already a Ping member, sign in below to continue.", "Js.iTunesStoreError.Explanation":"There was an error in the App Store. Please try again later.  (@@errorNum@@)", "Js.InlineReview.RateThis":"Rate this", "Buy":"Buy", "CNConnections.Dialog.StopFollowing.Title":"Are you sure you want to stop following @@fullName@@?", "Js.MyAlerts.GeniusActivationNeeded.Message":"This requires Genius.", "Js.InlineReview.ClickToRate":"Click to rate", "Js.Pagination.PreviousPage":"Previous Page", "DABuyButtonBuyNow":"Buy App", "CNConnections.Dialog.Like.Review.SignIn.Message":"Enter your Apple ID or AOL screen name and your password, then click Sign In.", "Js.InlineReview.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "Js.CreateAccount":"Create Apple ID", "Js.ReportAConcern.SigninTitle":"Sign in to report a concern.", "Js.iTunesStoreError.Message":"We could not complete your request.", "Js.Pagination.DisabledButtonText":"disabled @@button_text@@", "Js.MyAlerts.ConfirmEmailSignUp.Explanation":"You can change this preference at any time from your My Alerts page.", "Js.CNConnections.PeoplePopupMore":"and @@count@@ other@@s@@...", "CNConnections.Upload.MaxPhotosErrorMessage":"You can have no more than 20 photos in one post.", "DABuyButtonAlreadyInstalledExplanation":"Do you want to buy @@name@@ @@version@@?", "CNConnections.Dialog.OptIn.Message":"Liking a review requires Ping, and we are no longer accepting new members.", "DABuyButtonNewerVersionAlreadyInstalledMessage":"A newer version of this app is already installed on this computer", "Js.InlineReview.5":"it's great", "Js.QuickView.Unavailable.Title":"Quick View is currently unavailable for this item.", "Js.InlineReview.4":"it's good", "Js.InlineReview.1":"hate it", "CNConnections.Dialog.Like.Review.SignIn.Title":"Sign in to like a review.", "Js.InlineReview.3":"it's ok", "Js.InlineReview.2":"don't like it", "Js.Pagination.PageNumber":"Page @@num@@", "CNConnections.Dialog.OptIn.Title":"Ping Will No Longer Be Available as of September 30", "CNConnections.Dialog.Post.Review.SignIn.Title":"Sign in to post.", "CNConnections.Dialog.OptIn.ButtonSignIn":"Sign In", "DIBuyButtonDownloadedAria":"Downloaded, @@name@@", "Js.InlineReview.Thanks":"Thanks!", 
+"Js.CNConnections.LoginRequired.Message":"This requires Ping. Ping will no longer be available as of September 30, and we are not accepting new members. If you are already a Ping member, sign in below to continue.", "Js.InlineReview.SigninTitle":"Sign in to write a review.", "CNConnections.Dialog.StopFollowing.Message":"CNConnections.Dialog.StopFollowing.Message", "OK":"OK", "Js.QuickView.Unavailable.Text":"Please try again later.", "Close":"Close", "Js.Wishlist.RemoveTooltip":"Remove from Wish List", "Js.Pagination.Next":"Next", "MHJavascriptLocalizations.DIBuyButtonDownloading":"Downloading", "CNConnections.Dialog.PrivateUser.LeakyAction.Message":"This action will make your profile photo and name visible to others.", "Js.MyAlerts.CancelEmailSignUp.Explanation":"You can change this preference at any time from your My Alerts page.", "DABuyButtonAlreadyInstalledNoVersionMessage":"@@installedname@@ is already installed and was not purchased from the Mac App Store.", "DABuyButtonLearnMore":"Learn More", "Js.ManageArtistAlerts.CheckAll.Actors":"Check All Actors", "Js.InlinePreview.PlayPreview":"Play preview of @@title@@", "No":"No", "Js.CNConnections.Dialog.Cancel":"Cancel", "Js.InlinePreview.StopPreview":"Stop preview of @@title@@", "CNConnections.Upload.UploadErrorMessage":"Sorry, there was an error during upload.", "Js.Search.HintsTitle":"Suggestions", "Js.PreflightCheckFailedErrorWithAppName.Title":"We could not complete your purchase of @@appName@@", "Js.Pagination.NextPage":"Next Page", "Js.TextLimit.Remaining":"@@count@@ characters remaining", "Js.List.Item":"item", "Js.ManageArtistAlerts.UncheckAll.Artists":"Uncheck All Artists", "Js.InlineRating.SigninTitle":"Sign in to rate this item.", "DVHMusicPurchasesPage.Restore":"Unhide", "DABuyButton.aria.accept":"Accept, @@name@@, Free", "Js.MyAlerts.GeniusActivationNeeded.Explanation":"Alerts based on your library content will not be enabled until you have turned on Genius. To learn more, click Go to Genius.", "Js.CNConnections.OptInRequired.Title":"Ping", "Js.Showcase.Next":"Next Item", "SF.AskToBuy.PermissionBannerText":"Your request was sent and is awaiting approval from a parent. They can also @@bannerLinkText@@ on this device.", "Js.Pagination.Back":"Back", "DABuyButtonAlreadyInstalledMessage":"@@installedname@@ @@installedversion@@ is already installed and was not purchased from the Mac App Store.", "CNConnections.Upload.UploadErrorHeading":"There is a Problem With Your Upload", "DABuyButtonSameVersionAlreadyInstalledExplanation":"Do you want to buy @@name@@ @@version@@ again?", "Js.MyAlerts.CancelEmailSignUp.Message":"Are you sure you want to stop receiving email alerts?", "MHJavascriptLocalizations.DIBuyButtonDownloaded":"Downloaded", "CNConnections.Dialog.PrivateUser.IllegalAction.Title":"Private users may not perform this action.", "Js.DA.BuyButton.Installed":"Installed", "CNConnections.Dialog.Post.Review.SignIn.Message":"Enter your Apple ID or AOL screen name and your password, then click Sign In.", "DABuyButton.aria.install":"Install, @@name@@, Free", "DABuyButtonInstall":"Install App", "Js.Pagination.PageNumberTitle":"page @@num@@", "Js.DA.BuyButton.Installing":"Installing", "Js.TellAFriend.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "Js.TellAFriend.SigninTitle":"Sign in to tell a friend.", "CNConnections.Dialog.PrivateUser.IllegalAction.Message":"If you would like to perform this action, please change your privacy settings.", "Less":"Less", "CNConnections.Dialog.OptIn.ButtonSubmit":"Learn More", "DABuyButton.aria.installing":"Installing, @@name@@", "DABuyButtonNewerVersionAlreadyInstalledExplanation":"If you want to replace it with this version, move the existing app to the trash.", "InAppPurchases":"In-App Purchases", "More":"More", "Js.CNConnections.Dialog.GetStarted":"Get Started", "Js.PreflightCheckFailedError.UpdateTitle":"We could not complete your update.", "Js.ManageArtistAlerts.UncheckAll":"Uncheck All", "DTHBuyInfo.actionText.Accept":"Accept", "Js.DA.BuyButton.Open":"Open", "Js.ManageArtistAlerts.CheckAll":"Check All", "DABuyButton.aria.buy":"Buy, @@name@@, @@price@@", "Js.MyAlerts.ConfirmEmailSignUp.Message":"Are you sure you want to receive email alerts?", "DABuyButton.aria.open":"Open, @@name@@", "MHJavascriptLocalizations.DIBuyButtonUpdate":"Update", "SignIn":"Sign In", "DABuyButtonLearnMoreURL.MtnLion":"http://support.apple.com/kb/ht5444", "Yes":"Yes", "Js.CNConnections.Confirmed":"Confirmed", "SF.AskToBuy.PermissionBannerText.bannerLinkText":"approve it in person", "DABuyButton.aria.confirm.buy":"Confirm, Buy, @@name@@, @@price@@", "DIBuyButtonDownloadingAria":"Downloading, @@name@@", "Js.PreflightCheckFailedError.Title":"We could not complete your purchase.", "Cancel":"Cancel", "Done":"Done", "SF.AskToBuy.PermissionBannerText.Free.bannerLinkText":"approve it in person", "Js.PreflightCheckWarning.Title":"Would you like to continue?", "DABuyButtonLearnMoreURL.Mavericks":"http://support.apple.com/kb/ht5842", "_decimalSeparator":".", "DABuyButton.aria.confirm.install":"Confirm, Install, @@name@@, Free", "Js.PreflightCheckWarning.Continue":"Continue", "Js.DA.BuyButton.Install":"Install", "DTHBuyInfo.actionText.Gratis":"Free", "CNConnections.Dialog.PrivateUser.LeakyAction.Title":"Are you sure you want to perform this action?", "Js.PreflightCheckFailedError.Message":"This computer does not meet the minimum install requirements for the app", "Js.ReportAConcern.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "Js.InlineRating.SigninMessage":"Sign in to continue.", "DIBuyButtonRedownloadAria":"Download, @@name@@: Free", "JS.errors.requiredLite":"Please fill in all required fields.", "DABuyButton.aria.installed":"Installed, @@name@@", "Js.TextTruncation.More":"More", "Js.ManageArtistAlerts.UncheckAll.Actors":"Uncheck All Actors", "Js.CNConnections.UserReview.YouLiked":"You Liked", "DABuyButtonLearnMoreURL.Lion":"http://support.apple.com/kb/ht4949", "CNConnections.Dialog.OptIn.ButtonCancel":"Cancel", "DVHMusicPurchasesPage.Restored":"Unhidden", "DIBuyButtonUpdateAria":"Update, @@name@@", "Js.MyAlerts.GeniusActivationNeeded.Button":"Go to Genius"}
+</script>
+
+<script type="text/javascript" charset="utf-8" src="/htmlResources/0414/desktop-finance-base.js"></script>
+<script type="text/javascript" charset="utf-8" src="/htmlResources/0414/desktop-finance-appstore.js"></script>
+
+
+
+
+
+<script id="protocol" type="text/x-apple-plist">
+  <dict>
+    
+  
+    
+    <key>pings</key>
+<array>
+  
+    <string>https://securemetrics.apple.com/b/ss/applesuperglobal/1/G.6--NS?cl=15778463&amp;pageName=Signup%20View%20Terms-US&amp;pccr=true&amp;ch=Signup&amp;h5=appleitmswwwap%2Cappleitmsusap</string>
+
+    
+    
+
+  
+</array>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+
+
+  </dict>
+</script>
+
+
+
+</head>
+
+    <body data-country="usa" buy-button-metadata-url="https://se.itunes.apple.com/WebObjects/MZStoreElements.woa/wa/buyButtonMetaData" disable-history-and-navigation="true" class="usa enno-country-nav account terms">
+  <script type="text/javascript">
+    if (window['iTSKit']) { iTSKit.preLoad(); }
+    if (window.its && its.kit) { its.kit.preload(); }
+  </script>
+
+  
+
+  
+  <div id="page">
+    <div id="wrapper">
+
+      <div id="content">
+
+        
+
+        
+
+        <span class="secure-connection">Secure Connection</span>
+
+        
+
+      
+
+      
+          <h1>Terms and Conditions and Apple Privacy Policy</h1>
+          <section class="terms">
+			      
+              <p class="please-read">Please read and agree to these Terms &amp; Conditions in order to use the iTunes Store.</p>
+              <div class="change-country">
+    <p>If the billing address of your payment information is not in United States, <a href="#" class="show-bubble">click here</a>.</p>
+    <div class="bubble">
+      <div class="bubble-wrapper">
+          
+              <form name="f_2_1_1_1_3_1_5_1_1_7_3_3_3_0_3_1" method="post" action="/WebObjects/MZFinance.woa/wo/4.2.1.1.1.3.1.5.1.1.7.3.3.3.0.3.1">
+                <p>You need a valid method of payment and a billing address for a country or region in which the App Store is available. If a country or region is not listed, it means the App Store is not yet available there.</p>
+                <label for="country">Select a country or region:</label>
+                <div class="select">
+                  <select id="country" name="2.1.1.1.3.1.5.1.1.7.3.3.3.0.3.1.5">
+<option value="AL">Albania</option>
+<option value="DZ">Algeria</option>
+<option value="AO">Angola</option>
+<option value="AI">Anguilla</option>
+<option value="AG">Antigua and Barbuda</option>
+<option value="AR">Argentina</option>
+<option value="AM">Armenia</option>
+<option value="AU">Australia</option>
+<option value="AT">Austria</option>
+<option value="AZ">Azerbaijan</option>
+<option value="BS">Bahamas</option>
+<option value="BH">Bahrain</option>
+<option value="BB">Barbados</option>
+<option value="BY">Belarus</option>
+<option value="BE">Belgium</option>
+<option value="BZ">Belize</option>
+<option value="BJ">Benin</option>
+<option value="BM">Bermuda</option>
+<option value="BT">Bhutan</option>
+<option value="BO">Bolivia</option>
+<option value="BW">Botswana</option>
+<option value="BR">Brazil</option>
+<option value="VG">British Virgin Islands</option>
+<option value="BN">Brunei Darussalam</option>
+<option value="BG">Bulgaria</option>
+<option value="BF">Burkina Faso</option>
+<option value="KH">Cambodia</option>
+<option value="CA">Canada</option>
+<option value="CV">Cape Verde</option>
+<option value="KY">Cayman Islands</option>
+<option value="TD">Chad</option>
+<option value="CL">Chile</option>
+<option value="CN">China</option>
+<option value="CO">Colombia</option>
+<option value="CG">Congo, Republic of the</option>
+<option value="CR">Costa Rica</option>
+<option value="HR">Croatia</option>
+<option value="CY">Cyprus</option>
+<option value="CZ">Czech Republic</option>
+<option value="DK">Denmark</option>
+<option value="DM">Dominica</option>
+<option value="DO">Dominican Republic</option>
+<option value="EC">Ecuador</option>
+<option value="EG">Egypt</option>
+<option value="SV">El Salvador</option>
+<option value="EE">Estonia</option>
+<option value="FJ">Fiji</option>
+<option value="FI">Finland</option>
+<option value="FR">France</option>
+<option value="GM">Gambia</option>
+<option value="DE">Germany</option>
+<option value="GH">Ghana</option>
+<option value="GR">Greece</option>
+<option value="GD">Grenada</option>
+<option value="GT">Guatemala</option>
+<option value="GW">Guinea-Bissau</option>
+<option value="GY">Guyana</option>
+<option value="HN">Honduras</option>
+<option value="HK">Hong Kong</option>
+<option value="HU">Hungary</option>
+<option value="IS">Iceland</option>
+<option value="IN">India</option>
+<option value="ID">Indonesia</option>
+<option value="IE">Ireland</option>
+<option value="IL">Israel</option>
+<option value="IT">Italy</option>
+<option value="JM">Jamaica</option>
+<option value="JP">Japan</option>
+<option value="JO">Jordan</option>
+<option value="KZ">Kazakstan</option>
+<option value="KE">Kenya</option>
+<option value="KR">Korea, Republic Of</option>
+<option value="KW">Kuwait</option>
+<option value="KG">Kyrgyzstan</option>
+<option value="LA">Lao People's Democratic Republic</option>
+<option value="LV">Latvia</option>
+<option value="LB">Lebanon</option>
+<option value="LR">Liberia</option>
+<option value="LT">Lithuania</option>
+<option value="LU">Luxembourg</option>
+<option value="MO">Macau</option>
+<option value="MK">Macedonia</option>
+<option value="MG">Madagascar</option>
+<option value="MW">Malawi</option>
+<option value="MY">Malaysia</option>
+<option value="ML">Mali</option>
+<option value="MT">Malta</option>
+<option value="MR">Mauritania</option>
+<option value="MU">Mauritius</option>
+<option value="MX">Mexico</option>
+<option value="FM">Micronesia, Federated States of</option>
+<option value="MD">Moldova</option>
+<option value="MN">Mongolia</option>
+<option value="MS">Montserrat</option>
+<option value="MZ">Mozambique</option>
+<option value="NA">Namibia</option>
+<option value="NP">Nepal</option>
+<option value="NL">Netherlands</option>
+<option value="NZ">New Zealand</option>
+<option value="NI">Nicaragua</option>
+<option value="NE">Niger</option>
+<option value="NG">Nigeria</option>
+<option value="NO">Norway</option>
+<option value="OM">Oman</option>
+<option value="PK">Pakistan</option>
+<option value="PW">Palau</option>
+<option value="PA">Panama</option>
+<option value="PG">Papua New Guinea</option>
+<option value="PY">Paraguay</option>
+<option value="PE">Peru</option>
+<option value="PH">Philippines</option>
+<option value="PL">Poland</option>
+<option value="PT">Portugal</option>
+<option value="QA">Qatar</option>
+<option value="RO">Romania</option>
+<option value="RU">Russia</option>
+<option value="ST">São Tomé and Príncipe</option>
+<option value="SA">Saudi Arabia</option>
+<option value="SN">Senegal</option>
+<option value="SC">Seychelles</option>
+<option value="SL">Sierra Leone</option>
+<option value="SG">Singapore</option>
+<option value="SK">Slovakia</option>
+<option value="SI">Slovenia</option>
+<option value="SB">Solomon Islands</option>
+<option value="ZA">South Africa</option>
+<option value="ES">Spain</option>
+<option value="LK">Sri Lanka</option>
+<option value="KN">St. Kitts and Nevis</option>
+<option value="LC">St. Lucia</option>
+<option value="VC">St. Vincent and The Grenadines</option>
+<option value="SR">Suriname</option>
+<option value="SZ">Swaziland</option>
+<option value="SE">Sweden</option>
+<option value="CH">Switzerland</option>
+<option value="TW">Taiwan</option>
+<option value="TJ">Tajikistan</option>
+<option value="TZ">Tanzania</option>
+<option value="TH">Thailand</option>
+<option value="TT">Trinidad and Tobago</option>
+<option value="TN">Tunisia</option>
+<option value="TR">Turkey</option>
+<option value="TM">Turkmenistan</option>
+<option value="TC">Turks and Caicos</option>
+<option value="UG">Uganda</option>
+<option value="GB">UK</option>
+<option value="UA">Ukraine</option>
+<option value="AE">United Arab Emirates</option>
+<option value="UY">Uruguay</option>
+<option selected="selected" value="US">USA</option>
+<option value="UZ">Uzbekistan</option>
+<option value="VE">Venezuela</option>
+<option value="VN">Vietnam</option>
+<option value="YE">Yemen</option>
+<option value="ZW">Zimbabwe</option></select>
+                </div>
+                <input type="submit" value="Change" name="2.1.1.1.3.1.5.1.1.7.3.3.3.0.3.1.7" />
+                <p class="disclaimer">Note: This may also change the language in which these pages are displayed.</p>
+              </form>
+          
+          
+
+       </div>
+    </div>
+</div>
+
+            
+            <div class="terms-content scrollbar">
+              
+
+
+  <!--iTunes Store-->
+  
+  <!--TERMS OF SERVICE-->
+
+<div class="terms">
+  A. ITUNES STORE, MAC APP STORE, APP STORE, AND IBOOKS STORE TERMS OF SALE<BR />
+B. ITUNES STORE TERMS AND CONDITIONS<BR />
+C.  MAC APP STORE, APP STORE AND IBOOKS STORE TERMS AND CONDITIONS<BR />
+<BR />
+THE LEGAL AGREEMENTS SET OUT BELOW GOVERN YOUR USE OF THE ITUNES STORE, MAC APP STORE, APP STORE, AND IBOOKS STORE SERVICES (&#34;SERVICES&#34;). TO AGREE TO THESE TERMS, CLICK &#34;AGREE.&#34; IF YOU DO NOT AGREE TO THESE TERMS, DO NOT CLICK &#34;AGREE,&#34; AND DO NOT USE THE SERVICES.<BR />
+<BR />
+A. ITUNES STORE, MAC APP STORE, APP STORE, AND IBOOKS STORE TERMS OF SALE<BR />
+<BR />
+PAYMENTS, TAXES, AND REFUND POLICY<BR />
+<BR />
+You agree that you will pay for all products you purchase through the Services, and that Apple may charge your payment method for any products purchased and for any additional amounts (including any taxes and late fees, as applicable) that may be accrued by or in connection with your Account. YOU ARE RESPONSIBLE FOR THE TIMELY PAYMENT OF ALL FEES AND FOR PROVIDING APPLE WITH A VALID PAYMENT METHOD FOR PAYMENT OF ALL FEES. For details of how purchases are billed please visit http://support.apple.com/kb/HT5582.<BR />
+<BR />
+Your total price will include the price of the product plus any applicable sales tax; such sales tax is based on the bill-to address and the sales tax rate in effect at the time you download the product. We will charge tax only in states where digital goods are taxable.<BR />
+<BR />
+All sales and rentals of products are final.<BR />
+<BR />
+Prices for products offered via the Services may change at any time, and the Services do not provide price protection or refunds in the event of a price reduction or promotional offering.<BR />
+<BR />
+If a product becomes unavailable following a transaction but prior to download, your sole remedy is a refund. If technical problems prevent or unreasonably delay delivery of your product, your exclusive and sole remedy is either replacement or refund of the price paid, as determined by Apple.<BR />
+<BR />
+1-Click®<BR />
+<BR />
+1-Click is a registered service mark of Amazon.com, Inc., used under license. 1-Click is a convenient feature that allows you to make a purchase from the Services with a single click of your mouse or other input device. When accessing the Services on your computer, 1-Click purchasing may be activated via the dialog that appears when you click a Buy button. (You may reset this selection at any time by clicking Reset Warnings in your Account information). When accessing the Services on your Apple-branded products running iOS such as an iPad, iPod touch, or iPhone (“iOS Device”), 1-Click is activated for each transaction by tapping the button showing the price of the product, which reveals the Buy button. When 1-Click is activated, clicking or tapping the Buy button starts the download immediately and completes your transaction without any further steps.<BR />
+<BR />
+GIFT CERTIFICATES, ITUNES CARDS AND CODES, ALLOWANCES, AND CONTENT CODES <BR />
+<BR />
+Gift Certificates, iTunes Cards and Codes, and Allowances are issued and managed by Apple Value Services, LLC (“Issuer”).<BR />
+<BR />
+Gift Certificates, iTunes Cards and Codes, Content Codes, and Allowances, in addition to unused balances, are not redeemable for cash and cannot be returned for a cash refund (except as required by law); exchanged; resold; used to purchase Gifts, Gift Certificates, or iTunes Cards or Codes; used to provide Allowances; used for purchases on the Apple Online Store; or used in Apple Retail Stores. Unused balances are not transferable.<BR />
+<BR />
+Gift Certificates, iTunes Cards and Codes, Content Codes, and Allowances purchased in the United States may be redeemed through the Services only in the United States, its territories, and possessions.<BR />
+<BR />
+The Gift Certificate/iTunes Card/Code cash value is 1/10 of one cent.<BR />
+<BR />
+Neither Issuer nor Apple is responsible for lost or stolen Gift Certificates, iTunes Cards or Codes, Content Codes, or Allowances. Risk of loss and title for Gift Certificates, iTunes Cards and Codes, and Allowances transmitted electronically pass to the purchaser in Virginia upon electronic transmission to the recipient. Risk of loss and title for Content Codes transmitted electronically pass in California upon electronic transmission from Apple; for avoidance of doubt, such recipient may not always be you.<BR />
+<BR />
+Apple reserves the right to close accounts and request alternative forms of payment if a Gift Certificate, iTunes Card or Code, Content Code, or Allowance is fraudulently obtained or used on the Service.<BR />
+<BR />
+APPLE, ISSUER, AND THEIR LICENSEES, AFFILIATES, AND LICENSORS MAKE NO WARRANTIES, EXPRESS OR IMPLIED, WITH RESPECT TO GIFT CERTIFICATES, ITUNES CARDS OR CODES, CONTENT CODES, ALLOWANCES, OR THE ITUNES STORE, APP STORE, MAC APP STORE, OR IBOOKS STORE, INCLUDING, WITHOUT LIMITATION, ANY EXPRESS OR IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. IN THE EVENT THAT A GIFT CERTIFICATE, ITUNES CARD OR CODE, CONTENT CODE, OR ALLOWANCE IS NONFUNCTIONAL, YOUR SOLE REMEDY, AND OUR SOLE LIABILITY, SHALL BE THE REPLACEMENT OF SUCH GIFT CERTIFICATE, ITUNES CARD OR CODE, CONTENT CODE, OR ALLOWANCE. THESE LIMITATIONS MAY NOT APPLY TO YOU. CERTAIN STATE LAWS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS, EXCLUSIONS, OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MAY ALSO HAVE ADDITIONAL RIGHTS.<BR />
+<BR />
+GIFTS<BR />
+<BR />
+Gifts purchased from the Services may be purchased only for, and redeemed only by, persons in the United States, its territories, and possessions. Gift recipients must have compatible hardware and parental control settings to utilize some gifts.<BR />
+<BR />
+PRE-ORDERS<BR />
+<BR />
+By pre-ordering products, you are authorizing the Services to automatically charge your account and download the product when it becomes available. You may cancel your pre-order prior to the time the item becomes available.<BR />
+<BR />
+FAMILY SHARING<BR />
+<BR />
+Family Sharing allows you to share eligible iTunes, App Store, Mac App Store, and iBooks Store products with up to six members (including yourself) of a “Family.” If you set up or join a Family, you may view the eligible products of other Family members and download such products to your compatible device or computer. You can also choose to hide purchases so that other Family members will not be able to view or download them from you. You can share information such as photos and videos via the Photo app, events via your Family Calendar, reminders via the Reminders app, location information via Find My Friends, and device location via Find My iPhone. Family Sharing is for personal, non-commercial use only. iTunes and iCloud accounts are required; iOS 8 and/or OS X Yosemite are required to start and join a Family. Certain transactions and features may not be compatible with earlier software and may require a software upgrade. If you join a Family, the features of Family Sharing are enabled on your compatible devices and computers automatically.<BR />
+<BR />
+The “Organizer” of a Family can invite other members to participate in the Family. The Organizer must be 18 years or older and must have an eligible payment method registered with iTunes. If you are an Organizer, you represent that you are the parent or legal guardian of any Family member under age 13. The Organizer&#39;s payment method is used to pay for any purchase initiated by a Family member in excess of any store credit in such initiating Family member’s account. Products are associated with the account of the Family member who initiated the transaction. BY INVITING FAMILY MEMBERS TO JOIN A FAMILY, THE ORGANIZER AGREES THAT ALL FAMILY MEMBER PURCHASES ARE AUTHORIZED BY AND ARE THE RESPONSIBILITY OF THE ORGANIZER, EVEN IF THE ORGANIZER WAS UNAWARE OF ANY PARTICULAR PURCHASE, IF A FAMILY MEMBER EXCEEDED HIS OR HER AUTHORITY AS GRANTED BY THE ORGANIZER, OR IF MULTIPLE FAMILY MEMBERS PURCHASE THE SAME PRODUCT. THE ORGANIZER IS RESPONSIBLE FOR COMPLIANCE WITH ANY AGREEMENT WITH ITS PAYMENT METHOD PROVIDER, AND ASSUMES ALL RISK IN THE EVENT THAT SHARING ACCESS TO SUCH PAYMENT METHOD LIMITS ANY PROTECTION OFFERED BY THE PAYMENT METHOD PROVIDER. The Organizer can change the payment method on file at any time. A record of the purchase will be sent to the initiating Family member and the Organizer, even if the purchase is hidden by the Family member; please use Report a Problem on your receipt if you or your Family members do not recognize charges on your receipt or payment method statement. <BR />
+<BR />
+The Organizer can use the Ask to Buy function to require children under the age of 18 to obtain permission from the Organizer, and/or other adults designated by the Organizer, to download free or paid products before a purchase or download commences. Products downloaded from Family members and products acquired via redemption codes are not subject to Ask to Buy. If you are an Organizer, you represent that you and/or any adult designee is the parent or legal guardian of any Family member for whom Ask to Buy is activated. Ask to Buy is optimized for iOS 8 and OS X Yosemite; product purchase or download requests from earlier software may present users with an alternative permission process or prevent purchases altogether, and may require a software upgrade. Apple is not responsible for any harm resulting from a delay in Ask to Buy approvals or denials.  <BR />
+<BR />
+The Organizer may remove any Family member from the Family, which will terminate that Family member&#39;s ability to initiate authorized purchases on the Organizer&#39;s payment method, and that Family Member’s ability to view and share other Family members&#39; products and information. When a Family member leaves or is removed from a Family, the remaining Family members may no longer be able to view or download the departing member’s products or information, or access products previously downloaded from the departing Family member, including purchases made on the Organizer&#39;s payment method while the departing member was part of the Family. Similarly, if you leave a Family, you may no longer be able to view or download the products or information of the other Family members, and products that you downloaded from other Family members while a member of the Family may no longer be accessible. If you have made In-App Purchases from an app originally purchased by a departed Family member or downloaded from a Family member and you no longer belong to the Family, you need to purchase the app yourself and restore the In-App Purchases to regain access to them; please review the developer’s policies and the section of this Agreement entitled “In-App Purchases” before buying In-App Purchases. Because personal accounts for users under age 13 can only be created as part of Family Sharing, deleting such an account in order to remove it from the Family will terminate that Family member’s Apple ID and his or her ability to access any Apple services that require an Apple ID or any content associated with that Apple ID.  <BR />
+<BR />
+You can only belong to one Family at a time, and may join any Family no more than twice per year. You can change the store account you associate with a Family no more than once every 90 days. All Family members must use the same iTunes Store country or region. Music, movies, TV shows and books can be downloaded from the iTunes Service on up to 10 devices per account, only five of which can be computers; eligible apps can be downloaded to any devices the Family member owns or controls. Not all products, including In-App Purchases, content that is not available for re-download, subscriptions, and some previously purchased apps, are eligible for Family Sharing. Apple reserves the right to disband a Family in accordance with the “Termination” section of this Agreement.  <BR />
+<BR />
+ELECTRONIC CONTRACTING<BR />
+<BR />
+Your use of the Services includes the ability to enter into agreements and/or to make transactions electronically. YOU ACKNOWLEDGE THAT YOUR ELECTRONIC SUBMISSIONS CONSTITUTE YOUR AGREEMENT AND INTENT TO BE BOUND BY AND TO PAY FOR SUCH AGREEMENTS AND TRANSACTIONS. YOUR AGREEMENT AND INTENT TO BE BOUND BY ELECTRONIC SUBMISSIONS APPLIES TO ALL RECORDS RELATING TO ALL TRANSACTIONS YOU ENTER INTO ON THIS SITE, INCLUDING NOTICES OF CANCELLATION, POLICIES, CONTRACTS, AND APPLICATIONS. In order to access and retain your electronic records, you may be required to have certain hardware and software, which are your sole responsibility.<BR />
+<BR />
+Apple is not responsible for typographic errors.<BR />
+<BR />
+B. ITUNES STORE TERMS AND CONDITIONS<BR />
+<BR />
+THIS LEGAL AGREEMENT BETWEEN YOU AND APPLE INC. (&#34;APPLE&#34;) GOVERNS YOUR USE OF THE ITUNES STORE SERVICE (THE “ITUNES SERVICE”).<BR />
+<BR />
+THE ITUNES STORE SERVICE<BR />
+<BR />
+Apple is the provider of the iTunes Service, which permits you to access, purchase or rent digital content (&#34;iTunes Products&#34;) for end user use only under the terms and conditions set forth in this Agreement.<BR />
+<BR />
+REQUIREMENTS FOR USE OF THE ITUNES SERVICE<BR />
+<BR />
+Only persons age 13 years or older can create accounts.  Accounts for persons under 13 years old can be created by a parent or legal guardian using Family Sharing or by an approved educational institution.  Children under the age of majority should review this Agreement with their parent or guardian to ensure that the child and parent or legal guardian understand it. <BR />
+<BR />
+The iTunes Service is available to you only in the United States, its territories, and possessions. You agree not to use or attempt to use the iTunes Service from outside these locations. Apple may use technologies to verify your compliance.<BR />
+<BR />
+Use of the iTunes Service requires compatible devices, Internet access, and certain software (fees may apply); may require periodic updates; and may be affected by the performance of these factors. High-speed Internet access is strongly recommended for regular use and is required for video. The latest version of required software is recommended to access the iTunes Service and may be required for certain transactions or features and to download iTunes Products previously purchased or acquired from the iTunes Service. You agree that meeting these requirements, which may change from time to time, is your responsibility. The iTunes Service is not part of any other product or offering, and no purchase or obtaining of any other product shall be construed to represent or guarantee you access to the iTunes Service.<BR />
+<BR />
+YOUR ACCOUNT<BR />
+<BR />
+As a registered user of the iTunes Service, you may establish an account (&#34;Account&#34;). Don’t reveal your Account information to anyone else. You are solely responsible for maintaining the confidentiality and security of your Account and for all activities that occur on or through your Account, and you agree to immediately notify Apple of any security breach of your Account. Apple shall not be responsible for any losses arising out of the unauthorized use of your Account.<BR />
+<BR />
+In order to purchase and download iTunes Products from the iTunes Service, you must enter your Apple ID and password or use Touch ID to authenticate your Account for transactions. Once you have authenticated your Account using your Apple ID and password, you will not need to authenticate again for fifteen minutes on your computer or iOS Device; you can choose to allow your computer or Apple TV to remember your password to remain authenticated. During this time, you will be able to purchase and download iTunes Products without re-entering your password. You can turn off the ability to make iTunes Product transactions or change settings to require a password for every transaction by adjusting the settings on your computer, iOS Device, or Apple TV. For more information, please see http://support.apple.com/kb/HT1904 and http://support.apple.com/kb/HT4213. <BR />
+<BR />
+You agree to provide accurate and complete information when you register with, and as you use, the iTunes Service (&#34;iTunes Registration Data&#34;), and you agree to update your iTunes Registration Data to keep it accurate and complete. You agree that Apple may store and use the iTunes Registration Data you provide for use in maintaining and billing fees to your Account.<BR />
+<BR />
+AUTOMATIC DELIVERY AND DOWNLOADING PREVIOUS PURCHASES<BR />
+<BR />
+When you first acquire music, purchased (i.e. not rented) movie, TV show and music video iTunes Products (collectively, “iTunes Eligible Content”), you may elect to automatically receive (“auto-download”) copies of such iTunes Eligible Content on additional compatible iOS Devices (except for purchased movies and TV show iTunes Products) and iTunes-authorized computers with compatible software by associating such iOS Devices and computers subject to the association rules below (each, an “Associated Device”)For each Associated Device, you may specify which type of iTunes Eligible Content, if any, may be auto-downloaded to it. On an Associated Device that is capable of receiving push notifications (“Push-Enabled”), including iOS Devices, the iTunes Eligible Content will auto-download to that Associated Device when it has an Internet connection; on an Associated Device that is not Push-Enabled, iTunes Eligible Content will automatically appear in the download queue and you may manually initiate the download within iTunes.<BR />
+<BR />
+As an accommodation to you, subsequent to acquiring iTunes Eligible Content, you may download certain of such previously-acquired iTunes Eligible Content onto any Associated Device. Some iTunes Eligible Content that you previously acquired may not be available for subsequent download at any given time, and Apple shall have no liability to you in such event. As you may not be able to subsequently download certain previously-acquired iTunes Eligible Content, once you download an item of iTunes Eligible Content, it is your responsibility not to lose, destroy, or damage it, and you may want to back it up.<BR />
+<BR />
+Association of Associated Devices is subject to the following terms:<BR />
+<BR />
+(i) You may auto-download iTunes Eligible Content or download previously-acquired iTunes Eligible Content from an Account on up to 10 Associated Devices, provided no more than 5 are iTunes-authorized computers.<BR />
+<BR />
+(ii) An Associated Device can be associated with only one Account at any given time.<BR />
+<BR />
+(iii) You may switch an Associated Device to a different Account only once every 90 days.<BR />
+<BR />
+(iv) You may download previously-acquired free content onto an unlimited number of devices while it is free on the iTunes Service, but on no more than 5 iTunes-authorized computers.<BR />
+<BR />
+An Apple TV is not an “Associated Device.” However, TV show iTunes Products and purchased (i.e. not rented) movies iTunes Products may be played back on compatible Apple TVs, provided that you may only play back any such TV show or movie on a limited number of Apple TVs at the same time.<BR />
+<BR />
+Some pieces of iTunes Eligible Content may be large, and significant data charges may result from delivery of such iTunes Eligible Content over a data connection.<BR />
+<BR />
+ITUNES MATCH<BR />
+<BR />
+iTunes Match permits you to remotely access your matched or uploaded songs, and music videos you have purchased with your Account, along with related metadata, playlists, and other information about your iTunes Library (“iTunes Match Content”).<BR />
+<BR />
+You may subscribe to iTunes Match for an annual fee. You must have a valid credit card on file with iTunes to subscribe. The subscription is non-refundable (except as required by applicable law), and will automatically renew for one-year periods until you cancel. Your account will be charged no more than 24 hours prior to the expiration of the current subscription period. You may cancel automatic renewal by adjusting the iTunes Store account settings on your computer. You will no longer be able to access your iTunes Match Content from iTunes Match after the end of your subscription period.<BR />
+<BR />
+iTunes Match works with libraries that contain up to 25,000 songs which are either (i) not currently available on the iTunes Service, or (ii) not purchased from the iTunes Service with your Account. Songs that do not meet certain quality criteria or that are not authorized for your computer are not eligible for iTunes Match.<BR />
+<BR />
+iTunes Match will automatically scan the song files and collect other information that may be used to identify media in your iTunes library, such as the names of songs, song artists or song durations. iTunes Match will use this information to match songs to those currently available on the iTunes Store, and will make matched songs available to you in a format then available on the iTunes Store. If the song is not successfully matched, your copy of the song will be uploaded to Apple in the same format or a format determined by Apple. Apple reserves the right to limit types of content uploaded (for example, excessively large files). Matched or uploaded songs and related metadata will be available for access from an Associated Device that has been enabled for iTunes Match. Association of Associated Devices for iTunes Match is subject to the same terms as Automatic Delivery and Downloading Previous Purchases, and uploaded or matched songs and related information are deemed to be “iTunes Eligible Content.” You may also access iTunes Match Content from compatible Apple TVs, provided that you may only do so on a limited number of Apple TVs at the same time.<BR />
+<BR />
+When you use iTunes Match, Genius will begin associating information about the media in your iTunes library with your Account; the association with your Account will continue for a period of time after your subscription ends. Apple will otherwise use this information as described in the Privacy Section of this Agreement. You will not be able to disable Genius while using iTunes Match, so if you prefer that we do not collect and use information from your iTunes library in this manner, you should not use iTunes Match.<BR />
+<BR />
+You hereby agree to use iTunes Match only for lawfully acquired content. Any use for illegitimate content infringes the rights of others and may subject you to civil and criminal penalties, including possible monetary damages, for copyright infringement.<BR />
+<BR />
+iTunes Match is provided on an “AS IS” basis and may contain errors or inaccuracies that could cause failures, corruption or loss of data and/or information, including music, playlist, and play history, from your computer or device and from peripherals (including, without limitation, servers and other computers) connected thereto. You should back up all data and information on your computer or device and any peripherals prior to using iTunes Match. You expressly acknowledge and agree that all use of iTunes Match is at your sole risk. To the extent permitted by law, Apple shall have no liability with respect to your use of iTunes Match, including the inability to access matched or uploaded content.<BR />
+<BR />
+PRIVACY<BR />
+<BR />
+The iTunes Service is subject to Apple&#39;s Privacy Policy at http://www.apple.com/privacy/.<BR />
+<BR />
+When you opt in to the Genius feature, Apple will, from time to time, automatically collect information that can be used to identify media in your iTunes library on any Genius-enabled device, such as your play history and playlists. This includes media purchased or acquired through iTunes and media obtained from other sources. This information will be stored anonymously and will not be associated with your name or Account. When you use the Genius feature, Apple will use this information and the contents of your iTunes library, as well as other information, to give personalized recommendations to you.<BR />
+<BR />
+Apple may only use this information and combine it with aggregated information from the iTunes libraries of other users who also opt in to this feature, your iTunes Store purchase history data, aggregated purchase history data from other iTunes Store users, and other information obtained from third parties, to:<BR />
+<BR />
+• Create personalized playlists for you from your iTunes library.<BR />
+<BR />
+• Provide you with recommendations regarding media and other products and services that you may wish to purchase or acquire.<BR />
+<BR />
+• Provide recommendations regarding products and services to other users.<BR />
+<BR />
+At all times your information will be treated in accordance with Apple’s Privacy Policy.<BR />
+<BR />
+Once you opt in to the Genius feature, you will be able to create Genius playlists on Genius-capable devices. <BR />
+<BR />
+If you prefer that we do not collect and use information from your iTunes library in this manner, you should not enable the Genius feature. You can revoke your opt-in choice at any time by turning off the Genius feature from the Store menu in iTunes on your computer or turning off Genius in the Settings on your device.  After you opt out, iTunes will no longer send information about your iTunes library to Apple. If you have elected to share your library from multiple devices, you need to turn off the Genius feature from each device. <BR />
+<BR />
+By opting in to the Genius feature, you consent to the use of your information as described above and as described in Apple’s Privacy Policy.<BR />
+<BR />
+CONTENT AVAILABILITY<BR />
+<BR />
+Apple reserves the right to change content options (including eligibility for particular features) without notice. For further information or concerns about closed captioning in specific content within the iTunes Store, please email accessibility@apple.com. You may also contact Thomas Montgomery, Accessibility Response Engineer, 1 Infinite Loop, Cupertino, California 95014, Phone/Fax: 408-783-5512. <BR />
+<BR />
+USE OF CONTENT<BR />
+<BR />
+You agree that the iTunes Service and certain iTunes Products include security technology that limits your use of iTunes Products and that, whether or not iTunes Products are limited by security technology, you shall use iTunes Products in compliance with the applicable usage rules established by Apple and its licensors (“Usage Rules”), and that any other use of the iTunes Products may constitute a copyright infringement. Any security technology is an inseparable part of the iTunes Products. Apple reserves the right to modify the Usage Rules at any time. You agree not to violate, circumvent, reverse-engineer, decompile, disassemble, or otherwise tamper with any of the security technology related to such Usage Rules for any reason—or to attempt or assist another person to do so. Usage Rules may be controlled and monitored by Apple for compliance purposes, and Apple reserves the right to enforce the Usage Rules without notice to you. You agree not to access the iTunes Service by any means other than through software that is provided by Apple for accessing the iTunes Service. You shall not access or attempt to access an Account that you are not authorized to access. You agree not to modify the software in any manner or form, or to use modified versions of the software, for any purposes including obtaining unauthorized access to the iTunes Service. Violations of system or network security may result in civil or criminal liability.<BR />
+<BR />
+USAGE RULES<BR />
+<BR />
+(i) You shall be authorized to use iTunes Products only for personal, noncommercial use.<BR />
+<BR />
+(ii) You shall be authorized to use iTunes Products on five iTunes-authorized devices at any time, except for Content Rentals (see below). <BR />
+<BR />
+(iii) You shall be able to store iTunes Products from up to five different Accounts at a time on compatible devices, provided that each iPhone may sync tone iTunes Products with only a single iTunes-authorized device at a time, and syncing an iPhone with a different iTunes-authorized device will cause tone iTunes Products stored on that iPhone to be erased.<BR />
+<BR />
+(iv) You shall be authorized to burn an audio playlist up to seven times.<BR />
+<BR />
+(v) You shall not be entitled to burn video iTunes Products or tone iTunes Products.<BR />
+<BR />
+(vi) iTunes Plus Products do not contain security technology that limits your usage of such products, and Usage Rules (ii) – (v) do not apply to iTunes Plus Products. You may copy, store, and burn iTunes Plus Products as reasonably necessary for personal, noncommercial use.<BR />
+<BR />
+(vii) You shall be able to manually sync a movie from at least one iTunes-authorized device to devices that have manual sync mode, provided that the movie is associated with an Account on the primary iTunes-authorized device, where the primary iTunes-authorized device is the one that was first synced with the device or the one that you subsequently designate as primary using iTunes.<BR />
+<BR />
+(viii) An HDCP connection is required to view content transmitted over HDMI.<BR />
+<BR />
+(ix) Content Rentals<BR />
+<BR />
+(a) Content rentals are viewable on only one device at a time. You must be connected to the iTunes Service when moving rentals, and you may do so only between your computer and other compatible devices. Content rented using your Apple TV, iPad, iPhone 4, or iPod touch (4th generation) may not be moved. If you move a rental to a compatible device and then use the iTunes Service to restore that device, or choose Settings &gt; Reset &gt; Erase all content and settings on that device, the rental will be permanently deleted.<BR />
+<BR />
+(b) Once you purchase a rental, you must fully download the rental within thirty (30) days. You have thirty (30) days after downloading a rental to begin viewing. Once you begin viewing, you have twenty-four (24) hours to finish viewing a movie. Stopping, pausing, or restarting a rental does not extend the available time for viewing.<BR />
+<BR />
+Some iTunes Products, including but not limited to Content rentals, may be downloaded only once and cannot be replaced if lost for any reason. It is your responsibility not to lose, destroy, or damage iTunes Products once downloaded, and you may wish to back them up.<BR />
+<BR />
+The delivery of iTunes Products does not transfer to you any commercial or promotional use rights in the iTunes Products. Any burning or exporting capabilities are solely an accommodation to you and shall not constitute a grant, waiver, or other limitation of any rights of the copyright owners in any content embodied in any iTunes Product.<BR />
+<BR />
+You acknowledge that, because some aspects of the iTunes Service, iTunes Products, and administration of the Usage Rules entails the ongoing involvement of Apple, if Apple changes any part of or discontinues the iTunes Service, which Apple may do at its election, you may not be able to use iTunes Products to the same extent as prior to such change or discontinuation, and that Apple shall have no liability to you in such case.<BR />
+<BR />
+SEASON PASS, MULTI-PASS, ITUNES PASS<BR />
+<BR />
+The full price of the Season Pass, Multi-Pass, or iTunes Pass is charged upon purchase. You must connect to the iTunes Service and download any remaining Pass content within 90 days after the final Pass content becomes available (or such other time period as may be specified on the purchase page), after which that content may no longer be available for download as part of the purchase. If automatic renewal is selected when you purchase a Multi-Pass, you will be charged the full price of each subsequent Multi-Pass cycle, unless and until you cancel automatic renewal prior to the beginning of the subsequent Multi-Pass cycle (in the Manage Passes section of your Account information). If a network or studio delivers fewer TV episodes than planned when you purchased a Season Pass, we will credit to your Account the retail value of the corresponding number of episodes.<BR />
+<BR />
+HIGH-DEFINITION (HD) ITUNES PRODUCTS<BR />
+<BR />
+HD iTunes Products are viewable only on HD capable devices; however, HD iTunes Products purchased (not rented) include a standard-definition version for use on non-HD devices.<BR />
+<BR />
+SUBMISSIONS TO THE ITUNES SERVICE<BR />
+<BR />
+The iTunes Service may offer interactive features that allow you to submit materials (including links to third-party content) on areas of the iTunes Service accessible and viewable by the public. You agree that any use by you of such features, including any materials submitted by you, shall be your sole responsibility, shall not infringe or violate the rights of any other party or violate any laws, contribute to or encourage infringing or otherwise unlawful conduct, or otherwise be obscene, objectionable, or in poor taste. You also agree that you have obtained all necessary rights and licenses. You agree to provide accurate and complete information in connection with your submission of any materials on the iTunes Service. You hereby grant Apple a worldwide, royalty-free, nonexclusive license to use such materials as part of the iTunes Service, and in relation to iTunes Products, without any compensation or obligation to you. Apple reserves the right to not post or publish any materials, and to remove or edit any material, at any time in its sole discretion without notice or liability.<BR />
+<BR />
+Apple has the right, but not the obligation, to monitor any materials submitted by you or otherwise available on the iTunes Service, to investigate any reported or apparent violation of this Agreement, and to take any action that Apple in its sole discretion deems appropriate, including, without limitation, termination hereunder or under Apple’s Copyright Policy (http://www.apple.com/legal/copyright.html).<BR />
+<BR />
+THIRD-PARTY MATERIALS<BR />
+<BR />
+Certain content, iTunes Products, and services available via the iTunes Service may include materials from third parties. Apple may provide links to third-party websites as a convenience to you. You agree that Apple is not responsible for examining or evaluating the content or accuracy and Apple does not warrant and will not have any liability or responsibility for any third-party materials or websites, or for any other materials, products, or services of third parties. You agree that you will not use any third-party materials in a manner that would infringe or violate the rights of any other party and that Apple is not in any way responsible for any such use by you.<BR />
+<BR />
+OBJECTIONABLE MATERIAL<BR />
+<BR />
+You understand that by using the iTunes Service, you may encounter material that you may deem to be offensive, indecent, or objectionable, and that such content may or may not be identified as having explicit material. Nevertheless, you agree to use the iTunes Service at your sole risk and Apple shall have no liability to you for material that may be found to be offensive, indecent, or objectionable. iTunes Product types and descriptions are provided for convenience, and you agree that Apple does not guarantee their accuracy.<BR />
+<BR />
+IMPORTANT SAFETY INFORMATION<BR />
+<BR />
+To avoid muscle, joint, or eye strain during your use of the products offered through the iTunes Service, you should always take frequent breaks, and take a longer rest if you experience any soreness, fatigue, or discomfort. A very small percentage of people may experience seizures or blackouts when exposed to flashing lights or patterns, including but not limited to while playing video games or watching videos. Symptoms may include dizziness, nausea, involuntary movements, loss of awareness, altered vision, tingling, numbness, or other discomforts. Consult a doctor before using the products offered through the iTunes Service if you have ever suffered these or similar symptoms, and stop using such products immediately and see a doctor if they occur during your use of such products. Parents should monitor their children’s use of the products offered through the iTunes Service for signs of symptoms.<BR />
+<BR />
+INTELLECTUAL PROPERTY<BR />
+<BR />
+You agree that the iTunes Service, including but not limited to iTunes Products, graphics, user interface, audio clips, video clips, editorial content, and the scripts and software used to implement the iTunes Service, contains proprietary information and material that is owned by Apple and/or its licensors, and is protected by applicable intellectual property and other laws, including but not limited to copyright. You agree that you will not use such proprietary information or materials in any way whatsoever except for use of the iTunes Service in compliance with this Agreement. No portion of the iTunes Service may be reproduced in any form or by any means, except as expressly permitted in these terms. You agree not to modify, rent, lease, loan, sell, distribute, or create derivative works based on the iTunes Service in any manner, and you shall not exploit the iTunes Service in any unauthorized way whatsoever, including, but not limited to, by trespass or burdening network capacity.<BR />
+<BR />
+Notwithstanding any other provision of this Agreement, Apple and its licensors reserve the right to change, suspend, remove, or disable access to any iTunes Products, content, or other materials comprising a part of the iTunes Service at any time without notice. In no event will Apple be liable for making these changes. Apple may also impose limits on the use of or access to certain features or portions of the iTunes Service, in any case and without notice or liability.<BR />
+<BR />
+All copyrights in and to the iTunes Service (including the compilation of content, postings, links to other Internet resources, and descriptions of those resources) and related software are owned by Apple and/or its licensors, who reserve all their rights in law and equity. THE USE OF THE SOFTWARE OR ANY PART OF THE ITUNES SERVICE, EXCEPT FOR USE OF THE ITUNES SERVICE AS PERMITTED IN THIS AGREEMENT, IS STRICTLY PROHIBITED AND INFRINGES ON THE INTELLECTUAL PROPERTY RIGHTS OF OTHERS AND MAY SUBJECT YOU TO CIVIL AND CRIMINAL PENALTIES, INCLUDING POSSIBLE MONETARY DAMAGES, FOR COPYRIGHT INFRINGEMENT.<BR />
+<BR />
+Apple, the Apple logo, iTunes, and other Apple trademarks, service marks, graphics, and logos used in connection with the iTunes Service are trademarks or registered trademarks of Apple Inc. in the U.S. and/or other countries. Other trademarks, service marks, graphics, and logos used in connection with the iTunes Service may be the trademarks of their respective owners. You are granted no right or license with respect to any of the aforesaid trademarks and any use of such trademarks.<BR />
+<BR />
+As an Account holder of the iTunes Service in good standing, you may be provided with limited access to download certain album cover art for music stored in the iTunes Library of your iTunes application. Such access is provided as an accommodation only, and Apple does not warrant, and will not have any liability or responsibility for, such album cover art or your use thereof. You may access album cover art only for music for which you are the lawful owner of a legal copy. Album cover art is provided for personal, noncommercial use only. You agree that you will not use album cover art in any manner that would infringe or violate this Agreement or the rights of any other party, and that Apple is not in any way responsible for any such use by you.<BR />
+<BR />
+TERMINATION<BR />
+<BR />
+If you fail, or Apple suspects that you have failed, to comply with any of the provisions of this Agreement, Apple, at its sole discretion, without notice to you may: (i) terminate this Agreement and/or your Account, and you will remain liable for all amounts due under your Account up to and including the date of termination; and/or (ii) terminate the license to the software; and/or (iii) preclude access to the iTunes Service (or any part thereof).<BR />
+<BR />
+Apple reserves the right to modify, suspend, or discontinue the iTunes Service (or any part or content thereof) at any time with or without notice to you, and Apple will not be liable to you or to any third party should it exercise such rights.<BR />
+<BR />
+DISCLAIMER OF WARRANTIES; LIABILITY LIMITATION<BR />
+<BR />
+APPLE DOES NOT GUARANTEE, REPRESENT, OR WARRANT THAT YOUR USE OF THE ITUNES SERVICE WILL BE UNINTERRUPTED OR ERROR-FREE, AND YOU AGREE THAT FROM TIME TO TIME APPLE MAY REMOVE THE ITUNES SERVICE FOR INDEFINITE PERIODS OF TIME, OR CANCEL THE ITUNES SERVICE AT ANY TIME, WITHOUT NOTICE TO YOU.<BR />
+<BR />
+YOU EXPRESSLY AGREE THAT YOUR USE OF, OR INABILITY TO USE, THE ITUNES SERVICE IS AT YOUR SOLE RISK. THE ITUNES SERVICE AND ALL PRODUCTS AND SERVICES DELIVERED TO YOU THROUGH THE ITUNES SERVICE ARE (EXCEPT AS EXPRESSLY STATED BY APPLE) PROVIDED &#34;AS IS&#34; AND &#34;AS AVAILABLE&#34; FOR YOUR USE, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NONINFRINGEMENT. BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, THE ABOVE EXCLUSION OF IMPLIED WARRANTIES MAY NOT APPLY TO YOU.<BR />
+<BR />
+IN NO CASE SHALL APPLE, ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES, AGENTS, CONTRACTORS, OR LICENSORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING FROM YOUR USE OF ANY OF THE ITUNES SERVICE OR FOR ANY OTHER CLAIM RELATED IN ANY WAY TO YOUR USE OF THE ITUNES SERVICE, INCLUDING, BUT NOT LIMITED TO, ANY ERRORS OR OMISSIONS IN ANY CONTENT, OR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT (OR PRODUCT) POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE ITUNES SERVICE, EVEN IF ADVISED OF THEIR POSSIBILITY. BECAUSE SOME STATES OR JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR THE LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, IN SUCH STATES OR JURISDICTIONS, APPLE&#39;S LIABILITY SHALL BE LIMITED TO THE EXTENT PERMITTED BY LAW.<BR />
+<BR />
+APPLE SHALL USE REASONABLE EFFORTS TO PROTECT INFORMATION SUBMITTED BY YOU IN CONNECTION WITH THE ITUNES SERVICE, BUT YOU AGREE THAT YOUR SUBMISSION OF SUCH INFORMATION IS AT YOUR SOLE RISK, AND APPLE HEREBY DISCLAIMS ANY AND ALL LIABILITY TO YOU FOR ANY LOSS OR LIABILITY RELATING TO SUCH INFORMATION IN ANY WAY.<BR />
+<BR />
+APPLE DOES NOT REPRESENT OR GUARANTEE THAT THE ITUNES SERVICE WILL BE FREE FROM LOSS, CORRUPTION, ATTACK, VIRUSES, INTERFERENCE, HACKING, OR OTHER SECURITY INTRUSION, AND APPLE DISCLAIMS ANY LIABILITY RELATING THERETO. SOME PRODUCTS CAN BE DOWNLOADED ONLY ONCE; AFTER BEING DOWNLOADED, THEY CANNOT BE REPLACED IF LOST FOR ANY REASON. YOU SHALL BE RESPONSIBLE FOR BACKING UP YOUR OWN SYSTEM, INCLUDING ANY ITUNES PRODUCTS PURCHASED, ACQUIRED OR RENTED FROM THE ITUNES STORE.<BR />
+<BR />
+WAIVER AND INDEMNITY<BR />
+<BR />
+BY USING THE ITUNES SERVICE, YOU AGREE, TO THE EXTENT PERMITTED BY LAW, TO INDEMNIFY AND HOLD APPLE, ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES, AGENTS, CONTRACTORS, AND LICENSORS HARMLESS WITH RESPECT TO ANY CLAIMS ARISING OUT OF YOUR BREACH OF THIS AGREEMENT, YOUR USE OF THE ITUNES SERVICE, OR ANY ACTION TAKEN BY APPLE AS PART OF ITS INVESTIGATION OF A SUSPECTED VIOLATION OF THIS AGREEMENT OR AS A RESULT OF ITS FINDING OR DECISION THAT A VIOLATION OF THIS AGREEMENT HAS OCCURRED. THIS MEANS THAT YOU CANNOT SUE OR RECOVER ANY DAMAGES FROM APPLE, ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES, AGENTS, CONTRACTORS, AND LICENSORS AS A RESULT OF ITS DECISION TO REMOVE OR REFUSE TO PROCESS ANY INFORMATION OR CONTENT, TO WARN YOU, TO SUSPEND OR TERMINATE YOUR ACCESS TO THE ITUNES SERVICE, OR TO TAKE ANY OTHER ACTION DURING THE INVESTIGATION OF A SUSPECTED VIOLATION OR AS A RESULT OF APPLE&#39;S CONCLUSION THAT A VIOLATION OF THIS AGREEMENT HAS OCCURRED. THIS WAIVER AND INDEMNITY PROVISION APPLIES TO ALL VIOLATIONS DESCRIBED IN OR CONTEMPLATED BY THIS AGREEMENT.<BR />
+<BR />
+CHANGES<BR />
+<BR />
+Apple reserves the right at any time to modify this Agreement and to impose new or additional terms or conditions on your use of the iTunes Service. Such modifications and additional terms and conditions will be effective immediately and incorporated into this Agreement. Your continued use of the iTunes Service will be deemed acceptance thereof.<BR />
+<BR />
+MISCELLANEOUS<BR />
+<BR />
+This Agreement constitutes the entire agreement between you and Apple and governs your use of the iTunes Service, superseding any prior agreements between you and Apple. You also may be subject to additional terms and conditions that may apply when you use affiliate services, third-party content, or third-party software. If any part of this Agreement is held invalid or unenforceable, that portion shall be construed in a manner consistent with applicable law to reflect, as nearly as possible, the original intentions of the parties, and the remaining portions shall remain in full force and effect. Apple&#39;s failure to enforce any right or provisions in this Agreement will not constitute a waiver of such or any other provision. Apple will not be responsible for failures to fulfill any obligations due to causes beyond its control.<BR />
+<BR />
+The iTunes Service is operated by Apple from its offices in the United States. You agree to comply with all local, state, federal, and national laws, statutes, ordinances, and regulations that apply to your use of the iTunes Service. All transactions on the iTunes Service are governed by California law, without giving effect to its conflict of law provisions. Your use of the iTunes Service may also be subject to other laws. You expressly agree that exclusive jurisdiction for any claim or dispute with Apple or relating in any way to your use of the iTunes Service resides in the courts in the State of California. Risk of loss and title for all electronically delivered transactions pass to the purchaser in California upon electronic transmission to the recipient. No Apple employee or agent has the authority to vary this Agreement.<BR />
+<BR />
+Apple may notify you with respect to the iTunes Service by sending an email message to your Account email address or a letter via postal mail to your Account mailing address, or by a posting on the iTunes Service. Notices shall become effective immediately.<BR />
+<BR />
+Apple reserves the right to take steps Apple believes are reasonably necessary or appropriate to enforce and/or verify compliance with any part of this Agreement. You agree that Apple has the right, without liability to you, to disclose any Registration Data and/or Account information to law enforcement authorities, government officials, and/or a third party, as Apple believes is reasonably necessary or appropriate to enforce and/or verify compliance with any part of this Agreement (including but not limited to Apple&#39;s right to cooperate with any legal process relating to your use of the iTunes Service and/or iTunes Products, and/or a third-party claim that your use of the iTunes Service and/or iTunes Products is unlawful and/or infringes such third party&#39;s rights).<BR />
+<BR />
+C. MAC APP STORE, APP STORE AND IBOOKS STORE TERMS AND CONDITIONS<BR />
+<BR />
+THIS LEGAL AGREEMENT BETWEEN YOU AND APPLE INC. (&#34;APPLE&#34;) GOVERNS YOUR USE OF THE MAC APP STORE, APP STORE AND IBOOKS STORE SERVICES (THE “APP AND BOOK SERVICES”).<BR />
+<BR />
+THE MAC APP STORE, APP STORE AND IBOOKS STORE SERVICES<BR />
+<BR />
+Apple is the provider of the App and Book Services that permit you to license software products and digital content (the “App and Book Products”) for end user use only under the terms and conditions set forth in this Agreement. For App Store Products (defined below), end users may be individuals acting in their own capacities, commercial enterprises or educational institutions.<BR />
+<BR />
+REQUIREMENTS FOR USE OF THE APP AND BOOK SERVICES<BR />
+<BR />
+Only persons age 13 years or older can create accounts.  Accounts for persons under 13 years old can be created by a parent or legal guardian using Family Sharing or by an approved educational institution.  Children under the age of majority should review this Agreement with their parent or guardian to ensure that the child and the parent or legal guardian understand it.<BR />
+<BR />
+The App and Book Services are available to you only in the United States, its territories, and possessions. You agree not to use or attempt to use the App and Book Services from outside these locations. Apple may use technologies to verify your compliance.<BR />
+<BR />
+Use of the App and Book Services requires compatible devices, Internet access, and certain software (fees may apply); may require periodic updates; and may be affected by the performance of these factors. High-speed Internet access is strongly recommended. The latest version of required software (including, but not limited to iTunes and/or Mac App Store software) is recommended to access the App and Book Services and may be required for certain transactions or features and to download App and Book Products previously purchased or acquired from the App and Book Services. You agree that meeting these requirements, which may change from time to time, is your responsibility. The App and Book Services are not part of any other product or offering, and no purchase or obtaining of any other product shall be construed to represent or guarantee you access to the App and Book Services.<BR />
+<BR />
+YOUR ACCOUNT<BR />
+<BR />
+As a registered user of the App and Book Services, you may establish an account (&#34;Account&#34;). Don’t reveal your Account information to anyone else. You are solely responsible for maintaining the confidentiality and security of your Account, and for all activities that occur on or through your Account, and you agree to immediately notify Apple of any security breach of your Account. Apple shall not be responsible for any losses arising out of the unauthorized use of your Account.<BR />
+<BR />
+In order to purchase and download App and Book Products from the App and Book Services, you must enter your Apple ID and password or use Touch ID to authenticate your Account for transactions. Once you have authenticated your Account using your Apple ID and password, you will not need to authenticate again for fifteen minutes; you can choose to allow your computer to remember your password to remain authenticated. During this time, you will be able to purchase and download App and Book Products without re-entering your password. You can turn off the ability to make App and Book Product transactions or change settings to require a password for every App and Book Product transaction by adjusting the settings on your computer or iOS Device. For more information, please see http://support.apple.com/kb/HT1904 and http://support.apple.com/kb/HT4213.<BR />
+<BR />
+You agree to provide accurate and complete information when you register with, and as you use, the App and Book Services (&#34;App and Book Registration Data&#34;), and you agree to update your App and Book Registration Data to keep it accurate and complete. You agree that Apple may store and use the App and Book Registration Data you provide for use in maintaining and billing fees to your Account.<BR />
+<BR />
+AUTOMATIC DELIVERY AND DOWNLOADING PREVIOUS PURCHASES<BR />
+<BR />
+When you first acquire App Store Products, as defined below, (excluding products acquired from the Mac App Store) or iBooks Store Products, as defined below, through the App and Book Services (collectively, “Eligible Content”), you may elect to automatically receive (“auto-download”) copies of such Eligible Content on additional compatible iOS Devices and iTunes-authorized computers with compatible software by associating such iOS Devices and computers subject to the association rules below (each, an “Associated Device”). For each Associated Device, you may specify which type of Eligible Content, if any, may be auto-downloaded to it. On an Associated Device that is capable of receiving push notifications (“Push-Enabled”), including iOS Devices, the Eligible Content will auto-download to that Associated Device when it has an Internet connection; on an Associated Device that is not Push-Enabled, including those running on the Windows operating system, Eligible Content will automatically appear in the download queue and you may manually initiate the download within iTunes.<BR />
+<BR />
+As an accommodation to you, subsequent to acquiring Eligible Content, you may download certain of such previously-acquired Eligible Content onto any Associated Device. Some Eligible Content that you previously acquired may not be available for subsequent download at any given time, and Apple shall have no liability to you in such event. As you may not be able to subsequently download certain previously-acquired Eligible Content, once you download an item of Eligible Content, it is your responsibility not to lose, destroy, or damage it, and you may want to back it up.<BR />
+<BR />
+Association of Associated Devices is subject to the following terms:<BR />
+<BR />
+(i) You may auto-download Eligible Content or download previously-acquired Eligible Content from an Account on up to 10 Associated Devices, provided no more than 5 are iTunes-authorized computers.<BR />
+<BR />
+(ii) An Associated Device can be associated with only one Account at any given time.<BR />
+<BR />
+(iii) You may switch an Associated Device to a different Account only once every 90 days.<BR />
+<BR />
+(iv) You may download previously-acquired free content onto an unlimited number of devices while it is free on the App and Book Services, but on no more than 5 iTunes-authorized computers.<BR />
+<BR />
+The above terms (i) to (iv) do not apply to App Store Products.<BR />
+<BR />
+Some pieces of Eligible Content may be large, and significant data charges may result from delivery of such Eligible Content over a data connection.<BR />
+<BR />
+AUTOMATIC DELIVERY OF UPDATES<BR />
+<BR />
+Your device or computer will periodically check with the App Store and Mac App Store for updates to the apps on your device or computer and, if available, the update may automatically download and install. You agree that Apple, through the App Store and Mac App Store, may automatically download and install updates onto your device(s) or computer. You can turn off automatic updates altogether at any time by changing the automatic updates settings on your device or computer.<BR />
+<BR />
+APP BUNDLES<BR />
+<BR />
+Some App Store Products may contain multiple items (“App Bundles”).  The price displayed with an App Bundle is the price you will be charged upon purchasing the App Bundle. The App Bundle price may be reduced to account for App Store Products you have already purchased or acquired, but may include a minimum charge to complete the App Bundle. <BR />
+<BR />
+PRIVACY<BR />
+<BR />
+The App and Book Services are subject to Apple&#39;s Privacy Policy at http://www.apple.com/privacy/.<BR />
+<BR />
+USE OF APP AND BOOK PRODUCTS AND THE APP AND BOOK SERVICES<BR />
+<BR />
+You agree that the App and Book Services and certain App and Book Products include security technology that limits your use of App and Book Products and that, whether or not App and Book Products are limited by security technology, you shall use App and Book Products in compliance with the applicable usage rules established by Apple and its principals (“Usage Rules”), and that any other use of the App and Book Products may constitute a copyright infringement. Any security technology is an inseparable part of the App and Book Products. Apple reserves the right to modify the Usage Rules at any time. You agree not to violate, circumvent, reverse-engineer, decompile, disassemble, or otherwise tamper with any of the security technology related to such Usage Rules for any reason—or to attempt or assist another person to do so. Usage Rules may be controlled and monitored by Apple for compliance purposes, and Apple reserves the right to enforce the Usage Rules without notice to you. You agree not to access the App and Book Services by any means other than through software that is provided by Apple for accessing the App and Book Services. You shall not access or attempt to access an Account that you are not authorized to access. You agree not to modify the software in any manner or form, or to use modified versions of the software, for any purposes including obtaining unauthorized access to the App and Book Services. Violations of system or network security may result in civil or criminal liability.<BR />
+<BR />
+The delivery of App and Book Products does not transfer to you any promotional use rights in the App and Book Products.<BR />
+<BR />
+You acknowledge that, because some aspects of the App and Book Services, App and Book Products, and administration of the Usage Rules entails the ongoing involvement of Apple, if Apple changes any part of or discontinues the App and Book Services, which Apple may do at its election, you may not be able to use App and Book Products to the same extent as prior to such change or discontinuation, and that Apple shall have no liability to you in such case.<BR />
+<BR />
+SUBMISSIONS TO THE APP AND BOOK SERVICES<BR />
+<BR />
+The App and Book Services may offer interactive features that allow you to submit materials (including links to third-party content) on areas of the App and Book Services accessible and viewable by other users of the App and Book Services and the public. You agree that any use by you of such features, including any materials submitted by you, shall be your sole responsibility, shall not infringe or violate the rights of any other party or violate any laws, contribute to or encourage infringing or otherwise unlawful conduct, or otherwise be obscene, objectionable, or in poor taste. You also agree that you have obtained all necessary rights and licenses. You agree to provide accurate and complete information in connection with your submission of any materials on the App and Book Services. You hereby grant Apple a worldwide, royalty-free, nonexclusive license to use such materials as part of the App and Book Services, and in relation to App and Book Products, without any compensation or obligation to you. Apple reserves the right to not post or publish any materials, and to remove or edit any material, at any time in its sole discretion without notice or liability. You may not submit reviews or ratings for App Store Products downloaded using a promotional Content Code.<BR />
+<BR />
+Apple has the right, but not the obligation, to monitor any materials submitted by you or otherwise available on the App and Book Services, to investigate any reported or apparent violation of this Agreement, and to take any action that Apple in its sole discretion deems appropriate, including, without limitation, termination hereunder or under Apple’s Copyright Policy (http://www.apple.com/legal/copyright.html).<BR />
+<BR />
+THIRD-PARTY MATERIALS<BR />
+<BR />
+Certain content, App and Book Products, and services available via the App and Book Services may include materials from third parties. Apple may provide links to third-party websites as a convenience to you. You agree that Apple is not responsible for examining or evaluating the content or accuracy and Apple does not warrant and will not have any liability or responsibility for any third-party materials or websites, or for any other materials, products, or services of third parties. You agree that you will not use any third-party materials in a manner that would infringe or violate the rights of any other party and that Apple is not in any way responsible for any such use by you.<BR />
+<BR />
+OBJECTIONABLE MATERIAL<BR />
+<BR />
+You understand that by using the App and Book Services, you may encounter material that you may deem to be offensive, indecent, or objectionable, and that such content may or may not be identified as having explicit material. Nevertheless, you agree to use the App and Book Services at your sole risk and Apple shall have no liability to you for material that may be found to be offensive, indecent, or objectionable. App and Book Product types and descriptions are provided for convenience, and you agree that Apple does not guarantee their accuracy.<BR />
+<BR />
+INTELLECTUAL PROPERTY<BR />
+<BR />
+You agree that the App and Book Services, including but not limited to App and Book Products, graphics, user interface, audio clips, editorial content, and the scripts and software used to implement the App and Book Services, contain proprietary information and material that is owned by Apple and/or its principals, and is protected by applicable intellectual property and other laws, including but not limited to copyright. You agree that you will not use such proprietary information or materials in any way whatsoever except for use of the App and Book Services in compliance with this Agreement. No portion of the App and Book Services may be reproduced in any form or by any means, except as expressly permitted in these terms. You agree not to modify, rent, lease, loan, sell, distribute, or create derivative works based on the App and Book Services in any manner, and you shall not exploit the App and Book Services in any unauthorized way whatsoever, including, but not limited to, by trespass or burdening network capacity.<BR />
+<BR />
+Notwithstanding any other provision of this Agreement, Apple and its principals reserve the right to change, suspend, remove, or disable access to any App and Book Products, content, or other materials comprising a part of the App and Book Services at any time without notice. In no event will Apple be liable for making these changes. Apple may also impose limits on the use of or access to certain features or portions of the App and Book Services, in any case and without notice or liability.<BR />
+<BR />
+All copyrights in and to the App and Book Services (including the compilation of content, postings, links to other Internet resources, and descriptions of those resources) and related software are owned by Apple and/or its principals, who reserve all their rights in law and equity. THE USE OF THE SOFTWARE OR ANY PART OF THE APP AND BOOK SERVICES, EXCEPT FOR USE OF THE APP AND BOOK SERVICES AS PERMITTED IN THIS AGREEMENT, IS STRICTLY PROHIBITED AND INFRINGES ON THE INTELLECTUAL PROPERTY RIGHTS OF OTHERS AND MAY SUBJECT YOU TO CIVIL AND CRIMINAL PENALTIES, INCLUDING POSSIBLE MONETARY DAMAGES, FOR COPYRIGHT INFRINGEMENT.<BR />
+<BR />
+Apple, the Apple logo, iTunes, App Store, and other Apple trademarks, service marks, graphics, and logos used in connection with the App and Book Services are trademarks or registered trademarks of Apple Inc. in the U.S. and/or other countries. Other trademarks, service marks, graphics, and logos used in connection with the App and Book Services may be the trademarks of their respective owners. You are granted no right or license with respect to any of the aforesaid trademarks and any use of such trademarks.<BR />
+<BR />
+TERMINATION<BR />
+<BR />
+If you fail, or Apple suspects that you have failed, to comply with any of the provisions of this Agreement, Apple, at its sole discretion, without notice to you may: (i) terminate this Agreement and/or your Account, and you will remain liable for all amounts due under your Account up to and including the date of termination; and/or (ii) terminate the license to the software; and/or (iii) preclude access to the App and Book Services (or any part thereof).<BR />
+<BR />
+Apple reserves the right to modify, suspend, or discontinue the App and Book Services (or any part or content thereof) at any time with or without notice to you, and Apple will not be liable to you or to any third party should it exercise such rights.<BR />
+<BR />
+DISCLAIMER OF WARRANTIES; LIABILITY LIMITATIONS<BR />
+<BR />
+APPLE DOES NOT GUARANTEE, REPRESENT, OR WARRANT THAT YOUR USE OF THE APP AND BOOK SERVICES WILL BE UNINTERRUPTED OR ERROR-FREE, AND YOU AGREE THAT FROM TIME TO TIME APPLE MAY REMOVE THE APP AND BOOK SERVICES FOR INDEFINITE PERIODS OF TIME, OR CANCEL THE APP AND BOOK SERVICES AT ANY TIME, WITHOUT NOTICE TO YOU.<BR />
+<BR />
+YOU EXPRESSLY AGREE THAT YOUR USE OF, OR INABILITY TO USE, THE APP AND BOOK SERVICES IS AT YOUR SOLE RISK. THE APP AND BOOK SERVICES AND ALL PRODUCTS AND APP AND BOOK SERVICES DELIVERED TO YOU THROUGH THE APP AND BOOK SERVICES ARE (EXCEPT AS EXPRESSLY STATED BY APPLE) PROVIDED &#34;AS IS&#34; AND &#34;AS AVAILABLE&#34; FOR YOUR USE, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NONINFRINGEMENT. BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, THE ABOVE EXCLUSION OF IMPLIED WARRANTIES MAY NOT APPLY TO YOU.<BR />
+<BR />
+IN NO CASE SHALL APPLE, ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES, AGENTS, CONTRACTORS, PRINCIPALS, OR LICENSORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING FROM YOUR USE OF ANY OF THE APP AND BOOK SERVICES OR FOR ANY OTHER CLAIM RELATED IN ANY WAY TO YOUR USE OF THE APP AND BOOK SERVICES, INCLUDING, BUT NOT LIMITED TO, ANY ERRORS OR OMISSIONS IN ANY CONTENT, OR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT (OR PRODUCT) POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE APP AND BOOK SERVICES, EVEN IF ADVISED OF THEIR POSSIBILITY. BECAUSE SOME STATES OR JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR THE LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, IN SUCH STATES OR JURISDICTIONS, APPLE&#39;S LIABILITY SHALL BE LIMITED TO THE EXTENT PERMITTED BY LAW.<BR />
+<BR />
+APPLE SHALL USE REASONABLE EFFORTS TO PROTECT INFORMATION SUBMITTED BY YOU IN CONNECTION WITH THE APP AND BOOK SERVICES, BUT YOU AGREE THAT YOUR SUBMISSION OF SUCH INFORMATION IS AT YOUR SOLE RISK, AND APPLE HEREBY DISCLAIMS ANY AND ALL LIABILITY TO YOU FOR ANY LOSS OR LIABILITY RELATING TO SUCH INFORMATION IN ANY WAY.<BR />
+<BR />
+APPLE DOES NOT REPRESENT OR GUARANTEE THAT THE APP AND BOOK SERVICES WILL BE FREE FROM LOSS, CORRUPTION, ATTACK, VIRUSES, INTERFERENCE, HACKING, OR OTHER SECURITY INTRUSION, AND APPLE DISCLAIMS ANY LIABILITY RELATING THERETO. YOU SHALL BE RESPONSIBLE FOR BACKING UP YOUR OWN SYSTEM, INCLUDING ANY APP AND BOOK PRODUCTS PURCHASED OR ACQUIRED FROM THE APP AND BOOK SERVICES.<BR />
+<BR />
+WAIVER AND INDEMNITY<BR />
+<BR />
+BY USING THE APP AND BOOK SERVICES, YOU AGREE, TO THE EXTENT PERMITTED BY LAW, TO INDEMNIFY AND HOLD APPLE, ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES, AGENTS, CONTRACTORS, PRINCIPALS, AND LICENSORS HARMLESS WITH RESPECT TO ANY CLAIMS ARISING OUT OF YOUR BREACH OF THIS AGREEMENT, YOUR USE OF THE APP AND BOOK SERVICES, OR ANY ACTION TAKEN BY APPLE AS PART OF ITS INVESTIGATION OF A SUSPECTED VIOLATION OF THIS AGREEMENT OR AS A RESULT OF ITS FINDING OR DECISION THAT A VIOLATION OF THIS AGREEMENT HAS OCCURRED. THIS MEANS THAT YOU CANNOT SUE OR RECOVER ANY DAMAGES FROM APPLE, ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES, AGENTS, CONTRACTORS, PRINCIPALS, AND LICENSORS AS A RESULT OF ITS DECISION TO REMOVE OR REFUSE TO PROCESS ANY INFORMATION OR CONTENT, TO WARN YOU, TO SUSPEND OR TERMINATE YOUR ACCESS TO THE APP AND BOOK SERVICES, OR TO TAKE ANY OTHER ACTION DURING THE INVESTIGATION OF A SUSPECTED VIOLATION OR AS A RESULT OF APPLE&#39;S CONCLUSION THAT A VIOLATION OF THIS AGREEMENT HAS OCCURRED. THIS WAIVER AND INDEMNITY PROVISION APPLIES TO ALL VIOLATIONS DESCRIBED IN OR CONTEMPLATED BY THIS AGREEMENT.<BR />
+<BR />
+CHANGES<BR />
+<BR />
+Apple reserves the right at any time to modify this Agreement and to impose new or additional terms or conditions on your use of the App and Book Services. Such modifications and additional terms and conditions will be effective immediately and incorporated into this Agreement. Your continued use of the App and Book Services will be deemed acceptance thereof.<BR />
+<BR />
+MISCELLANEOUS<BR />
+<BR />
+This Agreement constitutes the entire agreement between you and Apple and governs your use of the App and Book Services, superseding any prior agreements between you and Apple. You also may be subject to additional terms and conditions that may apply when you use affiliate services, certain App and Book Products, third-party content, or third-party software. If any part of this Agreement is held invalid or unenforceable, that portion shall be construed in a manner consistent with applicable law to reflect, as nearly as possible, the original intentions of the parties, and the remaining portions shall remain in full force and effect. Apple&#39;s failure to enforce any right or provisions in this Agreement will not constitute a waiver of such or any other provision. Apple will not be responsible for failures to fulfill any obligations due to causes beyond its control.<BR />
+<BR />
+The App and Book Services are operated by Apple from its offices in the United States. You agree to comply with all local, state, federal, and national laws, statutes, ordinances, and regulations that apply to your use of the App and Book Services. All transactions on the App and Book Services are governed by California law, without giving effect to its conflict of law provisions. Your use of the App and Book Services may also be subject to other laws. You expressly agree that exclusive jurisdiction for any claim or dispute with Apple or relating in any way to your use of the App And Book Services resides in the courts in the State of California. Risk of loss and title for all electronically delivered transactions pass to the purchaser in California upon electronic transmission to the recipient. No Apple employee or agent has the authority to vary this Agreement.<BR />
+<BR />
+Apple may notify you with respect to the App and Book Services by sending an email message to your Account email address or a letter via postal mail to your Account mailing address, or by posting on the App and Book Services. Notices shall become effective immediately.<BR />
+<BR />
+Apple reserves the right to take steps Apple believes are reasonably necessary or appropriate to enforce and/or verify compliance with any part of this Agreement. You agree that Apple has the right, without liability to you, to disclose any Registration Data and/or Account information to law enforcement authorities, government officials, and/or a third party, as Apple believes is reasonably necessary or appropriate to enforce and/or verify compliance with any part of this Agreement (including but not limited to Apple&#39;s right to cooperate with any legal process relating to your use of the App and Book Services and/or App and Book Products, and/or a third-party claim that your use of the App and Book Services and/or App and Book Products is unlawful and/or infringes such third party&#39;s rights).<BR />
+<BR />
+STATUTORY EXCEPTIONS FOR PUBLIC INSTITUTIONS<BR />
+<BR />
+If you are a qualified public educational or government institution and any part of this Agreement, such as, by way of example, all or part of the indemnification section, is invalid or unenforceable against you because of applicable state or federal law, then that portion shall be deemed invalid or unenforceable, as the case may be, and instead construed in a manner most consistent with applicable governing law. If California law is precluded, this Agreement shall be construed under the laws of the state in which your public educational or government institution is located.<BR />
+<BR />
+ADDITIONAL MAC APP STORE AND APP STORE TERMS AND CONDITIONS<BR />
+<BR />
+LICENSE OF MAC APP STORE AND APP STORE PRODUCTS<BR />
+<BR />
+The software products made available through the Mac App Store and App Store (collectively, the “App Store Products”) are licensed, not sold, to you. There are two (2) categories of App Store Products, as follows: (i) those App Store Products that have been developed, and are licensed to you, by Apple (“Apple Products”); and (ii) those App Store Products that have been developed, and are licensed to you, by a third-party developer (“Third-Party Products”). The category of a particular App Store Product (Apple Product or Third-Party Product) is identified on the Mac App Store application or App Store application.<BR />
+<BR />
+Your license to each App Store Product is subject to the Licensed Application End User License Agreement set forth below, and you agree that such terms will apply unless the App Store Product is covered by a valid end user license agreement entered into between you and the licensor of that App Store Product (the “Application Provider”), in which case the Application Provider’s end user license agreement will apply to that App Store Product. The Application Provider reserves all rights in and to the App Store Product not expressly granted to you.<BR />
+<BR />
+You acknowledge that the license to each Apple Product that you obtain through the App Store Services, as defined below, or you associate with your Account, is a binding agreement between you and Apple. You acknowledge that: you are acquiring the license to each Third-Party Product from the Application Provider; Apple is acting as agent for the Application Provider in providing each such Third-Party Product to you; and Apple is not a party to the license between you and the Application Provider with respect to that Third-Party Product. The Application Provider of each Third-Party Product is solely responsible for that Third-Party Product, the content therein, any warranties to the extent that such warranties have not been disclaimed, and any claims that you or any other party may have relating to that Third-Party Product.<BR />
+<BR />
+You acknowledge and agree that Apple and its subsidiaries are third-party beneficiaries of the Licensed Application End User License Agreement or the Application Provider’s end user license agreement, as the case may be, for each Third-Party Product. You also agree that, upon your acceptance of the terms and conditions of the license to any such Third-Party Product, Apple will have the right (and will be deemed to have accepted the right) to enforce such license against you as a third-party beneficiary thereof.<BR />
+<BR />
+IN-APP PURCHASES<BR />
+<BR />
+Certain App Store Products may include functionality that enables you to receive additional services, or licenses to additional functionality or content for use within the App Store Product (&#34;In App Purchases&#34;). In App Purchases that are consumed during the use of the App Store Product (for example, virtual ammunition) cannot be transferred among devices; can be downloaded only once; and after being downloaded, cannot be replaced. Once a consumable In App Purchase is acquired and received by you, Apple shall be without liability to you in the event of any loss, destruction, or damage. All In App Purchases are deemed App Store Products, and In App Purchases received within Third-Party Products are deemed Third-Party Products, and treated as such, for purposes of these terms and conditions.<BR />
+<BR />
+You must authenticate to acquire In-App Purchases separately from any authentication to obtain App Store Products by entering your password when prompted, but once you have authenticated to obtain an In-App Purchase, you will be able to acquire additional In-App Purchases for fifteen minutes without re-entering your password. You can turn off the ability to acquire In-App Purchases on your iOS Device by following the steps outlined at http://support.apple.com/kb/HT4213.<BR />
+<BR />
+IN-APP SUBSCRIPTIONS<BR />
+<BR />
+Certain App Store Products may include functionality that enables you to acquire content on a subscription basis (“In App Subscriptions”). Paid In App Subscriptions are non-refundable. In App Subscriptions will automatically renew for the applicable time period you have selected, and, where applicable, your Account will be charged no more than 24-hours prior to the expiration of the current In App Subscription period. You may cancel automatic renewal of paid In App Subscriptions by selecting Manage App Subscriptions in your Account and selecting the subscription you want to modify. The auto-renew feature of the subscription will be turned off if the Application Provider increases the price of the subscription. You may cancel free In App Subscriptions by deleting the App Store Product from your device. Certain paid In App Subscriptions may offer a free trial period prior to charging your Account. If you decide you do not want to purchase the In App Subscription, turn off auto-renewal in your Account settings during the free trial period. Certain In App Subscriptions may be designated as “Newsstand” products, in which case they will appear only within the Newsstand application on your device after download. You should also review additional information about the paid In App Subscription offer at the point of sale within the App Store Product. We may ask for your permission to provide the name, email address and zip code listed in your Account to the Application Provider so that the Application Provider can send you marketing messages about its own products in accordance with its publicly posted privacy policy. Once the Application Provider has this information, it will be treated in accordance with the Application Provider’s privacy policy. We encourage you to learn about the privacy practices of the Application Provider before agreeing to give it your personal information. For more information, please review the Application Provider’s privacy policy or contact the Application Provider directly.<BR />
+<BR />
+POPULAR NEAR ME <BR />
+<BR />
+When you opt in to Popular Near Me via enabling Location Services, Apple will, from time to time, automatically collect information related to certain of your App Store Products, such as your time spent with each App Store Product and the number of times each App Store Product is launched. This information is stored anonymously and will not be associated with your name or Account. Apple will use this information, as well as other information, such as your App Store Product download history, to give personalized recommendations to you.<BR />
+<BR />
+Apple may use this information and combine it with aggregated information from other users who opt in to this feature, your iTunes Store purchase history data, your App Store download data, aggregated App Store Product download data from other users, and other information like customer ratings of App Store Products, to:<BR />
+<BR />
+• Provide you with recommendations regarding App Store Products, media, and other products and services that you may wish to purchase, download, or use.<BR />
+<BR />
+• Provide recommendations to other users.<BR />
+<BR />
+At all times your information will be treated in accordance with Apple’s Privacy Policy.<BR />
+<BR />
+If you prefer that we do not collect and use information from your device or system in this manner, you should not enable Location Services or use Popular Near Me . You can opt out at any time by turning off Popular Near Me in the System Services menu of the Location Services settings on your device . <BR />
+<BR />
+MAC APP STORE PRODUCT USAGE RULES<BR />
+<BR />
+Except as otherwise set forth herein,<BR />
+<BR />
+(i) If you are an individual acting in your personal capacity, you may download and use an application from the Mac App Store (“Mac App Store Product”) for personal, non-commercial use on any Apple-branded products running Mac OS X (“Mac Computer”) that you own or control.<BR />
+<BR />
+(ii) If you are a commercial enterprise or educational institution, you may download a Mac App Store Product for use by either (a) a single individual on each of the Mac Computer(s) used by that individual that you own or control or (b) multiple individuals on a single shared Mac Computer that you own or control. For example, a single employee may use a Mac App Store Product on both the employee’s desktop Mac Computer and laptop Mac Computer, or multiple students may serially use a Mac App Store Product on a single Mac Computer located at a resource center or library. For the sake of clarity, each Mac Computer used serially by multiple users requires a separate license.<BR />
+<BR />
+(iii) Use may require sign-in with the Apple ID used to download the Mac App Store Product from the Mac App Store. Mac App Store Products can be updated through the Mac App Store only.<BR />
+<BR />
+APP STORE PRODUCT USAGE RULES<BR />
+<BR />
+(i) If you are an individual acting in your personal capacity, you may download and sync an App Store Product for personal, noncommercial use on any iOS Device you own or control.<BR />
+<BR />
+(ii) If you are a commercial enterprise or educational institution, you may download and sync an App Store Product for use by either (a) a single individual on one or more iOS Devices used by that individual that you own or control or (b) multiple individuals, on a single shared iOS Device you own or control. For example, a single employee may use an App Store Product on both the employee&#39;s iPhone and iPad, or multiple students may serially use an App Store Product on a single iPad located at a resource center or library. For the sake of clarity, each iOS Device used serially by multiple users requires a separate license.<BR />
+<BR />
+(iii) You shall be able to store App Store Products from up to five different Accounts at a time on a compatible iOS Device.<BR />
+<BR />
+(iv) You shall be able to manually sync App Store Products from at least one iTunes-authorized device to iOS Devices that have manual sync mode, provided that the App Store Product is associated with an Account on the primary iTunes-authorized device, where the primary iTunes-authorized device is the one that was first synced with the iOS Device or the one that you subsequently designate as primary using the iTunes application.<BR />
+<BR />
+IMPORTANT SAFETY INFORMATION<BR />
+<BR />
+To avoid muscle, joint, or eye strain during video game play, you should always take frequent breaks from playing, and take a longer rest if you experience any soreness, fatigue, or discomfort. A very small percentage of people may experience seizures or blackouts when exposed to flashing lights or patterns, including while playing video games or watching videos. Symptoms may include dizziness, nausea, involuntary movements, loss of awareness, altered vision, tingling, numbness, or other discomforts. Consult a doctor before playing video games if you have ever suffered these or similar symptoms, and stop playing immediately and see a doctor if they occur during game play. Parents should monitor their children’s video game play for signs of symptoms.<BR />
+<BR />
+MAC APP STORE AND APP STORE PRODUCT MAINTENANCE AND SUPPORT<BR />
+<BR />
+Apple will be responsible for providing any maintenance and support services with respect to the Apple Products only, as specified in the Licensed Application End User License Agreement or the separate end user license agreement, as the case may be, or as required under applicable law. The Application Provider of any Third-Party Product will be solely responsible for providing maintenance and support services with respect to that Product, as specified in the Licensed Application End User License Agreement or the Application Provider end user license agreement, as the case may be, or as required under applicable law.<BR />
+<BR />
+LICENSED APPLICATION END USER LICENSE AGREEMENT<BR />
+<BR />
+The Mac App Store Products and App Store Products (collectively, “App Store Product(s)”) made available through the Mac App Store Service and App Store Service (collectively, “App Store Service(s)”) are licensed, not sold, to you. Your license to each App Store Product that you obtain through the App Store Services or associate with your Account is subject to your prior acceptance of this Licensed Application End User License Agreement (“Standard EULA”), and you agree that the terms of this Standard EULA will apply to each App Store Product that you license through the App Store Service, unless that App Store Product is covered by a valid end user license agreement between you and the Application Provider of that App Store Product, in which case the terms of that separate end user license agreement will govern. Your license to any Apple Product under this Standard EULA or separate end user license agreement is granted by Apple, and your license to any Third-Party Product under this Standard EULA or separate end user license agreement is granted by the Application Provider of that Third-Party Product. Any App Store Product that is subject to the license granted under this Standard EULA is referred to herein as the “Licensed Application”. The Application Provider or Apple as applicable (“Licensor”) reserves all rights in and to the Licensed Application not expressly granted to you under this Standard EULA.<BR />
+<BR />
+a. Scope of License: This license granted to you for the Licensed Application by Licensor is limited to a nontransferable license to use the Licensed Application on any Apple-branded products running iOS (including but not limited to iPad, iPhone, and iPod touch) (“iOS Devices”) or Mac OS X (“Mac Computers”), as applicable (collectively, “Apple Device(s)”) that you own or control and as permitted by the usage rules set forth in the Mac App Store, App Store and iBooks Store Terms and Conditions (the “Usage Rules”). This license does not allow you to use the Licensed Application on any Apple Device that you do not own or control, and except as provided in the Usage Rules, you may not distribute or make the Licensed Application available over a network where it could be used by multiple devices at the same time. You may not rent, lease, lend, sell, transfer redistribute, or sublicense the Licensed Application and, if you sell your Mac Computer or iOS Device to a third party, you must remove the Licensed Application from the Mac Computer or iOS Device before doing so. You may not copy (except as expressly permitted by this license and the Usage Rules), decompile, reverse-engineer, disassemble, attempt to derive the source code of, modify, or create derivative works of the Licensed Application, any updates, or any part thereof (except as and only to the extent that any foregoing restriction is prohibited by applicable law or to the extent as may be permitted by the licensing terms governing use of any open-sourced components included with the Licensed Application). Any attempt to do so is a violation of the rights of the Licensor and its licensors. If you breach this restriction, you may be subject to prosecution and damages.<BR />
+<BR />
+The terms of this license will govern any upgrades provided by Licensor that replace and/or supplement the original Licensed Application, unless such upgrade is accompanied by a separate license in which case the terms of that license will govern.<BR />
+<BR />
+b. Consent to Use of Data: You agree that Licensor may collect and use technical data and related information—including but not limited to technical information about your device, system and application software, and peripherals—that is gathered periodically to facilitate the provision of software updates, product support, and other services to you (if any) related to the Licensed Application. Licensor may use this information, as long as it is in a form that does not personally identify you, to improve its products or to provide services or technologies to you.<BR />
+<BR />
+c. Termination. The license is effective until terminated by you or Licensor. Your rights under this license will terminate automatically without notice from the Licensor if you fail to comply with any term(s) of this license. Upon termination of the license, you shall cease all use of the Licensed Application and destroy all copies, full or partial, of the Licensed Application.<BR />
+<BR />
+d. External Services; Third-Party Materials. The Licensed Application may enable access to Licensor’s and/or third-party services and websites (collectively and individually, &#34;External Services&#34;). Use of the External Services requires Internet access and use of certain External Services requires you to accept additional terms. By using this software in connection with an iTunes Store account, you agree to the latest iTunes Store Terms and Conditions and Usage Rules, which you may access and review at http://www.apple.com/legal/internet-services/itunes/ww/.<BR />
+<BR />
+You understand that by using any of the External Services, you may encounter content that may be deemed offensive, indecent, or objectionable, which content may or may not be identified as having explicit language, and that the results of any search or entering of a particular URL may automatically and unintentionally generate links or references to objectionable material. Nevertheless, you agree to use the External Services at your sole risk and that neither the Licensor nor its agents shall have any liability to you for content that may be found to be offensive, indecent, or objectionable.<BR />
+<BR />
+Certain External Services may display, include or make available content, data, information, applications or materials from third parties (“Third Party Materials”) or provide links to certain third party web sites. By using the External Services, you acknowledge and agree that neither the Licensor nor its agents is responsible for examining or evaluating the content, accuracy, completeness, timeliness, validity, copyright compliance, legality, decency, quality or any other aspect of such Third Party Materials or web sites. Neither the Licensor nor its agents warrant or endorse and does not assume and will not have any liability or responsibility to you or any other person for any third-party services, Third Party Materials or web sites, or for any other materials, products, or services of third parties. Third Party Materials and links to other web sites are provided solely as a convenience to you.<BR />
+<BR />
+Financial information displayed by any External Services is for general informational purposes only and should not be relied upon as investment advice. Before executing any securities transaction based upon information obtained through the External Services, you should consult with a financial or securities professional who is legally qualified to give financial or securities advice in your country or region. Medical information displayed by any App Store Product or External Service is for general information purposes only and should not be relied upon for medical diagnostic or treatment advice except as directed by a doctor.  You should consult with a medical professional before relying on medical information available in an App Store Product. Location data provided by any External Services is for basic navigational purposes only and is not intended to be relied upon in situations where precise location information is needed or where erroneous, inaccurate, time-delayed or incomplete location data may lead to death, personal injury, property or environmental damage. Neither the Licensor, nor its agents, nor any of its content providers guarantees the availability, accuracy, completeness, reliability, or timeliness of stock information, location data or any other data displayed by any External Services.<BR />
+<BR />
+You agree that the External Services contain proprietary content, information and material that is owned by Licensor and/or its agents or licensors, and is protected by applicable intellectual property and other laws, including but not limited to copyright, and that you will not use such proprietary content, information or materials in any way whatsoever except for permitted use of the External Services or in any manner that is inconsistent with the terms of this Standard EULA or that infringes any intellectual property rights of a third party or Apple. No portion of the External Services may be reproduced in any form or by any means. You agree not to modify, rent, lease, loan, sell, distribute, or create derivative works based on the External Services, in any manner, and you shall not exploit the External Services in any unauthorized way whatsoever, including but not limited to, using the External Services to transmit any computer viruses, worms, trojan horses or other malware, or by trespass or burdening network capacity. You further agree not to use the External Services in any manner to harass, abuse, stalk, threaten, defame or otherwise infringe or violate the rights of any other party, and that neither Licensor nor its agents is in any way responsible for any such use by you, nor for any harassing, threatening, defamatory, offensive, infringing or illegal messages or transmissions that you may receive as a result of using any of the External Services.<BR />
+<BR />
+In addition, External Services and Third Party Materials that may be accessed from, displayed on or linked to from the Apple Devices are not available in all languages or in all countries or regions. Licensor makes no representation that such External Services and Materials are appropriate or available for use in any particular location. To the extent you choose to use or access such External Services and Materials, you do so at your own initiative and are responsible for compliance with any applicable laws, including but not limited to applicable local laws. Licensor reserves the right to change, suspend, remove, or disable access to any External Services at any time without notice. In no event will Licensor be liable for the removal of or disabling of access to any such External Services. Licensor may also impose limits on the use of or access to certain External Services, in any case and without notice or liability.<BR />
+<BR />
+e. NO WARRANTY: YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT USE OF THE LICENSED APPLICATION IS AT YOUR SOLE RISK AND THAT THE ENTIRE RISK AS TO SATISFACTORY QUALITY, PERFORMANCE, ACCURACY, AND EFFORT IS WITH YOU. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSED APPLICATION AND ANY SERVICES PERFORMED OR PROVIDED BY THE LICENSED APPLICATION ARE PROVIDED &#34;AS IS&#34; AND “AS AVAILABLE”, WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND, AND LICENSOR HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH RESPECT TO THE LICENSED APPLICATION AND ANY SERVICES, EITHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES AND/OR CONDITIONS OF MERCHANTABILITY, OF SATISFACTORY QUALITY, OF FITNESS FOR A PARTICULAR PURPOSE, OF ACCURACY, OF QUIET ENJOYMENT, AND OF NONINFRINGEMENT OF THIRD-PARTY RIGHTS. LICENSOR DOES NOT WARRANT AGAINST INTERFERENCE WITH YOUR ENJOYMENT OF THE LICENSED APPLICATION, THAT THE FUNCTIONS CONTAINED IN OR SERVICES PERFORMED OR PROVIDED BY THE LICENSED APPLICATION WILL MEET YOUR REQUIREMENTS, THAT THE OPERATION OF THE LICENSED APPLICATION OR SERVICES WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS IN THE LICENSED APPLICATION OR SERVICES WILL BE CORRECTED. NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY LICENSOR OR ITS AUTHORIZED REPRESENTATIVE SHALL CREATE A WARRANTY. SHOULD THE LICENSED APPLICATION OR SERVICES PROVE DEFECTIVE, YOU ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, REPAIR, OR CORRECTION. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES OR LIMITATIONS ON APPLICABLE STATUTORY RIGHTS OF A CONSUMER, SO THE ABOVE EXCLUSION AND LIMITATIONS MAY NOT APPLY TO YOU.<BR />
+<BR />
+f. Limitation of Liability. TO THE EXTENT NOT PROHIBITED BY LAW, IN NO EVENT SHALL LICENSOR BE LIABLE FOR PERSONAL INJURY OR ANY INCIDENTAL, SPECIAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, LOSS OF DATA, BUSINESS INTERRUPTION, OR ANY OTHER COMMERCIAL DAMAGES OR LOSSES, ARISING OUT OF OR RELATED TO YOUR USE OR INABILITY TO USE THE LICENSED APPLICATION, HOWEVER CAUSED, REGARDLESS OF THE THEORY OF LIABILITY (CONTRACT, TORT, OR OTHERWISE) AND EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OF LIABILITY FOR PERSONAL INJURY, OR OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS LIMITATION MAY NOT APPLY TO YOU. In no event shall Licensor’s total liability to you for all damages (other than as may be required by applicable law in cases involving personal injury) exceed the amount of fifty dollars ($50.00). The foregoing limitations will apply even if the above stated remedy fails of its essential purpose.<BR />
+<BR />
+g. You may not use or otherwise export or re-export the Licensed Application except as authorized by United States law and the laws of the jurisdiction in which the Licensed Application was obtained. In particular, but without limitation, the Licensed Application may not be exported or re-exported (a) into any U.S.-embargoed countries or (b) to anyone on the U.S. Treasury Department&#39;s Specially Designated Nationals List or the U.S. Department of Commerce Denied Persons List or Entity List. By using the Licensed Application, you represent and warrant that you are not located in any such country or on any such list. You also agree that you will not use these products for any purposes prohibited by United States law, including, without limitation, the development, design, manufacture, or production of nuclear, missile, or chemical or biological weapons.<BR />
+<BR />
+h. The Licensed Application and related documentation are &#34;Commercial Items&#34;, as that term is defined at 48 C.F.R. §2.101, consisting of &#34;Commercial Computer Software&#34; and &#34;Commercial Computer Software Documentation&#34;, as such terms are used in 48 C.F.R. §12.212 or 48 C.F.R. §227.7202, as applicable. Consistent with 48 C.F.R. §12.212 or 48 C.F.R. §227.7202-1 through 227.7202-4, as applicable, the Commercial Computer Software and Commercial Computer Software Documentation are being licensed to U.S. Government end users (a) only as Commercial Items and (b) with only those rights as are granted to all other end users pursuant to the terms and conditions herein. Unpublished-rights reserved under the copyright laws of the United States.<BR />
+<BR />
+i. The laws of the State of California, excluding its conflicts of law rules, govern this license and your use of the Licensed Application. Your use of the Licensed Application may also be subject to other local, state, national, or international laws.<BR />
+<BR />
+ADDITIONAL IBOOKS STORE TERMS AND CONDITIONS<BR />
+<BR />
+PURCHASE OF IBOOKS STORE PRODUCTS<BR />
+<BR />
+You acknowledge that you are purchasing the content made available through the iBooks Store Service (the “iBooks Store Products”) from the third-party provider of that iBooks Store Product (the “Publisher”); Apple is acting as agent for the Publisher in providing each such iBooks Store Product to you; Apple is not a party to the transaction between you and the Publisher with respect to that iBooks Store Product; and the Publisher of each iBooks Store Product reserves the right to enforce the terms of use relating to that iBooks Store Product. The Publisher of each iBooks Store Product is solely responsible for that iBooks Store Product, the content therein, any warranties to the extent that such warranties have not been disclaimed, and any claims that you or any other party may have relating to that iBooks Store Product or your use of that iBooks Store Product.<BR />
+<BR />
+IBOOKS STORE PRODUCT USAGE RULES<BR />
+<BR />
+(i) You shall be authorized to use the iBooks Store Products only for personal, noncommercial use.<BR />
+<BR />
+(ii) You shall be able to store iBooks Store Products from up to five different Accounts at a time on certain iOS-based devices, such as an iPad, iPod touch, or iPhone.<BR />
+<BR />
+(iii) You shall be able to store iBooks Store Products on five iTunes-authorized devices at any time.<BR />
+<BR />
+(iv) The delivery of iBooks Store Products does not transfer to you any promotional use rights in the iBooks Store Products or any rights to burn the iBooks Store Products to disc.<BR />
+<BR />
+(v) You shall be able to manually sync iBooks Store Products from at least one iTunes-authorized device to devices that have manual sync mode, provided that the iBooks Store Product is associated with an Account on the primary iTunes-authorized device, where the primary iTunes-authorized device is the one that was first synced with the device or the one that you subsequently designate as primary using iTunes.<BR />
+<BR />
+Last Updated: September 17, 2014<BR />
+
+  <br/>
+  <br/>
+  <br/>
+</div>
+
+            </div>
+
+            <div class="accept-terms">
+              <form name="f_2_1_1_1_3_1_5_1_1_7_3_7" method="post" action="/WebObjects/MZFinance.woa/wo/4.2.1.1.1.3.1.5.1.1.7.3.7">
+              <div class="formset checkbox after agree-checkbox"><input class="checkbox after" id="iagree" type="checkbox" name="2.1.1.1.3.1.5.1.1.7.3.7.1" value="2.1.1.1.3.1.5.1.1.7.3.7.1" /><label class="checkbox after" for="iagree"><span>I have read and agree to these terms and conditions.</span></label></div>
+			        
+                <a target="_blank" class="printable" href="http://www.apple.com/legal/itunes/us/terms.html">Printable Version</a>
+ 		          
+              <input id="pageUUID" class="optional" name="mzPageUUID" type="hidden" value='af20b879-801b-47e0-a8cb-868c76dbfacc' />
+              <input id="machineGUID" class="optional" name="machineGUID" type="hidden" value=""/>
+              <input id="signature" class="optional" name="xAppleActionSignature" type="hidden" value=""/>
+              </form>
+            </div>
+          </section>
+          <nav role="presentation">
+            <a role="button" class="back" href="/WebObjects/MZFinance.woa/wo/4.2.1.1.1.3.1.5.1.1.7.3.9"><button type="button">Go Back</button></a>
+            <a role="button" class="cancel" href="/WebObjects/MZFinance.woa/wo/4.2.1.1.1.3.1.5.1.1.7.3.11"><button type="button">Cancel</button></a>
+            <a role="button" aria-disabled="true" class="continue disabled" href="#"><button type="button">Agree</button></a>
+          </nav>
+      
+
+    
+
+      </div>
+
+
+      
+      
+
+    </div>
+  </div>
+
+  <footer class="no-country-nav">
+  <div class="legal">
+    <span class="copyright">Copyright © 2014 Apple Inc. <a target="_blank" href="https://www.apple.com/legal/">All rights reserved.</a></span>
+    <ul class="list" role="presentation">
+      <li><a target="_blank" href="https://www.apple.com/legal/privacy/">Privacy Policy</a></li>
+      <li><a target="_blank" href="http://www.apple.com/legal/itunes/us/terms.html">Terms and Conditions</a></li>
+      <li><a href="https://itunes.apple.com/us/faq">FAQ</a></li>
+    </ul>
+    
+  </div>
+</footer>
+
+
+  <script language="JavaScript" type="text/javascript"><!--
+
+    var iTSMetricsCallbackFunction = function() {
+	    ITSMetrics.reportingSuite = "appleitmswwwap,appleitmsusap";
+	    ITSMetrics.omniture = ITSMetrics.createBaselineOmnitureObject();
+	    
+	    ITSMetrics.isPageMetricsEnabled=true;
+	    
+	    ITSMetrics.isBuyMetricsEnabled=true;
+	    
+	
+	    /* Page Metrics */
+	    ITSMetrics.omniture.pageName="Signup View Terms-US";
+ITSMetrics.omniture.channel="Signup";
+ITSMetrics.omniture.prop22="HTML";
+ITSMetrics.omniture.eVar22="HTML";
+
+	    
+	    
+	    
+	    /* User Agent */
+	    var userAgentForMetrics = ITSMetrics.userAgentForMetrics();
+	    ITSMetrics.omniture.prop12 = userAgentForMetrics;
+	    ITSMetrics.omniture.eVar12 = userAgentForMetrics;
+	    
+	    // check if Game Center
+	    var gcUserAgent = "GameCenter";
+	    var isGameCenter = userAgentForMetrics.length >= gcUserAgent.length && userAgentForMetrics.substr(0, gcUserAgent.length) == gcUserAgent;
+	    if (isGameCenter) {
+	        // prepend "GameCenter" to page and channel name
+	        if (ITSMetrics.omniture.pageName) ITSMetrics.omniture.pageName = "GameCenter-" + ITSMetrics.omniture.pageName;
+	        if (ITSMetrics.omniture.channel) ITSMetrics.omniture.channel = "GameCenter-" + ITSMetrics.omniture.channel;
+	    }
+	    
+	    
+	    /* Browser Plugins */
+	    ITSMetrics.shouldTrackBrowserPlugins = false;
+	    
+	    /* Pass-thru query params */
+	    ITSMetrics.processQueryParameterInfoInCurrentRequest(ITSMetrics.omniture);
+	    
+	    if (ITSMetrics.isPageMetricsEnabled && ITSMetrics.isOmnitureSupportedOnClient()) {
+	        ITSMetrics.emitPagePing = function() {
+	            var s_code=ITSMetrics.omniture.t();
+	            if (s_code) {
+	                var containingDiv = document.createElement('div');
+	                containingDiv.innerHTML = s_code;
+	                document.body.appendChild(containingDiv);
+	            }
+	        };
+	        its.x.addEventListener(window, 'load', function() { window.setTimeout(ITSMetrics.emitPagePing, 1) }, false );
+	    }
+    };
+
+    if (!window["ITSMetrics"]){ 
+	    iTSDefer.register(function() {
+	        iTSMetricsCallbackFunction();
+	    });
+    } else {
+        iTSMetricsCallbackFunction();
+    }
+--></script>
+    <script>
+        if (!window.its) {
+            window.its = {};
+        }
+        window.its.markupLoadEndTime = new Date().getTime();
+    </script>
+
+
+
+</body>
+  
+
+</html>
+
+

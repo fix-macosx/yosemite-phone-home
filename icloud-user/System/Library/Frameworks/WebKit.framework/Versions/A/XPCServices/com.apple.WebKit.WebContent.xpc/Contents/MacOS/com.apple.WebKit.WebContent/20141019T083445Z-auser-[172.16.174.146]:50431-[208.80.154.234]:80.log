@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: geoiplookup.wikimedia.org
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+Accept-Language: en-us
+Referer: http://en.wikipedia.org/wiki/Category_theory
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 geoiplookup
+Server: Varnish
+Content-Type: text/javascript
+Content-Length: 101
+Last-Modified: Sun, 19 Oct 2014 08:34:45 GMT
+Cache-Control: private, max-age=86400, s-maxage=0
+Accept-Ranges: bytes
+Date: Sun, 19 Oct 2014 08:34:45 GMT
+X-Varnish: 303599815
+Age: 0
+Via: 1.1 varnish
+Connection: keep-alive
+X-Cache: cp1057 miss (0)
+X-Analytics: php=zend
+
+Geo = {"city":"San Antonio","country":"US","lat":"29.488899","lon":"-98.398697","IP":"173.45.226.23"}

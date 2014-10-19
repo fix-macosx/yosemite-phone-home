@@ -1,0 +1,20 @@
+GET /search?q=text&locale=en-US&key=andromeda&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: []
+Accept: */*
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: ["t","te"]
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 08:00:54 GMT
+Content-Length: 904
+Connection: close
+
+[{"status":"OK","query":"textnow.com","prefix":"text","completion_score":49299.00001644498,"fbq":"eyJ1IjoiIiwicCI6InRleHQiLCJxIjoidGV4dG5vdy5jb20iLCJ0cyI6MTQxMzcwNTY1NCwiZyI6InVzL2lsbGlub2lzL2Nvb2svY2hpY2FnbyIsImEiOiJzYWZhcmkiLCJkIjoibWFjIiwibCI6ImVuX1VTIiwiaSI6IjE0MzQ0MS0xLDIxIiwiYyI6IjQxLjg2NDMsLTg3LjY0NSIsImVjdiI6MCwiY2N2IjowfQ==","results":[{"type":"web_suggest","id":"wb:http://textnow.com","score":6,"fbr":"eyJkIjoid2ViX3N1Z2dlc3QiLCJyIjoid2I6aHR0cDovL3RleHRub3cuY29tIn0=","url":"http://textnow.com","report_problem_url":"","filtered":false,"tophit":1,"engagement_score":0,"qi_engagement_score":0,"hide_rank":15,"template":"simple","completion":"http://textnow.com","completion_icon":{"id":"mac_safari_icon_small"},"section_header":"Suggested Website","title":"textnow.com","title_maxlines":1,"description":"— TextNow","description_follows_title":true,"icon":{"id":"mac_safari_icon_small"}}]}]

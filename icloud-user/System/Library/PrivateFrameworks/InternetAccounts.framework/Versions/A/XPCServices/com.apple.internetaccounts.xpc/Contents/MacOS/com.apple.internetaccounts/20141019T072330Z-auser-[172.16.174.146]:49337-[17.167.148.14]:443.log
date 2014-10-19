@@ -1,0 +1,20 @@
+OPTIONS /8078008707/principal/ HTTP/1.1
+Host: p29-caldav.icloud.com
+Content-Length: 0
+Connection: keep-alive
+Accept: */*
+User-Agent: Mac+OS+X/10.10 (14A389) CalendarAgent/315
+Accept-Language: en-us
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Content-Length: 0
+X-Responding-Server: st13p29ic-hpaf18231401 1 a63660a6f7d1a25b5a7ed66dab0da843
+Server: iCloudCalendarServer 14G54
+DAV: 1, access-control, calendar-access, calendar-schedule, calendar-auto-schedule, calendar-managed-attachments, calendarserver-sharing, calendarserver-subscribed, calendarserver-home-sync
+X-Transaction-Id: d38567ec-5760-11e4-bc3c-78e3b51be480
+Allow: ACL, COPY, DELETE, GET, HEAD, LOCK, MKCOL, MOVE, OPTIONS, PROPFIND, PROPPATCH, PUT, REPORT, UNLOCK
+Date: Sun, 19 Oct 2014 07:23:30 GMT
+X-Accept-Client-Encoding: gzip
+

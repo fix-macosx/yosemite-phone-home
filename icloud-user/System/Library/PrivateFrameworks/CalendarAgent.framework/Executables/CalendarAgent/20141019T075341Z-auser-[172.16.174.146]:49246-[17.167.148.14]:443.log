@@ -1,0 +1,122 @@
+PROPFIND /8078008707/principal/ HTTP/1.1
+Host: p29-caldav.icloud.com
+Accept: */*
+Brief: t
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Content-Length: 743
+Depth: 0
+Connection: keep-alive
+User-Agent: Mac+OS+X/10.10 (14A389) CalendarAgent/315
+Prefer: return=minimal
+
+<?xml version="1.0" encoding="UTF-8"?>
+<A:propfind xmlns:A="DAV:">
+  <A:prop>
+    <B:calendar-home-set xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <B:calendar-user-address-set xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <A:current-user-principal/>
+    <A:displayname/>
+    <C:dropbox-home-URL xmlns:C="http://calendarserver.org/ns/"/>
+    <C:email-address-set xmlns:C="http://calendarserver.org/ns/"/>
+    <C:notification-URL xmlns:C="http://calendarserver.org/ns/"/>
+    <A:principal-collection-set/>
+    <A:principal-URL/>
+    <A:resource-id/>
+    <B:schedule-inbox-URL xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <B:schedule-outbox-URL xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <A:supported-report-set/>
+  </A:prop>
+</A:propfind>
+HTTP/1.1 207 Multi-Status
+Content-Length: 2962
+Accept-Ranges: bytes
+Vary: accept-encoding
+Server: iCloudCalendarServer 14G54
+DAV: 1, access-control, calendar-access, calendar-schedule, calendar-auto-schedule, calendar-managed-attachments, calendarserver-sharing, calendarserver-subscribed, calendarserver-home-sync
+X-Transaction-Id: 0b140426-5765-11e4-85c1-d485645e7fcc
+Date: Sun, 19 Oct 2014 07:53:41 GMT
+X-Responding-Server: st13p29ic-hpaf18221001 0 a63660a6f7d1a25b5a7ed66dab0da843
+Content-Type: text/xml
+
+<?xml version='1.0' encoding='UTF-8'?>
+<multistatus xmlns='DAV:'>
+  <response>
+    <href>/8078008707/principal/</href>
+    <propstat>
+      <prop>
+        <calendar-home-set xmlns='urn:ietf:params:xml:ns:caldav'>
+          <href xmlns='DAV:'>https://p29-caldav.icloud.com:443/8078008707/calendars/</href>
+        </calendar-home-set>
+        <calendar-user-address-set xmlns='urn:ietf:params:xml:ns:caldav'>
+          <href xmlns='DAV:'>urn:uuid:8078008707</href>
+          <href xmlns='DAV:'>/8078008707/principal/</href>
+          <href xmlns='DAV:'>/aODA3ODAwODcwNzgwNzgwMGrbshq-cfA20fK2AufiDrKbimJJpx0C0-cy_jrn55Cu/principal/</href>
+          <href preferred='1' xmlns='DAV:'>mailto:admin@fix-macosx.com</href>
+        </calendar-user-address-set>
+        <current-user-principal>
+          <href>/8078008707/principal/</href>
+        </current-user-principal>
+        <displayname>Defaults Users</displayname>
+        <email-address-set xmlns='http://calendarserver.org/ns/'/>
+        <notification-URL xmlns='http://calendarserver.org/ns/'>
+          <href xmlns='DAV:'>/8078008707/calendars/notification/</href>
+        </notification-URL>
+        <principal-collection-set>
+          <href>/</href>
+        </principal-collection-set>
+        <principal-URL>
+          <href>/8078008707/principal/</href>
+        </principal-URL>
+        <schedule-inbox-URL xmlns='urn:ietf:params:xml:ns:caldav'>
+          <href xmlns='DAV:'>/8078008707/calendars/inbox/</href>
+        </schedule-inbox-URL>
+        <schedule-outbox-URL xmlns='urn:ietf:params:xml:ns:caldav'>
+          <href xmlns='DAV:'>/8078008707/calendars/outbox/</href>
+        </schedule-outbox-URL>
+        <supported-report-set>
+          <supported-report>
+            <report>
+              <acl-principal-prop-set/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-match/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-property-search/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <expand-property/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <sync-collection/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <verify-calendar-user xmlns='http://me.com/_namespace/'/>
+            </report>
+          </supported-report>
+        </supported-report-set>
+      </prop>
+      <status>HTTP/1.1 200 OK</status>
+    </propstat>
+    <propstat>
+      <prop>
+        <dropbox-home-URL xmlns='http://calendarserver.org/ns/'/>
+        <resource-id/>
+      </prop>
+      <status>HTTP/1.1 404 Not Found</status>
+    </propstat>
+  </response>
+</multistatus>

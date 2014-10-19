@@ -1,0 +1,21 @@
+GET /search?q=If%20I%20use%20google%20as%20a%20search%20engine,%20I%20know%20they'll%20get%20my%20query.%20Will%20Apple?&locale=en-US&key=andromeda&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+Accept: */*
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: []
+X-Apple-UserGuid: 4cbc0ebe-227a-4677-6ded-7bde4c47fd42
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: []
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 07:46:46 GMT
+Content-Length: 700
+Connection: close
+
+[{"status":"NO_RESULTS","query":"If I use google as a search engine, I know they'll get my query. Will Apple?","prefix":"If I use google as a search engine, I know they'll get my query. Will Apple?","completion_score":769999,"fbq":"eyJ1IjoiNGNiYzBlYmUtMjI3YS00Njc3LTZkZWQtN2JkZTRjNDdmZDQyIiwicCI6IklmIEkgdXNlIGdvb2dsZSBhcyBhIHNlYXJjaCBlbmdpbmUsIEkga25vdyB0aGV5J2xsIGdldCBteSBxdWVyeS4gV2lsbCBBcHBsZT8iLCJxIjoiSWYgSSB1c2UgZ29vZ2xlIGFzIGEgc2VhcmNoIGVuZ2luZSwgSSBrbm93IHRoZXknbGwgZ2V0IG15IHF1ZXJ5LiBXaWxsIEFwcGxlPyIsInRzIjoxNDEzNzA0ODA2LCJnIjoidXMvaWxsaW5vaXMvY29vay9jaGljYWdvIiwiYSI6InNhZmFyaSIsImQiOiJtYWMiLCJsIjoiZW5fVVMiLCJpIjoiMTQzNDQxLTEsMjEiLCJjIjoiNDEuODY0MywtODcuNjQ1IiwiZWN2IjowLCJjY3YiOjB9"}]

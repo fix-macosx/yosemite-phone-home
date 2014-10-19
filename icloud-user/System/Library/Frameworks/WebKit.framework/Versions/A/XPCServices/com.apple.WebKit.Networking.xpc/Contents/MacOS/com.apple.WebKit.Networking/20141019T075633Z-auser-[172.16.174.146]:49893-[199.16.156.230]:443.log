@@ -1,0 +1,36 @@
+POST /i/jot HTTP/1.1
+Host: twitter.com
+X-Twitter-Polling: true
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: https://twitter.com
+Content-Length: 424
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+Referer: https://twitter.com/
+
+log=%5B%7B%22internal_referer%22%3Anull%2C%22client_version%22%3A%22macaw-swift%22%2C%22user_id%22%3A0%2C%22event_value%22%3A0%2C%22event_namespace%22%3A%7B%22client%22%3A%22web%22%2C%22page%22%3A%22front%22%2C%22section%22%3A%22front%22%2C%22component%22%3A%22reduced_action_queue%22%2C%22action%22%3A%22all%22%7D%2C%22triggered_on%22%3A1413705392985%2C%22format_version%22%3A2%2C%22_category_%22%3A%22client_event%22%7D%5DHTTP/1.1 200 OK
+cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+connection: close
+content-length: 0
+content-security-policy: default-src 'self'; connect-src 'self'; font-src 'self' https://*.twimg.com https://ton.twitter.com https://twitter.com data:; frame-src 'self'; img-src 'self' https://*.twimg.com https://ton.twitter.com https://twitter.com data:; media-src 'self' https://*.twimg.com https://ton.twitter.com https://twitter.com; object-src 'none'; script-src 'self' https://*.twimg.com https://ton.twitter.com https://twitter.com; style-src 'self' https://*.twimg.com https://ton.twitter.com https://twitter.com; report-uri https://twitter.com/i/csp_report?a=OJ2WM33VOM%3D%3D%3D%3D%3D%3D&ro=false;
+content-type: text/html
+date: Sun, 19 Oct 2014 07:56:33 UTC
+expires: Tue, 31 Mar 1981 05:00:00 GMT
+last-modified: Sun, 19 Oct 2014 07:56:33 GMT
+p3p: CP="CAO DSP LAW CURa ADMa DEVa TAIa PSAa PSDa IVAa IVDa OUR BUS IND UNI COM NAV INT"
+pragma: no-cache
+server: tsa_b
+set-cookie: pid="v3:1413705393918968545654814"; Expires=Mon, 18 Apr 2016 07:56:33 GMT; Path=/; Domain=.twitter.com
+set-cookie: guest_id=v1%3A141370539342065197; Domain=.twitter.com; Path=/; Expires=Tue, 18-Oct-2016 07:56:33 UTC
+status: 200 OK
+strict-transport-security: max-age=631138519
+x-connection-hash: bfcd855dcc3e3dcf16f7382f9723ea9e
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-transaction: dab9c46529d5e5c8
+x-xss-protection: 1; mode=block
+

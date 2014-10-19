@@ -1,0 +1,20 @@
+GET /fd/sa/9_00_0_3344435/WindowsLiveConnect_c.js HTTP/1.1
+Host: www.bing.com
+Accept: */*
+Connection: keep-alive
+Cookie: CPR=0; IPH=17345226; MUIDB=3470754077D1647103E27398764465C5; SRCHUID=V=2&GUID=248581BC727A4D77839A6E54066617F5; _EDGE_S=F=1; _EDGE_V=1; _FS=NU=1; _RwBf=s=70&o=16; _SS=SID=78254FDE916C422BA4A077E5052B21CC&C=20&R=0&bIm=400; MUID=3470754077D1647103E27398764465C5; SCRHDN=ASD=0&DURL=#; SRCHD=AF=NOFORM; SRCHHPGUSR=CW=1024&CH=1009; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20141019
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+Accept-Language: en-us
+Referer: https://www.bing.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=15552000
+Content-Length: 280
+Content-Type: application/x-javascript
+Last-Modified: Wed, 25 Aug 2010 04:28:21 GMT
+Server: Microsoft-IIS/8.5
+Date: Sun, 19 Oct 2014 07:56:28 GMT
+Connection: close
+
+(function(n,t,i){var u,e,f,r;n&&Identity&&(u=Identity.popupLoginUrls)&&(e=u.WindowsLiveId)&&(f=Identity.wlProfile)&&f()==null&&(r=_d.createElement("iframe"),r.style.display="none",r.src=e+"&checkda=1",_d.body.appendChild(r),i&&t&&t("WLS","TS",i,0,"/"))})(sj_evt,sj_cook.set,wlc_t)

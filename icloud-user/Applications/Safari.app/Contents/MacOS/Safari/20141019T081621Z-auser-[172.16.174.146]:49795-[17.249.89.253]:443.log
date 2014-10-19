@@ -1,0 +1,25 @@
+GET /search?q=project%20gu&locale=en-US&key=andromeda&context=com.apple.Maps&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+Accept: */*
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: ["w:Project+Runway"]
+X-Apple-UserGuid: e34a9107-8c1b-4aaf-7152-d9101e13a1b8
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: ["p","pr","project runway","pro"]
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 08:16:22 GMT
+Connection: close
+Transfer-Encoding: chunked
+
+9dc
+[{"status":"OK","query":"project gutenberg","prefix":"project gu","completion_score":109299.00000307462,"fbq":"eyJ1IjoiZTM0YTkxMDctOGMxYi00YWFmLTcxNTItZDkxMDFlMTNhMWI4IiwicCI6InByb2plY3QgZ3UiLCJxIjoicHJvamVjdCBndXRlbmJlcmciLCJ0cyI6MTQxMzcwNjU4MSwiZyI6InVzL2lsbGlub2lzL2Nvb2svY2hpY2FnbyIsImEiOiJzYWZhcmkiLCJkIjoibWFjIiwibCI6ImVuX1VTIiwiaSI6IjE0MzQ0MS0xLDIxIiwiYyI6IjQxLjg2NDMsLTg3LjY0NSIsImVjdiI6MCwiY2N2IjowfQ==","results":[{"type":"web_suggest","id":"wb:http://gutenberg.org","score":5.61188453,"fbr":"eyJkIjoid2ViX3N1Z2dlc3QiLCJyIjoid2I6aHR0cDovL2d1dGVuYmVyZy5vcmcifQ==","url":"http://gutenberg.org","report_problem_url":"","filtered":false,"tophit":1,"engagement_score":0,"qi_engagement_score":0,"hide_rank":15,"template":"simple","completion":"http://gutenberg.org","completion_icon":{"content_type":"image/png","data":"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB90lEQVR42pWQS08TURiGz5qlSdthakuiUqY3vLDRsHPP39KEgFK1lqSRSw2SEDFCxdEERmwrrS23jlJrU8wIFkzQQEIX7F7PO5GkaaYLFs8533zf8845OeJgaKCrMajpv2714CIcDIYMZoV1R9Otmz1w4me/V6Ki4/y2Zoj6DT+cqIZV1F+k8C3xBLtRFZ088V0u7eyEuvFDf4Pm2RkqiceoyR84eUTsXPehlXJIQS29gJPTJirTEzCDHpgRFcWhu/be7guz3wdSlmwEFVRez+PP8QnMiSS2NA82JV9mUvjbbNozOuX/GSI2o5dBilI05+fw++gIW8lxlPrcKMnedmrK7tXW1+3dfDlnu+c5UZRLSV7783gc+40GSvEY8gzLdyiMjWL/8BAbqUlkrlxC6ekj26HLDLMiH/GiIK+1lojD2ttDfmwEuYAbBXlKZvg+1mKjyMpv9jijQ5cZZkUu7EVW8iHgQWF2BruWhWzsAT4ypCnISZE1e5zRocsMs2I1pOKc5V43Pj2fRrVex+rDEaz0umxYs8cZndaMWGawhXfXXMhMTeJrtYqV4Xs2rNnjrN0X74PdaGdJisazJLZN04Y1e06uWNJkwIGFqy68lY9IWHfyhB716Yt9CpxIy1NJp7ke8RsiPaB2LYZ9+quAgouQDvsNZv8B189RNqDUtIYAAAAASUVORK5CYII="},"section_header":"Suggested Website","title":"gutenberg.org","title_maxlines":1,"description":"— Project Gutenberg","description_follows_title":true,"icon":{"content_type":"image/png","data":"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB90lEQVR42pWQS08TURiGz5qlSdthakuiUqY3vLDRsHPP39KEgFK1lqSRSw2SEDFCxdEERmwrrS23jlJrU8wIFkzQQEIX7F7PO5GkaaYLFs8533zf8845OeJgaKCrMajpv2714CIcDIYMZoV1R9Otmz1w4me/V6Ki4/y2Zoj6DT+cqIZV1F+k8C3xBLtRFZ088V0u7eyEuvFDf4Pm2RkqiceoyR84eUTsXPehlXJIQS29gJPTJirTEzCDHpgRFcWhu/be7guz3wdSlmwEFVRez+PP8QnMiSS2NA82JV9mUvjbbNozOuX/GSI2o5dBilI05+fw++gIW8lxlPrcKMnedmrK7tXW1+3dfDlnu+c5UZRLSV7783gc+40GSvEY8gzLdyiMjWL/8BAbqUlkrlxC6ekj26HLDLMiH/GiIK+1lojD2ttDfmwEuYAbBXlKZvg+1mKjyMpv9jijQ5cZZkUu7EVW8iHgQWF2BruWhWzsAT4ypCnISZE1e5zRocsMs2I1pOKc5V43Pj2fRrVex+rDEaz0umxYs8cZndaMWGawhXfXXMhMTeJrtYqV4Xs2rNnjrN0X74PdaGdJisazJLZN04Y1e06uWNJkwIGFqy68lY9IWHfyhB716Yt9CpxIy1NJp7ke8RsiPaB2LYZ9+quAgouQDvsNZv8B189RNqDUtIYAAAAASUVORK5CYII="}}]}]
+
+0
+

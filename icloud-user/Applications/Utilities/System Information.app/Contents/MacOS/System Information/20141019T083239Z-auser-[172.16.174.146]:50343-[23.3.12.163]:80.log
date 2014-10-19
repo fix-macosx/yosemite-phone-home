@@ -1,0 +1,18 @@
+GET /sp/product?cc=VRwr&lang=en_US HTTP/1.1
+Host: support-sp.apple.com
+Accept: */*
+Cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi
+User-Agent: System%20Information/915 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Server: Apache/2.2.26 (Unix)
+Content-Length: 93
+nnCoection: close
+Content-Type: text/plain
+Date: Sun, 19 Oct 2014 08:32:39 GMT
+Connection: keep-alive
+
+<?xml version="1.0" encoding="utf-8" ?><root><error>0009</error><locale>en_US</locale></root>

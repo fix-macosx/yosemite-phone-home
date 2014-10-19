@@ -1,0 +1,21 @@
+GET /search?q=If%20I%20set%20my%20search%20engine&locale=en-US&key=andromeda&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+Accept: */*
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: ["i:903186503","w:If+I+See+You+in+My+Dreams"]
+X-Apple-UserGuid: 4cbc0ebe-227a-4677-6ded-7bde4c47fd42
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: ["If I set my ","I","If I stay","If I set ","If I set my sear","If I set my s","If I set m","If I set","If ","If I set my se","If I set my","If I see you in my dreams","If I set my sea","If I set my search en","If I set my searc","If I set my search ","If I set my search"]
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 07:46:53 GMT
+Content-Length: 462
+Connection: close
+
+[{"status":"NO_RESULTS","query":"If I set my search engine","prefix":"If I set my search engine","completion_score":259999,"fbq":"eyJ1IjoiNGNiYzBlYmUtMjI3YS00Njc3LTZkZWQtN2JkZTRjNDdmZDQyIiwicCI6IklmIEkgc2V0IG15IHNlYXJjaCBlbmdpbmUiLCJxIjoiSWYgSSBzZXQgbXkgc2VhcmNoIGVuZ2luZSIsInRzIjoxNDEzNzA0ODEzLCJnIjoidXMvaWxsaW5vaXMvY29vay9jaGljYWdvIiwiYSI6InNhZmFyaSIsImQiOiJtYWMiLCJsIjoiZW5fVVMiLCJpIjoiMTQzNDQxLTEsMjEiLCJjIjoiNDEuODY0MywtODcuNjQ1IiwiZWN2IjowLCJjY3YiOjB9"}]

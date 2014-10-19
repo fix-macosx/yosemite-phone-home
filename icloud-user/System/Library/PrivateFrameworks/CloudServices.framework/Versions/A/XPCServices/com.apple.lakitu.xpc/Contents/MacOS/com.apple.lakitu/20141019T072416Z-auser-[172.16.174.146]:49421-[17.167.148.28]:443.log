@@ -1,0 +1,59 @@
+POST /escrowproxy/api/get_club_cert HTTP/1.1
+Host: p29-escrowproxy.icloud.com:443
+Content-Type: application/x-apple-plist
+User-Agent: com.apple.lakitu/1 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Connection: keep-alive
+Accept: */*
+Accept-Language: en-us
+Content-Length: 499
+Accept-Encoding: gzip, deflate
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>baseRootCertVersions</key>
+	<array>
+		<integer>100</integer>
+	</array>
+	<key>command</key>
+	<string>GETCLUB</string>
+	<key>label</key>
+	<string>com.apple.securebackup.record</string>
+	<key>trustedRootCertVersions</key>
+	<array>
+		<integer>100</integer>
+	</array>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:24:16 GMT
+X-Apple-Request-UUID: ea071346-aa2f-491a-b50c-7c63385e8935
+X-Responding-Instance: escrowproxy:12900301:st13p29ic-hpaf17250801:8001:14G54:155647
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 1814
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>version</key>
+		<integer>1</integer>
+
+		<key>dsid</key>
+		<string>8078008707</string>
+
+		<key>status</key>
+		<string>0</string>
+
+		<key>message</key>
+		<string>Success</string>
+
+		<key>clubCert</key>
+		<string>MIIEBzCCAu+gAwIBAgIFAJfzZVwwDQYJKoZIhvcNAQELBQAweTEMMAoGA1UEBRMDMTAwMQswCQYDVQQGEwJVUzETMBEGA1UEChMKQXBwbGUgSW5jLjEmMCQGA1UECxMdQXBwbGUgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkxHzAdBgNVBAMTFkVzY3JvdyBTZXJ2aWNlIFJvb3QgQ0EwHhcNMTQwOTE3MDUxOTUwWhcNMTYwOTE3MDUxOTUwWjCBmzELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRMwEQYDVQQKEwpBcHBsZSBJbmMuMQwwCgYDVQQLEwNFVFMxXDBaBgNVBAMTU0VzY3JvdyBTZXJ2aWNlIEtleSA5N0YzNjU1QzI1QzJGMzQwOTIyMkYzMzhDMzlEQzBDNTI1RkNGN0RERTFFNTFFM0FCMTQzNzFCNzEzMzZBMDI3MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArpHI92PpWBSNOSONKLlAthOkx9dDuieucFFYqKBIRdeFOgbLbwBIHb9BLjxusYP1LObOdDx0qAYZuV0IapNP10gqnwGO9sDBCtSrfcU2WJpZ3E4wXGIGFy+roqGVVKVIsX4xPILCYR8LF5v6ahsSBLTIwQc8c6E9wQBA5YFJqvgfKdU5N34Z/NFJVnahw/lmWnbhfl7NALSEulivXWDYyksjxFK8aBORuQxMeZ808UuH+6cbgGoeguh6c6s8a2a0w/ezEc913mueptJZ2YiWVWWOY9Vh212gRseGMMjNI86d8L3pUjrHfo9WWpZ9KEur+PqHl9vrrs2/ln2A6BIQCwIDAQABo3MwcTAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIFIDAdBgNVHQ4EFgQUaYBp5S+bo9VQ+brkA5cbdcxv46AwHwYDVR0jBBgwFoAU/XiWU4DW9tymw1kGOO15Po9QG1AwEQYKKoZIhvdjZAYXAQQDAgEKMA0GCSqGSIb3DQEBCwUAA4IBAQB9T3WGS7mXslMNYBn0Jlsf3zsJaCM3hDlh74VQPSCaS2bUeTOUN/Bk7wu9jevTiQ68yIooCC7V2lFioiIgvDm216D+b8DYGBhjWiUKdr7+Yl+4KhJoyX4Q5matDRhHkoFbyDCisxBsj/qHbRKoFuE+302pea2QoEwI65F+edbfbsPC76mYwCpNUOPPp0mhJLfXt+TIfiyuDxUcHHPqJgUpjrJsrZ1neDbPMQmr5YR+dIy8Sb/2hMnX7X8jF0YvxJUWqjr/0EHsj+Uzora1wPyeVcDAhjOox4qnERC0wHnrvrDFpS9DbI/5oIfb0kjVjTqENs3MyYtgiRGbRhDX1PfX</string>
+
+	</dict>
+</plist>

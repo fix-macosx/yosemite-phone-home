@@ -1,0 +1,27 @@
+POST /setup/ck/v1/ckAppInit?container=com.apple.SafariShared.WBSCloudHistoryStore HTTP/1.1
+Host: setup.icloud.com
+X-Apple-Request-UUID: 09C49FAB-426B-4A05-B3F8-B5C8883E2830
+Content-Encoding: gzip
+Authorization: Basic ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+X-CloudKit-ContainerId: com.apple.SafariShared.WBSCloudHistoryStore
+X-CloudKit-ProtocolVersion: client=1;comments=1;device=1;presence=1;records=1;sharing=1;subscriptions=1;users=1;mescal=1;
+X-MMe-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.cloudkit.CloudKitDaemon/259.2.3 (com.apple.cloudd/259.2.3)>
+Accept-Encoding: gzip
+X-CloudKit-BundleId: com.apple.Safari
+Cache-Control: no-transform
+Accept-Language: en-us
+User-Agent: CloudKit/259.2.3 (14A389)
+Content-Length: 0
+Connection: keep-alive
+Accept: application/x-protobuf
+X-CloudKit-BundleVersion: 10600.1.25
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:45:48 GMT
+X-Apple-Request-UUID: 09C49FAB-426B-4A05-B3F8-B5C8883E2830
+X-Responding-Instance: setupservice:33000304:mr21p30ic-hpaf07163401:8004:14G54:156781
+Cache-Control: no-cache, no-store, private
+Content-Type: application/json; charset=UTF-8
+Content-Length: 626
+
+{"cloudKitDeviceUrl":"https://p24-ckdevice.icloud.com:443","cloudKitDatabaseUrl":"https://p24-ckdatabase.icloud.com:443","values":[{"name":"com.apple.SafariShared.WBSCloudHistoryStore","env":"sandbox","ckDeviceUrl":"https://p24-ckdevice.icloud.com:443/api/client","url":"https://p24-ckdatabase.icloud.com:443/api/client"},{"name":"com.apple.SafariShared.WBSCloudHistoryStore","env":"production","ckDeviceUrl":"https://p24-ckdevice.icloud.com:443/api/client","url":"https://p24-ckdatabase.icloud.com:443/api/client"}],"cloudKitShareUrl":"https://p24-ckshare.icloud.com:443","cloudKitUserId":"_dff63edc5a31c71e0432dc1eddd1ccc4"}

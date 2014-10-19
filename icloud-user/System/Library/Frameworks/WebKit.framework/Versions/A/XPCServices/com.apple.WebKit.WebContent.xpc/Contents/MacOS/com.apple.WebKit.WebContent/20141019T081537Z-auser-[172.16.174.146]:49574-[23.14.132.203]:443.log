@@ -1,0 +1,68 @@
+GET /htmlResources/0414/desktop-finance-billingpage.css HTTP/1.1
+Host: s.mzstatic.com
+Accept-Language: en-US
+Accept-Encoding: gzip, deflate
+iCloud-DSID: 8078008707
+Connection: keep-alive
+Date: Sun, 19 Oct 2014 08:15:37 GMT
+Accept: text/css,*/*;q=0.1
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Referer: https://p30-buy.itunes.apple.com/WebObjects/MZFinance.woa/wo/4.2.1.1.1.3.1.5.1.1.7.3.7?guid=000C295240D2
+X-Apple-TZ: -420
+X-Apple-Store-Front: 143441-1,13
+
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Fri, 17 Oct 2014 21:37:45 GMT
+ETag: "140e-505a52cef1321"
+X-Server: nk11p00it-web025
+Cache-Control: public,max-age=31536000,no-transform
+Access-Control-Allow-Origin: *
+Content-Type: text/css; charset=utf-8
+Date: Sun, 19 Oct 2014 08:15:37 GMT
+Content-Length: 5134
+Connection: close
+
+/*
+** Copyright © 2014 Apple Inc.
+** All rights reserved.
+*/
+
+div.captcha-container{margin-top:17px;padding-top:17px;padding-bottom:13px;border-top:1px solid rgba(0,0,0,.1)}
+div.captcha-container.none{padding:0;margin:0;border:0}
+div.captcha-container.none div#nucaptcha-error-message{display:none}
+p.captcha-instruction{margin-bottom:0}
+div.captcha-container.audio div#media-container{background-image:url(desktop-finance/images/icons/radio-icon-large.png);background-repeat:no-repeat;background-position:50% 50%}
+div.captcha-container button.replay-button{display:none}
+div.captcha-container.audio.audio-finished button.replay-button{display:block}
+div.media-wrapper{position:relative;width:309px;height:94px;border:1px solid #b0b0b0;width:309px;height:94px;background:#fefefe}
+div.captcha-container button.replay-button{background-image:url(desktop-finance/images/icons/btn-audio_play.png),url(desktop-finance/images/icons/btn-audio_play-press.png);background-position:50% 50%,-200px -200px;background-repeat:no-repeat,no-repeat;background-size:56px 56px;position:absolute;left:0;top:0;height:100%;width:100%;border:0;margin:0}
+div.captcha-container button.replay-button:active{background-image:url(desktop-finance/images/icons/btn-audio_play-press.png);background-repeat:no-repeat;background-position:50% 50%}
+div.captcha-controls{margin:7px 0 10px 0}
+div.captcha-container button{background:#fcfcfc;border:1px solid #b1b1b1;height:25px;min-width:36px;border-radius:4px;padding:0;margin:1px 0 0;cursor:pointer;font-size:13px;font-weight:bold;line-height:17px;color:#5e5e5e;text-shadow:0 1px 0 white;font-family:"Helvetica Neue","Helvetica","Arial";position:relative;vertical-align:bottom}
+div.captcha-container button:active{background-image:-webkit-gradient(linear,0% 0,0% 100%,from( #c9c9c9),to( #e3e3e3));-webkit-box-shadow:none}
+div.captcha-container button.active{background:-webkit-gradient(linear,0% 0,0% 100%,from( #c9c9c9),to( #e3e3e3))}
+div.captcha-container button.audio-captcha:after{content:"";background:url(desktop-finance/images/icons/audio-icon.png) no-repeat 50% 50%;width:100%;height:100%;position:absolute;top:0;left:0}
+div.captcha-container button.new-captcha:after{content:"";background:url(desktop-finance/images/icons/refresh-icon.png) no-repeat 50% 50%;width:100%;height:100%;position:absolute;top:0;left:0}
+div.captcha-container button.text-captcha:after{content:"";background:url(desktop-finance/images/icons/abc-icon.png) no-repeat 50% 50%;width:100%;height:100%;position:absolute;top:0;left:0}
+div.captcha-container button.new-captcha{margin-left:6px}
+div.captcha-container button>span{display:inline-block;overflow:hidden;padding:3px 10px;text-align:center;text-overflow:ellipsis;white-space:nowrap;text-indent:-9999px}
+div.pill{-webkit-box-orient:horizontal;display:-webkit-inline-box;margin-left:5px;vertical-align:bottom}
+div.pill button{-webkit-box-flex:1;-webkit-box-orient:vertical;display:-webkit-box;border-right-width:0;min-width:52px}
+div.pill>button:first-of-type,div.pill>a:first-of-type>button{border-top-right-radius:0;border-bottom-right-radius:0}
+div.pill>button:last-of-type,div.pill>a:last-of-type>button{border-right-width:1px;border-left-radius:0;border-top-left-radius:0;border-bottom-left-radius:0}
+div#my-nucaptcha-answer-wrapper{display:inline-block}
+input#nucaptcha-answer{width:150px}
+div#media-container img#nucaptcha-media{display:block;margin:0 auto}
+div#media-container{outline:0 transparent;width:100%;height:100%;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;text-align:center}
+// Make more genericdiv.captcha-controls.error input{outline:3px auto #EE2E24;outline-offset:-2px;background:#fff url(desktop-finance/images/error_o.png) no-repeat 99% 50%;padding-right:20px}
+div#nucaptcha-error-message{color:#f00}
+#media-container span.media-status{display:inline-block;font-size:14px}
+@media only screen and (-webkit-min-device-pixel-ratio: 2){div.captcha-container.audio div#media-container{ background-image:url(desktop-finance/images/icons/-dsi-/radio-icon-large.png);-webkit-background-size:65px 66px}
+div.captcha-container button.replay-button{background-image:url(desktop-finance/images/icons/-dsi-/btn-audio_play.png),url(desktop-finance/images/icons/btn-audio_play-press.png);-webkit-background-size:56px 56px,56px 56px}
+div.captcha-container button.replay-button:active{background-image:url(desktop-finance/images/icons/-dsi-/btn-audio_play-press.png);-webkit-background-size:56px 56px}
+div.captcha-controls.error input{background:#fff url(desktop-finance/images/-dsi-/error_o.png) no-repeat 99% 50%;-webkit-background-size:20px 20px}
+div.captcha-container button.audio-captcha:after{background:url(desktop-finance/images/icons/-dsi-/audio-icon.png) no-repeat 50% 50%;-webkit-background-size:16px 17px}
+div.captcha-container button.new-captcha:after{background:url(desktop-finance/images/icons/-dsi-/refresh-icon.png) no-repeat 50% 50%;-webkit-background-size:16px 18px}
+div.captcha-container button.text-captcha:after{background:url(desktop-finance/images/icons/-dsi-/abc-icon.png) no-repeat 50% 50%;-webkit-background-size:30px 11px}
+}

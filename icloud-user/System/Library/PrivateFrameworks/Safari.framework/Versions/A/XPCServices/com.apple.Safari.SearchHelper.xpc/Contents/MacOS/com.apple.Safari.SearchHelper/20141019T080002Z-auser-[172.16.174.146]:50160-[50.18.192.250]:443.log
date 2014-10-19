@@ -1,0 +1,22 @@
+GET /ac/?q=TexPad&type=list HTTP/1.1
+Host: duckduckgo.com
+Accept: */*
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 08:00:02 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Expires: Sun, 19 Oct 2014 08:00:01 GMT
+Cache-Control: no-cache
+Cache-Control: no-cache
+
+c0
+["TexPad",["textpad","textpad.com","textpad for mac","textpad free download windows","textpad free download","texpads","textpad editor download","textpad tx801","texpads msds","textpad java"]]
+0
+

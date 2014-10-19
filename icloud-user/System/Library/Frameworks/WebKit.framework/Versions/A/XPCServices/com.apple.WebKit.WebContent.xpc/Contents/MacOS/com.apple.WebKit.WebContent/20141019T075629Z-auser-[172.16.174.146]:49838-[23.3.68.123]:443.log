@@ -1,0 +1,28 @@
+GET /rsrc.php/v2/yf/r/JvK_C44obT2.js HTTP/1.1
+Host: fbstatic-a.akamaihd.net
+Origin: https://www.facebook.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+Accept-Language: en-us
+Referer: https://www.facebook.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Content-Type: application/x-javascript; charset=utf-8
+Last-Modified: Mon, 01 Jan 2001 08:00:00 GMT
+Content-MD5: Q5G1JTpgRGmV+lse4YeByg==
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-FB-Debug: usp2Shh4Po9LYFa5BcfFEqcTjnOoby+a66dSEpU1TEs=
+Cache-Control: public, max-age=19425302
+Expires: Mon, 01 Jun 2015 03:51:32 GMT
+Date: Sun, 19 Oct 2014 07:56:30 GMT
+Content-Length: 870
+Connection: close
+
+/*!CK:218376458!*//*1401594617,178187583*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["4vv8\/"]); }
+
+__d("TimeSpentBitArrayLogger",["Arbiter","Banzai","BanzaiODS","TimeSpentArray","TimeSpentConfig","TimeSpentImmediateActiveSecondsLogger","UserActivity","copyProperties","isInIframe"],function(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o){var p={delay:h.BASIC.delay,retry:true};function q(r,s){if(h.isEnabled('time_spent_bit_array')){g.inform('timespent/tosbitdataposted',n({},r));if(typeof s=='number'){p.delay=s;}else p.delay=h.BASIC.delay;h.post('time_spent_bit_array',n({},r),p);p.delay=k.delay;}}e.exports={init:function(r){if(o())return;m.subscribe(function(t,u){var v=u.last_inform;j.update(v);l.maybeReportActiveSecond(v);});var s=Date.now();j.init(q,k,s);l.maybeReportActiveSecond(s);i.bumpEntityKey('ms.time_spent.qa.www','time_spent.bits.js_initialized');}};},null);

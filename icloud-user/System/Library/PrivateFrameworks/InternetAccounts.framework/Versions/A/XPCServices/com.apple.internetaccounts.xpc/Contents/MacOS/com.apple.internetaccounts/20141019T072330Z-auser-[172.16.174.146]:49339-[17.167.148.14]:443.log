@@ -1,0 +1,864 @@
+PROPFIND /8078008707/calendars/ HTTP/1.1
+Host: p29-caldav.icloud.com
+Accept: */*
+Brief: t
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Content-Length: 2153
+Depth: 1
+Connection: keep-alive
+User-Agent: Mac+OS+X/10.10 (14A389) CalendarAgent/315
+Prefer: return=minimal
+
+<?xml version="1.0" encoding="UTF-8"?>
+<A:propfind xmlns:A="DAV:">
+  <A:prop>
+    <A:add-member/>
+    <C:allowed-sharing-modes xmlns:C="http://calendarserver.org/ns/"/>
+    <D:autoprovisioned xmlns:D="http://apple.com/ns/ical/"/>
+    <E:bulk-requests xmlns:E="http://me.com/_namespace/"/>
+    <D:calendar-color xmlns:D="http://apple.com/ns/ical/"/>
+    <B:calendar-description xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <B:calendar-free-busy-set xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <D:calendar-order xmlns:D="http://apple.com/ns/ical/"/>
+    <B:calendar-timezone xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <A:current-user-privilege-set/>
+    <B:default-alarm-vevent-date xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <B:default-alarm-vevent-datetime xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <A:displayname/>
+    <C:getctag xmlns:C="http://calendarserver.org/ns/"/>
+    <C:invite xmlns:C="http://calendarserver.org/ns/"/>
+    <D:language-code xmlns:D="http://apple.com/ns/ical/"/>
+    <D:location-code xmlns:D="http://apple.com/ns/ical/"/>
+    <A:owner/>
+    <C:pre-publish-url xmlns:C="http://calendarserver.org/ns/"/>
+    <C:publish-url xmlns:C="http://calendarserver.org/ns/"/>
+    <C:push-transports xmlns:C="http://calendarserver.org/ns/"/>
+    <C:pushkey xmlns:C="http://calendarserver.org/ns/"/>
+    <A:quota-available-bytes/>
+    <A:quota-used-bytes/>
+    <D:refreshrate xmlns:D="http://apple.com/ns/ical/"/>
+    <A:resource-id/>
+    <A:resourcetype/>
+    <B:schedule-calendar-transp xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <B:schedule-default-calendar-URL xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <C:source xmlns:C="http://calendarserver.org/ns/"/>
+    <C:subscribed-strip-alarms xmlns:C="http://calendarserver.org/ns/"/>
+    <C:subscribed-strip-attachments xmlns:C="http://calendarserver.org/ns/"/>
+    <C:subscribed-strip-todos xmlns:C="http://calendarserver.org/ns/"/>
+    <B:supported-calendar-component-set xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <B:supported-calendar-component-sets xmlns:B="urn:ietf:params:xml:ns:caldav"/>
+    <A:supported-report-set/>
+    <A:sync-token/>
+  </A:prop>
+</A:propfind>
+HTTP/1.1 207 Multi-Status
+Content-Length: 27095
+Accept-Ranges: bytes
+Vary: accept-encoding
+Server: iCloudCalendarServer 14G54
+Last-Modified: Sun, 19 Oct 2014 14:23:30 GMT
+DAV: 1, access-control, calendar-access, calendar-schedule, calendar-auto-schedule, calendar-managed-attachments, calendarserver-sharing, calendarserver-subscribed, calendarserver-home-sync
+X-Transaction-Id: d3c57e18-5760-11e4-b00e-78e3b513097c
+Date: Sun, 19 Oct 2014 07:23:31 GMT
+X-Responding-Server: st13p29ic-hpaf17260401 0 a63660a6f7d1a25b5a7ed66dab0da843
+Content-Type: text/xml
+
+<?xml version='1.0' encoding='UTF-8'?>
+<multistatus xmlns='DAV:'>
+  <response>
+    <href>/8078008707/calendars/outbox/</href>
+    <propstat>
+      <prop>
+        <allowed-sharing-modes xmlns='http://calendarserver.org/ns/'>
+          <never-shared/>
+          <never-publish/>
+        </allowed-sharing-modes>
+        <current-user-privilege-set>
+          <privilege>
+            <schedule-send xmlns='urn:ietf:params:xml:ns:caldav'/>
+          </privilege>
+          <privilege>
+            <read-current-user-privilege-set/>
+          </privilege>
+          <privilege>
+            <read/>
+          </privilege>
+        </current-user-privilege-set>
+        <owner>
+          <href>/8078008707/principal/</href>
+        </owner>
+        <pre-publish-url xmlns='http://calendarserver.org/ns/'>
+          <href xmlns='DAV:'>webcal://p29-calendarws.icloud.com/ca/subscribe/1/dG2W4IDS-SVEttVGpDLqkHn_qO3Kndjhn8EJS7V3Z30-id_B1Gs4fpQUOq-AlewI</href>
+        </pre-publish-url>
+        <pushkey xmlns='http://calendarserver.org/ns/'>8078008707-83ef1d96b2</pushkey>
+        <quota-available-bytes>1048576000</quota-available-bytes>
+        <resourcetype>
+          <collection/>
+          <schedule-outbox xmlns='urn:ietf:params:xml:ns:caldav'/>
+        </resourcetype>
+        <supported-calendar-component-set xmlns='urn:ietf:params:xml:ns:caldav'>
+          <comp name='VEVENT'/>
+          <comp name='VTODO'/>
+        </supported-calendar-component-set>
+        <supported-report-set>
+          <supported-report>
+            <report>
+              <sync-collection/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <calendar-multiget xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <expand-property/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <acl-principal-prop-set/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-match/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-property-search/>
+            </report>
+          </supported-report>
+        </supported-report-set>
+      </prop>
+      <status>HTTP/1.1 200 OK</status>
+    </propstat>
+  </response>
+  <response>
+    <href>/8078008707/calendars/inbox/</href>
+    <propstat>
+      <prop>
+        <resourcetype>
+          <collection/>
+          <schedule-inbox xmlns='urn:ietf:params:xml:ns:caldav'/>
+        </resourcetype>
+        <allowed-sharing-modes xmlns='http://calendarserver.org/ns/'>
+          <never-shared/>
+          <never-publish/>
+        </allowed-sharing-modes>
+        <supported-calendar-component-set xmlns='urn:ietf:params:xml:ns:caldav'>
+          <comp name='VEVENT'/>
+          <comp name='VTODO'/>
+          <comp name='VPOLL'/>
+        </supported-calendar-component-set>
+        <getctag xmlns='http://calendarserver.org/ns/'>FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=1</getctag>
+        <calendar-free-busy-set xmlns='urn:ietf:params:xml:ns:caldav'/>
+        <pushkey xmlns='http://calendarserver.org/ns/'>8078008707-83ef1d96b2</pushkey>
+        <current-user-privilege-set>
+          <privilege>
+            <schedule-deliver xmlns='urn:ietf:params:xml:ns:caldav'/>
+          </privilege>
+          <privilege>
+            <read/>
+          </privilege>
+          <privilege>
+            <write-properties/>
+          </privilege>
+          <privilege>
+            <write/>
+          </privilege>
+          <privilege>
+            <write-content/>
+          </privilege>
+          <privilege>
+            <bind/>
+          </privilege>
+          <privilege>
+            <unbind/>
+          </privilege>
+          <privilege>
+            <read-current-user-privilege-set/>
+          </privilege>
+          <privilege>
+            <read-free-busy xmlns='urn:ietf:params:xml:ns:caldav'/>
+          </privilege>
+        </current-user-privilege-set>
+        <schedule-default-calendar-URL xmlns='urn:ietf:params:xml:ns:caldav'>
+          <href xmlns='DAV:'>/8078008707/calendars/work</href>
+        </schedule-default-calendar-URL>
+        <bulk-requests xmlns='http://me.com/_namespace/'>
+          <simple>
+            <max-resources/>
+            <max-size>20971520</max-size>
+            <supported>
+              <insert/>
+              <update/>
+              <delete/>
+            </supported>
+          </simple>
+          <crud>
+            <max-resources/>
+            <max-size>20971520</max-size>
+            <supported>
+              <insert/>
+              <update/>
+              <delete/>
+            </supported>
+          </crud>
+        </bulk-requests>
+        <supported-report-set>
+          <supported-report>
+            <report>
+              <acl-principal-prop-set/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-match/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-property-search/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <expand-property/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <sync-collection/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <calendar-query xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <calendar-multiget xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+        </supported-report-set>
+        <owner>
+          <href>/8078008707/principal/</href>
+        </owner>
+      </prop>
+      <status>HTTP/1.1 200 OK</status>
+    </propstat>
+  </response>
+  <response>
+    <href>/8078008707/calendars/home/</href>
+    <propstat>
+      <prop>
+        <calendar-color symbolic-color='blue' xmlns='http://apple.com/ns/ical/'>#34AADCFF</calendar-color>
+        <current-user-privilege-set>
+          <privilege>
+            <read/>
+          </privilege>
+          <privilege>
+            <read-free-busy xmlns='urn:ietf:params:xml:ns:caldav'/>
+          </privilege>
+          <privilege>
+            <read-current-user-privilege-set/>
+          </privilege>
+          <privilege>
+            <write/>
+          </privilege>
+          <privilege>
+            <write-properties/>
+          </privilege>
+          <privilege>
+            <write-content/>
+          </privilege>
+          <privilege>
+            <bind/>
+          </privilege>
+          <privilege>
+            <unbind/>
+          </privilege>
+        </current-user-privilege-set>
+        <sync-token>FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=3</sync-token>
+        <supported-calendar-component-set xmlns='urn:ietf:params:xml:ns:caldav'>
+          <comp name='VEVENT'/>
+        </supported-calendar-component-set>
+        <supported-report-set>
+          <supported-report>
+            <report>
+              <acl-principal-prop-set/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-match/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-property-search/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <expand-property/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <sync-collection/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <calendar-query xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <calendar-multiget xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <free-busy-query xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+        </supported-report-set>
+        <pushkey xmlns='http://calendarserver.org/ns/'>8078008707-83ef1d96b2</pushkey>
+        <displayname>Home</displayname>
+        <getctag xmlns='http://calendarserver.org/ns/'>FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=3</getctag>
+        <calendar-order xmlns='http://apple.com/ns/ical/'>1</calendar-order>
+        <allowed-sharing-modes xmlns='http://calendarserver.org/ns/'>
+          <can-be-shared/>
+          <can-be-published/>
+        </allowed-sharing-modes>
+        <bulk-requests xmlns='http://me.com/_namespace/'>
+          <simple>
+            <max-resources/>
+            <max-size>20971520</max-size>
+            <supported>
+              <insert/>
+              <update/>
+              <delete/>
+            </supported>
+          </simple>
+          <crud>
+            <max-resources/>
+            <max-size>20971520</max-size>
+            <supported>
+              <insert/>
+              <update/>
+              <delete/>
+            </supported>
+          </crud>
+        </bulk-requests>
+        <pre-publish-url xmlns='http://calendarserver.org/ns/'>
+          <href xmlns='DAV:'>webcal://p29-calendarws.icloud.com/ca/subscribe/1/MN8TlLPJsynEZdgOAstGqz1msIqzRUxYwR08qGpk4cxUqArndieSyLpNjW1tBtLV</href>
+        </pre-publish-url>
+        <quota-available-bytes>1048576000</quota-available-bytes>
+        <resourcetype>
+          <collection/>
+          <calendar xmlns='urn:ietf:params:xml:ns:caldav'/>
+        </resourcetype>
+        <quota-used-bytes>25165824</quota-used-bytes>
+        <owner>
+          <href>/8078008707/principal/</href>
+        </owner>
+      </prop>
+      <status>HTTP/1.1 200 OK</status>
+    </propstat>
+  </response>
+  <response>
+    <href>/8078008707/calendars/</href>
+    <propstat>
+      <prop>
+        <current-user-privilege-set>
+          <privilege>
+            <read/>
+          </privilege>
+          <privilege>
+            <read-free-busy xmlns='urn:ietf:params:xml:ns:caldav'/>
+          </privilege>
+          <privilege>
+            <read-current-user-privilege-set/>
+          </privilege>
+          <privilege>
+            <write/>
+          </privilege>
+          <privilege>
+            <write-properties/>
+          </privilege>
+          <privilege>
+            <write-content/>
+          </privilege>
+          <privilege>
+            <bind/>
+          </privilege>
+          <privilege>
+            <unbind/>
+          </privilege>
+        </current-user-privilege-set>
+        <sync-token>FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=5</sync-token>
+        <displayname>Defaults Users</displayname>
+        <allowed-sharing-modes xmlns='http://calendarserver.org/ns/'>
+          <never-shared/>
+          <never-publish/>
+        </allowed-sharing-modes>
+        <supported-calendar-component-set xmlns='urn:ietf:params:xml:ns:caldav'>
+          <comp name='VEVENT'/>
+          <comp name='VTODO'/>
+        </supported-calendar-component-set>
+        <supported-report-set>
+          <supported-report>
+            <report>
+              <acl-principal-prop-set/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-match/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-property-search/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <expand-property/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <sync-collection/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <calendar-query xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <calendar-multiget xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <free-busy-query xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <calendar-search xmlns='http://calendarserver.org/ns/'/>
+            </report>
+          </supported-report>
+        </supported-report-set>
+        <supported-calendar-component-sets xmlns='urn:ietf:params:xml:ns:caldav'>
+          <supported-calendar-component-set>
+            <comp name='VEVENT'/>
+          </supported-calendar-component-set>
+          <supported-calendar-component-set>
+            <comp name='VTODO'/>
+          </supported-calendar-component-set>
+          <supported-calendar-component-set>
+            <comp name='VPOLL'/>
+          </supported-calendar-component-set>
+        </supported-calendar-component-sets>
+        <resourcetype>
+          <collection/>
+        </resourcetype>
+        <pushkey xmlns='http://calendarserver.org/ns/'>8078008707-83ef1d96b2</pushkey>
+        <push-transports xmlns='http://calendarserver.org/ns/'>
+          <transport type='APSD'>
+            <token-url>
+              <href xmlns='DAV:'>/mm/token</href>
+            </token-url>
+            <subscription-url>
+              <href xmlns='DAV:'>/mm/sub</href>
+            </subscription-url>
+            <apsbundleid xmlns='http://cal.me.com/_namespace/'>com.me.cal</apsbundleid>
+            <courierserver>webcourier.push.apple.com</courierserver>
+            <env xmlns='urn:mobileme:davservices'>PRODUCTION</env>
+            <refresh-interval>86400</refresh-interval>
+          </transport>
+        </push-transports>
+        <bulk-requests xmlns='http://me.com/_namespace/'>
+          <simple>
+            <max-resources/>
+            <max-size>20971520</max-size>
+            <supported>
+              <insert/>
+              <update/>
+              <delete/>
+            </supported>
+          </simple>
+          <crud>
+            <max-resources/>
+            <max-size>20971520</max-size>
+            <supported>
+              <insert/>
+              <update/>
+              <delete/>
+            </supported>
+          </crud>
+        </bulk-requests>
+        <getctag xmlns='http://calendarserver.org/ns/'>FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=5</getctag>
+        <owner>
+          <href>/8078008707/principal/</href>
+        </owner>
+      </prop>
+      <status>HTTP/1.1 200 OK</status>
+    </propstat>
+  </response>
+  <response>
+    <href>/8078008707/calendars/notification/</href>
+    <propstat>
+      <prop>
+        <sync-token>FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=2</sync-token>
+        <allowed-sharing-modes xmlns='http://calendarserver.org/ns/'>
+          <never-shared/>
+          <never-publish/>
+        </allowed-sharing-modes>
+        <resourcetype>
+          <notification xmlns='http://calendarserver.org/ns/'/>
+          <collection/>
+        </resourcetype>
+        <supported-report-set>
+          <supported-report>
+            <report>
+              <acl-principal-prop-set/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-match/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-property-search/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <expand-property/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <sync-collection/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <calendar-query xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <calendar-multiget xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <free-busy-query xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+        </supported-report-set>
+        <pushkey xmlns='http://calendarserver.org/ns/'>8078008707-83ef1d96b2</pushkey>
+        <displayname>notification</displayname>
+        <bulk-requests xmlns='http://me.com/_namespace/'>
+          <simple>
+            <max-resources/>
+            <max-size>20971520</max-size>
+            <supported>
+              <insert/>
+              <update/>
+              <delete/>
+            </supported>
+          </simple>
+          <crud>
+            <max-resources/>
+            <max-size>20971520</max-size>
+            <supported>
+              <insert/>
+              <update/>
+              <delete/>
+            </supported>
+          </crud>
+        </bulk-requests>
+        <current-user-privilege-set>
+          <privilege>
+            <read/>
+          </privilege>
+          <privilege>
+            <read-free-busy xmlns='urn:ietf:params:xml:ns:caldav'/>
+          </privilege>
+          <privilege>
+            <unbind/>
+          </privilege>
+          <privilege>
+            <read-current-user-privilege-set/>
+          </privilege>
+        </current-user-privilege-set>
+        <getctag xmlns='http://calendarserver.org/ns/'>FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=2</getctag>
+        <owner>
+          <href>/8078008707/principal/</href>
+        </owner>
+      </prop>
+      <status>HTTP/1.1 200 OK</status>
+    </propstat>
+  </response>
+  <response>
+    <href>/8078008707/calendars/work/</href>
+    <propstat>
+      <prop>
+        <calendar-order xmlns='http://apple.com/ns/ical/'>2</calendar-order>
+        <displayname>Work</displayname>
+        <current-user-privilege-set>
+          <privilege>
+            <read/>
+          </privilege>
+          <privilege>
+            <read-free-busy xmlns='urn:ietf:params:xml:ns:caldav'/>
+          </privilege>
+          <privilege>
+            <read-current-user-privilege-set/>
+          </privilege>
+          <privilege>
+            <write/>
+          </privilege>
+          <privilege>
+            <write-properties/>
+          </privilege>
+          <privilege>
+            <write-content/>
+          </privilege>
+          <privilege>
+            <bind/>
+          </privilege>
+          <privilege>
+            <unbind/>
+          </privilege>
+        </current-user-privilege-set>
+        <supported-calendar-component-set xmlns='urn:ietf:params:xml:ns:caldav'>
+          <comp name='VEVENT'/>
+        </supported-calendar-component-set>
+        <calendar-color symbolic-color='purple' xmlns='http://apple.com/ns/ical/'>#CC73E1FF</calendar-color>
+        <supported-report-set>
+          <supported-report>
+            <report>
+              <acl-principal-prop-set/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-match/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-property-search/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <expand-property/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <sync-collection/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <calendar-query xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <calendar-multiget xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <free-busy-query xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+        </supported-report-set>
+        <pre-publish-url xmlns='http://calendarserver.org/ns/'>
+          <href xmlns='DAV:'>webcal://p29-calendarws.icloud.com/ca/subscribe/1/lTDdofZgi0_k5YWV3SPlHj7nMLF1vsiM_H4wSduqt4y0nasowjeenmFPRQttrTRk</href>
+        </pre-publish-url>
+        <pushkey xmlns='http://calendarserver.org/ns/'>8078008707-83ef1d96b2</pushkey>
+        <getctag xmlns='http://calendarserver.org/ns/'>FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=4</getctag>
+        <allowed-sharing-modes xmlns='http://calendarserver.org/ns/'>
+          <can-be-shared/>
+          <can-be-published/>
+        </allowed-sharing-modes>
+        <bulk-requests xmlns='http://me.com/_namespace/'>
+          <simple>
+            <max-resources/>
+            <max-size>20971520</max-size>
+            <supported>
+              <insert/>
+              <update/>
+              <delete/>
+            </supported>
+          </simple>
+          <crud>
+            <max-resources/>
+            <max-size>20971520</max-size>
+            <supported>
+              <insert/>
+              <update/>
+              <delete/>
+            </supported>
+          </crud>
+        </bulk-requests>
+        <quota-used-bytes>25165824</quota-used-bytes>
+        <quota-available-bytes>1048576000</quota-available-bytes>
+        <resourcetype>
+          <collection/>
+          <calendar xmlns='urn:ietf:params:xml:ns:caldav'/>
+        </resourcetype>
+        <sync-token>FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=4</sync-token>
+        <owner>
+          <href>/8078008707/principal/</href>
+        </owner>
+      </prop>
+      <status>HTTP/1.1 200 OK</status>
+    </propstat>
+  </response>
+  <response>
+    <href>/8078008707/calendars/tasks/</href>
+    <propstat>
+      <prop>
+        <calendar-order xmlns='http://apple.com/ns/ical/'>3</calendar-order>
+        <current-user-privilege-set>
+          <privilege>
+            <read/>
+          </privilege>
+          <privilege>
+            <read-free-busy xmlns='urn:ietf:params:xml:ns:caldav'/>
+          </privilege>
+          <privilege>
+            <read-current-user-privilege-set/>
+          </privilege>
+          <privilege>
+            <write/>
+          </privilege>
+          <privilege>
+            <write-properties/>
+          </privilege>
+          <privilege>
+            <write-content/>
+          </privilege>
+          <privilege>
+            <bind/>
+          </privilege>
+          <privilege>
+            <unbind/>
+          </privilege>
+        </current-user-privilege-set>
+        <calendar-color symbolic-color='orange' xmlns='http://apple.com/ns/ical/'>#FF9500FF</calendar-color>
+        <sync-token>FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=5</sync-token>
+        <pushkey xmlns='http://calendarserver.org/ns/'>8078008707-20220fe832</pushkey>
+        <pre-publish-url xmlns='http://calendarserver.org/ns/'>
+          <href xmlns='DAV:'>webcal://p29-calendarws.icloud.com/ca/subscribe/1/9NgR_ndBSgGgNh_WHBzbRm4spB2KRA3adgeczLui9YKBEj5FTxCFK7KRiWKg8hkf</href>
+        </pre-publish-url>
+        <supported-report-set>
+          <supported-report>
+            <report>
+              <acl-principal-prop-set/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-match/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <principal-property-search/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <expand-property/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <sync-collection/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <calendar-query xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <calendar-multiget xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+          <supported-report>
+            <report>
+              <free-busy-query xmlns='urn:ietf:params:xml:ns:caldav'/>
+            </report>
+          </supported-report>
+        </supported-report-set>
+        <displayname>Reminders</displayname>
+        <supported-calendar-component-set xmlns='urn:ietf:params:xml:ns:caldav'>
+          <comp name='VTODO'/>
+        </supported-calendar-component-set>
+        <getctag xmlns='http://calendarserver.org/ns/'>FT=-@RU=d93234b1-130e-4d66-94c1-7f8b3593b253@S=5</getctag>
+        <allowed-sharing-modes xmlns='http://calendarserver.org/ns/'>
+          <can-be-shared/>
+          <can-be-published/>
+        </allowed-sharing-modes>
+        <bulk-requests xmlns='http://me.com/_namespace/'>
+          <simple>
+            <max-resources/>
+            <max-size>20971520</max-size>
+            <supported>
+              <insert/>
+              <update/>
+              <delete/>
+            </supported>
+          </simple>
+          <crud>
+            <max-resources/>
+            <max-size>20971520</max-size>
+            <supported>
+              <insert/>
+              <update/>
+              <delete/>
+            </supported>
+          </crud>
+        </bulk-requests>
+        <quota-used-bytes>25165824</quota-used-bytes>
+        <quota-available-bytes>1048576000</quota-available-bytes>
+        <resourcetype>
+          <collection/>
+          <calendar xmlns='urn:ietf:params:xml:ns:caldav'/>
+        </resourcetype>
+        <owner>
+          <href>/8078008707/principal/</href>
+        </owner>
+      </prop>
+      <status>HTTP/1.1 200 OK</status>
+    </propstat>
+  </response>
+</multistatus>

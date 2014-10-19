@@ -1,0 +1,20 @@
+POST /8078008707/mm/push/register?token=4fd11f30cd66864e451e20619513ec796e2bd38ac47ffba7cd3ab93a4d70a31b&key=8078008707 HTTP/1.1
+Host: p29-contacts.icloud.com
+Content-Type: text/xml
+Accept-Encoding: gzip, deflate
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Connection: keep-alive
+Accept: */*
+User-Agent: Mac OS X/10.10 (14A389) AddressBook/1498
+Content-Length: 0
+Accept-Language: en-us
+X-Apple-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.coredav/1.0.1 (com.apple.AddressBookSourceSync/9.0)>
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:26:36 GMT
+X-Apple-Request-UUID: 0d88dbe5-ac07-4d75-b986-0153039e7a5a
+X-Responding-Instance: carddav:12900901:st13p29ic-hpaf17231701:8001:14G54:155647
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 2
+
+OK

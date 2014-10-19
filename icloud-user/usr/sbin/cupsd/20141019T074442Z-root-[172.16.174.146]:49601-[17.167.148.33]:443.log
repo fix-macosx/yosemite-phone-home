@@ -1,0 +1,24 @@
+POST /fmipservice/findme/8078008707/564D33F4-CC81-F551-C2BE-08104C5240D2/register HTTP/1.1
+Host: p29-fmip.icloud.com
+X-Apple-Realm-Support: 1.0
+Accept: */*
+Authorization: Basic ODA3ODAwODcwNzpBUUFBQUFCVVEyYnVpbWpsMXRBSURKWjlodzV2T09WbVR2QzE1Vll+
+X-Apple-PrsId: 8078008707
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Type: application/json
+Content-Length: 720
+User-Agent: FMDClient/3.1 VMware7,1/14A389
+Connection: keep-alive
+X-Apple-Find-API-Ver: 3.1
+
+{"deviceContext":{"deviceTS":"2014-10-19T07:44:42.359Z","cause":"DeviceNameChanged"},"deviceInfo":{"locationServicesEnabled":true,"deviceClass":"Mac","productVersion":"10.10","isChargerConnected":true,"findMyiPhone":true,"enableTS":1413703424,"deviceName":"Default's Awesome Computer","recoveryBuildVersion":"14A389","locationServicesCapable":false,"productType":"VMware7,1","locale":"en_US","aps-token":"42cee941db4492c29e623a13f4745d7f0324c4871c40742f594cf077a6fb9dbb","inRecoveryPartition":false,"udid":"564D33F4-CC81-F551-C2BE-08104C5240D2","batteryStatus":"Charging","platform":"macosx","timezone":"America\/Los_Angeles","batteryLevel":0,"isInternal":false,"buildVersion":"14A389","recoveryProductVersion":"10.10"}}HTTP/1.1 204 No Content
+X-Responding-Instance: fmipservice-12900403-st13p29ic-hpaf18260801-8003-14G54
+X-Request-UUID: 13062f5f-6e06-4091-8cb0-571ebeaf7f2e-register
+X-Responding-Server: st13p29ic-hpaf18260801_003
+X-Responding-Partition: p29
+Content-Type: application/json;charset=UTF-8
+Date: Sun, 19 Oct 2014 07:44:42 GMT
+Server: Apple-iCloud
+Set-Cookie: NSC_q29-gnjqtfswjdf=ffffffff12abd94d45525d5f4f58455e445a4a422973;path=/;secure;httponly
+

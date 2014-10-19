@@ -1,0 +1,23 @@
+GET /ibooks/mac/10.10/en.lproj/ibks001.html HTTP/1.1
+Host: help.apple.com
+Accept-Encoding: gzip, deflate
+Cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Help Viewer/256
+Referer: https://help.apple.com/ibooks/mac/10.10/index.html?localePath=en.lproj
+Accept-Language: en-us
+X-Requested-With: XMLHttpRequest
+
+HTTP/1.1 200 OK
+Server: Apache
+Access-Control-Allow-Origin: *
+Cteonnt-Length: 546
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=329
+Expires: Sun, 19 Oct 2014 08:24:51 GMT
+Date: Sun, 19 Oct 2014 08:19:22 GMT
+Content-Length: 546
+Connection: close
+
+<html lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>iBooks Help</title><link rel="Index" href="index.html"><meta name="robots" content="anchors"></head><body id="ibks001" lang="en" dir="ltr" class="landing"><a name="ibks001"></a><img class="topicIcon" src="../GlobalArt/AppIconDefault_iBooks.png" alt="" height="30" width="30"><h1>iBooks Help</h1><figure class="Figure"><img src="../GlobalArt/AppLanding_iBooks.png" alt="" class="Graphic " height="190" width="190"></figure></body></html>

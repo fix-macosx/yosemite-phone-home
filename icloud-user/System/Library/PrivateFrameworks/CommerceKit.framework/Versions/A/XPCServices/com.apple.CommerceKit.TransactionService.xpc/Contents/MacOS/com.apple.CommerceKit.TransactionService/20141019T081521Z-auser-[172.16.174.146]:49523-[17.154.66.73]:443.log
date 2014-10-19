@@ -1,0 +1,169 @@
+POST /WebObjects/MZFinance.woa/wa/authenticate?guid=000C295240D2&Pod=30&PRH=30 HTTP/1.1
+Host: p30-buy.itunes.apple.com
+X-Apple-TZ: -420
+Accept: */*
+X-Apple-Store-Front: 143441-1,13
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Date: Sun, 19 Oct 2014 08:15:20 GMT
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 460
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Connection: keep-alive
+Cookie: xp_ci=3z4g8XADz7s3z4RnzCRNz1KGeDrrYY; mzf_in=242408; ns-mzf-inst=35-179-80-112-66-8192-242408--nk11; Pod=24; itspod=24
+iCloud-DSID: 8078008707
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appleId</key>
+	<string>admin@fix-macosx.com</string>
+	<key>attempt</key>
+	<string>1</string>
+	<key>guid</key>
+	<string>000C295240D2</string>
+	<key>password</key>
+	<string>s3cr3t!A</string>
+	<key>rmp</key>
+	<string>0</string>
+	<key>why</key>
+	<string>signIn</string>
+</dict>
+</plist>
+HTTP/1.1 200 Apple WebObjects
+x-apple-jingle-correlation-key: ZVEWTQRVTA6HA
+pod: 30
+x-apple-translated-wo-url: /WebObjects/MZFinance.woa/wa/authenticate?guid=000C295240D2&Pod=30&PRH=30
+edge-control: no-store
+edge-control: cache-maxage=0
+content-type: text/xml; charset=UTF-8
+x-apple-lokamai-no-cache: true
+cache-control: private
+cache-control: no-cache
+cache-control: no-store
+cache-control: no-transform
+cache-control: must-revalidate
+cache-control: max-age=0
+itspod: 30
+x-webobjects-loadaverage: 34
+x-frame-options: SAMEORIGIN
+x-apple-orig-url: https://p30-buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/authenticate?guid=000C295240D2&Pod=30&PRH=30
+x-apple-application-site: NWK
+date: Sun, 19 Oct 2014 08:15:21 GMT
+set-cookie: wosid=HnCPKbRZ6MzlKnb83uHttw; version="1"; path=/WebObjects/MZFinance.woa; domain=.apple.com; secure; HttpOnly
+set-cookie: woinst=-1; version="1"; path=/WebObjects/MZFinance.woa; domain=.apple.com; secure; HttpOnly
+set-cookie: session-store-id=5DE44A670C584B2D103053AD2B555377; version="1"; expires=Sun, 19-Oct-2014 08:45:21 GMT; path=/WebObjects; domain=.apple.com; secure
+set-cookie: Pod=30; version="1"; expires=Wed, 19-Nov-2014 09:15:21 GMT; path=/; domain=.apple.com
+set-cookie: itspod=30; version="1"; expires=Wed, 19-Nov-2014 09:15:21 GMT; path=/; domain=.apple.com
+set-cookie: mzf_in=302345; version="1"; path=/WebObjects; domain=.apple.com; secure
+set-cookie: mzf_dr=0; version="1"; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/WebObjects; domain=.apple.com
+apple-timing-app: 410 ms
+x-apple-asset-version: 0
+expires: Sun, 19 Oct 2014 08:15:21 GMT
+x-apple-request-store-front: 143441-1,13
+x-apple-date-generated: Sun, 19 Oct 2014 08:15:21 GMT
+x-apple-application-instance: 302345
+pragma: no-cache
+content-length: 1440
+Set-Cookie: ns-mzf-inst=39-90-80-124-180-8168-302345-30-nk11; version=1; Max-Age=1800; path=/; domain=.apple.com; httponly
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"> 
+
+  <plist version="1.0">
+    <dict>
+       
+  
+    
+    
+    
+         
+  <key>failureType</key><string>5001</string>
+  
+  <key>customerMessage</key><string>This Apple ID has not yet been used with the App Store.</string>
+  
+  <key>m-allowed</key><false/>
+  
+  
+  
+  
+  
+       
+       
+    
+      <key>dialog</key>
+      <dict>
+    
+    
+    <key>m-allowed</key><false/>
+      
+    <key>message</key><string>This Apple ID has not yet been used with the App Store.</string>
+    <key>explanation</key><string>Please review your account information.</string>
+    <key>defaultButton</key><string>ok</string>
+
+    
+    <key>okButtonString</key><string>Review</string>
+    <key>okButtonAction</key><dict>
+
+
+
+
+    <key>kind</key><string>Goto</string>
+    <key>url</key><string>https://p30-buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/com.apple.jingle.app.finance.DirectAction/convertWizard?Pod=30&amp;PRH=30&amp;why=signIn&amp;guid=000C295240D2&amp;attempt=1&amp;rmp=0</string>
+    
+    <key>target</key><string>main</string>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</dict>
+
+
+    <key>cancelButtonString</key><string>Cancel</string>
+    
+
+    
+    
+
+    
+    
+    
+    
+</dict>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+
+    
+    </dict>
+  </plist>
+  
+
+
+
+
+        

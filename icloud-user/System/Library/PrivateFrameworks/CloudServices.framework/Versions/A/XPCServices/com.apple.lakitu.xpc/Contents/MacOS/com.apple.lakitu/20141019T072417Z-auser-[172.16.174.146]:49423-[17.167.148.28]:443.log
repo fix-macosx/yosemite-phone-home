@@ -1,0 +1,58 @@
+POST /escrowproxy/api/enroll HTTP/1.1
+Host: p29-escrowproxy.icloud.com:443
+Content-Type: application/x-apple-plist
+User-Agent: com.apple.lakitu/1 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Connection: keep-alive
+Accept: */*
+Accept-Language: en-us
+Content-Length: 2398
+Accept-Encoding: gzip, deflate
+Authorization: Basic YWRtaW5AZml4LW1hY29zeC5jb206czNjcjN0IUE=
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>blob</key>
+	<string>AAAEdAAAAKEAAAABAAAAAAAAAAAAAAAKAAAAAAAAACQAAAL4AAAD/AAABCAAAAREAAAAIMDB/ukUxTSgcQmsOBmNxPyDMw5UUjfbHSPoYtNXkraxAAAC0Jo/iH6MeJPhYeL2O58dIxuMrjfDdY0O1K2mczR5sAAy/gyzsAT0QUrC24rGA6fWNtbw+P3Jgvw5OyHqG23KinPhMeJNijAQhTy8zmxewaYLe7p2v9mD8hmwdf3f6epUpgh4rcs5rrM3N2Ct5BGmeqSwt/I0fMZ07kwqqwhgrhQLaxgeV059vFhAP9pLVLA3X155FhayeRqcJ+Gh9cCygPr3zk/qk3VGwRIAWVqpQTYlBwuLVj7YdbH55MYnsOJRCGt927g8tRjKqqAf5/uOa9rarSCL8bW9itean553SZJoRt5YepSNZ2Z6POIwHFJHOiYWOxBOYGp2C8Pu3VXw3pl4kts3uyZQjn/uOuSchY/LH7CwboPg9IECQKuyz+dNLTFHtymKqsFuQ4IgWAaQTnpo4m6FM8M0I7NdMYJKZet/Bjnix63nSKRBjJ11ZsLStwtdmVtMfKcqWuqUbO+hyH7rXyakvH5UnlsG0LcHL6vw9B4L8oBIgz9Kehel7mIsTslrgvKUcPrkPC72POyjUW+DwGj5h6ZPaEX8hPYqDSVRCyDqTXKcM0f8xNhFqoOcQS+GDLgk4z3lYTb1SOCovpFn3nPA5zHec4DmLpDGIuSQ1TO93ZQLLUlAri7xePB9NS8VEYU3F3F94zzOhJE6HDnRBd+1Wj5+ytU0gj7tFDaijt8oALVSUe5E2weNupzlOQPaTuLhF9YBWr10Ok1Zga+7TW5+3/1F8f9MciFNO4xEcLgmVQsqSwDEgeoFUQULE9dVi14p4zBGO/k1Z6bJ1ssIlAp+uvhJZtOtGkVUzPAbYoR72Y0xzScLVPqqs4XGoOXJfdanptKtBqRu0Bdbj2kyOJaoau47BR/Lgq6eKmJ5OqIfIuu2ifRiYqyQSIjczT8cxqwT4SyFwP5NzDniQ+XNZ40pNbnRtImwURWvRaDqxuQJIRwQUPzRtGVM9KFmjgAAAQBI0ZB6EpuAwUmD8l2sq/KPGsKqKTxMRPDFOGzsya0TW+rfLocqoFtv+XlfZwTHjirQrA/wxxkggjBAGhrsNVdf43bKmfhOjEGCrZFzQ3wWzQClJ2iEBxzDA7hdM8rRcvMQ5uKIHLIAwEtg92Ky4VDK3ynsfpGkNtNvxgM+g4UGDlsvVDTWWVMyIZQZdofZKygNb0UlXiQNlV3UNhnJRU8MgoI+uSp1rujRMq+l/g9oWOJaQkJF6qhixzlHNyI/HKFX20xYdV5yb3Cb4rwHzFba6ulMZKVyobC4+cl4FLMcy8QJYgxMvdVwxbd+xpRLtG4+quTfPp5YXVdhxAdb1Qi9AAAAIJfzZVwlwvNAkiLzOMOdwMUl/Pfd4eUeOrFDcbcTNqAnAAAAIMBDuvJS6NOxwpDSWG3VKr+rreiFPIymsySazJL4qrRw</string>
+	<key>command</key>
+	<string>ENROLL</string>
+	<key>countryDialCode</key>
+	<string>1</string>
+	<key>countryISOCode</key>
+	<string>US</string>
+	<key>label</key>
+	<string>com.apple.securebackup.record</string>
+	<key>metadata</key>
+	<string>YnBsaXN0MDDTAQIDBAUKXxAgY29tLmFwcGxlLnNlY3VyZWJhY2t1cC50aW1lc3RhbXBeQ2xpZW50TWV0YWRhdGFfEBJCYWNrdXBLZXliYWdEaWdlc3RfEBMxOS0xMC0yMDE0IDAwOjI0OjE20gYHCAlfECFTZWN1cmVCYWNrdXBVc2VzQ29tcGxleFBhc3NwaHJhc2VeY291bnRyeUlTT0NvZGUIUlVTTxAU5AgdOucQ8osQeK0mNtOldFrZoAUIDzJBVmxxlaSlqAAAAAAAAAEBAAAAAAAAAAsAAAAAAAAAAAAAAAAAAAC/</string>
+	<key>phoneNumber</key>
+	<string>5555555555</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:24:17 GMT
+X-Apple-Request-UUID: aa0b19eb-50d6-453c-9772-b6273c5fe0b1
+X-Responding-Instance: escrowproxy:12900101:st13p29ic-hpaf18220501:8001:14G54:155647
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 433
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>version</key>
+		<integer>1</integer>
+
+		<key>status</key>
+		<string>0</string>
+
+		<key>phoneNumberToken</key>
+		<string>AQAAAABUQ2chITq3InhjPxgTE6zokApDByhtRg8=</string>
+
+		<key>message</key>
+		<string>Success</string>
+
+	</dict>
+</plist>

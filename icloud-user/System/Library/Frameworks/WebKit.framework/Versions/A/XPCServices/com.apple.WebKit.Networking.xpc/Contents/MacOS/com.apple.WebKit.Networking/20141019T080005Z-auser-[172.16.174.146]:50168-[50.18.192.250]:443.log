@@ -1,0 +1,23 @@
+GET /y.js?x=1&q=TexPad&l=us-en&a=osx&safe=1 HTTP/1.1
+Host: duckduckgo.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 08:00:06 GMT
+Content-Type: application/x-javascript; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Expires: Sun, 19 Oct 2014 08:00:05 GMT
+Cache-Control: no-cache
+Cache-Control: no-cache
+
+356
+if (nrn) nrn('a',[{"a":"Download Putty Here. 100% Free Downmload!","d":"downloads205.com/Putty","m":0,"s":"yahoo","p":1,"c":"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F3195660.r.msn.com%2F%3Fld%3DDvnmcWal16tzTKzNxzTgxHoDVUCUx4CJZ8JI6B2mFwia7fxEN8ZXOchugxrPzGC%2DYd0r3arLLDvA9tok4DcZ1LK3wNRpMSe3X%2DPlnhDMow4eidzBFZ5j0H4lkk6ANfgNMrD3APHA%26u%3Dputty.downloads205.com%252f%253futm_sourceyahoo%2526utm_mediumcpc%2526utm_campaignputty%2526utm_termPuTTY","u":"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F3195660.r.msn.com%2F%3Fld%3DDvnmcWal16tzTKzNxzTgxHoDVUCUx4CJZ8JI6B2mFwia7fxEN8ZXOchugxrPzGC%2DYd0r3arLLDvA9tok4DcZ1LK3wNRpMSe3X%2DPlnhDMow4eidzBFZ5j0H4lkk6ANfgNMrD3APHA%26u%3Dputty.downloads205.com%252f%253futm_sourceyahoo%2526utm_mediumcpc%2526utm_campaignputty%2526utm_termPuTTY","h":0,"k":0,"i":"","t":"Download Putty","o":""}]);
+0
+

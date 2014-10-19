@@ -1,0 +1,26 @@
+POST /setup/ck/v1/ckAppInit?container=com.apple.clouddocs HTTP/1.1
+Host: setup.icloud.com
+Authorization: Basic ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Content-Encoding: gzip
+Accept: application/x-protobuf
+X-CloudKit-ProtocolVersion: client=1;comments=1;device=1;presence=1;records=1;sharing=1;subscriptions=1;users=1;mescal=1;
+X-CloudKit-ContainerId: com.apple.clouddocs
+Accept-Language: en-us
+X-MMe-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.cloudkit.CloudKitDaemon/259.2.3 (com.apple.cloudd/259.2.3)>
+X-CloudKit-BundleId: com.apple.clouddocs
+Cache-Control: no-transform
+Accept-Encoding: gzip
+User-Agent: CloudKit/259.2.3 (14A389)
+Content-Length: 0
+Connection: keep-alive
+X-Apple-Request-UUID: 6A29F7F2-B5CE-4492-90F8-5107BEA2B148
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:23:55 GMT
+X-Apple-Request-UUID: 6A29F7F2-B5CE-4492-90F8-5107BEA2B148
+X-Responding-Instance: setupservice:32400405:mr11p24ic-quav08181302:8005:14G54:156781
+Cache-Control: no-cache, no-store, private
+Content-Type: application/json; charset=UTF-8
+Content-Length: 578
+
+{"cloudKitDeviceUrl":"https://p24-ckdevice.icloud.com:443","cloudKitDatabaseUrl":"https://p24-ckdatabase.icloud.com:443","values":[{"name":"com.apple.clouddocs","env":"sandbox","ckDeviceUrl":"https://p24-ckdevice.icloud.com:443/api/client","url":"https://p24-ckdatabase.icloud.com:443/api/client"},{"name":"com.apple.clouddocs","env":"production","ckDeviceUrl":"https://p24-ckdevice.icloud.com:443/api/client","url":"https://p24-ckdatabase.icloud.com:443/api/client"}],"cloudKitShareUrl":"https://p24-ckshare.icloud.com:443","cloudKitUserId":"_1bb19b8083b8e62c61b6d4c046e4460e"}

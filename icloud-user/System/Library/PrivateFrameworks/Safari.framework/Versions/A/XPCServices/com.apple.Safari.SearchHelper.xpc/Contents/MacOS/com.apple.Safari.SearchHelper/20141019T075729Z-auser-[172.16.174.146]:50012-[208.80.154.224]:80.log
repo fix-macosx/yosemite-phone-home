@@ -1,0 +1,11 @@
+GET /w/api.php?action=opensearch&format=json&search=Categor&namespace=0&suggest= HTTP/1.1
+Host: en.wikipedia.org
+Accept-Encoding: gzip, deflate
+Cookie: centralnotice_bucket=1-4.2; mediaWiki.user.sessionId=FXj12BIbBVb7oCjqcelitZwxkqBbuKa6; uls-previous-languages=%5B%22en%22%5D; GeoIP=US:San_Antonio:29.4889:-98.3987:v4
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Referer: http://en.wikipedia.org/wiki/Main_Page
+Accept-Language: en-us
+X-Requested-With: XMLHttpRequest
+

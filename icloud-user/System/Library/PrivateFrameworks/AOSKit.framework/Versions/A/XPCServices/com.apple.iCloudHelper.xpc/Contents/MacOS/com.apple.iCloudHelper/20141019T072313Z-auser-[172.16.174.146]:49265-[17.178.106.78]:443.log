@@ -1,0 +1,43 @@
+GET /setup/family/getFamilyDetails HTTP/1.1
+Host: setup.icloud.com
+Accept: */*
+Authorization: Basic ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+X-Mme-Timezone: PDT
+X-Mme-Country: US
+X-Mme-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.AOSKit/215 (familycircled/0.0)>
+Accept-Language: en-us
+X-Mme-Device-Id: 564D33F4-CC81-F551-C2BE-08104C5240D2
+Accept-Encoding: gzip, deflate
+X-Apple-MD-M: 
+X-Apple-MD: 
+User-Agent: com.apple.iCloudHelper/215 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+X-Apple-ADSID: admin@fix-macosx.com
+Connection: keep-alive
+Content-Type: application/xml
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:23:13 GMT
+X-Apple-Request-UUID: 32957973-6461-4fe2-8e49-b90ad7b4125d
+X-Responding-Instance: setupservice:32600301:mr11p26ic-hpaf11130701:8001:14G54:156781
+Cache-Control: no-cache, no-store, private
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 402
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>status</key>
+		<integer>0</integer>
+
+		<key>status-message</key>
+		<string>Success</string>
+
+		<key>dsid</key>
+		<integer>8078008707</integer>
+
+		<key>is-member-of-family</key>
+		<false/>
+
+	</dict>
+</plist>

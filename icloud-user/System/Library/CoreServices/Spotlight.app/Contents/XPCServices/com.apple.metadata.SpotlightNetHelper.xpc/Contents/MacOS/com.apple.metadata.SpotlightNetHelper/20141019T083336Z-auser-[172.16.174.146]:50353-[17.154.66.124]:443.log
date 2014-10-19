@@ -1,0 +1,46 @@
+POST /WebObjects/MZPlay.woa/wa/signSapSetup HTTP/1.1
+Host: play.itunes.apple.com
+Accept: */*
+Content-Type: application/x-www-form-urlencoded
+Connection: keep-alive
+Cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi
+Accept-Language: en-us
+Content-Length: 771
+Accept-Encoding: gzip, deflate
+User-Agent: com.apple.metadata.SpotlightNetHelper/916 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>sap-version</key>
+	<string>200</string>
+	<key>sign-sap-setup-buffer</key>
+	<data>
+	AQhKdD/RkztjkDb2l6BDppLAuz72sLmZoZ3QgIZkv+p0GxFXiX51KLwtnYYQsFe3uB4a
+	d5DH0tdtxRS+jA2gIx/IPTaSybEIHW0LMDF/yABUgFPPMoJEE/ho7bmR70wECsFz+Bxa
+	x/QQmYQpkI052ouq4OBug7c76UhjKCv620UasVI7Wq/djNbEaKNtv8jt1HFoFML8DcXn
+	oJD8i37ULYcNFHFHOnlnqMApLYTZRmW67/RWsWuNAnZcxew8qVVJ8yCM0WQoPFeXNOsr
+	W73qOFzhXzzlP++jlghw49YUpIuGTB5BwvcNNpiICB4qb5Ng4mdICiZUIVNVBq0V1EJh
+	FpAcPfoA/oHsfwS31C6ZHOV8XrYlwhck51bpAAAAMEfB6jNCU+mKrJh8i0TqcOKYMQdw
+	u3zY92gjBlrROqNqYdKj5gGBqUWYT+Hilg3WPjwMU5LPEWBZ6A1WNnbzT5Y47YSS
+	</data>
+</dict>
+</plist>
+HTTP/1.0 200 Apple WebObjects
+x-apple-jingle-correlation-key: DACQ2S2I4TGD2
+apple-timing-app: 16 ms
+x-apple-application-instance: 2803
+x-apple-application-site: NWK
+x-webobjects-loadaverage: 0
+content-type: text/xml; charset=UTF-8
+connection: keep-alive
+content-length: 1983
+Date: Sun, 19 Oct 2014 08:33:36 GMT
+
+<plist>
+<dict>
+<key>sign-sap-setup-buffer</key>
+<data>AlSPoLagGukaNP1AV76RXQcAAATg1jZTzlSqii1XSsNpPfXq+Usa52oD6Wh+ft8N7dKEbdE/edJTeW5pBn9fqidgRxSSeN3wTQGKHP21Y4qpEJ2SBXZslsN2PUZdRdrO77rMoxOMf6X4osVVdOJKk2Awe8O0PxIvGreuzFfY3y/HzPkcQ1dGkZabTUVdEM6EmCaBLybn+IYVdPCkicwFpnxYYgaaCVWeXQSNNF4aeJ3mRpOcSoRwNaExezIzEiGHW5M7AR3b9Dv6EqA2z+/YSu3uJZnYBJxnFk80QcBxaiVP7uyl3Bpcmwll9035BLxkfKCaTybnez/ZI4Bd5jJ5FCkPX1u+Jy1WxfLhgQCAcg12dw2xlW5H0+7wxkMWBRzU0P2WqU0yY7ifHhFR4evWaT868XAYZi9gLXQBZIpYfJG+eZfoHiSfokZhLp80Q+w101FSbdqlf24v7y0xobmtG6VU00LK8VP5gOZL36OuOLrJ+hiyxdKefiwFpHU/r0aDEGX5LU72AtY5PfcTWtTDSipRK+lczPt+mWynXWSRs+RPlBLAKPjMo8SDnpV7ao/7QmuKGpA+Acu0/EjW1/VFVEwbhf3Hugjh9NcExFOC/ibzEK9WL4NjwoS+DOf+DlyohLm+gaLUXekeq6jeRscuRz8+xZKK8BOcUEb0Pce0yyff/vO8NaiAYrHmXKw7ZJ0grvAvN2hxYj0vD5C3BpUot4UG3HT9rgqGja5k7oaHkgZ/ekTQKaqCfzg8hFC4wI92lgUCxPH3NHkfvxenTpzIbyTqIHNWgqWyUFuIOYscgHNNbQX+u7jOuwkqguIumTmUt7Xf+ooQ7IZUDElgYfQ8Gxh348J6Ehi6kgpMEGahSq5Ji7UaGO+Kd9LjKZ1hggZYz8YRaIzIhWLHIWfyI1gA+zymLtXUzu9WlOqfsd3gvDExv/XLTiImJt4EQis01hqBUlGAOEOzJMsHtu4DLU2aDXR/NLT88wuDKcbDkPkxXVM2ON8I2pwyzWSb4i5t2DXNEpDCzrxdodB3u2T2xDOTnqZxywMUyFijLbHEWa8LuKB4LodE5LN0EYYoqTcfXqo4EWGhfvp3qeHuq5oaMYg/q0VJLYVI86m/Nt0oa1Rn/dJuCR3BAHAMOdsdUwNXxN5xedFrgwYf3g0iRYhX12K2o+wOt9+1yxPg2Afe3FqNumzR+RfOl1zXKKDqhuzTsUvAGcsZkV+w6vWkef+sJtrWZVTGdlzFgKol+JlMskxNiJjSkHulGPdeEMCh3101+ek+KfGucbUuPxrt4pcn8+WpJwxM+yL7TjLocDo2YOtI7lA8xGj+Y0XPYmrh4jTZrKUG5tMkr+6GlvKjVFh6UHPm1RcSFjN1NrEMsYSI3bZsWDNIuKeWEOCk9axi+yxe8fNYmCv7gyCeeuqpOyFKsNkYnfSA0hziq/1nI0zlpUvf1fAOTtShkaNh3a6RJaymPYwKW7pe4aXGJLR4jp5Mb8NTUo545loy4JyYE1KC5r/T7Rp+2VeLCnfUawI2DflyaKg55uchvhNC478pOOqTMwkYNDXhsn7WJqSWfsPcxCpzgdkNMafDS8p6Gouin7MEeZiV0efs19zJz6yjR3SEDo1prS179sD7EvQ43Let13j8BoUPy3rvXNl+LRwflo2NiMakNL4CjOowarDFXGiNnJHv+bYoteXyATV/iU9o/hMZMYVergGc4le/ZxwJAAAAhgkD1WiANNiJU+uu3hy/TwW6b1RDd2ApENxizSx7FikKOlEasKpQlEDTd7k19jIN44qC8V5+jK8yyYoXMU1RSmWMFY3aLB2BMZKcMLbnwlg4farAUizbgupRNfrP9api3JbraXz23Zuq+Rd5J7P3sFLX+n+XQKSLBPLuuB+U0lKu6Vu76eKN</data>
+</dict>
+</plist>

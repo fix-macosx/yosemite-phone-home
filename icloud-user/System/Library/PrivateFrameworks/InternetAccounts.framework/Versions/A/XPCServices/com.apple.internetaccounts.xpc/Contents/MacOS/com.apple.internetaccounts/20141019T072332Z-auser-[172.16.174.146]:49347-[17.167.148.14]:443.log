@@ -1,0 +1,59 @@
+PROPPATCH /8078008707/calendars/tasks/ HTTP/1.1
+Host: p29-caldav.icloud.com
+Content-Type: text/xml
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Connection: keep-alive
+Accept: */*
+User-Agent: Mac+OS+X/10.10 (14A389) CalendarAgent/315
+Content-Length: 749
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+<?xml version="1.0" encoding="UTF-8"?>
+<A:propertyupdate xmlns:A="DAV:"><A:set><A:prop><B:calendar-timezone xmlns:B="urn:ietf:params:xml:ns:caldav">BEGIN:VCALENDAR&#13;
+VERSION:2.0&#13;
+PRODID:-//Apple Inc.//Mac OS X 10.10//EN&#13;
+CALSCALE:GREGORIAN&#13;
+BEGIN:VTIMEZONE&#13;
+TZID:America/Los_Angeles&#13;
+BEGIN:DAYLIGHT&#13;
+TZOFFSETFROM:-0800&#13;
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU&#13;
+DTSTART:20070311T020000&#13;
+TZNAME:PDT&#13;
+TZOFFSETTO:-0700&#13;
+END:DAYLIGHT&#13;
+BEGIN:STANDARD&#13;
+TZOFFSETFROM:-0700&#13;
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU&#13;
+DTSTART:20071104T020000&#13;
+TZNAME:PST&#13;
+TZOFFSETTO:-0800&#13;
+END:STANDARD&#13;
+END:VTIMEZONE&#13;
+END:VCALENDAR&#13;
+</B:calendar-timezone></A:prop></A:set></A:propertyupdate>
+HTTP/1.1 207 Multi-Status
+Content-Length: 381
+Accept-Ranges: bytes
+Server: iCloudCalendarServer 14G54
+Last-Modified: Sun, 19 Oct 2014 14:23:30 GMT
+DAV: 1, access-control, calendar-access, calendar-schedule, calendar-auto-schedule, calendar-managed-attachments, calendarserver-sharing, calendarserver-subscribed, calendarserver-home-sync
+X-Transaction-Id: d49e88d4-5760-11e4-a2a5-78e3b5131a20
+Date: Sun, 19 Oct 2014 07:23:32 GMT
+X-Responding-Server: st13p29ic-hpaf17261501 6 a63660a6f7d1a25b5a7ed66dab0da843
+Content-Type: text/xml
+
+<?xml version='1.0' encoding='UTF-8'?>
+<multistatus xmlns='DAV:'>
+  <response>
+    <href>/8078008707/calendars/tasks/</href>
+    <propstat>
+      <prop>
+        <calendar-timezone xmlns='urn:ietf:params:xml:ns:caldav'/>
+      </prop>
+      <status>HTTP/1.1 200 OK</status>
+      <responsedescription>OK</responsedescription>
+    </propstat>
+  </response>
+</multistatus>

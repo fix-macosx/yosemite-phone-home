@@ -1,0 +1,24 @@
+GET /d.js?q=TexPad&l=us-en&p=1&s=0&a=osx HTTP/1.1
+Host: duckduckgo.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 08:00:05 GMT
+Content-Type: application/x-javascript; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Expires: Sun, 19 Oct 2014 08:00:06 GMT
+Cache-Control: max-age=1
+Strict-Transport-Security: max-age=31536000
+X-DuckDuckGo-Locale: en_US
+
+ecc
+DDG.duckbar.future_signal_tab({signal:'low',from:'apps'});nrj('/share/spice/quixey/1052/quixey.spice.js',1);nrj('/js/spice/quixey/TexPad/[2004%2C2005%2C2008%2C2015%2C8556073]/999999/2414062669');DDG.inject('DDG.Data.languages.resultLanguages', {"en":["http://textpad.com/","https://www.texpadapp.com/","https://itunes.apple.com/us/app/texpad-latex-editor/id458866234","http://ipad.appstorm.net/reviews/productivity/texpad-advanced-typesetting-on-the-go/","http://www.youtube.com/watch?v=U2ZyN9AbtPc","http://www.macupdate.com/app/mac/40225/texpad"]});if (nrn) nrn('d',[{"a":"TextPad is an award winning text editor for Windows. Download a free evaluation copy, to discover the powerful features that will increase your productivity immediately. Includes a 13-language spelling checker, syntax highlighting, macros, workspaces, WordStar, Brief and MS editor emulations.","d":"textpad.com","m":0,"s":"boss","p":0,"c":"http://textpad.com/","u":"http://textpad.com/","h":0,"k":null,"i":"textpad.com","t":"TextPad - the text editor for Windows","o":0},{"a":"LaTeX editor for Mac OS X, iOS, iPad, iPhone and iPod Touch, with syntax highlighting, multi-file support and integrated PDF","d":"texpadapp.com","m":0,"s":"boss","p":0,"c":"https://www.texpadapp.com/","u":"https://www.texpadapp.com/","h":0,"k":null,"i":"www.texpadapp.com","t":"<b>Texpad</b>","o":0},{"a":"Read reviews, get customer ratings, see screenshots, and learn more about <b>Texpad</b> : LaTeX editor on the Mac App Store. Download <b>Texpad</b> : LaTeX editor for [?] and enjoy it on your Mac.","d":"itunes.apple.com/us/app/texpad-latex-editor/id458866234","m":0,"s":"boss","p":0,"c":"https://itunes.apple.com/us/app/texpad-latex-editor/id458866234","u":"https://itunes.apple.com/us/app/texpad-latex-editor/id458866234","h":0,"k":null,"b":"apple\tApple\twww.apple.com","i":"itunes.apple.com","t":"Mac App Store - <b>Texpad</b> : LaTeX editor - Apple - iTunes ...","o":0},{"a":"Back in December of last year, I wrote a review of <b>TexPad</b> for OS X and I was seriously impressed with it. I gave the app a solid 9/10 as it made typing TeX on a Mac simple, easy and pain-free. Now the developers, Valetta Ventures, have released an iPad version and they very kindly ...","d":"ipad.appstorm.net/reviews/productivity/texpad-advanced-type...","m":0,"s":"boss","p":0,"c":"http://ipad.appstorm.net/reviews/productivity/texpad-advanced-typesetting-on-the-go/","u":"http://ipad.appstorm.net/reviews/productivity/texpad-advanced-typesetting-on-the-go/","h":0,"k":null,"i":"ipad.appstorm.net","t":"<b>TexPad</b> : Advanced Typesetting On The Go | iPad .AppStorm","o":0},{"a":"<b>Texpad</b> is a LaTeX editor designed for straightforward navigation of projects of any size. When <b>Texpad</b> opens a document it scans through it, looking for LaTeX...","d":"youtube.com/watch?v=U2ZyN9AbtPc","m":0,"s":"boss","p":0,"c":"http://www.youtube.com/watch?v=U2ZyN9AbtPc","u":"http://www.youtube.com/watch?v=U2ZyN9AbtPc","h":0,"k":null,"b":"yt\tYouTube\twww.youtube.com","i":"www.youtube.com","t":"<b>Texpad</b> - the LaTeX editor - YouTube","o":0},{"a":"<b>Texpad</b> is a LaTeX editor designed for straightforward navigation of projects of any size. When <b>Texpad</b> opens a document it scans through it, looking for LaTeX structure commands and any included files, then it presents you with an outline view with which you can swiftly navigate the entire project.","d":"macupdate.com/app/mac/40225/texpad","m":0,"s":"boss","p":0,"c":"http://www.macupdate.com/app/mac/40225/texpad","u":"http://www.macupdate.com/app/mac/40225/texpad","h":0,"k":null,"b":"mu\tMacUpdate\twww.macupdate.com","i":"www.macupdate.com","t":"<b>Texpad</b> for Mac | MacUpdate - Apple Mac OS X Software &amp; Apps ...","o":0},{"n":"d.js?q=TexPad&l=us-en&p=1&s=30"}]);
+0
+

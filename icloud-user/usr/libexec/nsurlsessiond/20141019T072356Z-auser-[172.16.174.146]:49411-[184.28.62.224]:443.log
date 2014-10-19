@@ -1,0 +1,114 @@
+GET /configurations/internetservices/cloudkit/cloudkit-1.0.plist HTTP/1.1
+Host: configuration.apple.com
+Accept: application/x-protobuf
+Content-Encoding: gzip
+X-CloudKit-UserId: _1bb19b8083b8e62c61b6d4c046e4460e
+X-CloudKit-ContainerId: com.apple.clouddocs
+X-CloudKit-ProtocolVersion: client=1;comments=1;device=1;presence=1;records=1;sharing=1;subscriptions=1;users=1;mescal=1;
+X-MMe-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.cloudkit.CloudKitDaemon/259.2.3 (com.apple.cloudd/259.2.3)>
+Cache-Control: no-transform
+X-CloudKit-BundleId: com.apple.clouddocs
+Accept-Encoding: gzip
+X-CloudKit-AuthToken: AQAAAABUQ2bujtSMgzGFh2otSLaHjsGfOfq4_gE~
+User-Agent: CloudKit/259.2.3 (14A389)
+Accept-Language: en-us
+Connection: keep-alive
+X-Apple-Request-UUID: E8CB5F82-C3A3-4D72-A3CC-55FA9C86409D
+X-Apple-CKAppId: com.apple.clouddocs
+
+HTTP/1.1 200 OK
+Last-Modified: Fri, 17 Oct 2014 02:06:07 GMT
+ETag: "855-50594ced641c0"
+Server: Apache
+Accept-Ranges: bytes
+Content-Length: 2133
+Content-Type: text/xml
+Content-Language: en-us
+Cache-Control: max-age=20
+Expires: Sun, 19 Oct 2014 07:24:16 GMT
+Date: Sun, 19 Oct 2014 07:23:56 GMT
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>maxBatchSize</key>
+	<integer>400</integer>
+	<key>pushTokenRegisterDays</key>
+	<integer>8</integer>
+	<key>protocolVersion</key>
+	<string>1.0</string>
+	<key>signing</key>
+	<dict>
+		<key>signingServerVersion</key>
+		<string>Q1.14</string>
+		<key>certURL</key>
+		<string>https://static.gc.apple.com/sap/setup.crt</string>
+		<key>certURLQA</key>
+		<string>https://static.gc.apple.com/sap/setup.crt</string>
+		<key>signAllPublicMessages</key>
+		<true/>
+		<key>publicMessagesRequiringSignatures</key>
+		<array>
+			<integer>200</integer>
+			<integer>201</integer>
+			<integer>202</integer>
+			<integer>210</integer>
+			<integer>211</integer>
+			<integer>212</integer>
+			<integer>213</integer>
+			<integer>214</integer>
+			<integer>220</integer>
+			<integer>230</integer>
+			<integer>240</integer>
+			<integer>241</integer>
+			<integer>242</integer>
+			<integer>243</integer>
+			<integer>300</integer>
+			<integer>301</integer>
+			<integer>302</integer>
+			<integer>400</integer>
+			<integer>800</integer>
+			<integer>801</integer>
+			<integer>802</integer>
+			<integer>803</integer>
+			<integer>804</integer>
+			<integer>900</integer>
+			<integer>901</integer>
+		</array>
+		<key>signAllPrivateMessages</key>
+		<false/>
+		<key>privateMessagesRequiringSignatures</key>
+		<array/>
+	</dict>
+	<key>flowControl</key>
+	<dict>
+		<key>regenRate</key>
+		<integer>1000</integer>
+		<key>initialBudget</key>
+		<integer>40000</integer>
+		<key>maximumThrottleSeconds</key>
+		<integer>86400</integer>
+	</dict>
+	<key>numAssetHeaderBytes</key>
+	<integer>8</integer>
+	<key>assetCredentialsValiditySeconds</key>
+	<integer>1800</integer>
+	<key>expiresAfterSeconds</key>
+	<integer>86400</integer>
+	<key>containerOverrides</key>
+	<dict>
+		<key>com.apple.cloudkit.ckctl.container</key>
+		<dict>
+			<key>flowControl</key>
+			<dict>
+				<key>regenRate</key>
+				<integer>500</integer>
+				<key>initialBudget</key>
+				<integer>1000</integer>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

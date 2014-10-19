@@ -1,0 +1,73 @@
+GET /configurations/internetservices/cloudkit/clouddocs/clouddocs-1.0.plist HTTP/1.1
+Host: configuration.apple.com
+Accept: */*
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: bird/280.1 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+
+HTTP/1.1 200 OK
+Last-Modified: Fri, 17 Oct 2014 02:06:07 GMT
+ETag: "4e9-50594ced641c0"
+Server: Apache
+Accept-Ranges: bytes
+Content-Length: 1257
+Content-Type: text/xml
+Content-Language: en-us
+Cache-Control: max-age=20
+Expires: Sun, 19 Oct 2014 07:24:15 GMT
+Date: Sun, 19 Oct 2014 07:23:55 GMT
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>etag</key>
+	<string>1</string>
+	<key>default</key>
+	<dict>
+		<key>fswriter.apply.throttle</key>
+		<dict>
+			<key>start-after</key>
+			<integer>4</integer>
+			<key>give-up-after</key>
+			<integer>1800</integer>
+			<key>wait-at-least</key>
+			<real>0.2</real>
+			<key>wait-at-most</key>
+			<integer>600</integer>
+			<key>forget-after</key>
+			<integer>3600</integer>
+		</dict>
+		<key>fsreader.lost.throttle</key>
+		<dict>
+			<key>start-after</key>
+			<integer>10</integer>
+			<key>give-up-after</key>
+			<integer>1000</integer>
+			<key>wait-at-least</key>
+			<real>0.001</real>
+			<key>wait-at-most</key>
+			<integer>30</integer>
+			<key>forget-after</key>
+			<integer>3600</integer>
+		</dict>
+		<key>fsreader.container.throttle</key>
+		<dict>
+			<key>start-after</key>
+			<integer>2</integer>
+			<key>give-up-after</key>
+			<integer>1800</integer>
+			<key>wait-at-least</key>
+			<integer>2</integer>
+			<key>wait-at-most</key>
+			<integer>60</integer>
+			<key>forget-after</key>
+			<integer>3600</integer>
+		</dict>
+		<key>sync-throttles</key>
+		<array/>
+	</dict>
+</dict>
+</plist>

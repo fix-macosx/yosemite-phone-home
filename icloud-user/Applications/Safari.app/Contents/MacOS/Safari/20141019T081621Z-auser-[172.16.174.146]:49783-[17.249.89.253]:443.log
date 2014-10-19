@@ -1,0 +1,25 @@
+GET /search?q=project&locale=en-US&key=andromeda&context=com.apple.Maps&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+Accept: */*
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: []
+X-Apple-UserGuid: e34a9107-8c1b-4aaf-7152-d9101e13a1b8
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: ["p","pro","pr"]
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 08:16:21 GMT
+Connection: close
+Transfer-Encoding: chunked
+
+c7d
+[{"status":"OK","query":"project runway","prefix":"project","completion_score":79299.00004134621,"fbq":"eyJ1IjoiZTM0YTkxMDctOGMxYi00YWFmLTcxNTItZDkxMDFlMTNhMWI4IiwicCI6InByb2plY3QiLCJxIjoicHJvamVjdCBydW53YXkiLCJ0cyI6MTQxMzcwNjU4MSwiZyI6InVzL2lsbGlub2lzL2Nvb2svY2hpY2FnbyIsImEiOiJzYWZhcmkiLCJkIjoibWFjIiwibCI6ImVuX1VTIiwiaSI6IjE0MzQ0MS0xLDIxIiwiYyI6IjQxLjg2NDMsLTg3LjY0NSIsImVjdiI6MCwiY2N2IjowfQ==","results":[{"type":"wiki","id":"w:Project+Runway","score":9.608,"fbr":"eyJkIjoid2lraSIsInIiOiJ3OlByb2plY3QrUnVud2F5In0=","url":"http://en.wikipedia.org/wiki/Project_Runway","report_problem_url":"","filtered":false,"tophit":1,"engagement_score":0,"qi_engagement_score":0,"hide_rank":15,"template":"simple","completion":"Project Runway — Wikipedia","completion_icon":{"id":"mac_wiki_icon"},"section_header":"Wikipedia","title":"Project Runway","title_maxlines":1,"description_lead_in":"wikipedia.org","description":"— Project Runway is an American reality television series on Lifetime, previously on the Bravo Network, created by Eli Holzman which focuses on fashion design and is hosted by model Heidi Klum. The contestants compete with each other to create the best clothes and are restricted in time, materials and theme. Their designs are judged, and one or more designers are eliminated each week.","description_maxlines":2,"icon":{"content_type":"image/jpeg","data":"/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAAIACMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+q740ftqfD3xZrcngTwj8UfhVaeG7Hxn4csNcv7n4kJpXiMpoOq+KNWutVOnaH428E3er+Dte1z4f3ngqy0ex8deG/EF9qx0a88R6Jr3wn+Iui/8ACTfnRc/tXWWrfC3wLqWt+L/hR8LPiH4r8R6N4TtPDetfGf8AaF8U6foOhWNr44Nt4f8AijfaD8efEmpeC72+8H6roNlrHjrU/C+uwfbvHfh3TNa1n4f+IvhInif4eFFf2LwtwNkWGnDLKMcVGkquErut7de3qTjgMTWre1j7P6rVji3GhDERqYaX7vDUVh/YOVeVb+CeMPETiPGU55xiJ4OpWdLHYVUHhmsPTpzzPA4eg6Mva/XKMsFGpip4V0sXBOpjK7xUcTGOGjh/Zz+2z8LLD4jaqum/EP4Pad4V8I/FzxJpmnWWu658d/EniddD/Z21HxNqPj3VdNv4/jFdeEZdU+Ifhd9F1/4EaxpenXXhb4o3nifxD8MvEB1DWNBv7TWPYLj/AIKZ6hY3mo2tv8Qf2avGGoeEPCHjS/8AFfh/w7danpLat8QfDnwz1rWdN+H/AIe8V+I/iFbaNBaa38S/Dt34Y8PePNIsfiD4T8R6VqNlDqd34F16+8CW/wATSiu7MPDPhf2NLEV6WJxco5TKuoYueHqxUpYtYBrn+qxr/wAGSmp+29sq8IVlV5o6+dlni9xjGtXw2GrYPAxlndPDyng6WJoylF4FZi5On9blh/46cFT9h9XWHnUoqiozZ96fCP8AbN/Z1+MHw38I/EnSPid4Q8PWXizSxfnw/wCLvE/h7QvEuhXkNxPYano+taXdaoHgvtM1O0u7KWWF57G8EC3um3d5p9xa3UxRRX4VnvAeTZfnmc4DDV8xWHwWbZhhKCnWw85KjhsZOjSUpPC3lJQik5PVu7P6S4c8S8/zLh7IcxxWHyqWKzDJsqxuJlDD4qEZV8XgcLXrSjBY20IupVm4xWkU0lokf//Z"}}]}]
+
+0
+

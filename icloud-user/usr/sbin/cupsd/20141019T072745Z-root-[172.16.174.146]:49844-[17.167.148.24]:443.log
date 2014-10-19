@@ -1,0 +1,38 @@
+POST /8078008707/authorizePut HTTP/1.1
+Host: p29-content.icloud.com:443
+x-apple-mmcs-dataclass: com.apple.Dataclass.CloudKit
+x-apple-mmcs-auth: 01d8d904dc1e1c285edcc2716c345d7bce93306e55 0119209f485cf9a239af3a06099f73d3e474fe6eb4 53 BZ0zTkAsvNujA9SAJg
+x-apple-request-uuid: 859F2F65-2188-4054-ACE6-A086F009B5A8
+x-apple-mme-dsid: 8078008707
+Accept: application/vnd.com.apple.me.ubchunk+protobuf
+X-CloudKit-Container: com.apple.clouddocs
+x-mme-client-info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.icloud.content/320 (com.apple.CloudKit/(null))>
+X-CloudKit-Zones: com.apple.TextEdit
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Length: 122
+User-Agent: cloudd/259.2.3 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Connection: keep-alive
+x-apple-mmcs-proto-version: 4.0
+Content-Type: application/vnd.com.apple.me.ubchunk+protobuf
+
+
+x
+ØÙÜ(^ÜÂql4]{Î“0nUBZ0zTkAsvNujA9SAJg4
+mº-3c÷Õ-eëC%îÅ&Ìğğ³C-.ùv#ÔÌ~‹CĞ&£¼÷tÄœç¡5" ŸH\ù¢9¯:	ŸsÓätşn´HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:27:45 GMT
+X-Apple-Request-UUID: 859F2F65-2188-4054-ACE6-A086F009B5A8
+x-apple-mmcs-proto-version: 4.0
+X-Responding-Instance: content.12900803.st13p29ic-hpaf17240701:8003.14G54
+Content-Type: application/vnd.com.apple.me.mmcs+protobuf
+Content-Length: 482
+
+
+«
+scvMq5UBSSdOB98AxNnDé
+us-ore-00001.s3.amazonaws.com»PUT"®/scvMq5UBSSdOB98AxNnD?x-client-request-id=859F2F65-2188-4054-ACE6-A086F009B5A8&Expires=1413706965&AWSAccessKeyId=AKIAIWWR33ECHKPC2LUA&Signature=CDWze955X4d9B5mJNn0YiDY2tyk%3D*HTTP21.1:httpsB+
+
+x-amz-dateSun, 19 Oct 2014 07:27:45 GMTB
+Content-Length53B(
+Content-Typeapplication/octet-streamJ	s3_us_oreXÿÄ¼’)mº-3c÷Õ-eëC%îÅ&Ìğ"AyHP4LQR2/5qOIEm"0
+ØÙÜ(^ÜÂql4]{Î“0nU" ŸH\ù¢9¯:	ŸsÓätşn´

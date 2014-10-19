@@ -1,0 +1,24 @@
+GET /a.js?p=1&q=If%20I%20use%20google%20as%20a%20search%20engine%2C%20I%20know%20they%27ll%20get%20my%20query.%20Will%20Apple%3F&s=stackoverflow.com&tl=How%20to%20create%20search%20engines%20like%20google%3F%20%2D%20Stack%20Overflow&from=nlp_qa HTTP/1.1
+Host: duckduckgo.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 07:46:51 GMT
+Content-Type: application/x-javascript; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Expires: Sun, 19 Oct 2014 07:46:52 GMT
+Cache-Control: max-age=1
+Strict-Transport-Security: max-age=31536000
+X-DuckDuckGo-Locale: en_US
+
+37
+DDG.duckbar.add_array([]);DDG.duckbar.failed('nlp_qa');
+0
+

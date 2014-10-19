@@ -1,0 +1,9 @@
+GET /mactex/images/TeXLionRight-button.jpg HTTP/1.1
+Host: www.tug.org
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+Accept-Language: en-us
+Referer: http://www.tug.org/mactex/
+Accept-Encoding: gzip, deflate
+

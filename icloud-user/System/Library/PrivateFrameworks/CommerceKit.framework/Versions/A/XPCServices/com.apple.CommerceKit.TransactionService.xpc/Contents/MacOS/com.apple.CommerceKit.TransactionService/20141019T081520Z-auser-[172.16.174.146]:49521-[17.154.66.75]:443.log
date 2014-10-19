@@ -1,0 +1,93 @@
+POST /WebObjects/MZFinance.woa/wa/authenticate?guid=000C295240D2 HTTP/1.1
+Host: p24-buy.itunes.apple.com
+X-Apple-TZ: -420
+Accept: */*
+X-Apple-Store-Front: 143441-1,13
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Date: Sun, 19 Oct 2014 08:15:20 GMT
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 460
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Connection: keep-alive
+Cookie: xp_ci=3z4g8XADz7s3z4RnzCRNz1KGeDrrYY; mzf_in=242408; ns-mzf-inst=35-179-80-112-66-8192-242408-24-nk11; Pod=24; itspod=24
+iCloud-DSID: 8078008707
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appleId</key>
+	<string>admin@fix-macosx.com</string>
+	<key>attempt</key>
+	<string>1</string>
+	<key>guid</key>
+	<string>000C295240D2</string>
+	<key>password</key>
+	<string>s3cr3t!A</string>
+	<key>rmp</key>
+	<string>0</string>
+	<key>why</key>
+	<string>signIn</string>
+</dict>
+</plist>
+HTTP/1.0 302 Apple WebObjects
+x-apple-jingle-correlation-key: WJK7YKFJHZUEC
+user-agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+pod: 30
+accept: */*
+x-apple-translated-wo-url: /WebObjects/MZFinance.woa/wa/authenticate?guid=000C295240D2
+x-forwarded-for: 173.45.226.23  
+edge-control: no-store
+edge-control: cache-maxage=0
+content-type: application/x-www-form-urlencoded
+x-apple-lokamai-no-cache: true
+cache-control: private
+cache-control: no-cache
+cache-control: no-store
+cache-control: no-transform
+cache-control: must-revalidate
+cache-control: max-age=0
+x-apple-tz: -420
+nncoection: close
+x-webobjects-loadaverage: 38
+x-apple-orig-url: https://p24-buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/authenticate?guid=000C295240D2
+x-apple-orig-url: https://p24-buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/authenticate?guid=000C295240D2
+access-control-allow-origin: *
+cookie: xp_ci=3z4g8XADz7s3z4RnzCRNz1KGeDrrYY; mzf_in=2408; ns-mzf-inst=35-179-80-112-66-8192-242408-24-nk11; Pod=24; itspod=24
+x-apple-store-front: 143441-1,13
+host: p24-buy.itunes.apple.com
+x-frame-options: SAMEORIGIN
+x-forwarded-proto: https
+icloud-dsid: 8078008707
+x-apple-application-site: NWK
+date: Sun, 19 Oct 2014 08:15:20 GMT
+set-cookie: mzf_in=242408; version="1"; path=/WebObjects; domain=.apple.com; secure
+set-cookie: mzf_dr=0; version="1"; expires=Thu, 01-Jan-1970 00:00:00 GMT; path=/WebObjects; domain=.apple.com
+apple-timing-app: 126 ms
+expires: Sun, 19 Oct 2014 08:15:20 GMT
+location: https://p30-buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/authenticate?guid=000C295240D2&Pod=30&PRH=30
+x-apple-application-instance: 242408
+connection: Keep-Alive
+accept-language: en-US
+content-length: 460
+Set-Cookie: ns-mzf-inst=35-179-80-112-66-8192-242408--nk11; version=1; Max-Age=1800; path=/; domain=.apple.com; httponly
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appleId</key>
+	<string>admin@fix-macosx.com</string>
+	<key>attempt</key>
+	<string>1</string>
+	<key>guid</key>
+	<string>000C295240D2</string>
+	<key>password</key>
+	<string>s3cr3t!A</string>
+	<key>rmp</key>
+	<string>0</string>
+	<key>why</key>
+	<string>signIn</string>
+</dict>
+</plist>

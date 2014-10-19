@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: gutenberg.org
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+
+HTTP/1.1 301 Moved Permanently
+Server: Apache
+Location: http://www.gutenberg.org/
+Content-Type: text/html; charset=iso-8859-1
+X-Powered-By: 3
+Content-Length: 300
+Date: Sun, 19 Oct 2014 08:16:24 GMT
+X-Varnish: 2037235144 2036278019
+Age: 53671
+Via: 1.1 varnish
+Connection: keep-alive
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.gutenberg.org/">here</a>.</p>
+<hr>
+<address>Apache Server at www.gutenberg.org Port 80</address>
+</body></html>

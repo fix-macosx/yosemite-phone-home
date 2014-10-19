@@ -1,0 +1,21 @@
+PUT /scvMq5UBSSdOB98AxNnD?x-client-request-id=859F2F65-2188-4054-ACE6-A086F009B5A8&Expires=1413706965&AWSAccessKeyId=AKIAIWWR33ECHKPC2LUA&Signature=CDWze955X4d9B5mJNn0YiDY2tyk%3D HTTP/1.1
+Host: us-ore-00001.s3.amazonaws.com:443
+Content-Type: application/octet-stream
+x-apple-request-uuid: CC5F6BAE-009D-473A-86AE-E61A6859EF2F
+User-Agent: cloudd/259.2.3 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Connection: keep-alive
+Accept: */*
+Accept-Language: en-us
+Content-Length: 53
+Accept-Encoding: gzip, deflate
+x-amz-date: Sun, 19 Oct 2014 07:27:45 GMT
+
+CAê?·Vyönß[6„íÔ∞ëƒÍ‚X8˜Bãù#ˆÜæËÛvéÓQãÛ∂3-~ËÄò∑	£{ãHTTP/1.1 200 OK
+x-amz-id-2: avm14mz2tFWAA4I+7QyuIHpe4NlMhgZdkpaSpA1okM702VdvYwWkoiMp2CToUfncyEGCLV8l5ic=
+x-amz-request-id: D833525D9115B1E0
+Date: Sun, 19 Oct 2014 07:27:47 GMT
+ETag: "18c2438eeb9efa8e5a7b3841c00b9ea7"
+Content-Length: 0
+Server: AmazonS3
+Connection: close
+

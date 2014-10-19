@@ -1,0 +1,22 @@
+GET /HPImageArchive.aspx?format=js&idx=0&n=1&nc=1413705388253&pid=hp HTTP/1.1
+Host: www.bing.com
+Accept: */*
+Connection: keep-alive
+Cookie: MUIDB=3470754077D1647103E27398764465C5; SRCHUID=V=2&GUID=248581BC727A4D77839A6E54066617F5; _EDGE_S=F=1; _EDGE_V=1; _FS=NU=1; _RwBf=s=70&o=16; _SS=SID=78254FDE916C422BA4A077E5052B21CC&C=20&R=0&bIm=400; MUID=3470754077D1647103E27398764465C5; SRCHD=AF=NOFORM; SRCHHPGUSR=CW=1024&CH=1009; SRCHUSR=AUTOREDIR=0&GEOVAR=&DOB=20141019
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+Accept-Language: en-us
+Referer: https://www.bing.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Cache-Control: private
+Content-Length: 1548
+Content-Type: application/json; charset=utf-8
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Edge-control: no-store
+X-MSEdge-Ref: Ref A: DD50DC3A3A7E4308A66ACD35AB8D098F Ref B: 5EDA8A3292169525835733EE567FA31B Ref C: Sun Oct 19 00:56:28 2014 PST
+Date: Sun, 19 Oct 2014 07:56:28 GMT
+Connection: close
+
+{"images":[{"startdate":"20141019","fullstartdate":"201410190700","enddate":"20141020","url":"/az/hprichbg/rb/SeedlingMangroves_EN-US9298777400_1366x768.jpg","urlbase":"/az/hprichbg/rb/SeedlingMangroves_EN-US9298777400","copyright":"Mangrove seedlings in Cayos Cochinos, Honduras (© Mac Stone/Tandem Stills + Motion)","copyrightlink":"/search?q=Cayos+Cochinos&form=hpcapt&filters=HpDate%3a%2220141019_0700%22","wp":true,"hsh":"7d6910f181effb918d40a536f26b510f","drk":1,"top":1,"bot":1,"hs":[{"desc":"Sadly, there's just one sunset a day here.","link":"/search?q=Cayos+Cochinos&form=hphot1","query":"It'll have to do","locx":19,"locy":39},{"desc":"Over time, some of the seedlings in the surf…","link":"/images/search?q=red+mangrove&FORM=hphot2","query":"Will mature into trees that preserve the coast","locx":32,"locy":43},{"desc":"These waters teem with a variety of marine life.","link":"/videos/search?q=Cayos+Cochinos+underwater&form=hphot3#&view=detail&mid=124053DB9C3547EC5F2E124053DB9C3547EC5F2E","query":"Naturally, most visitors suit up to take a dive","locx":65,"locy":35},{"desc":"You can't tell from here, but below the surf are the southern-most reaches…","link":"/search?q=Mesoamerican+Barrier+Reef+System&form=hphot4","query":"Of the second-largest barrier reef on the planet","locx":82,"locy":49}],"msg":[]}],"tooltips":{"loading":"Loading...","previous":"Previous","next":"Next","walle":"This image is not available to download as wallpaper.","walls":"Download this image. Use of this image is restricted to wallpaper only."}}

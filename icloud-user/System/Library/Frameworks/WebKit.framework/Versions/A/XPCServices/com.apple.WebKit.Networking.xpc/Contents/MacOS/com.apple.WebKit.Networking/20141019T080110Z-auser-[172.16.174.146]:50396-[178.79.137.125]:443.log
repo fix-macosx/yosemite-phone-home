@@ -1,0 +1,21 @@
+GET /downloads/release HTTP/1.1
+Host: api.textmate.org
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: http://macromates.com/download
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 302 Found
+Date: Sun, 19 Oct 2014 08:01:10 GMT
+Server: Apache/2.2.22 (Ubuntu)
+Cache-Control: no-cache, no-store, must-revalidate
+x-amz-meta-x-signee: org.textmate.duff
+x-amz-meta-x-signature: MC0CFF/JNphZjr5Vq7Ek9nYn0u4/FPZoAhUAgy5QcGndqYgTUvwqGENUpw0hi9Y=
+Location: https://github.com/textmate/textmate/releases/download/v2.0-beta.1/TextMate_2.0-beta.1.tbz
+Vary: Accept-Encoding
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

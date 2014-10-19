@@ -1,0 +1,24 @@
+GET /safari/mac/8.0/locale-list.json HTTP/1.1
+Host: help.apple.com
+Accept-Encoding: gzip, deflate
+Cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Help Viewer/256
+Referer: https://help.apple.com/safari/mac/8.0/index.html?localePath=en.lproj
+Accept-Language: en-us
+X-Requested-With: XMLHttpRequest
+
+HTTP/1.1 200 OK
+Server: Apache
+X-Powered-By: PHP/5.3.3
+Access-Control-Allow-Origin: *
+ntCoent-Length: 3974
+Content-Type: text/json
+Cache-Control: max-age=1702
+Expires: Sun, 19 Oct 2014 08:49:56 GMT
+Date: Sun, 19 Oct 2014 08:21:34 GMT
+Content-Length: 3974
+Connection: close
+
+[{"text-direction":"ltr","name":"English","isoName":"English","isoCodes":["en","en-us","en-ca"],"folder":"en.lproj"},{"text-direction":"rtl","name":"\u0627\u0644\u0639\u0631\u0628\u064a\u0629","isoName":"Arabic","isoCodes":["ar"],"folder":"ar.lproj"},{"text-direction":"ltr","name":"Catal\u00e0","isoName":"Catalan","isoCodes":["ca"],"folder":"ca.lproj"},{"text-direction":"ltr","name":"\u010ce\u0161tina","isoName":"Czech","isoCodes":["cs"],"folder":"cs.lproj"},{"text-direction":"ltr","name":"Dansk","isoName":"Danish","isoCodes":["da"],"folder":"da.lproj"},{"text-direction":"ltr","name":"Deutsch","isoName":"German","isoCodes":["de"],"folder":"de.lproj"},{"text-direction":"ltr","name":"\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac","isoName":"Greek","isoCodes":["el"],"folder":"el.lproj"},{"text-direction":"ltr","name":"Espa\u00f1ol","isoName":"Spanish","isoCodes":["es"],"folder":"es.lproj"},{"text-direction":"ltr","name":"Espa\u00f1ol (M\u00e9xico)","isoName":"Mexican Spanish","isoCodes":["es-mx","es-xl"],"folder":"es_MX.lproj"},{"text-direction":"ltr","name":"Suomi","isoName":"Finnish","isoCodes":["fi"],"folder":"fi.lproj"},{"text-direction":"ltr","name":"Fran\u00e7ais","isoName":"French","isoCodes":["fr"],"folder":"fr.lproj"},{"text-direction":"rtl","name":"\u05e2\u05d1\u05e8\u05d9\u05ea","isoName":"Hebrew","isoCodes":["he"],"folder":"he.lproj"},{"text-direction":"ltr","name":"Hrvatski","isoName":"Croatian","isoCodes":["hr"],"folder":"hr.lproj"},{"text-direction":"ltr","name":"Magyar","isoName":"Hungarian","isoCodes":["hu"],"folder":"hu.lproj"},{"text-direction":"ltr","name":"Bahasa Indonesia","isoName":"Indonesian","isoCodes":["id"],"folder":"id.lproj"},{"text-direction":"ltr","name":"Italiano","isoName":"Italian","isoCodes":["it"],"folder":"it.lproj"},{"text-direction":"ltr","name":"\u65e5\u672c\u8a9e","isoName":"Japanese","isoCodes":["ja"],"folder":"ja.lproj"},{"text-direction":"ltr","name":"\ud55c\uae00","isoName":"Korean","isoCodes":["ko"],"folder":"ko.lproj"},{"text-direction":"ltr","name":"Bahasa Melayu","isoName":"Malaysian","isoCodes":["ms"],"folder":"ms.lproj"},{"text-direction":"ltr","name":"Nederlands","isoName":"Dutch","isoCodes":["nl"],"folder":"nl.lproj"},{"text-direction":"ltr","name":"Norsk (bokm\u00e5l)\u200e","isoName":"Norwegian","isoCodes":["nb","nn","no"],"folder":"no.lproj"},{"text-direction":"ltr","name":"Polski","isoName":"Polish","isoCodes":["pl"],"folder":"pl.lproj"},{"text-direction":"ltr","name":"Portugu\u00eas","isoName":"Brazilian\/Portuguese","isoCodes":["pt-br","pt"],"folder":"pt.lproj"},{"text-direction":"ltr","name":"Portugu\u00eas (Portugal)\u200e","isoName":"Portuguese","isoCodes":["pt-pt"],"folder":"pt_PT.lproj"},{"text-direction":"ltr","name":"Rom\u00e2n\u0103","isoName":"Romanian","isoCodes":["ro"],"folder":"ro.lproj"},{"text-direction":"ltr","name":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439","isoName":"Russian","isoCodes":["ru"],"folder":"ru.lproj"},{"text-direction":"ltr","name":"Sloven\u010dina","isoName":"Slovak","isoCodes":["sk"],"folder":"sk.lproj"},{"text-direction":"ltr","name":"Svenska","isoName":"Swedish","isoCodes":["sv"],"folder":"sv.lproj"},{"text-direction":"ltr","name":"\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22","isoName":"Thai","isoCodes":["th"],"folder":"th.lproj"},{"text-direction":"ltr","name":"T\u00fcrk\u00e7e","isoName":"Turkish","isoCodes":["tr"],"folder":"tr.lproj"},{"text-direction":"ltr","name":"\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430","isoName":"Ukrainian","isoCodes":["uk"],"folder":"uk.lproj"},{"text-direction":"ltr","name":"Ti\u1ebfng Vi\u1ec7t","isoName":"Vietnamese","isoCodes":["vi"],"folder":"vi.lproj"},{"text-direction":"ltr","name":"\u7b80\u4f53\u4e2d\u6587","isoName":"Simplified Chinese","isoCodes":["zh-cn","zh-hans","zh"],"folder":"zh_CN.lproj"},{"text-direction":"ltr","name":"\u7e41\u9ad4\u4e2d\u6587","isoName":"Traditional Chinese","isoCodes":["zh-tw","zh-hk","zh-mo","zh-hant"],"folder":"zh_TW.lproj"}]

@@ -1,0 +1,117 @@
+GET /quotaservice/external/osx/8078008707/storageUsageInfo HTTP/1.1
+Host: p29-quota.icloud.com:443
+Accept-Encoding: gzip, deflate
+User-Agent: com.apple.iCloudHelper/215 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+X-Mme-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.AOSKit/215 (com.apple.CloudPhotosConfiguration/0.9)>
+Connection: keep-alive
+X-Mme-Timezone: PDT
+Accept: */*
+Accept-Language: en-us
+X-Mme-Country: US
+Authorization: Basic ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+X-Mme-Device-Id: 564D33F4-CC81-F551-C2BE-08104C5240D2
+
+HTTP/1.1 200 OK
+X-Responding-Instance: quotaservice-12900304-st13p29ic-hpaf18250601-8004-14G54
+Content-Type: application/vnd.apple.xmlplist;charset=UTF-8
+Content-Length: 2347
+Date: Sun, 19 Oct 2014 07:23:11 GMT
+Server: Apple-iCloud
+
+<?xml version="1.0" encoding="UTF-8"?>
+<plist>
+<dict>
+	<key>storage_data</key>
+	<dict>
+		
+		
+		<key>storage_info_in_bytes</key>
+		<dict>
+			 <key>total_storage</key>
+			<integer>5368709120</integer>
+			<key>used_storage</key>
+			<integer>0</integer>
+			<key>commerce_storage_in_bytes</key>
+			<integer>0</integer>
+		</dict>
+		
+		<key>quota_info_in_bytes</key>
+		<dict>
+			<key>total_quota</key>
+			<integer>5368709120</integer>
+			<key>total_used</key>
+			<integer>0</integer>
+			<key>total_available</key>
+			<integer>5368709120</integer>
+		</dict>	
+	</dict>
+	
+	<key>storage_usage_by_media</key>
+    <array>
+    
+        <dict>
+            <key>display_label</key>
+            <string>Photos and Videos</string>
+            <key>display_color</key>
+            <string>96d2ff</string>
+            <key>usage_in_bytes</key>
+            <integer>0</integer>
+        </dict>
+    
+        <dict>
+            <key>display_label</key>
+            <string>Backup</string>
+            <key>display_color</key>
+            <string>fff028</string>
+            <key>usage_in_bytes</key>
+            <integer>0</integer>
+        </dict>
+    
+        <dict>
+            <key>display_label</key>
+            <string>Docs</string>
+            <key>display_color</key>
+            <string>bef028</string>
+            <key>usage_in_bytes</key>
+            <integer>0</integer>
+        </dict>
+    
+        <dict>
+            <key>display_label</key>
+            <string>Mail</string>
+            <key>display_color</key>
+            <string>ffc83c</string>
+            <key>usage_in_bytes</key>
+            <integer>0</integer>
+        </dict>
+    
+    </array>
+	
+	<key>storage_upgrade_options</key>
+	<dict>
+        <key>enabled</key>
+        <true/>
+        <key>displayMsg</key>
+        <string>You have 5 GB of iCloud storage.</string>
+    </dict>
+	
+	
+	<key>quota_status</key>
+    <dict>
+        <key>over_quota</key>
+        <false/>
+        <key>paid_quota</key>
+        <false/>
+	</dict>
+	
+	<key>entry_points</key>
+	<dict>
+		<key>quota.manage_storage_url</key>
+		<string>https://p29-quota.icloud.com/quotaservice/external/ios/8078008707/deviceUdid/getManageCloudStorage</string>
+		<key>quota.app_details_url</key>
+		<string>https://p29-quota.icloud.com/quotaservice/external/ios/8078008707/deviceUdid/getITMSAppDetails</string>
+	</dict>
+	
+</dict>
+</plist>
+ 

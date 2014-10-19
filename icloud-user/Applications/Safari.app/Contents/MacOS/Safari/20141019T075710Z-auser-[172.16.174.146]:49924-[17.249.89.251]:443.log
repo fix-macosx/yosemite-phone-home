@@ -1,0 +1,19 @@
+POST /fb?key=andromeda HTTP/1.1
+Host: api.smoot.apple.com
+Content-Type: application/json
+Connection: keep-alive
+X-Apple-ActionSignature: AoLwuVm2alApp5SPVHj/yKabCK8pQdfx8xsbfOrUH+hBAAAB0AMAAAABAAABAAu1IAsFQlF3V0dbPALZAtj7kS0f4KCy3ZDpRhdVa7nfTkkCldk/XFTt9aYyVjfDxgf+DbCkujD2qUKegb70gC0YUxL1fdOfM01bNaZB9KotC9X1AbNxsJfYR+RLWsSliADIvG9AdQz8AdTuocKT4i3xIFv6ta76lgMYZNx9bIYHW4/tM7Y53YSUMwuHjTffpg8y3Cxsxa1ZylVkd34ydJLHh1RoHIGOLD3oO8KIvDPB14jocoO76/S+hYcsvOqWxVhC1eqYYnhrzevBVR29ufINAs5p3m3GXBh7TYFtQRMXqjclXGy9wLNkzvCXOpdGNcz91j990caYBnRIA4PM8GUAAAAXSAYMNDMErWJaq0eQey3OZhdb/Ou/Tt4AAACfASfwgUEpJ1rWAXz9pXGaixINOfNUAAAAhgcBOfLcQiNnNR/0vL9jh64PU1RDbqOC3oe5OtQ3yOlwIs5QnQ9kBqb3I6bApT5vkA8rU5QzOUGibB26ZcAdxNMZ93jkMhugMJbTU3QWjqIm3B6PsuriruTXXUcGzFdYhFHrMitycOLqM9IIGG3hUdvYjM9jUe8TRn6tWaR2Dr7G93YQnGbkAAAAAAAAAAAA
+Accept: */*
+Accept-Language: en-us
+Content-Length: 497
+Accept-Encoding: gzip, deflate
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+
+[{"latency":338,"input":" ","ttfb":335.9769582748413,"headers":{"Accept":"*\/*","X-Apple-UI-Scale":"1.0","X-Apple-CachedResults":"[]","Accept-Language":"en-us","User-Agent":"SafariShared\/10600.1.25 (Mac OS X 14A389) Version\/8.0 Safari\/600.1.25","Accept-Encoding":"gzip, deflate","X-Apple-CachedQueries":"[]"},"type":"search_remote","timestamp":317044,"url":"https:\/\/api.smoot.apple.com\/search?q=%20&locale=en-US&key=andromeda&time_zone=America\/Los_Angeles&calendar=gregorian&region=en-US"}]HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 07:57:10 GMT
+Content-Length: 3
+Connection: close
+
+""

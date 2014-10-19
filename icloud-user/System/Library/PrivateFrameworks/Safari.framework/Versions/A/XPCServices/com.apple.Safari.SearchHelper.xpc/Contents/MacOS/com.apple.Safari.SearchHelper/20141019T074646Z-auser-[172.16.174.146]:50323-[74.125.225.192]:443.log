@@ -1,0 +1,22 @@
+GET /complete/search?client=safari&q=If+I+use+google+as+a+search+engine,+I+know+they'll+get+my+query.+Will+Apple%3F HTTP/1.1
+Host: clients1.google.com
+Accept: */*
+Cookie: NID=67=IxQya6ElbCTZBx6k3SCG1O7nvxPi-0H9cWuEUB21_-FCJ99lqMoU9RwrXHnM8GhzUiPFjqEuE4l9Vrz_GqEv7Qp2EtTxeEl_wGuxhWwmxmkGLr3_2d_ZUQ0gORtZqsbN; PREF=ID=87324ecd3eea9eb1:FF=0:TM=1413704801:LM=1413704801:S=oI1Lnz_dD7oPibn7
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:46:46 GMT
+Expires: Sun, 19 Oct 2014 07:46:46 GMT
+Cache-Control: private, max-age=3600
+Content-Type: application/json; charset=UTF-8
+Content-Disposition: attachment; filename="f.txt"
+Server: gws
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 443:quic,p=0.01
+Connection: close
+
+["If I use google as a search engine, I know they\u0027ll get my query. Will Apple?",[],{"q":"MOc98DcaacOdbQTJWREUOsyCWuM","k":1}]

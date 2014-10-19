@@ -1,0 +1,21 @@
+HEAD /machelp/mac/10.10/index.html?localePath=en.lproj HTTP/1.1
+Host: help.apple.com
+Accept: */*
+Connection: keep-alive
+Cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi
+User-Agent: Help%20Viewer/256 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Accept-Language: en-us
+Content-Length: 0
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: Apache
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Content-Length: 30795
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=1777
+Expires: Sun, 19 Oct 2014 09:19:58 GMT
+Date: Sun, 19 Oct 2014 08:50:21 GMT
+Connection: close
+

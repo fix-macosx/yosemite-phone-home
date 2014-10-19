@@ -1,0 +1,30 @@
+GET /register HTTP/1.1
+Host: xp.apple.com
+Accept: */*
+Accept-Encoding: gzip, deflate
+iCloud-DSID: 8078008707
+Connection: keep-alive
+Date: Sun, 19 Oct 2014 18:11:21 GMT
+Cookie: s_vi=[CS]v1|2A21B990850121DA-40000137400107B3[CE]; xp_ci=3z4g8XADz7s3z4RnzCRNz1KGeDrrYY; Pod=30; itspod=30
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Accept-Language: en-US
+X-Apple-TZ: -420
+X-Apple-Store-Front: 143441-1,13
+
+HTTP/1.0 200 Apple WebObjects
+x-apple-jingle-correlation-key: RIDYCUS5BODWO
+access-control-allow-origin: *
+vary: X-Apple-Store-Front,X-Dsid,Cookie
+x-apple-application-site: NWK
+apple-timing-app: 1 ms
+cache-control: private, max-age=60
+expires: Sun, 19 Oct 2014 18:12:22 GMT
+content-type: application/json; charset=UTF-8
+x-apple-application-instance: 10030
+x-webobjects-loadaverage: 0
+access-control-allow-credentials: true
+connection: keep-alive
+content-length: 2
+Date: Sun, 19 Oct 2014 18:11:22 GMT
+
+{}

@@ -1,0 +1,772 @@
+POST /setup/prefpane/login HTTP/1.1
+Host: setup.icloud.com
+X-Mme-Nas-Qualify: AvZSKd/s677bcSrOcolPpPExLh8XpsLaATPP0pXi3X2SAAAB4AUAAAABAAABgNEMJ+y70eBnc7WuCmxxNv96VpeEwyU02GNmZFSrYexvX0q5SSrQurEAKjeV6vfGooLF50uRe4ziQvt92XczFCtSuntu+mIAiyxY/j0cgxlSBeUlSHX0Ko5vj8NUzdVZmXfrRPkXp+IorM7xN+NlHiXrE9vYPXaQSl9s27rTMbSGZiwxtoeuSnZaPY9TrtwXKDTAzJMPCrovwUzk298oGPjcdqHXd4zOgxdMFcP7pfnsBfKtxKYNr9pLDmCn6ek63UA4EEOr1cPSKLtEDxY3hy5A0ZBN0hB3Cs8wfi87GNbLSo21WOCK3kj/sbio7D0+PEpOfa74Wuszy4+EdVc/iY0x6LG6Qq3htWg0GE+/u8Ed4FDrV44KGU08nzUAkBOChpwDaLl/uB5VKcrhRVKnpChkte89/lt3RzRUhutBqIIihKWB1tHqZ2h3ZUqGfRFJgrhgNQSA3kuSXH6I6/j9DjNFQtlEjsqjoBbK0dse5srkhTrgPNipC/pmxB8Aiw26nQAAAAAAAABPAZDJaizwIu8iRwoyVa+6ZBLslQC1AAAANgIHma9V+qrlNWMnIsxGpMOtvVRDZtaCkahqTfwQERjIuaj10qla3RcFxajEp5HxbcL0p+3TJA==
+Accept: */*
+Authorization: Basic YWRtaW5AZml4LW1hY29zeC5jb206czNjcjN0IUE=
+X-Mme-Timezone: PDT
+X-Mme-Country: US
+X-Mme-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.AOSKit/215 (com.apple.accountsd/113)>
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+X-Mme-Device-Id: 564D33F4-CC81-F551-C2BE-08104C5240D2
+X-Apple-MD-M: 
+X-Apple-MD: 
+User-Agent: com.apple.iCloudHelper/215 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Content-Length: 1540
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>apple-id</key>
+	<string>admin@fix-macosx.com</string>
+	<key>delegates</key>
+	<dict>
+		<key>com.apple.appstore</key>
+		<dict>
+			<key>drm-client</key>
+			<string>MacAppStore</string>
+			<key>drm-type</key>
+			<string>mac</string>
+			<key>drm-version</key>
+			<string>2.0</string>
+			<key>guid</key>
+			<string>000C295240D2</string>
+			<key>user-agent</key>
+			<string>MacAppStore/2.0 (Macintosh; OS X 10.10) AppleWebKit/0600.1.25</string>
+		</dict>
+		<key>com.apple.facetime</key>
+		<dict>
+			<key>protocol-version</key>
+			<string>4</string>
+		</dict>
+		<key>com.apple.gamecenter</key>
+		<dict>
+			<key>device-id</key>
+			<string>564D33F4-CC81-F551-C2BE-08104C5240D2</string>
+		</dict>
+		<key>com.apple.ibooks</key>
+		<dict>
+			<key>drm-client</key>
+			<string>iBooks</string>
+			<key>drm-type</key>
+			<string>mac</string>
+			<key>drm-version</key>
+			<string>2.0</string>
+			<key>guid</key>
+			<string>000C295240D2</string>
+			<key>user-agent</key>
+			<string>iBooks/2.0 (Macintosh; OS X 10.10) AppleWebKit/0600.1.25</string>
+		</dict>
+		<key>com.apple.madrid</key>
+		<dict>
+			<key>protocol-version</key>
+			<string>4</string>
+		</dict>
+		<key>com.apple.mobileme</key>
+		<dict/>
+		<key>com.apple.private.ids</key>
+		<dict>
+			<key>protocol-version</key>
+			<string>4</string>
+		</dict>
+	</dict>
+	<key>password</key>
+	<string>s3cr3t!A</string>
+</dict>
+</plist>
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:23:03 GMT
+X-Apple-Request-UUID: 2be60811-e881-401a-90ca-6f5b7797eb77
+X-Responding-Instance: setupservice:32600103:mr11p26ic-hpaf06193401:8003:14G54:156781
+Cache-Control: no-cache, no-store, private
+Set-Cookie: tos-versions=;Expires=Thu, 01-Jan-1970 00:00:01 GMT;Path=/setup/iosbuddy/;HttpOnly
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 20519
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>status</key>
+		<integer>0</integer>
+
+		<key>delegates</key>
+		<dict>
+			<key>com.apple.appstore</key>
+			<dict>
+				<key>service-data</key>
+				<dict>
+				</dict>
+
+				<key>status</key>
+				<string>2009</string>
+
+				<key>status-message</key>
+				<string>Account cannot be found in Partition Table</string>
+
+			</dict>
+
+			<key>com.apple.facetime</key>
+			<dict>
+				<key>service-data</key>
+				<dict>
+					<key>handles</key>
+					<array>
+						<dict>
+							<key>status</key>
+							<integer>5051</integer>
+
+							<key>uri</key>
+							<string>mailto:admin@fix-macosx.com</string>
+
+						</dict>
+					</array>
+
+					<key>email-address</key>
+					<string>admin@fix-macosx.com</string>
+
+					<key>auth-token</key>
+					<string>V1MHKW000802b7084e4b4a309d2d5d48fdd3826f1e73VKZZDbf5098bd3270892c022104f129dedd35a400e306d6a5f16c39020386acacab197d10d3981e122506a63ddfa41804b3d55638bcdc3e38071054128a4f298bd13ed02a5027a92d98b853ca4f55899bc18ae1152e1b9cdd408791f8c4a02540949cb8d3c1ba868df29417e5e094764b8c73ba215b2177216f79f83c6c34b25f4819628113efca955f38ed4950b6324edf97b5f9e31924ea5cdb2898bfff3e15ee86cb1e01d082c6ea482ba84daf59997fc77429126adb8b9dea44ad3ac3f0cff4f3bae81f1668069d9a5c64f5e3259babbaae549e0dde9f8d30ea1b5ef879a2a82f86d9370f52b7b0f7043282b84c18f8db8367144a16c45d967350416fc809e8143b0e78316bef395c9822d5836a686ee5049de1098a7b1202a2eb3e045c7644450db9838836cc36715d5686e6fdb5cea1a8283c58a69a1a93714a5374ab8ad746e8166085a3b2d47987d53bcaf9649aa65ca385e245ee09cb3683acc7ad633740aca15a2da5f1f94fd40c247881cde11628b75d4ff5ca597ed53efde7155cc7a8f32cff1e87418b335fb937c2a91017b4ea9bafae52c42e4409cb93d289c0bb5ccc0aacf089ce48d84d71facf696feb4fb3fd26b1c58fbc5dcbe8aa0b8515b01651dd4571bba577f5ef62e2f3839aa40605f5aacda2a6dc7f019262823d089996fa1e1c1d0b7b4e968bb9eb8aa89d3049b292b58cda1913b0acb46fb974f749c0f4baf24ea0daf1336505c017bac3460a95b0354156d1ae1f4f60e6bb3ff1de66125f76a0fa0eb358dd784e91bced59158794eae0917422f5cac6b2e14ed5207fafc1e4f1b79f368bf8449715d94dbd4a3ca24871a883173cbc44421744e71dc9caadc93293cfcc1f79590c48b86aea4aa6f895b0ac07b5d669163e0133e54eb6ab47e546ec3dd5306faf89a3cf0c458998bda63407fbfb4379220de5681e1e75c82923cb96aae6b22766696d81f87092fea1c495e906680a50f8ac14023d6049ca3c34e7fdbc5d4a75d563a48c9fbcedf49926d82a94ee2e4f7ec7ada1c8bece2c565f29d6299d97df1a458295a5eedf9e8ee6ff27cff4d6a8dc1a8da2ba93255b123aa364c439cc8f4f6941c95e312d4931c2819152bbcb66fa430910e192743f4fb8d08c97c6765ba877308ced93051fac01ebcb70b0e64759796c16d96cb12b7d3d20686d194b9d9d496c3b5b014577aae46932e99878a8e7204b07e6e362825d33ddcc95a288ff43f25b2ecc834f844fea4460f8752ef7ca5d5d2a69613b768511971200dcb43db1327a19c995a8ae65ededc4eebb018c8f37393ed7f07bKMHZ</string>
+
+					<key>self-handle</key>
+					<dict>
+						<key>uri</key>
+						<string>urn:ds:8078008707</string>
+
+					</dict>
+
+					<key>invitation-context</key>
+					<dict>
+						<key>extra</key>
+						<dict>
+						</dict>
+
+						<key>region-id</key>
+						<string>R:US</string>
+
+						<key>base-phone-number</key>
+						<string>+10000000000</string>
+
+					</dict>
+
+					<key>profile-id</key>
+					<string>D:8078008707</string>
+
+					<key>apple-id</key>
+					<string>admin@fix-macosx.com</string>
+
+					<key>realm-user-id</key>
+					<string>D:8078008707</string>
+
+				</dict>
+
+				<key>status</key>
+				<integer>0</integer>
+
+				<key>account-exists</key>
+				<true/>
+
+			</dict>
+
+			<key>com.apple.private.ids</key>
+			<dict>
+				<key>service-data</key>
+				<dict>
+					<key>handles</key>
+					<array>
+						<dict>
+							<key>status</key>
+							<integer>5051</integer>
+
+							<key>uri</key>
+							<string>mailto:admin@fix-macosx.com</string>
+
+						</dict>
+					</array>
+
+					<key>email-address</key>
+					<string>admin@fix-macosx.com</string>
+
+					<key>auth-token</key>
+					<string>V1MHKW000802b7084e4b4a309d2d5d48fdd3826f1e73VKZZD0bacef45c09c32f61b47bffd6221903ec2921b6ae184722d75da129cec97dee892fc96c7be46a779253c5fccdba685468eee0cde1f6be294c9afc20dc10b7c228fe96afee41df633aacd63a097b6c8072eddd0b41aba2c480db95998c089c604fbcd76eec597be0ad2e1dfc2324c68164b07ee8842b549a607d689ab001f2d190896ad270118adef327800ce2aebc599425c8e5e940fb482e0dea7380d1161a5694fcdf4f07cbdf66fbae8a3c0e77260d41956d5eafeac61d9004cb25e284ce93ace56ee89b150474de1f554ca51edfc6e303a5580dbfffbdfb3a3de1917bc0bb694e6e3b5d23dd47f270c0094025f807b10d27399685bfdd701af8e690da8975738167184f3c1f657e154a3e6b7f52a268e8248cde7b8b34d51f085128d9804eb03a8962648b8a365141c16388569e0411da73445fc6558d1934fe95ef11b34d145fc7216be6b0c950741a9415f744429d7447787d4c5855d8cdabcaec274d28e830f3996285b8c5e081919910dcc62aa6f60f1a639877edc04177da9d74eea2a240cdae6936452e83330c1e4eb289cfec9c81d1166edefe9eafe5daac7a65654d71ad767d8480ca1cb745ba988710c16707f35c19f405fde8a7c25dde25f41c432850f6ab5210f5465ee15c9baa86e2d089f6782d00787ec0a64ac8aef9c555f9ba5b4de85e43bfe9f6f5d8e89d0ae9f1fbb1584d7dc7ae406c9d9b1ea62aa558c30c149a83e2232ecc8c7a7bb3363b59c8f856a87fa7cb7665cab331a0812911ec41812952122129a31b05aa4e9179deacd056fbcb6a8e0b2fc58b72be0cf6cddf1de878a697fca3b19e9d783097b4b495d5dbde1a6f468fcde59237c1f66950bd3a8d8d9a3da1ad9e54f513575f9c80e48b1032c6a82099d105ac925e6d0c1e4e39f1b42ec6dff297b650143734127f00ea77c584838d25b7c508517c70b845c707b1d588fe7e8bcc5a8e9e59e0150acc2e71b365083a829dad0b0e31ee8fe9f17a5bba2db6a5de20c5db9df3c69c97aae072895ff17cc00d2223e295b3176c49223c41067c3191f03b4cb6e3b4b41ce02be41a686bee0ea51f5ac606b55b5a87974179c77b5c8397e4084c38d35fab37237f5ad2c71e20bd580cd8f63491e21f6581916fd4d1de6ad9b30d7d67797fa71542a4fdb40432e1048e10f060852f42dbe968d0b0f9298fc3583de195b45661729d492622f1bd25991b7a48362f23574c0855eac29ba8eb335f5446742fad6b07b1a507128335d8b19fd4cba61f9d408e676c1f2f98b5ffd3e62544901125fbbdfcbc1c367963f8c7796f5e813KMHZ</string>
+
+					<key>self-handle</key>
+					<dict>
+						<key>uri</key>
+						<string>urn:ds:8078008707</string>
+
+					</dict>
+
+					<key>invitation-context</key>
+					<dict>
+						<key>extra</key>
+						<dict>
+						</dict>
+
+						<key>region-id</key>
+						<string>R:US</string>
+
+						<key>base-phone-number</key>
+						<string>+10000000000</string>
+
+					</dict>
+
+					<key>profile-id</key>
+					<string>D:8078008707</string>
+
+					<key>apple-id</key>
+					<string>admin@fix-macosx.com</string>
+
+					<key>realm-user-id</key>
+					<string>D:8078008707</string>
+
+				</dict>
+
+				<key>status</key>
+				<integer>0</integer>
+
+				<key>account-exists</key>
+				<true/>
+
+			</dict>
+
+			<key>com.apple.madrid</key>
+			<dict>
+				<key>service-data</key>
+				<dict>
+					<key>handles</key>
+					<array>
+						<dict>
+							<key>status</key>
+							<integer>5051</integer>
+
+							<key>uri</key>
+							<string>mailto:admin@fix-macosx.com</string>
+
+						</dict>
+					</array>
+
+					<key>email-address</key>
+					<string>admin@fix-macosx.com</string>
+
+					<key>auth-token</key>
+					<string>V1MHKW000802b7084e4b4a309d2d5d48fdd3826f1e73VKZZD54eded77bfeeff34d81214108b4e06777668993ae096724faf64d97da1907e901a38b565eb157775e074d85e08629c09c6ec4ece7e193cfdd382ee02d7e32d56db8088d116c4e1c416c49ed66d44cd25f246cc80e333cef1425af4a2572cf569e261611778354f9def834e2a43b8aec851c1d25f7a64f81baf97ca4807b7dbc71dd6467829beb938bd4c3b085bbc21973a5613153fa363344b1335f1955d1f4f068fc8268a6c322cf15e761e8a989228009f7335061471075f7fb1f4006e17b738fda3b74454d7e833d2297c28771ac536e3e61f2dabb95d38525097bde1ea6bab6fa4b36a537b4bf4fd917bbf4b306d5a83df15e54458daef85eb986303e6aff801b657004d82971fa103facb7a30ef2cb7902b9d695d4fc7de7b5550c93dd34793ec7f4b4dcf2c7183f28680a86a1dbdb62ab5fad0b263a23a45198a19106792ef8decf035b4636b484edde0f955f8e2fc6f3fd70c2c428b3f1de9677a467996518057a134fd451f4c29d5ca4d627ac702532a552ed1ad735586c0445166ceb1346cabb1ca34a749c0fea36b55274d3c9fab320e9e8efa7804dfe3eb68acd961004402b2ee5fe896b94cdeb2fae1804a62c86bcd8ad13e9ec6b34cd7d77e67397c530990c679233e3b1ac0b9af65aa364e29de1b553057b4f7079c2a2635c0001336b958a7213d091a4d17d02ef917837188bb80fc58e12521a196cbb140b8946c6b4d93c5722b87acf76b5350b1a997f941f9772a44ef5ebb87125b3054d7a6d0717e81b8f70d2d223157ba3c68fafd743e9f6dac94a5e942be3e8de535be34c82aa12cf9dacfe9c86a77bc85122608991fc2f686a92893b91aa7521db12769aa7d9c62e41242f1a9eb66436434dea3ea135697298aee696ebd623b0e74c99888d8cb6c52e1024d53bc1e85ce8789c829e95a1c5f2233a59fc675b0a40e2e517dd9502f860eb0dd211f47331daa2065d640aa5dbd8a8ea3a34615b9491c0d0e76f2866cef1a133d1fe08b6fef74e09e12c1e192e45992ff6c2503d69bd677859c3d0469bcf9574fca9e6065182c4dfae12526fb4249fe44356a17a0d08f2cb54eef72718ce1feac87896115165d3136282585a893bda7bad5b6e1339d6eca906ac82a004f0ec58d54bf1ab8f44be8bad238b4cf18ca24db1222c8b5d0b24d1ed87bad186dc347c159e24833ddc8273135ff8a824903d77df45779c1b8c19446e31ff220d2afce91b07a4e490acb3cec039e40212bf94f16238794db6f3967abdd3834b48782e78793eb31ac7266b2953c8c28b3c74d8d46fb722f6ef5561eKMHZ</string>
+
+					<key>self-handle</key>
+					<dict>
+						<key>uri</key>
+						<string>urn:ds:8078008707</string>
+
+					</dict>
+
+					<key>invitation-context</key>
+					<dict>
+						<key>extra</key>
+						<dict>
+						</dict>
+
+						<key>region-id</key>
+						<string>R:US</string>
+
+						<key>base-phone-number</key>
+						<string>+10000000000</string>
+
+					</dict>
+
+					<key>profile-id</key>
+					<string>D:8078008707</string>
+
+					<key>apple-id</key>
+					<string>admin@fix-macosx.com</string>
+
+					<key>realm-user-id</key>
+					<string>D:8078008707</string>
+
+				</dict>
+
+				<key>status</key>
+				<integer>0</integer>
+
+				<key>account-exists</key>
+				<true/>
+
+			</dict>
+
+			<key>com.apple.gamecenter</key>
+			<dict>
+				<key>service-data</key>
+				<dict>
+					<key>alias</key>
+					<string>hcwuj4ylj8dp0</string>
+
+					<key>lastName</key>
+					<string>Users</string>
+
+					<key>auth-token</key>
+					<string>2:28:AQAAAABUQ2bXxhuITBqCaDi7Mm3zsj1+7NdENg8=:28:AQAAAABUQ2bXEjzuLL8gh2U3dwBFrhkRvdY78Tk=</string>
+
+					<key>player-id</key>
+					<string>G:8078008707</string>
+
+					<key>firstName</key>
+					<string>Defaults</string>
+
+					<key>env</key>
+					<string>PROD</string>
+
+					<key>apple-id</key>
+					<string>admin@fix-macosx.com</string>
+
+				</dict>
+
+				<key>status</key>
+				<integer>0</integer>
+
+				<key>account-exists</key>
+				<true/>
+
+			</dict>
+
+			<key>com.apple.mobileme</key>
+			<dict>
+				<key>service-data</key>
+				<dict>
+					<key>protocolVersion</key>
+					<string>2</string>
+
+					<key>appleAccountInfo</key>
+					<dict>
+						<key>lastName</key>
+						<string>Users</string>
+
+						<key>primaryEmailVerified</key>
+						<true/>
+
+						<key>iCloudAppleIdAlias</key>
+						<string></string>
+
+						<key>appleIdAliases</key>
+						<array>
+						</array>
+
+						<key>locked</key>
+						<false/>
+
+						<key>aDsID</key>
+						<string>admin@fix-macosx.com</string>
+
+						<key>brMigrated</key>
+						<false/>
+
+						<key>appleId</key>
+						<string>admin@fix-macosx.com</string>
+
+						<key>primaryEmail</key>
+						<string>admin@fix-macosx.com</string>
+
+						<key>appleIdAlias</key>
+						<string></string>
+
+						<key>fullName</key>
+						<string>Defaults Users</string>
+
+						<key>firstName</key>
+						<string>Defaults</string>
+
+						<key>dsPrsID</key>
+						<string>8078008707</string>
+
+						<key>statusCode</key>
+						<integer>2</integer>
+
+					</dict>
+
+					<key>tokens</key>
+					<dict>
+						<key>mapsToken</key>
+						<string>AQAAAABUQ2bYfvNgSOP9plPvv2g2E7DP8W5ANgM~</string>
+
+						<key>mmeFMIPToken</key>
+						<string>AQAAAABUQ2bYrTV4qH4Ca0qiy8D_8AnPPaumFuM~</string>
+
+						<key>cloudKitToken</key>
+						<string>AQAAAABUQ2bYY2Jte6z_mWQd6DzL74nCzAvAyoI~</string>
+
+						<key>mmeFMFAppToken</key>
+						<string>AQAAAABUQ2bYICoZ8JXO7F2RksqP1SndT-2apTE~</string>
+
+						<key>mmeAuthToken</key>
+						<string>AQAAAABUQ2bYIE1qLcepPrdlGzErj4sQ1x6d7Hg=</string>
+
+						<key>mmeBTMMInfiniteToken</key>
+						<string>AQAAAABUQ2bYLRioP0w4lSYplfIWQpiFEs_0OSU~</string>
+
+					</dict>
+
+					<key>com.apple.mobileme</key>
+					<dict>
+						<key>com.apple.Dataclass.BackToMyMac</key>
+						<dict>
+							<key>seed</key>
+							<string>M9mFViZ7IZYHbTu4ZX8sNw==</string>
+
+							<key>relayPort</key>
+							<integer>443</integer>
+
+							<key>keyValueConfigURL</key>
+							<string>https://keyvalueservice.icloud.com:443/config</string>
+
+							<key>relayHost</key>
+							<string>p29-conduit.connectivity.icloud.com</string>
+
+							<key>iterationCount</key>
+							<integer>100000</integer>
+
+							<key>apsEnv</key>
+							<string>production</string>
+
+							<key>keyValueURL</key>
+							<string>https://p29-keyvalueservice.icloud.com:443</string>
+
+							<key>url</key>
+							<string>https://p29-btmm.icloud.com:443/v1/hello</string>
+
+						</dict>
+
+						<key>com.apple.Dataclass.AccountSync</key>
+						<dict>
+						</dict>
+
+						<key>com.apple.Dataclass.Account</key>
+						<dict>
+							<key>beta</key>
+							<false/>
+
+							<key>apsEnv</key>
+							<string>production</string>
+
+							<key>accountStatusCode</key>
+							<integer>2</integer>
+
+							<key>url</key>
+							<string>https://p29-setup.icloud.com:443</string>
+
+							<key>iCloudEnv</key>
+							<string>PROD</string>
+
+						</dict>
+
+						<key>com.apple.Dataclass.Ubiquity</key>
+						<dict>
+							<key>authMechanism</key>
+							<string>token</string>
+
+							<key>wsUrl</key>
+							<string>https://p29-ubiquityws.icloud.com:443</string>
+
+							<key>apsEnv</key>
+							<string>production</string>
+
+							<key>url</key>
+							<string>https://p29-ubiquity.icloud.com:443</string>
+
+						</dict>
+
+						<key>com.apple.Dataclass.ShareLocation</key>
+						<dict>
+							<key>beta</key>
+							<false/>
+
+							<key>authMechanism</key>
+							<string>token</string>
+
+							<key>hostname</key>
+							<string>p29-fmf.icloud.com</string>
+
+							<key>apsEnv</key>
+							<string>Production</string>
+
+							<key>appHostname</key>
+							<string>p29-fmfmobile.icloud.com</string>
+
+						</dict>
+
+						<key>com.apple.Dataclass.Calendars</key>
+						<dict>
+							<key>protocol</key>
+							<string>dav</string>
+
+							<key>authMechanism</key>
+							<string>token</string>
+
+							<key>url</key>
+							<string>https://p29-caldav.icloud.com:443</string>
+
+							<key>beta</key>
+							<false/>
+
+						</dict>
+
+						<key>com.apple.Dataclass.Quota</key>
+						<dict>
+							<key>quotaInfoURL</key>
+							<string>https://p29-quota.icloud.com:443/quotaservice/external/osx/8078008707/getQuotaInfo</string>
+
+							<key>storagePlanURL</key>
+							<string>https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/presentOffers?appleId=$apple_id$&amp;dsid=$dsid$&amp;authToken=$MMeAuthToken$</string>
+
+							<key>storageInfoURL</key>
+							<string>https://p29-quota.icloud.com:443/quotaservice/external/osx/8078008707/storageUsageInfo</string>
+
+							<key>quotaUpdateURL</key>
+							<string>https://p29-quota.icloud.com:443/quotastatic/desktopclient/v2/index.html</string>
+
+						</dict>
+
+						<key>com.apple.Dataclass.Content</key>
+						<dict>
+							<key>url</key>
+							<string>https://p29-content.icloud.com:443</string>
+
+						</dict>
+
+						<key>com.apple.Dataclass.Availability</key>
+						<dict>
+							<key>authMechanism</key>
+							<string>token</string>
+
+							<key>apsEnv</key>
+							<string>production</string>
+
+							<key>url</key>
+							<string>https://p29-availability.icloud.com:443</string>
+
+						</dict>
+
+						<key>com.apple.Dataclass.Reminders</key>
+						<dict>
+							<key>protocol</key>
+							<string>dav</string>
+
+							<key>authMechanism</key>
+							<string>token</string>
+
+							<key>url</key>
+							<string>https://p29-caldav.icloud.com:443</string>
+
+							<key>beta</key>
+							<false/>
+
+						</dict>
+
+						<key>com.apple.Dataclass.MediaStream</key>
+						<dict>
+							<key>beta</key>
+							<false/>
+
+							<key>authMechanism</key>
+							<string>token</string>
+
+							<key>apsEnv</key>
+							<string>production</string>
+
+							<key>url</key>
+							<string>https://p29-streams.icloud.com:443</string>
+
+						</dict>
+
+						<key>com.apple.Dataclass.iwmb</key>
+						<dict>
+							<key>url</key>
+							<string>https://p29-iwmb.icloud.com:443</string>
+
+						</dict>
+
+						<key>availableFeatures</key>
+						<array>
+							<string>com.apple.Dataclass.Reminders</string>
+							<string>com.apple.Dataclass.iwmb</string>
+							<string>com.apple.Dataclass.CloudPhotos</string>
+							<string>com.apple.Dataclass.DeviceLocator</string>
+							<string>com.apple.Dataclass.CKDatabaseService</string>
+							<string>com.apple.Dataclass.KeychainSync</string>
+							<string>com.apple.Dataclass.Content</string>
+							<string>com.apple.Dataclass.ShareLocation</string>
+							<string>com.apple.Dataclass.Mail</string>
+							<string>com.apple.Dataclass.KeyValue</string>
+							<string>com.apple.Dataclass.Ubiquity</string>
+							<string>com.apple.Dataclass.Notes</string>
+							<string>com.apple.Dataclass.AccountSync</string>
+							<string>com.apple.Dataclass.MediaStream</string>
+							<string>com.apple.Dataclass.CKDeviceService</string>
+							<string>com.apple.Dataclass.BackToMyMac</string>
+							<string>com.apple.Dataclass.Contacts</string>
+							<string>com.apple.Dataclass.Bookmarks</string>
+							<string>com.apple.Dataclass.Calendars</string>
+							<string>com.apple.Dataclass.SharedStreams</string>
+							<string>com.apple.Dataclass.CKShareService</string>
+							<string>com.apple.Dataclass.Availability</string>
+						</array>
+
+						<key>com.apple.Dataclass.Bookmarks</key>
+						<dict>
+							<key>beta</key>
+							<false/>
+
+							<key>authMechanism</key>
+							<string>token</string>
+
+							<key>protocol</key>
+							<string>dav</string>
+
+							<key>apsEnv</key>
+							<string>production</string>
+
+							<key>url</key>
+							<string>https://p29-bookmarks.icloud.com:443</string>
+
+						</dict>
+
+						<key>com.apple.Dataclass.SharedStreams</key>
+						<dict>
+							<key>beta</key>
+							<false/>
+
+							<key>authMechanism</key>
+							<string>token</string>
+
+							<key>apsEnv</key>
+							<string>production</string>
+
+							<key>url</key>
+							<string>https://p29-sharedstreams.icloud.com:443</string>
+
+						</dict>
+
+						<key>com.apple.Dataclass.CKDatabaseService</key>
+						<dict>
+							<key>apsEnv</key>
+							<string>production</string>
+
+							<key>url</key>
+							<string>https://p29-ckdatabase.icloud.com:443</string>
+
+						</dict>
+
+						<key>com.apple.Dataclass.CloudPhotos</key>
+						<dict>
+						</dict>
+
+						<key>com.apple.Dataclass.CKDeviceService</key>
+						<dict>
+							<key>url</key>
+							<string>https://p29-ckdevice.icloud.com:443</string>
+
+						</dict>
+
+						<key>com.apple.Dataclass.Mail</key>
+						<dict>
+						</dict>
+
+						<key>com.apple.Dataclass.CKShareService</key>
+						<dict>
+							<key>url</key>
+							<string>https://p29-ckshare.icloud.com:443</string>
+
+						</dict>
+
+						<key>com.apple.Dataclass.KeychainSync</key>
+						<dict>
+							<key>authMechanism</key>
+							<string>token</string>
+
+							<key>escrowProxyUrl</key>
+							<string>https://p29-escrowproxy.icloud.com:443</string>
+
+						</dict>
+
+						<key>com.apple.Dataclass.KeyValue</key>
+						<dict>
+							<key>beta</key>
+							<false/>
+
+							<key>authMechanism</key>
+							<string>token</string>
+
+							<key>apsEnv</key>
+							<string>production</string>
+
+							<key>configURL</key>
+							<string>https://keyvalueservice.icloud.com:443/config</string>
+
+							<key>url</key>
+							<string>https://p29-keyvalueservice.icloud.com:443</string>
+
+						</dict>
+
+						<key>com.apple.Dataclass.Contacts</key>
+						<dict>
+							<key>protocol</key>
+							<string>dav</string>
+
+							<key>authMechanism</key>
+							<string>token</string>
+
+							<key>url</key>
+							<string>https://p29-contacts.icloud.com:443</string>
+
+							<key>beta</key>
+							<false/>
+
+						</dict>
+
+						<key>com.apple.Dataclass.Notes</key>
+						<dict>
+						</dict>
+
+						<key>com.apple.Dataclass.DeviceLocator</key>
+						<dict>
+							<key>authMechanism</key>
+							<string>token</string>
+
+							<key>hostname</key>
+							<string>p29-fmip.icloud.com</string>
+
+							<key>apsEnv</key>
+							<string>Production</string>
+
+							<key>url</key>
+							<string>https://p29-fmip.icloud.com:443</string>
+
+						</dict>
+
+					</dict>
+
+				</dict>
+
+				<key>status</key>
+				<integer>0</integer>
+
+			</dict>
+
+			<key>com.apple.ibooks</key>
+			<dict>
+				<key>service-data</key>
+				<dict>
+				</dict>
+
+				<key>status</key>
+				<string>2009</string>
+
+				<key>status-message</key>
+				<string>Account cannot be found in Partition Table</string>
+
+			</dict>
+
+		</dict>
+
+	</dict>
+</plist>

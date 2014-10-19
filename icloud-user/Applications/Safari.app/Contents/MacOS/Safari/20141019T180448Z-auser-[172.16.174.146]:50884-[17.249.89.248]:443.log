@@ -1,0 +1,20 @@
+GET /search?q=www.appl&locale=en-US&key=andromeda&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: []
+Accept: */*
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: ["w","www","www.","ww"]
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 18:04:48 GMT
+Content-Length: 1716
+Connection: close
+
+[{"status":"OK","query":"apple.com","prefix":"www.appl","completion_score":89899.00197292812,"fbq":"eyJ1IjoiIiwicCI6Ind3dy5hcHBsIiwicSI6ImFwcGxlLmNvbSIsInRzIjoxNDEzNzQxODg4LCJnIjoidXMvaWxsaW5vaXMvY29vay9jaGljYWdvIiwiYSI6InNhZmFyaSIsImQiOiJtYWMiLCJsIjoiZW5fVVMiLCJpIjoiMTQzNDQxLTEsMjEiLCJjIjoiNDEuODY0MywtODcuNjQ1IiwiZWN2IjowLCJjY3YiOjB9","results":[{"type":"web_suggest","id":"wb:http://apple.com","score":6,"fbr":"eyJkIjoid2ViX3N1Z2dlc3QiLCJyIjoid2I6aHR0cDovL2FwcGxlLmNvbSJ9","url":"http://apple.com","report_problem_url":"","filtered":false,"tophit":1,"engagement_score":0,"qi_engagement_score":0,"hide_rank":15,"template":"simple","completion":"http://apple.com","completion_icon":{"content_type":"image/png","data":"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA9klEQVR42rWToRJFUBCGPZ0gCIIgCIIgCIIgCh5A8ACCIAqCIIiCIAii6CX2zr8zzJk7e+4YM/fMfOEcu//unvMzjIfrOA4y3qx1XcnzPErT9J0Akh3HobZt6VV1y7KeJ5/nSXmec0XXdanrOlqWhQXCMKQoimgcR70YAkzT5JmDILjBuYqYjEpXMoKSJGHiOL7Bfts2WaCua54XFdUklbIs9e1XVUW2bd+zShRFoReYpokFpJkvID7PM2mdhjvwfZ8DdeD7MAyyCFpEgPoCEvu+ywK4YXgALwEhiaZpfpuq73sWAFmWsbGu1rF//OfBF98+Mf6xPubJGQjZ8dI7AAAAAElFTkSuQmCC"},"section_header":"Suggested Website","title":"apple.com","title_maxlines":1,"description":"— Apple","description_follows_title":true,"icon":{"content_type":"image/png","data":"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA9klEQVR42rWToRJFUBCGPZ0gCIIgCIIgCIIgCh5A8ACCIAqCIIiCIAii6CX2zr8zzJk7e+4YM/fMfOEcu//unvMzjIfrOA4y3qx1XcnzPErT9J0Akh3HobZt6VV1y7KeJ5/nSXmec0XXdanrOlqWhQXCMKQoimgcR70YAkzT5JmDILjBuYqYjEpXMoKSJGHiOL7Bfts2WaCua54XFdUklbIs9e1XVUW2bd+zShRFoReYpokFpJkvID7PM2mdhjvwfZ8DdeD7MAyyCFpEgPoCEvu+ywK4YXgALwEhiaZpfpuq73sWAFmWsbGu1rF//OfBF98+Mf6xPubJGQjZ8dI7AAAAAElFTkSuQmCC"}}]}]

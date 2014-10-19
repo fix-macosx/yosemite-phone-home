@@ -1,0 +1,22 @@
+GET /ac/?q=1984+e&type=list HTTP/1.1
+Host: duckduckgo.com
+Accept: */*
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 08:16:36 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Expires: Sun, 19 Oct 2014 08:16:35 GMT
+Cache-Control: no-cache
+Cache-Control: no-cache
+
+eb
+["1984 e",["1984 el camino for sale","1984 eldorado convertible","1984 election results","1984 el camino","1984 eldorado biarritz","1984 events in history","1984 electoral map","1984 el camino ss","1984 el camino parts","1984 ending"]]
+0
+

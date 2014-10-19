@@ -1,0 +1,23 @@
+GET /y.js?x=1&q=macports&l=us-en&a=osx&safe=1 HTTP/1.1
+Host: duckduckgo.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 08:03:10 GMT
+Content-Type: application/x-javascript; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Expires: Sun, 19 Oct 2014 08:03:09 GMT
+Cache-Control: no-cache
+Cache-Control: no-cache
+
+465
+if (nrn) nrn('a',[{"a":"<b>Mac</b> <b>Port's</b> Results May Include Contact, Arrest Records & More","d":"BeenVerified.com/Mac","m":0,"s":"yahoo","p":1,"c":"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F41002546.r.msn.com%2F%3Fld%3DDvelRoQcDtG3QYbT1d1r4KuzVUCUyIhdvRgnuZeY0rUN3NgrwBUV4Gxt8fcWwl8a%2DlhCFwo8Ae3w6o9%2DxKZDocujvZfyqee9_1bE%2DVCtYzszoho5PuTprnFnSMjAohAKQTuluMMQ%26u%3Dstatsgt3.com%252fbase.php%253fc%253d176%2526key%253d049d56093390c7207dabd917d0786576%2526keyword%253dmac%2Bport%2526ad%253d1%2526query%253dmacports%2526fn%253dmac%2526ln%253dport","u":"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F41002546.r.msn.com%2F%3Fld%3DDvelRoQcDtG3QYbT1d1r4KuzVUCUyIhdvRgnuZeY0rUN3NgrwBUV4Gxt8fcWwl8a%2DlhCFwo8Ae3w6o9%2DxKZDocujvZfyqee9_1bE%2DVCtYzszoho5PuTprnFnSMjAohAKQTuluMMQ%26u%3Dstatsgt3.com%252fbase.php%253fc%253d176%2526key%253d049d56093390c7207dabd917d0786576%2526keyword%253dmac%2Bport%2526ad%253d1%2526query%253dmacports%2526fn%253dmac%2526ln%253dport","h":0,"k":0,"i":"https://s.yimg.com/pp/favicons-new/16x16_100_yVUGActvfgC-j19Yvj66fw.png","t":"<b>Mac</b> <b>Port</b> (Found)","o":""}]);
+0
+

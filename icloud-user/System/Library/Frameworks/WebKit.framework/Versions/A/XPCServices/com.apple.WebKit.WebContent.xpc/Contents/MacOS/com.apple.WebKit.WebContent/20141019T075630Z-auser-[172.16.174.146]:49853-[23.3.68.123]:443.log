@@ -1,0 +1,28 @@
+GET /rsrc.php/v2/yb/r/FABymIPh-AJ.js HTTP/1.1
+Host: fbstatic-a.akamaihd.net
+Origin: https://www.facebook.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+Accept-Language: en-us
+Referer: https://www.facebook.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Content-Type: application/x-javascript; charset=utf-8
+Last-Modified: Mon, 01 Jan 2001 08:00:00 GMT
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Content-MD5: TR3toLt5H9e6yXuVhsTKEA==
+X-FB-Debug: rE2+u6bQOrT1jcQ+iRsCTCQz28h93lUPRY1OpiXjmFM=
+Cache-Control: public, max-age=19014255
+Expires: Wed, 27 May 2015 09:40:45 GMT
+Date: Sun, 19 Oct 2014 07:56:30 GMT
+Content-Length: 1013
+Connection: close
+
+/*!CK:1638705999!*//*1401183673,178187583*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["AWb\/8"]); }
+
+__d("RegistrationInterstitialCaptcha",["CSS","DOM","Input","$"],function(a,b,c,d,e,f,g,h,i,j){var k={havePermission:false,linkContainerID:'add_parent_link_container',emailFieldContainerID:'parent_email_field_container',emailFieldID:'parent_email_field',show:function(){var l=j('reg_pc'),m=j('reg_box'),n=j('reg_captcha'),o=j('reg_error'),p=j('tos_container'),q=j('security_check_header'),r=j('kid_captcha_container');h.setContent(j('content'),m);r.appendChild(n);l.appendChild(p);l.appendChild(o);g.hide(q);g.hide(j('captcha_buttons'));g.show(l);},toggleAddParent:function(){var l=j(this.linkContainerID),m=j(this.emailFieldContainerID);if(!this.havePermission){g.show(l);}else{g.hide(l);g.hide(m);}this.havePermission=!this.havePermission;},showEmailField:function(l){i.setPlaceholder(j(this.emailFieldID),l);g.show(j(this.emailFieldContainerID));g.hide(j(this.linkContainerID));}};e.exports=k;},null);

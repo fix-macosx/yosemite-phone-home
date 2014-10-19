@@ -1,0 +1,26 @@
+POST /setup/ck/v1/ckAppInit?container=com.apple.CallHistory HTTP/1.1
+Host: setup.icloud.com
+X-Apple-Request-UUID: 1459CCB0-1862-4E19-BF4A-DDDA1BEB6FFB
+Content-Encoding: gzip
+Authorization: Basic ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+X-CloudKit-ContainerId: com.apple.CallHistory
+X-CloudKit-ProtocolVersion: client=1;comments=1;device=1;presence=1;records=1;sharing=1;subscriptions=1;users=1;mescal=1;
+X-MMe-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.cloudkit.CloudKitDaemon/259.2.3 (com.apple.cloudd/259.2.3)>
+Cache-Control: no-transform
+X-CloudKit-BundleId: com.apple.callhistory.sync-helper
+Accept-Encoding: gzip
+Accept-Language: en-us
+User-Agent: CloudKit/259.2.3 (14A389)
+Content-Length: 0
+Connection: keep-alive
+Accept: application/x-protobuf
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:26:40 GMT
+X-Apple-Request-UUID: 1459CCB0-1862-4E19-BF4A-DDDA1BEB6FFB
+X-Responding-Instance: setupservice:32400104:mr11p24ic-ztav081539:8004:14G54:156781
+Cache-Control: no-cache, no-store, private
+Content-Type: application/json; charset=UTF-8
+Content-Length: 582
+
+{"cloudKitDeviceUrl":"https://p24-ckdevice.icloud.com:443","cloudKitDatabaseUrl":"https://p24-ckdatabase.icloud.com:443","values":[{"name":"com.apple.CallHistory","env":"sandbox","ckDeviceUrl":"https://p24-ckdevice.icloud.com:443/api/client","url":"https://p24-ckdatabase.icloud.com:443/api/client"},{"name":"com.apple.CallHistory","env":"production","ckDeviceUrl":"https://p24-ckdevice.icloud.com:443/api/client","url":"https://p24-ckdatabase.icloud.com:443/api/client"}],"cloudKitShareUrl":"https://p24-ckshare.icloud.com:443","cloudKitUserId":"_2759ac8a59f9ee46edd39777c9fc611e"}

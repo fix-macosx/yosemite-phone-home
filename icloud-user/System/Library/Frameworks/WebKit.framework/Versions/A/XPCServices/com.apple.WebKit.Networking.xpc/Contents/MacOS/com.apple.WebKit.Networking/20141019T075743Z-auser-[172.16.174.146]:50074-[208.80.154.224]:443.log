@@ -1,0 +1,32 @@
+GET /wiki/Special:CentralAutoLogin/checkLoggedIn?type=script&wikiid=enwiki&proto=https&return=1&returnto=Category+theory HTTP/1.1
+Host: login.wikimedia.org
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Category+theory&error=&fromhttp=1
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: nginx/1.1.19
+Date: Sun, 19 Oct 2014 07:57:43 GMT
+Content-Type: text/javascript; charset=utf-8
+Transfer-Encoding: chunked
+Connection: close
+X-Content-Type-Options: nosniff
+P3P: CP="This is not a P3P policy! See http://login.wikimedia.org/wiki/Special:CentralAutoLogin/P3P for more info."
+Vary: Accept-Encoding,Cookie,X-Use-HHVM
+X-Varnish: 4008986700, 966773130
+Via: 1.1 varnish, 1.1 varnish
+Age: 0
+X-Cache: cp1068 miss (0), cp1053 frontend miss (0)
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate
+X-Analytics: php=zend
+Set-Cookie: GeoIP=US:San_Antonio:29.4889:-98.3987:v4; Path=/; Domain=.wikimedia.org
+
+156
+/* Not centrally logged in */
+var t=new Date();t.setTime(t.getTime()+86400000);if('localStorage'in window&&window.localStorage){localStorage.setItem('CentralAuthAnon',t.getTime());}else{document.cookie='CentralAuthAnon=1; expires='+t.toGMTString()+'; path=/';}
+/* cache key: loginwiki:centralauth:minify-js:5bc41e99179ba40a7c116ec8295e74e4 */
+0
+

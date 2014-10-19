@@ -1,0 +1,73 @@
+GET /config?service-id=iOS HTTP/1.1
+Host: keyvalueservice.icloud.com
+X-Apple-Request-UUID: 974D688D-4B9E-4DD0-B9D2-19BE9F19B337
+X-MMe-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.SyncedDefaults/212>
+Accept: */*
+User-Agent: SyncedDefaults/212 (Mac OS X 10.10 (14A389))
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:23:31 GMT
+X-Apple-Request-UUID: 974D688D-4B9E-4DD0-B9D2-19BE9F19B337
+X-Responding-Instance: keyvalueservice:32600602:mr11p26ic-hpaf06152001:8002:14G54:155647
+Cache-Control: max-age=14400
+Transfer-Encoding: chunked
+
+71a
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>maxAppsPerSync</key>
+        <integer>10</integer>
+        <key>syncLimitInterval</key>
+        <integer>90</integer>
+        <key>apnsTokenTTL</key>
+        <integer>86400</integer>
+        <key>appSoftSyncInterval</key>
+        <integer>86400</integer>
+        <key>appHardSyncInterval</key>
+        <integer>14400</integer>
+        <key>syncLimitCount</key>
+        <integer>15</integer>
+        <key>appSyncLimitCount</key>
+        <integer>15</integer>
+        <key>appBlackListedRetryInterval</key>
+        <integer>86400</integer>
+        <key>configurationTTL</key>
+        <integer>86400</integer>
+        <key>appAutostopInterval</key>
+        <integer>864000</integer>
+        <key>devAppSyncLimitInterval</key>
+        <integer>90</integer>
+        <key>timestamp</key>
+        <integer>1413703411348</integer>
+        <key>appSyncLimitInterval</key>
+        <integer>90</integer>
+        <key>maxKeyDataSum</key>
+        <integer>1048576</integer>
+        <key>appMiscErrorRetryInterval</key>
+        <integer>3600</integer>
+        <key>maxKeyNameLen</key>
+        <integer>64</integer>
+        <key>maxKeyDataLen</key>
+        <integer>1048576</integer>
+        <key>http4xxErrorRetryInterval</key>
+        <integer>3600</integer>
+        <key>status</key>
+        <integer>0</integer>
+        <key>maxKeyCount</key>
+        <integer>1024</integer>
+        <key>appNotWhiteListedRetryInterval</key>
+        <integer>1800</integer>
+        <key>devAppSyncLimitCount</key>
+        <integer>30</integer>
+        <key>http5xxErrorRetryInterval</key>
+        <integer>120</integer>
+    </dict>
+</plist>
+
+0
+

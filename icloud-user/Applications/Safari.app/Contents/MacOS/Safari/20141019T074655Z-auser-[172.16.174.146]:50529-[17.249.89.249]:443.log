@@ -1,0 +1,21 @@
+GET /search?q=If%20I%20set%20my%20search%20engine%20to%20DuckDuckG&locale=en-US&key=andromeda&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+Accept: */*
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: ["i:903186503","w:If+I+See+You+in+My+Dreams"]
+X-Apple-UserGuid: 4cbc0ebe-227a-4677-6ded-7bde4c47fd42
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: ["If I set my searc","If I set my search engine to Du","If I set my search engine to DuckD","If I set my ","If I set my search engine to DuckDuc","If I set","If I set my search e","If I set my search engine to DuckDu","If I set my search eng","If I stay","If I set my sear","If I set my search engi","If I set ","If I set my s","If I set my search ","If I set my search engine to DuckDuck","If I set my","If I set my search","If I set my sea","If I set my search engine","If I set my search engine ","If I set my search engine to ","If I set my search engine to Duck","If ","If I set my search engine to","If I see you in my dreams","If I set my search engine t","If I set my search engine to D","If I set my search en","If I set my se","I","If I set my search engin","If I set m"]
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 07:46:55 GMT
+Content-Length: 524
+Connection: close
+
+[{"status":"NO_RESULTS","query":"If I set my search engine to DuckDuckG","prefix":"If I set my search engine to DuckDuckG","completion_score":389999,"fbq":"eyJ1IjoiNGNiYzBlYmUtMjI3YS00Njc3LTZkZWQtN2JkZTRjNDdmZDQyIiwicCI6IklmIEkgc2V0IG15IHNlYXJjaCBlbmdpbmUgdG8gRHVja0R1Y2tHIiwicSI6IklmIEkgc2V0IG15IHNlYXJjaCBlbmdpbmUgdG8gRHVja0R1Y2tHIiwidHMiOjE0MTM3MDQ4MTUsImciOiJ1cy9pbGxpbm9pcy9jb29rL2NoaWNhZ28iLCJhIjoic2FmYXJpIiwiZCI6Im1hYyIsImwiOiJlbl9VUyIsImkiOiIxNDM0NDEtMSwyMSIsImMiOiI0MS44NjQzLC04Ny42NDUiLCJlY3YiOjAsImNjdiI6MH0="}]

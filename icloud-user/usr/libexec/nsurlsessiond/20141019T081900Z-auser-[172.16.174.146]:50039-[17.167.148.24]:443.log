@@ -1,0 +1,50 @@
+POST /8078008707/authorizePut HTTP/1.1
+Host: p29-content.icloud.com:443
+x-apple-mmcs-dataclass: com.apple.Dataclass.CloudKit
+x-apple-mmcs-auth: 01cfdcb286adcda8939b67c202b1d1f77fd3bfd7ca 01493fb089cf0a6537afd05d4c8a0dfafe526906c6 5262 Ba7wBdXi_s5dAwiBJg
+x-apple-request-uuid: 2631CAD9-6B8F-418E-9174-495F6D0565A6
+x-apple-mme-dsid: 8078008707
+Accept: application/vnd.com.apple.me.ubchunk+protobuf
+X-CloudKit-Container: com.apple.clouddocs
+x-mme-client-info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.icloud.content/320 (com.apple.CloudKit/(null))>
+X-CloudKit-Zones: com.apple.CloudDocs.container-metadata
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Length: 617
+User-Agent: cloudd/259.2.3 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Connection: keep-alive
+x-apple-mmcs-proto-version: 4.0
+Content-Type: application/vnd.com.apple.me.ubchunk+protobuf
+
+
+y
+ÏÜ²†­Í¨“›gÂ±Ñ÷Ó¿×ÊBa7wBdXi_s5dAwiBJg5
+Œ}€*4mP'ª/)ÌfØA
+l1‹"ÓœÆœ	FUs8¨iÅ‘B|)"I?°‰Ï
+e7¯Ğ]LŠúşRiÆ
+y
+ò8-‡‘Ã*ˆSF~qÌŒ¨ØÿMBXsnm0TywCxfAwiBJg5
+)PûCD‘w+å0©ªªÌ·Ï¿Óì"RHîsÃ™)§]¼r784KÇ3¬0Ø"’Ì:²3'ÓÃ'÷Ìš’mÓ\
+z
+°D–¡v¸øp+”Ğ	Tì·)‡Bex1yDokCrx8AwiBJg6
+»B-w§Ä'µa¡NQóè½-lGD™ùóO‰<Ù7'gEÜà¢fµVOÀLµ„"ÏP./¹ÖÕŒœ¿(æ5¥b
+y
+UÒ¬roˆ¿ßeqò}EÄèĞUBQYyOs_4dmzqAwiBJg5
+_iNV"nä¥óDt.¢ğŠ8(:ÒY_kpe³T-Íã§®(."Ñ‘"ßÍ¤)¢tPûŞu[°ª!MVY
+z
+¾Ğ&"?èz0©5ArO:nqÿ:âBVLa6o0CRLcOAwiBJg6
+Áï:¢;tş¾çH*Fh¬”Nô`uà´›rñ¤>ìñØ¨{,Õ“I™GPĞ"®ŞÃdäm“’Ş”Ú‹¼y^ÑÆ§×HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 08:19:00 GMT
+X-Apple-Request-UUID: 2631CAD9-6B8F-418E-9174-495F6D0565A6
+x-apple-mmcs-proto-version: 4.0
+X-Responding-Instance: content.12900505.st13p29ic-hpaf17231601:8005.14G54
+Content-Type: application/vnd.com.apple.me.mmcs+protobuf
+Content-Length: 342
+
+"B
+ÏÜ²†­Í¨“›gÂ±Ñ÷Ó¿×ÊA61/jnlFEMS+MIEm"I?°‰Ï
+e7¯Ğ]LŠúşRiÆ"B
+ò8-‡‘Ã*ˆSF~qÌŒ¨ØÿMA49GDULpVnZaMIEm"’Ì:²3'ÓÃ'÷Ìš’mÓ\"B
+°D–¡v¸øp+”Ğ	Tì·)‡AwvVU8sVDEnYMIEm"ÏP./¹ÖÕŒœ¿(æ5¥b"B
+UÒ¬roˆ¿ßeqò}EÄèĞUA7yaP4nOetnJMIEm"ßÍ¤)¢tPûŞu[°ª!MVY"B
+¾Ğ&"?èz0©5ArO:nqÿ:âA0D3Y+PJOdcbMIEm"®ŞÃdäm“’Ş”Ú‹¼y^ÑÆ§×

@@ -1,0 +1,22 @@
+GET /configurations/macosx/ichat/1/snatmap.txt HTTP/1.1
+Host: configuration.apple.com
+Accept: */*
+Accept-Language: en-us
+Connection: keep-alive
+Accept-Encoding: gzip, deflate
+User-Agent: Messages/4725 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+
+HTTP/1.1 200 OK
+Last-Modified: Fri, 17 Oct 2014 02:06:06 GMT
+ETag: "20-50594cec6ff80"
+Server: Apache
+Accept-Ranges: bytes
+Content-Length: 32
+Content-Type: text/plain
+Content-Language: en-us
+Cache-Control: max-age=4
+Expires: Sun, 19 Oct 2014 07:35:47 GMT
+Date: Sun, 19 Oct 2014 07:35:43 GMT
+Connection: close
+
+snatmap://snatmap.apple.com:5678

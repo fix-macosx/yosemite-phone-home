@@ -1,0 +1,43 @@
+POST /WebObjects/MZPlay.woa/wa/signSapSetup HTTP/1.1
+Host: play.itunes.apple.com
+Content-Type: application/x-www-form-urlencoded
+Connection: keep-alive
+Accept: */*
+User-Agent: Safari/10600.1.25 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Accept-Language: en-us
+Content-Length: 725
+Accept-Encoding: gzip, deflate
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>sign-sap-setup-buffer</key>
+	<data>
+	AQhKdD/RkztjkKEBoHLHG1JM/bFgeLVguLqJCezyK35Gi5362sQrBn0Gg8YU4Mm6xq/a
+	jeLxvI8+bfOAQ702ygJqdGuXu4ELo+DflrrWI/kivyPqdyww/XSPMYqwnymaqDCD8B8A
+	ik1FNZesKIPVwx6uxlXztNwsfsmQHH5OYLAioR3fkVsJEQzRy6RTUwWpDL+SbIjdgO/W
+	vhB23M2P1LIGo2ClrXMypv8I1iM32SdKYiKU96vv9izZm3/kVtBNPnM+WVUZ/di/Vs5i
+	fSodZ/pxNuVzFIL6rsBpAZpdPBasqZGIaXTpW1pvDVrsvIuLFyf747AwucREfFyWTGFP
+	XuelAI6DgFFtDjg5Dw5nsBknRpGix4RJ/jDeAAAAMPqOS7g0bYQSatiZcw0NDPfdqnAG
+	bSSrO3KGjrSxvwzPcR3Vfky7VGZthkcPMJbgDppJq/h0XX+zLWWBQwtLX8pwRwDp
+	</data>
+</dict>
+</plist>
+HTTP/1.0 200 Apple WebObjects
+x-apple-jingle-correlation-key: YRF6VTAU6B276
+apple-timing-app: 14 ms
+x-apple-application-instance: 2802
+x-apple-application-site: NWK
+x-webobjects-loadaverage: 0
+content-type: text/xml; charset=UTF-8
+connection: keep-alive
+content-length: 1983
+Date: Sun, 19 Oct 2014 07:56:19 GMT
+
+<plist>
+<dict>
+<key>sign-sap-setup-buffer</key>
+<data>ArTjoTxkg9bmJfgKUMZcfsgAAATgUeSrITqvmZbUxLP0qefpDc8t1PXDbvmamoTxuuMOMBZsThsU5pyI2fY/20EODq73XwgJjJfrj1I3Am2KYtBEgbC14Upd6b8wQoYGTWCBXRCH12duPEFytJUrRDWzpleO6ZiDzBqlVZ3H0CcSvFpI6g1UxWPTZ4UuvKzSyo3+YEMlTKI8jOL+iEtS3UPMTGeewn7aylny0MF1LadowWElFCV7SEZLzTyNPAZLHZLpi1C9uM7T2SpT1Gcme9AnXysBoeKROnvWpEXm9LJ7gGFuYWPY90a0qhszniKL4WZIYONN3qBAsnxnVwKMtqlbaUzXZAr+qc9fSwVh0HFnkxEIZTvPcdFrUpm23tG2YaYsal51VJ/ZNuEDvzUW5PCRUwn9PBJmgjiP7FIqrSIb+L5FZQbZ6VroEoyiWMNMg08IGgwBT9cKVX9M3C0jeQpnRfmU4gzi8q0IiyPxdG672VfEOwmn3iMWbBEZmYpim0RJaMz6aBCrbpNu72c1uT/X/qqVrLCJYm96qilxh+bCegzzAGqoTSeQhkCY2HH8AY4iDXSFTWFDuwRQ7ZnEEE1ELuAq4XXGzSTdOQO4x6nx1orQcj/1iUBAEKJVg8kjnhjW846Xok4ef0Nn2E1+xJUeX+13kSZfngjhGVRmdDaMTiqwNQF8la+6iCRfwtO81fLj2PSlw1tymXXmpX+FQDdxGUqXA82uPRrt07DmciL1kAg3BGW3BZiOUVVlwNk+bRlbmUOOWcIn3Et8aYfkl1N8kSc4kApoZyGurBBGdLiRXHHb/aqjOjiJcFx/GgwUeWdyR1SOObllAyqhfFajS0HEAGgD9Y6JUdVmmkvMMUjpLIuL7XW5SB/uS72FCz9sdSRXegqyhzXqB0Esk7P4YaXIELaIwTCPOB6oj0bKi4LUJpitKg9b6KKXS4B09bj4SRR+APRx5QGbr3EyGyE49WBk5aAYKQ6t1kAlndcjbhuq9ZX077U/4FWa2u5X357p1mPpItPYk4emWcSvt8i66tCyZxO2/x/jGvv6aPSt9krHu5g5QrBBsJeVAuYOc80ChCFdXaLI8oAIRSY2y34gsLRWFWyqhi4evW5i2ddtExzVpeltq7iov65gjbD5gRf+q0OiFgGNMbf+66kuD/GDU8UYExjOKsGDmVsT+0WbVFEpZIYMtcUbFr8XhT8GOIBEkxBZbI2XLk5Ac/O00NIAuacNQPvn6eBG/ZumkcC6tt6wpu0Nk2objexLM4+bOOedF1UpBbSj9h2kKRoIqho5pOGH8kmSaa8vHAB2voCfHbGEgsfc/8DTElC4sInRv2GwOJi6JnG2kKyA6/SzO95Q7P0pm5ls511Fzpjn54E3uxWz/uZUrJdxC9QLj/Dfef3cOEGNChO4BNcU9JHHCjZfY4+0boDHNjx6oOnc6wEQm4ZrBokE0GlL3qKVLbUC3ea+QbNg7Aa5MumdJ8lbpiV5uqWQpoaU60dkMcrjH29nmjI0Z76zd2x0LIgCf4KUzkJQ3P9MJdZJvuRHYslL42idw4nbzfiPw3DPGwrC1P9dKzEMsz76O2UQmMwmdJsnOqC2v+BVElj/v18XhVg0RKrMzb2RitxI+xN99neCKX20sAURjTMc54N+WBNm7Orqx2vyDyif4FxftKjaQfzgKx0m7PEV/YMSASfwgUEpJ1rWAXz9pXGaixINOfNUAAAAhgcBOfLcQiNnNR/0vL9jh64PU1RDbqOC3oe5OtQ3yOlwIs5QnQ9kBqb3I6bApT5vkA8rU5QzOUGibB26ZcAdxNMZ93jkMhugMJbTU3QWjqIm3B6PsuriruTXXUcGzFdYhFHrMitycOLqM9IIGG3hUdvYjM9jUe8TRn6tWaR2Dr7G93YQnGbk</data>
+</dict>
+</plist>

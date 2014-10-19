@@ -1,0 +1,346 @@
+GET /install.php HTTP/1.1
+Host: www.macports.org
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://www.macports.org/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 08:09:52 GMT
+Server: Apache/2.2
+X-Powered-By: PHP/5.3.3
+Strict-Transport-Security: max-age=15768000
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xhtml+xml; charset=utf-8
+
+2583
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+    <head>
+        <title>The MacPorts Project -- Download &amp; Installation</title>
+        <meta name="author" content="Jim Mock (mij@macports.org)" />
+        <meta name="author" content="Juan Manuel Palacios (jmpp@macports.org)" />
+        <meta name="author" content="Chris Pickel (sfiera@macports.org)" />
+        <meta name="copyright" content="2003, OpenDarwin" />
+        <meta name="copyright" content="2007, The MacPorts Project" />
+        <meta name="description" content="The MacPorts Project is an open-source community initiative to design an easy-to-use
+        system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on the Mac
+        OS X operating system." />
+        <meta name="verify-v1" content="Gx4BI7CyPR+VN1q1Ckc6dcbuLF5NQGUaKEcm1Y/TFlY=" />
+        <meta name="robots" content="all" />
+        <link rel="stylesheet" type="text/css" href="macports.css" />
+        <script type="text/javascript" src="mootools.v1.11.js"></script>
+        <script type="text/javascript" src="language.js"></script>
+    </head>
+
+
+    <body>
+
+        <h1><a href="http://www.macports.org/" title="The MacPorts Project"><span class="accessibility">The MacPorts Project
+        </span></a></h1>
+
+        <p class="accessibility"><a href="#content">Skip to Content</a></p>
+
+
+        <div id="header">
+
+            <a id="download" href="install.php"><span class="accessibility">Download MacPorts</span></a>
+<!--
+            <span class="accessibility">View site in</span>
+            <span><a href="#" id="language"><img src="img/en-enabled.png" alt="English" /></a></span>
+            <span id="languages">
+                <a href="#"><img src="img/fr-disabled.png" alt="Fran&#xE7;ais" /></a>
+                <a href="#"><img src="img/es-disabled.png" alt="Espa&#xF1;ol" /></a>
+                <a href="#"><img src="img/ru-disabled.png" alt="&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;&#160;(Russkij)"/></a>
+                <a href="#"><img src="img/it-disabled.png" alt="Italiano" /></a>
+            </span>
+-->
+        </div>
+
+
+        <div id="navigation">
+
+            <dl>
+                <dt>Getting Started</dt>
+                <dd>
+                    <ul>
+<li><a href="index.php" title="Home">Home</a></li>
+<li class="selected"><a href="install.php" title="Installing MacPorts">Installing MacPorts</a></li>
+<li><a href="ports.php" title="Available Ports">Available Ports</a></li>
+<li><a href="https://guide.macports.org/" title="Documentation">Documentation</a></li>
+<li><a href="https://trac.macports.org/" title="Support &amp; Development">Support &amp; Development</a></li>
+<li><a href="contact.php" title="Contact Us">Contact Us</a></li>
+<li><a href="https://trac.macports.org/news/" title="News">News</a></li>
+                    </ul>
+                </dd>
+                <dt>Shortcuts</dt>
+                <dd>
+                    <ul>
+<li><a href="https://distfiles.macports.org/MacPorts/" title="Available Downloads">Available Downloads</a></li>
+<li><a href="https://trac.macports.org/wiki/FAQ" title="MacPorts FAQ">MacPorts FAQ</a></li>
+<li><a href="https://trac.macports.org/newticket" title="Report a Bug">Report a Bug</a></li>
+<li><a href="https://guide.macports.org/#project.tickets" title="Bug reporting Guidelines">Bug reporting Guidelines</a></li>
+<li><a href="https://svn.macports.org/repository/macports/" title="Subversion Repository">Subversion Repository</a></li>
+<li><a href="https://trac.macports.org/wiki/MacPortsDevelopers" title="MacPorts Team">MacPorts Team</a></li>
+<li><a href="https://guide.macports.org/#project.membership" title="Becoming a Member">Becoming a Member</a></li>
+<li><a href="http://www.macosforge.org/" title="Mac OS Forge">Mac OS Forge</a></li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+
+
+
+
+<div id="content">
+
+    <h2 class="hdr" id="quickstart">Quickstart</h2>
+
+    <ol>
+        <li>Install <a href="http://guide.macports.org/#installing.xcode">Xcode and the Xcode Command Line Tools</a></li>
+        <li>Agree to Xcode license in Terminal: <code>sudo xcodebuild -license</code></li>
+        <li>Install MacPorts for your version of OS X:
+            <ul>
+                <li><a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.10-Yosemite.pkg"    >OS X 10.10 Yosemite</a></li>
+                <li><a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.9-Mavericks.pkg"    >OS X 10.9 Mavericks</a></li>
+                <li><a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.8-MountainLion.pkg" >OS X 10.8 Mountain Lion</a></li>
+                <li><a href="#installing">Older OS? See here.</a></li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2 class="hdr" id="installing">Installing MacPorts</h2>
+
+    <p>MacPorts version 2.3.2 is available in various formats for download and installation (note, if you are upgrading your Mac OS X to a new major release, see the <a href="https://trac.macports.org/wiki/Migration">migration info page</a>):
+    </p>
+
+    <ul>
+        <li>&#8220;pkg&#8221; installers for
+        <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.10-Yosemite.pkg">Yosemite</a>,
+        <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.9-Mavericks.pkg">Mavericks</a> and
+        <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.8-MountainLion.pkg">Mountain Lion</a>,
+        for use with the Mac OS X Installer.
+        This is the simplest installation
+        procedure that most users should <a href="#pkg">follow</a> after meeting the requirements listed <a href="#requirements">
+        below</a>. Installers for legacy platforms <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.7-Lion.pkg">Lion</a>, <a
+        href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.6-SnowLeopard.pkg">Snow Leopard</a>, <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.5-Leopard.dmg">Leopard</a>
+        and <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.4-Tiger.dmg">Tiger</a> are
+        also available.</li>
+        <li>In <a href="#source">source form</a> as either a <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2.tar.bz2">tar.bz2</a> package or a
+        <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2.tar.gz">tar.gz</a> one for manual compilation, if you intend to customize your installation
+        in any way.</li>
+        <li><a href="#svn">SVN checkout</a> of the unpackaged sources, if you wish to follow MacPorts development.</li>
+        <li>The <a href="#selfupdate">selfupdate</a> target of the <kbd>port(1)</kbd> command, for users who already have
+        MacPorts installed and wish to upgrade to a newer release.</li>
+    </ul>
+
+    <p>Checksums for our packaged <a href="https://distfiles.macports.org/MacPorts/">downloads</a> are contained in the corresponding <a
+    href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2.chk.txt">checksums file</a>.</p>
+
+
+    <div id="requirements">
+
+        <p>Please note that in order to install and run MacPorts on Mac OS X, your system must have installations of the following
+        components:</p>
+
+        <ol>
+            <li>Apple's <a href="https://developer.apple.com/technologies/tools/">Xcode</a> Developer Tools (version 6.1 or later for Yosemite,
+            5.0.1 or later for Mavericks, 4.4 or later for Mountain Lion,
+            4.1 or later for Lion, 3.2 or later for
+            Snow Leopard, or 3.1 or later for Leopard), found at the <a href="https://developer.apple.com/downloads/">Apple Developer</a>
+            site, on your Mac OS X installation CDs/DVD, or in the Mac App Store. Using the latest available version that will run on your
+            OS is highly recommended.</li>
+            <li>Apple's Command Line Developer Tools are found at the <a href="https://developer.apple.com/downloads/">Apple Developer</a> site,
+            or they can be installed from within Xcode 4.  Users of Xcode 3 or earlier can install this by ensuring that the appropriate
+            option(s) are selected at the time of Xcode's install ("UNIX Development", "System Tools", "Command Line Tools", or
+            "Command Line Support").</li>
+            <li>Xcode 4 and later users need to first accept the Xcode EULA by either launching Xcode or running:
+            <pre>xcodebuild -license</pre>
+            </li>
+            <li>(Optional) The X11 windowing environment for ports that depend on the functionality it provides to run.  You have
+            multiple choices for an X11 server:
+                <ul>
+                    <li>Apple's X11.app is provided by the &#8220;X11 User&#8221; package (an optional installation on your system CDs/DVD for
+                    older OS Versions and provided unconditionally on Lion).</li>
+                    <li>Install the xorg-server port from MacPorts.</li>
+                    <li>The <a href="http://xquartz.macosforge.org">XQuartz Project</a> provides a complete X11 release for OS X including server and client libraries and applications.</li>
+                </ul>
+            </li>
+        </ol>
+
+    </div>
+
+
+    <h3 class="subhdr" id="pkg">Mac OS X Package (.pkg) Installer</h3>
+
+    <p>The easiest way to install MacPorts on a Mac OS X system is by downloading the dmg for
+    <a href="
+24f6
+https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.10-Yosemite.pkg">Yosemite</a>,
+    <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.9-Mavericks.pkg">Mavericks</a>,
+    <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.8-MountainLion.pkg">Mountain Lion</a>,
+    <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.7-Lion.pkg">Lion</a>,
+    <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.6-SnowLeopard.pkg">Snow Leopard</a>, <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.5-Leopard.dmg">Leopard</a> or <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2-10.4-Tiger.dmg">Tiger</a> and running the system's Installer by double-clicking on the pkg contained therein,
+    following the on-screen instructions until completion.</p>
+
+    <p>This procedure will place a fully-functional and default MacPorts installation on your host system, ready for usage.
+    If needed your shell configuration files will be <a href="https://guide.macports.org/#installing.shell">adapted by
+    the installer</a> to include the necessary settings to run MacPorts and the programs it installs, but you may need to
+    open a new shell for these changes to take effect.</p>
+
+    <p>The MacPorts &#8220;<kbd>selfupdate</kbd>&#8221; command will also be run for you by the installer to ensure you have our
+    latest available release and the latest revisions to the &#8220;Portfiles&#8221; that contain the instructions employed
+    in the building and installation of ports. After installation is done, it is recommended that you run this step manually
+    on a regular basis to to keep your MacPorts system always current:</p>
+    
+    <pre>sudo port -v selfupdate</pre>
+
+    <p>At this point you should be ready to enjoy MacPorts!</p>
+
+    <p>Type &#8220;<kbd>man port</kbd>&#8221; at the command line prompt and/or browse over to our <a href="https://guide.macports.org/">Guide</a> to find out more information about using MacPorts. <a href="#help">Help</a> is also available.
+    </p>
+
+
+    <h3 class="subhdr" id="source">Source Installation</h3>
+
+    <p>If on the other hand you decide to install MacPorts from source, there are still a couple of things you will need to do
+    after downloading the tarball before you can start installing ports, namely compiling and installing MacPorts itself:</p>
+
+
+    <ol>
+        <li>&#8220;<kbd>cd</kbd>&#8221; into the directory where you downloaded the package and run &#8220;<kbd>tar xjvf
+        <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2.tar.bz2">MacPorts-2.3.2.tar.bz2</a></kbd>&#8221; or
+        &#8220;<kbd>tar xzvf <a href="https://distfiles.macports.org/MacPorts/MacPorts-2.3.2.tar.gz">MacPorts-2.3.2.tar.gz</a></kbd>&#8221;,
+        depending on whether you downloaded the bz2 tarball or the gz one, respectively.</li>
+        <li>Build and install the recently unpacked sources:
+            <ul>
+                <li><kbd>cd MacPorts-2.3.2</kbd></li>
+                <li><kbd>./configure &amp;&amp; make &amp;&amp; sudo make install</kbd></li>
+            </ul>
+            Optionally:
+            <ul>
+                <li><kbd>cd ../</kbd></li>
+                <li><kbd>rm -rf MacPorts-2.3.2*</kbd></li>
+            </ul>
+            
+        </li>
+    </ol>
+
+    <p>These steps need to be perfomed from an administrator account, for which &#8220;<kbd>sudo</kbd>&#8221; will ask the
+    password upon installation. This procedure will install a pristine MacPorts system and, if the optional steps are taken,
+    remove the as of now unnecessary MacPorts-2.3.2 source directory and corresponding tarball.</p>
+
+    <p>To customize your installation you should read the output of &#8220;<kbd>./configure --help | more</kbd>&#8221; and
+    pass the appropriate options for the settings you wish to tweak to the configuration script in the steps detailed above.</p>
+	
+    <p>You will need to manually adapt your shell's environment to work with MacPorts and your chosen installation <kbd>
+    prefix</kbd> (the value passed to <kbd>configure</kbd>'s <kbd>--prefix</kbd> flag, defaulting to <kbd>/opt/local</kbd>):
+    </p>
+
+    <ul>
+        <li><kbd>Add ${prefix}/bin</kbd> and <kbd>${prefix}/sbin</kbd> to the start of your <kbd>PATH</kbd> environment variable
+        so that MacPorts-installed programs take precedence over system-provided programs of the same name.</li>
+        <li>If a standard <kbd>MANPATH</kbd> environment variable already exists (that is, one that doesn't contain any empty
+        components), add the <kbd>${prefix}/share/man</kbd> path to it so that MacPorts-installed man pages are found by your
+        shell.</li>
+        <li>For Tiger and earlier only, add an appropriate X11 <kbd>DISPLAY</kbd> environment variable to run X11-dependent
+        programs, as Leopard takes care of this requirement on its own.</li>
+    </ul>
+
+    <p>Lastly, you need to synchronize your installation with the MacPorts rsync server:</p>
+
+    <pre>sudo port -v selfupdate</pre>
+
+    <p>Upon completion MacPorts will be ready to install ports!</p>
+
+    <p>It is recommended to run the above command on a regular basis to keep your installation current. Type &#8220;<kbd>man
+    port</kbd>&#8221; at the command line prompt and/or browse over to our <a href="https://guide.macports.org/">Guide</a> to
+    find out more information about using MacPorts. <a href="#help">Help</a> is also available.</p>
+
+
+    <h3 class="subhdr" id="svn">SVN Sources</h3>
+
+    <p>If you are developer or a user with a taste for the bleeding edge and wish for the latest changes and feature additions,
+    you may acquire the MacPorts sources through subversion. See the Guide section on <a href="https://guide.macports.org/#installing.macports.subversion">installing from subversion</a>.</p>
+
+    <p>Purpose-specific branches are also available at the <kbd>https://svn.macports.org/repository/macports/branches</kbd> url.</p>
+
+    <p>Alternatively, if you'd simply like to view the SVN repository without checking it out, you can do so via the <a
+    href="https://trac.macports.org/browser">Trac source browser</a>.</p>
+    
+    
+    <h3 class="subhdr" id="selfupdate">Selfupdate</h3>
+
+    <p>If you already have MacPorts installed and have no restrictions to use the rsync networking protocol (tcp port 873 by
+    default), the easiest way to upgrade to our latest available release, <b>2.3.2</b>, is
+    by using the <kbd>selfupdate</kbd> target of the <kbd>port(1)</kbd> command. This will both update your ports tree (by
+    performing a <kbd>sync</kbd> operation) and rebuild your current installation if it's outdated, preserving your customizations,
+    if any.</p>
+    
+
+    <h3 class="subhdr" id="other">Other Platforms</h3>
+
+    <p>Running on platforms other than Mac OS X is not the main focus of The MacPorts Project, so remaining cross-platform is
+    not an actively-pursued development goal. Nevertheless, it is not an actively-discouraged goal either and as a result some
+    experimental support does exist for other POSIX-compliant platforms such as *BSD and GNU/Linux.</p>
+
+    <p>The full list of requirements to run MacPorts on these other platforms is as follows (we assume you have the basics such
+    as GCC and X11):</p>
+
+    <ul>
+        <li><a href="http://www.tcl.tk/">Tcl</a> (8.4 or 8.5), with threads.</li>
+        <li><b>mtree</b> for directory hierarchy.</li>
+        <li><a href="http://rsync.samba.org/">rsync</a> for syncing the ports.</li>
+        <li><a href="http://curl.haxx.se/">cURL</a> for downloading distfiles.</li>
+        <li><a href="http://www.sqlite.org/">SQLite</a> for the port registry.</li>
+        <li><a href="http://gnustep.org/">GNUstep</a> (Base), for Foundation (optional, can be disabled via configure args).</li>
+        <li><a href="http://www.openssl.org/">OpenSSL</a> for signature verification, and optionally for checksums. <b>libmd</b> may
+            be used instead for checksums.</li>
+    </ul>
+
+    <p>Normally you must install from <a href="#source">source</a> or from an <a href="#svn">SVN checkout</a> to run MacPorts
+    on any of these platforms.</p>
+
+
+    <h3 class="subhdr" id="help">Help</h3>
+
+    <p>Help on a wide variety of topics is also available in the project <a href="https://guide.macports.org/">Guide</a> and
+    through our <a href="https://trac.macports.org/">Trac portal</a> should you run into any problems installing and/or using
+    MacPorts. Of particular relevance are the <a href="https://guide.macports.org/#installing">installation</a> &amp;
+    <a href="https://guide.macports.org/#using">usage</a> sections of the former and the <a href="https://trac.macports.org/wiki/FAQ">FAQ</a> section of the <a href="https://trac.macports.org/wiki">Wiki</a>, where we keep track of questions
+    frequently fielded on our <a href="contact.php#Lists">mailing lists</a>.</p>
+
+    <p>If any of these resources do not answer your questions or if you need any kind of extended support, there are many ways
+    to <a href="contact.php">contact us</a>!</p>
+    
+
+</div>
+
+
+
+
+        <div id="footer">
+        
+            <p><a href="http://validator.w3.org/check?uri=referer"><img src="img/valid-xhtml11-blue.png" alt="Valid XHTML 1.1" /></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="img/vcss.png" alt="Valid CSS!" /></a></p>
+            
+            <p>Copyright &#xA9; 2002&#x2013;
+ce
+2014, <a href="http://www.macports.org/">The MacPorts Project</a>.
+            Hosted by <a href="http://www.macosforge.org">Mac OS Forge</a>. All rights reserved.</p>
+
+        </div>
+
+    </body>
+
+</html>
+
+0
+

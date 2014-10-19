@@ -1,0 +1,21 @@
+POST /fb?key=andromeda HTTP/1.1
+Host: api.smoot.apple.com
+Content-Type: application/json
+Accept-Charset: utf-8
+Connection: keep-alive
+X-Apple-ActionSignature: AvIG15+mJbQJSloozz2PLk5XzdSuVarwvBc30r00Weq2AAAB0AMAAAABAAABALCD54sojy0nApZTu6kpdRdkpUGhFx+OllA2emR+D+JWvSXvpQJvokgcWFsUgbwTZUrpbEPvHqa/zcjY3HFr89DHoPKpO+yKtFC5Pcex3db3K1meTxlFTvaVvwcc2SfDnZlus0/gWrgSFGvDeR2RbPkAzQEPfNU2ckHQkWsgO3Gxptpz+wUYnbV0mgVSGW6TZjPGroxZDcwc5p8KWZuvimr9NTHSuY64miJyOOW8b+bU2eVxiSCBaexmIFgMMEjOtcaDvktgGd61jWmFbqo6tTnapM73xIR7tLhk3iQ7C3S7wZ6Bt9+0y/58fG74xD8USiP/wQssSkPE7GRPxYS7L8oAAAAU+pqzZZkwdudvFHOwsrewfM3++McAAACfATV/iU9o/hMZMYVergGc4le/ZxwJAAAAhgkD1WiANNiJU+uu3hy/TwW6b1RDd2ApENxizSx7FikKOlEasKpQlEDTd7k19jIN44qC8V5+jK8yyYoXMU1RSmWMFY3aLB2BMZKcMLbnwlg4farAUizbgupRNfrP9api3JbraXz23Zuq+Rd5J7P3sFLX+n+XQKSLBPLuuB+U0lKu6Vu76eKNAAAAAAAAAAAAAAAA
+Accept: application/json
+X-Apple-UserGuid: 08185abd-70ae-4398-7ba7-264de53e985e
+User-Agent: (OS X 14A389) Spotlight/916
+Content-Length: 3019
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+
+[{"delta":0,"timestamp":560,"input":"te","type":"search_local","ttfb":0,"latency":153},{"results":["app","documents","sys_pref","dictionary","folders","web","font","other"],"timestamp":610,"input":"te","type":"render","trigger_timestamp":407},{"delta":0,"timestamp":664,"input":"tex","type":"search_local","ttfb":0,"latency":41},{"delta":0,"timestamp":824,"input":"texp","type":"search_local","ttfb":0,"latency":22},{"delta":0,"timestamp":977,"input":"texpa","type":"search_local","ttfb":0,"latency":36},{"delta":0,"timestamp":1062,"input":"texpad","type":"search_local","ttfb":0,"latency":30},{"results":["app"],"timestamp":1790,"input":"texpad","type":"render","trigger_timestamp":1031},{"latency":393,"input":"texpad","ttfb":393,"delta_ref":"spotlight_local_search","headers":{"Accept-Charset":"utf-8","X-Apple-UI-Scale":"1.000000","X-Apple-CachedResults":"[]","X-Apple-UserGuid":"08185abd-70ae-4398-7ba7-264de53e985e","User-Agent":"(OS X 14A389) Spotlight\/916","Accept-Encoding":"gzip, deflate","X-Apple-CachedQueries":"[]"},"type":"search_web","timestamp":2044,"delta":982,"url":"https:\/\/api.smoot.apple.com\/websearch?q=texpad&locale=en-US&time_zone=America\/Los_Angeles&calendar=gregorian&key=andromeda"},{"results":["app"],"timestamp":2091,"input":"texpad","type":"render","trigger_timestamp":1031},{"latency":398,"input":" ","ttfb":398,"delta_ref":"spotlight_local_search","headers":{"User-Agent":"(OS X 14A389) Spotlight\/916","X-Apple-UserGuid":"08185abd-70ae-4398-7ba7-264de53e985e","Accept-Charset":"utf-8","X-Apple-CachedResults":"[]","Accept-Encoding":"gzip, deflate","X-Apple-CachedQueries":"[]"},"type":"search_remote","timestamp":2047,"delta":985,"url":"https:\/\/api.smoot.apple.com\/search?q=+&locale=en-US&time_zone=America\/Los_Angeles&calendar=gregorian&key=andromeda"},{"latency":426,"input":"texpad","ttfb":426,"delta_ref":"spotlight_local_search","headers":{"Accept-Charset":"utf-8","X-Apple-UI-Scale":"1.000000","X-Apple-CachedResults":"[]","X-Apple-UserGuid":"08185abd-70ae-4398-7ba7-264de53e985e","User-Agent":"(OS X 14A389) Spotlight\/916","Accept-Encoding":"gzip, deflate","X-Apple-CachedQueries":"[]"},"type":"search_remote","timestamp":2075,"delta":1013,"url":"https:\/\/api.smoot.apple.com\/search?q=texpad&locale=en-US&time_zone=America\/Los_Angeles&calendar=gregorian&key=andromeda"},{"fbq":"eyJ1IjoiMDgxODVhYmQtNzBhZS00Mzk4LTdiYTctMjY0ZGU1M2U5ODVlIiwicCI6InRleHBhZCIsInEiOiJ0ZXhwYWQiLCJ0cyI6MTQxMzcwNzYxNiwiZyI6InVzL2lsbGlub2lzL2Nvb2svY2hpY2FnbyIsImEiOiJzcG90bGlnaHQiLCJkIjoibWFjIiwibCI6ImVuX1VTIiwiaSI6IjE0MzQ0MS0xLDIxIiwiYyI6IjQxLjg2NDMsLTg3LjY0NSIsImVjdiI6MCwiY2N2IjowfQ==","results":["app","server:eyJkIjoiaXR1bmVzIiwiciI6Imk6NDU4ODY2MjM0Iiwic2QiOiJkZXNrdG9wQXBwIn0="],"timestamp":2132,"input":"texpad","type":"render","trigger_timestamp":1031},{"timestamp":6174,"input":"texpad","type":"engagement","local_result":"app"},{"timestamp":6188,"input":"texpad","type":"abandonment","method":"lost_focus"},{"timestamp":6188,"input":"texpad","type":"abandonment","method":"close"}]HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 08:33:41 GMT
+Content-Length: 3
+Connection: close
+
+""

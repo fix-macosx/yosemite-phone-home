@@ -1,0 +1,245 @@
+GET /macports.css HTTP/1.1
+Host: www.macports.org
+Connection: keep-alive
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://www.macports.org/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 08:03:13 GMT
+Server: Apache/2.2
+Last-Modified: Thu, 24 Apr 2014 23:36:21 GMT
+ETag: "160315-cd6-4f7d251061c67"
+Accept-Ranges: bytes
+Content-Length: 3286
+Strict-Transport-Security: max-age=15768000
+Connection: close
+Content-Type: text/css
+
+/*
+-*- coding: utf-8; mode: css; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:filetype=css:et:sw=4:ts=4:sts=4
+$Id: macports.css 119407 2014-04-24 21:04:04Z cal@macports.org $
+*/
+
+body {
+    margin: 0;
+    padding: 30px 40px;
+    background: url(img/top-backdrop.png) repeat-x #EDEDED;
+    font: 12px Helvetica, Arial, sans-serif;
+    line-height: 1.2em;
+}
+
+.accessibility {
+    margin: 0;
+    display: block;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+}
+
+a:link {
+    color: #0155CD;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #012567;
+}
+
+a:hover {
+    color: #3591ED;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    float: left;
+}
+
+h1 a {
+    display: block;
+    width: 183px;
+    height: 70px;
+    background: url(img/macports-logo-top.png);
+    background-size: 183px 73px;
+}
+
+h2, h3 {
+    background: #8695B3;
+    padding: 0.2em 0.5em;
+}
+
+h2 {
+    font: bold 24px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+    padding: 0.4em 0.5em 0.2em;
+}
+
+img {
+    margin: 0;
+    border: 0;
+}
+
+#header {
+    margin: 21px 0 17px 191px;
+    min-width: 350px;
+    max-width: 700px;
+    height: 51px;
+}
+
+#header div, #header span {
+    float: right;
+}
+
+#header img {
+    margin-left: 5px;
+}
+
+#download {
+    display: block;
+    float: right;
+    width: 70px;
+    height: 48px;
+    background: url(img/download.png);
+    margin-left: 5px;
+}
+
+a#download:hover {
+    background: url(img/download-highlight.png);
+}
+
+#languages {
+    width: 150px;
+}
+
+#language img, #languages img {
+    width: 30px;
+    height: 48px;    
+}
+
+#navigation {
+    width: 183px;
+    float: left;
+    clear: left;
+    background: url(img/nav-header.png) top no-repeat #B1BACC;
+    line-height: 1.4em;
+}
+
+#navigation dl {
+    padding: 16px 0;
+    margin: 0;
+    background: url(img/nav-footer.png) bottom no-repeat;
+}
+
+#navigation dt {
+    margin: 0;
+    padding: 0 16px;
+    color: white;
+    font: bold 125% "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#navigation dd {
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul {
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+#navigation li {
+    display: block;
+    margin-bottom: 1px;
+    padding: 0 16px 0 28px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #242933;
+}
+
+#navigation a:hover {
+    text-decoration: underline;
+}
+
+.selected {
+    background: #8898ab;
+    font-weight: bold;
+}
+
+.warnings {
+    background: #FCC;
+    border: 2px solid #F66;
+    padding: 6px;
+    margin: 7px 7px 7px 198px;
+    min-width: 320px;
+    max-width: 670px;
+}
+
+.warnings p {
+    margin: 1em 0 0 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.warnings p:first-child {
+    margin: 0;
+}
+
+#content {
+    padding: 1px 0 40px 191px;
+    min-width: 350px;
+    max-width: 700px;
+}
+
+#content li {
+    margin-bottom: 0.7em;
+}
+
+#content li p {
+    margin: 0.6em 0 1.4em 0;
+    padding-left: 1.6em;
+}
+
+#content li ul {
+    margin-top: 0.7em;
+}
+
+#categories > ul > li {
+    margin-bottom: 40px;
+}
+
+#categories ul > li  {
+    list-style: none;
+    width: 120px;
+    float: left;
+}
+
+#categories li li {
+    margin-bottom: 10px;
+}
+
+.email {
+    width: 1em;
+    height: 1em;
+}
+
+#footer {
+    font-size: 90%;
+    clear: both;
+    text-align: center;
+}
+
+#footer img {
+    border: 0;
+    height: 31px;
+    width: 88px;
+}

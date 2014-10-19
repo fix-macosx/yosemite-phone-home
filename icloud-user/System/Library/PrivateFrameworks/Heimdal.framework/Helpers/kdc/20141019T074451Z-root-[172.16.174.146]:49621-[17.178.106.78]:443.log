@@ -1,0 +1,23 @@
+POST /setup/qualify/session HTTP/1.1
+Host: setup.icloud.com
+X-Mme-Timezone: PDT
+X-Mme-Country: US
+X-Mme-Nas-Session: AQhLLJFIHZt9oAQrnvaFaLKtbdSUU/Q9WiRZbwRw+kA6yN8zoNMhSSTqyK27UiUJOOy2NBRzMAC/s9fRJOMjTjc8w01nyw2ucoshTbWfjbRiPe3JR6mj6bjwxAn25k6GVRVWYmMQJb0wtGx+soEKV+cOl2nWs54n25/x3P8p9JE4aZq1SKr3m0mjooCTEaUCto/rZlVkrXHaT2zExYfcJeO4z2fm/yZEfBJy2TJO/yZyPZ/eVzVB+R7WnYtZecurzZI0b4zStZ7v2l4O4UGDC4xKCf34xz+Xc6MZg18dAaj7BRecqobpaLZZbZnlzhlSzH+zGPt/B45BlH/p2xp1vC6mmqasRu6jLt1WmPqZ6wq0V9gswLJn/vYPAAAAIFneUhGEdjV3NewFb9lGMOqnJL8wIAZIBxt8HacLz+HcD7LdvvzT/nu+Lleh6a228Z35X2s=
+X-Mme-Client-Info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.AOSKit/215 (com.apple.AOSHeartbeat/1.06)>
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+X-Mme-Device-Id: 564D33F4-CC81-F551-C2BE-08104C5240D2
+Content-Length: 0
+User-Agent: com.apple.iCloudHelper/215 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Connection: keep-alive
+Accept: */*
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:44:51 GMT
+X-Apple-Request-UUID: fa3c9f24-a7c9-42bc-9f9d-f85a4d5836ba
+X-Responding-Instance: setupservice:32600301:mr11p26ic-hpaf11130701:8001:14G54:156781
+Cache-Control: no-cache, no-store, private
+Content-Type: application/json; charset=UTF-8
+Content-Length: 962
+
+{"success":true,"session-info":"ApPD6vz3fhxSVB9RORSl7V8AAAJQugXwryOEabLkumm0ijzhrml8jOGw4Iru2Wuc94gcbaV7jxf75lc5OYV8lyFbVuZdGnB5s71JLttcSGvn3OdOrZVRhlMqqa16l1fMpXpzBwBPiWP9ATK/KYivs5stuvIt/oQjE2fuhLKNnpzXhKE1DN4Dgjh6cEghX/jZDHJvg/ZYtplTiCgGGwBbN+zin7LmeNb9FYWUA2kqhVoUk2fCSclJQAw2kgmrn3Wg0nmSJJWxL3EjYLLVpl/lFSO5OQ2Jtqzg6G8QyToECLv7aWJiZiJKGOcsFS0lW9+kNr4XDvvKmOvS+uWEYqlgm0So8xAtgSGn7HWIEmdOsKhpaqm7dFWwl04cLq1vhrPvZB7LricXsKy2YHQRAbRXbM7dnWPYq4PZ/+7PJFa4kfGgo1PXkyk5ODAqMVKG5h9tqBToSNFFjpBZ2jFcxSeEkl4MiYx5NDwso1fWEw21H4ju5Ai766akwVU2xUZ6LJJfbGQu+rJW7nSergr6dbyl1XaBOHxW7jMPU6uSvMVCzvqzIzEQrk1RAV/ftnG+tzvrmeHZZvCPSASv4cn4aMzE0V9LeXwA7XHU3wqgTt0AUSx+XmgQ2KgWHfQq0xsTwopEnjqaXc+Mu3vI8sTXaFUDkU8qaRCpm0whXRTyuXBmK3NTrLV/bTC19DtelkKeC+8PibHKEGR7CTjMlAU6WtPSndah6CCX/23e8H/1KGAjknaWZTD4vYstZxs8EsEo2LHB4KYDoAg7qwwtXCFotW1bCADkQuJ7XOOFGOT6W53oSpWAMnnbegHMPfD0ztIrq3Ru/4PDKOygZAvl8AAAADYBCa/j++zfe/9U8C0YxQS8zTJUQ2vzPrk1c6C9wd4qRYbpWeE7NM3YeccRPy1t2t94R9gj+AtXAEwA"}

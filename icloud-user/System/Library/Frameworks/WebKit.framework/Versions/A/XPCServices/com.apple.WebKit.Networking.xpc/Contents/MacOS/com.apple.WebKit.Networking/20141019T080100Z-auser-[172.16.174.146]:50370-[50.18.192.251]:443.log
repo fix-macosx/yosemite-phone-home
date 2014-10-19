@@ -1,0 +1,24 @@
+GET /m.js?country=US&a=osx&cb=ddg_spice_amazon&pg=3&q=textmate&t=A&i=097873923X&o=json HTTP/1.1
+Host: duckduckgo.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 08:01:01 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Expires: Sun, 19 Oct 2014 08:01:02 GMT
+Cache-Control: max-age=1
+Strict-Transport-Security: max-age=31536000
+X-DuckDuckGo-Locale: en_US
+
+502
+ddg_spice_amazon({"next":"/m.js?country=US&a=osx&cb=ddg_spice_amazon&pg=4&q=textmate&t=A&i=097873923X&o=json","tag":"duckduckgo-osx-20","results":[{"is_prime":0,"dp":"B00FXA33OM","url_review":"http://www.amazon.com/review/product/B00FXA33OM%3FSubscriptionId%3DAKIAILSHYYTFIVPWUY6Q%26tag%3Dduckduckgo-osx-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00FXA33OM","heading":"Removable Document Labels - COPY (Office Product)","img_m":"http://ecx.images-amazon.com/images/I/51Zwxhwwb2L.jpg","img":"http://ecx.images-amazon.com/images/I/51Zwxhwwb2L._SL160_.jpg","brand":"Textmate Corp.","rating":"http://www.amazon.com/reviews/iframe?akid=AKIAILSHYYTFIVPWUY6Q&alinkCode=xm2&asin=B00FXA33OM&atag=duckduckgo-osx-20&exp=2014-10-20T08%3A01%3A01Z&v=2&sig=bIkHdu%2FaI8h%2B3C0b%2BOFNPXPJcHId1IvxqGvoFNIZ%2FCM%3D","ASIN":"B00FXA33OM","url":"http://www.amazon.com/Textmate-Corp-PSL-Removable-Document/dp/B00FXA33OM%3FSubscriptionId%3DAKIAILSHYYTFIVPWUY6Q%26tag%3Dduckduckgo-osx-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00FXA33OM","price":"$13.95","abstract":"Removable Document Labels - COPY is an office product from Textmate Corp.."}],"more_at":"https://amazon.com/s/?tag=duckduckgo-d-20&url=search-alias%3Daps&field-keywords=textmate"})
+0
+

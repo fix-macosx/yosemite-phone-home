@@ -1,0 +1,25 @@
+GET /ibooks/mac/10.10/en.lproj/navigation.json HTTP/1.1
+Host: help.apple.com
+Accept-Encoding: gzip, deflate
+Cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Help Viewer/256
+Referer: https://help.apple.com/ibooks/mac/10.10/index.html?localePath=en.lproj
+Accept-Language: en-us
+X-Requested-With: XMLHttpRequest
+
+HTTP/1.1 200 OK
+Last-Modified: Mon, 13 Oct 2014 16:29:00 GMT
+ETag: "52000d-c2a-5055065620b00"
+Server: Apache
+Accept-Ranges: bytes
+Content-Length: 3114
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Cache-Control: max-age=16361
+Expires: Sun, 19 Oct 2014 12:52:03 GMT
+Date: Sun, 19 Oct 2014 08:19:22 GMT
+Connection: close
+
+{"framework":"apd-framework-8.6.1","title":"iBooks Help","build_id":"53f7be9b0946227f781eca36","icon":"..\/GlobalArt\/AppIconDefault_iBooks.png","sections":{"ibks4db21a63":{"name":"Read your books","children":["ibks5f526382","ibks86dab303","ibks8923126d","ibks4b6d6f7a","ibks33867842","ibks888f2d84","ibksa4e88313"]},"ibks79340d19":{"name":"Get more books","children":["ibks1d8b1c37","ibks14f2de72","ibksaa3e77f7","ibkseed72068"]},"ibks93b73899":{"name":"Share your thoughts","children":["ibks3b8c08a0","ibks7c0a2e26"]},"ibks78b01c4a":{"name":"Learn with iBooks","children":["ibksda067bed","ibks3975f128","ibks836b154c","ibkse4722c53"]}},"birdseed_version":3,"toc":["ibks973d9fb0","ibks4db21a63","ibks79340d19","ibks78b01c4a","ibks93b73899","ibksfa2d1ccf"],"locale":"en","version":"10.10","enable_tracking":true,"source_schema":"apd-schema","collect_feedback":true,"printable_page":"static.html","platform":"mac","design":"default","build_date":"2014.08.22-15:08:19","landing":"ibks001","product":"ibooks","urls":{},"copyright":"","topics":{"ibks836b154c":{"name":"Use study cards","href":"ibks836b154c.html"},"ibksacef74a4":{"name":"interactive media","href":"ibksacef74a4.html","categories":["glossary"]},"ibks7c0a2e26":{"name":"Review books","href":"ibks7c0a2e26.html"},"ibkse4722c53":{"name":"See glossaries and definitions","href":"ibkse4722c53.html"},"ibks5f526382":{"name":"Read books","href":"ibks5f526382.html"},"ibksa4e88313":{"name":"Hide purchased books","href":"ibksa4e88313.html"},"ibks8923126d":{"name":"Change how your books look","href":"ibks8923126d.html"},"ibk0A716CF4-9A70-485B-9835-72E3C7ED6C29":{"name":"Keyboard shortcuts","href":"ibk0A716CF4-9A70-485B-9835-72E3C7ED6C29.html"},"ibks86dab303":{"name":"See your books on all your devices","href":"ibks86dab303.html"},"ibks14f2de72":{"name":"Get the next book in a series","href":"ibks14f2de72.html"},"ibkseed72068":{"name":"Import books or PDFs","href":"ibkseed72068.html"},"ibksda067bed":{"name":"Interact with multimedia","href":"ibksda067bed.html"},"ibkF3A2B450-D05F-419E-8FE0-FA1AE7DA6048":{"name":"iBooks sign-in options","href":"ibkF3A2B450-D05F-419E-8FE0-FA1AE7DA6048.html"},"ibks9f5aac03":{"name":"Apple ID","href":"ibks9f5aac03.html","categories":["glossary"]},"ibks888f2d84":{"name":"Download and update purchased books","href":"ibks888f2d84.html"},"ibks3975f128":{"name":"Highlight passages and make notes","href":"ibks3975f128.html"},"ibksaa3e77f7":{"name":"Restrict purchases","href":"ibksaa3e77f7.html"},"ibks973d9fb0":{"name":"iBooks overview","href":"ibks973d9fb0.html"},"ibks33867842":{"name":"Create book collections","href":"ibks33867842.html"},"ibks001":{"name":"iBooks Help","href":"ibks001.html","categories":["landing"]},"ibks4b6d6f7a":{"name":"Browse and sort your books","href":"ibks4b6d6f7a.html"},"ibksfa2d1ccf":{"name":"Keyboard shortcuts and gestures","href":"ibksfa2d1ccf.html"},"ibks1d8b1c37":{"name":"Browse the iBooks Store","href":"ibks1d8b1c37.html"},"ibks3b8c08a0":{"name":"Share quotes, notes, and thoughts","href":"ibks3b8c08a0.html"}},"copyright_text":"© 2014 Apple Inc. All rights reserved.","css":""}

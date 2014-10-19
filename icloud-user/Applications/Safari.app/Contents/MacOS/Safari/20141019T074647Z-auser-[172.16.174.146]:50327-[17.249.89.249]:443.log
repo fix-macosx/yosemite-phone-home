@@ -1,0 +1,20 @@
+POST /fb?key=andromeda HTTP/1.1
+Host: api.smoot.apple.com
+Content-Type: application/json
+Connection: keep-alive
+X-Apple-ActionSignature: AuwQMhB6WpPs4pkaF5kJgUquCXcInGjgB8ltNCCsme9AAAAB0AMAAAABAAABAOVijCikcKyM5CP1YWlAhz/6nieVFxy4m7FNK6i9Uzp47d6YdZSbOIHRkynTfWGZZ7kjnsTpca35yYsPYK2ej5LLXCLOJJNdLp+m+EHS/rIxAs67MHD5c1G2IEnmuzYg/ilankHdwC9kSK7CRzPIjj5n4s8mTldgs2+dUhTmdpMyTjl6L+ja+K1bTL3qJ9IlCp2W3TO3j4qUNregdOn++aPUe+zZxvZZLKc4li8+DRLnbvqs9dKVQs/hrzW8139OUq58SnchxDLXxeNHVHHshb4vQsTxIE0CTgNHCc+Z2ss772ZqUOZdQKHwBOsODBiWLmOWLNRa0uMQ3juqHelYOWMAAAARaOdP/4Fa8k2tZtiEyjpl9WgAAACfAdUnBWZyNfgb5MHI4pJPc4eLohXoAAAAhgcA6n1pOott6+/kojsyCuDKIlRDbC3Tlutzpmp899qNO24X5iFyRjnEJNNVX84JNEYmvscVoBZ7i37Zh+gtjWBBFtNEEC2KkWlUMB7wzrmIkuaGq0xl0roKx0Hn3qcL6MHdSttgTtr41ETICrNMXOZrLCF6tqRK5pHH8v20ee6Y4CiF/qw3AAAAAAAAAAAAAAAAAAAA
+Accept: */*
+X-Apple-UserGuid: 4cbc0ebe-227a-4677-6ded-7bde4c47fd42
+Accept-Language: en-us
+Content-Length: 2082
+Accept-Encoding: gzip, deflate
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+
+[{"timestamp":1,"input":"If I use google as a search engine, I know they'll get my query. Will Apple?","type":"search_local","latency":1},{"local_results":["other","google_search","history_search","go_to_site","find_on_page"],"timestamp":140,"input":"If I use google as a search engine, I know they'll get my query. Will Apple?","type":"render","trigger_timestamp":0,"fbr":[]},{"latency":337,"input":" ","ttfb":335.4290127754211,"headers":{"Accept":"*\/*","X-Apple-UI-Scale":"1.0","X-Apple-CachedResults":"[]","X-Apple-UserGuid":"4cbc0ebe-227a-4677-6ded-7bde4c47fd42","Accept-Language":"en-us","User-Agent":"SafariShared\/10600.1.25 (Mac OS X 14A389) Version\/8.0 Safari\/600.1.25","Accept-Encoding":"gzip, deflate","X-Apple-CachedQueries":"[]"},"type":"search_remote","timestamp":337,"url":"https:\/\/api.smoot.apple.com\/search?q=%20&locale=en-US&key=andromeda&time_zone=America\/Los_Angeles&calendar=gregorian&region=en-US"},{"local_results":["other","google_search","history_search","go_to_site","find_on_page"],"timestamp":448,"input":"If I use google as a search engine, I know they'll get my query. Will Apple?","type":"render","trigger_timestamp":0,"fbr":[]},{"latency":579,"input":"If I use google as a search engine, I know they'll get my query. Will Apple?","ttfb":577.118992805481,"delta_ref":"google_comp","headers":{"Accept":"*\/*","X-Apple-UI-Scale":"1.0","X-Apple-CachedResults":"[]","X-Apple-UserGuid":"4cbc0ebe-227a-4677-6ded-7bde4c47fd42","Accept-Language":"en-us","User-Agent":"SafariShared\/10600.1.25 (Mac OS X 14A389) Version\/8.0 Safari\/600.1.25","Accept-Encoding":"gzip, deflate","X-Apple-CachedQueries":"[]"},"type":"search_remote","timestamp":579,"delta":165,"url":"https:\/\/api.smoot.apple.com\/search?q=If%20I%20use%20google%20as%20a%20search%20engine,%20I%20know%20they'll%20get%20my%20query.%20Will%20Apple?&locale=en-US&key=andromeda&time_zone=America\/Los_Angeles&calendar=gregorian&region=en-US"},{"timestamp":1370,"input":"If I use google as a search engine, I know they'll get my query. Will Apple?","type":"engagement","local_result":"other"}]HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 07:46:47 GMT
+Content-Length: 3
+Connection: close
+
+""

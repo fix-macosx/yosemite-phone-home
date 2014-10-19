@@ -1,0 +1,21 @@
+GET /search?q=If%20I%20se&locale=en-US&key=andromeda&time_zone=America/Los_Angeles&calendar=gregorian&region=en-US HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+Accept: */*
+X-Apple-UI-Scale: 1.0
+X-Apple-CachedResults: []
+X-Apple-UserGuid: 4cbc0ebe-227a-4677-6ded-7bde4c47fd42
+Accept-Language: en-us
+User-Agent: SafariShared/10600.1.25 (Mac OS X 14A389) Version/8.0 Safari/600.1.25
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: ["I","If "]
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 07:46:50 GMT
+Content-Length: 1246
+Connection: close
+
+[{"status":"OK","query":"If I see you in my dreams","prefix":"If I se","completion_score":78199.00000011588,"fbq":"eyJ1IjoiNGNiYzBlYmUtMjI3YS00Njc3LTZkZWQtN2JkZTRjNDdmZDQyIiwicCI6IklmIEkgc2UiLCJxIjoiaWYgaSBzZWUgeW91IGluIG15IGRyZWFtcyIsInRzIjoxNDEzNzA0ODEwLCJnIjoidXMvaWxsaW5vaXMvY29vay9jaGljYWdvIiwiYSI6InNhZmFyaSIsImQiOiJtYWMiLCJsIjoiZW5fVVMiLCJpIjoiMTQzNDQxLTEsMjEiLCJjIjoiNDEuODY0MywtODcuNjQ1IiwiZWN2IjowLCJjY3YiOjB9","results":[{"type":"wiki","id":"w:If+I+See+You+in+My+Dreams","score":5.502,"fbr":"eyJkIjoid2lraSIsInIiOiJ3OklmK0krU2VlK1lvdStpbitNeStEcmVhbXMifQ==","url":"http://en.wikipedia.org/wiki/If_I_See_You_in_My_Dreams","report_problem_url":"","filtered":false,"tophit":1,"engagement_score":0,"qi_engagement_score":0,"hide_rank":15,"template":"simple","completion":"If I See You in My Dreams — Wikipedia","completion_icon":{"id":"mac_wiki_icon"},"section_header":"Wikipedia","title":"If I See You in My Dreams","title_maxlines":1,"description_lead_in":"wikipedia.org","description":"— If I See You in My Dreams is a Japanese manga series originally penned by Noriyuki Yamahana under the pen name HANAKO, serialized in Shueisha's Business Jump magazine (1994–2000).","description_maxlines":2,"icon":{"id":"mac_wiki_icon_35"}}]}]

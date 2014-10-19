@@ -1,0 +1,70 @@
+GET /mactex/tugstylemactex.css HTTP/1.1
+Host: www.tug.org
+Connection: keep-alive
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) QuickLook/5.0
+Accept-Language: en-us
+Referer: http://www.tug.org/mactex/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 08:33:36 GMT
+Server: Apache/2.4.10 (Unix) OpenSSL/1.0.1g
+Last-Modified: Sat, 14 Jun 2014 16:58:11 GMT
+ETag: "710-4fbceb2f3cec0"
+Accept-Ranges: bytes
+Content-Length: 1808
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/css
+
+/* $Id: tugstyle.css,v 1.24 2010/12/05 17:17:44 karl Exp $
+   Copyright 2008-2010 TeX Users Group.
+   You may freely use, modify and/or distribute this file.  */
+
+BODY {
+  margin-top: 8pt;
+  margin-left: 8pt;
+  color: black;
+  background: white;
+  font-family: sans-serif;
+  /* the idea is to use the whole window, unless it is ridiculously
+     wide, probably with too-small fonts, too.  */
+  width:90%; max-width:72em;
+}
+
+H1, H2, H3, H4 { color: navy; }
+
+a:link      { color: navy; }
+a:visited   { color: green; }
+a:active    { color: red; }
+
+.negskippt  { margin-top: -1pt; margin-bottom: -1pt; } /*tug07/register.html*/
+.negskip    { margin-top: -.6em; }
+.bnegskip   { margin-top: -3%; }
+.tinyskip   { margin-top: 2pt; }
+.smallskip  { margin-top: 8pt; }
+.indent     { text-indent: 2em; }
+
+.hang       { padding-left: 2em; text-indent: -2em; }
+.narrow     { margin-left: 5%; margin-right: 10%; }
+.center     { text-align: center; }
+.navy       { color: navy; }
+
+/* for the home page */
+.navbar           { color: navy; background: "E5E5E5"; text-decoration: none}
+.navbar a:link    { color: navy; }
+.navbar a:visited { color: navy; }
+.navbar a:hover   { color: red; }
+
+/* for the tugboat indexes.  http://alistapart.com/articles/taminglists/  */
+.tubidxentry { padding-left: 3em; text-indent: -2em;  /* hanging indentation */
+               list-style: none;    /* no bullets */
+               margin-top: 0px;     /* no space above */
+               margin-bottom: 0px;  /* no space above */
+              }
+.tubidxgroup { margin-top: .5em;      /* space above the group head */
+               margin-bottom: .0em; }  /* space between head and entries */
+
+.tubidxTgroup { margin-top: .1em;      /* space above the group head */
+               margin-bottom: .1em; }  /* space between head and entries */

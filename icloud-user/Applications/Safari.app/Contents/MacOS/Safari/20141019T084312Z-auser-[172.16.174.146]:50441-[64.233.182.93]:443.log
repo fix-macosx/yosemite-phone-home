@@ -1,0 +1,60 @@
+POST /safebrowsing/downloads?pver=2.2&client=Safari&appver=8.0 HTTP/1.1
+Host: safebrowsing.google.com
+Content-Type: application/x-www-form-urlencoded
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Length: 40
+
+goog-phish-shavar;
+goog-malware-shavar;
+HTTP/1.1 200 OK
+Content-Type: application/vnd.google.safebrowsing-update
+Set-Cookie: PREF=ID=fabc36ae1d68fab3:TM=1413708192:LM=1413708192:S=4MFh4jdIAdTflOAS; expires=Tue, 18-Oct-2016 08:43:12 GMT; path=/; domain=.google.com
+X-Content-Type-Options: nosniff
+Date: Sun, 19 Oct 2014 08:43:12 GMT
+Server: HTTP server (unknown)
+Content-Length: 4369
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 443:quic,p=0.01
+Expires: Sun, 19 Oct 2014 08:43:12 GMT
+Cache-Control: private
+Connection: close
+
+n:1887
+i:goog-malware-shavar
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYge8IIID0CCo_MDgCAP____________________________________________________________________________8BMhqBNwIA____________________________fw
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYwewIIIDvCDItQTYCAP____________________________________________________8A
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEYgeoIIMDsCDItATUCAP__________7______v__________________________________8A
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAEY2ekIIIDqCDIK2TQCAP______AA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAYgbUJIIC6CSo7T1sCAP_______________________________________________________________________wMyHoFaAgD_________________________________Pw
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAYwbIJIIC1CTItQVkCAD____________________________________________________8A
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAYgbAJIMCyCTItAVgCAP____________________________________________9_______8A
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAYwa0JIICwCTItwVYCAP________7__________________________________3________8A
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChNnb29nLW1hbHdhcmUtc2hhdmFyEAAYgasJIMCtCTItgVUCAP_________-_____v____________________________________8A
+i:goog-phish-shavar
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGIO8CyCDvAsyBQPeAgAB
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGMm6CyDwugsyCkndAgD_3____wA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGPG6CyCEuwsyB3HdAgD__w8
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGIW7CyCOuwsyBoXdAgD_Aw
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGI27CyCSuwsyBY3dAgA_
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGJO7CyCYuwsyBZPdAgA_
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGJm7CyDAuwsyCpndAgD______wA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGMG7CyDouwsyCsHdAgD______wA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGOm7CyD8uwsyB-ndAgD__w8
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGPm7CyD-uwsyBfndAgA_
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGIG8CyCCvAsyBQHeAgAD
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGIi8CyCIvAsyBQjeAgAB
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGIm8CyCKvAsyBQneAgAD
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGIu8CyCQvAsyBQveAgA_
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGJG8CyDgvAsyDxHeAgD_____________AA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGOG8CyCAvgsyGWHeAgD__________________________wA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchABGIG-CyCAyAsqWWHhAgD_______________________________________________________________________________________________________________8AMlEB3wIA_____________________________________________________________________________________________________wA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGIHSFSCA3BUqdIJqBQD___________________________________________________________________________________________________________________________________________________9_MjUBaQUA___________________________________________________________v____AQ
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGIHIFSDAyhUyLQFkBQD__________w-A________________________________________AA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGMHKFSCAzRUyLUFlBQD_________________________________________________7f__AA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGIHNFSDAzxUyLYFmBQD____________________v________________________________AA
+u:safebrowsing-cache.google.com/safebrowsing/rd/ChFnb29nLXBoaXNoLXNoYXZhchAAGMHPFSCA0hUyLcFnBQD_____________________________________________________AA

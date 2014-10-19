@@ -1,0 +1,22 @@
+GET /search?q=term&locale=en-US&time_zone=America/Los_Angeles&calendar=gregorian&key=andromeda HTTP/1.1
+Host: api.smoot.apple.com
+Connection: keep-alive
+Accept-Charset: utf-8
+Accept: */*
+X-Apple-UI-Scale: 1.000000
+X-Apple-CachedResults: []
+X-Apple-UserGuid: f8f40c1c-0384-4e19-7aad-28e0e684c78e
+User-Agent: (OS X 14A389) Spotlight/916
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+X-Apple-CachedQueries: []
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=300
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 07:58:06 GMT
+Content-Length: 391
+Connection: close
+
+[{"status":"NO_RESULTS","query":"terminix","prefix":"term","completion_score":49599.00000595494,"fbq":"eyJ1IjoiZjhmNDBjMWMtMDM4NC00ZTE5LTdhYWQtMjhlMGU2ODRjNzhlIiwicCI6InRlcm0iLCJxIjoidGVybWluaXgiLCJ0cyI6MTQxMzcwNTQ4NiwiZyI6InVzL2lsbGlub2lzL2Nvb2svY2hpY2FnbyIsImEiOiJzcG90bGlnaHQiLCJkIjoibWFjIiwibCI6ImVuX1VTIiwiaSI6IjE0MzQ0MS0xLDIxIiwiYyI6IjQxLjg2NDMsLTg3LjY0NSIsImVjdiI6MCwiY2N2IjowfQ=="}]

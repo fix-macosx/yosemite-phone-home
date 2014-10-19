@@ -1,0 +1,10 @@
+GET /cache/epub/47134/pg47134.cover.small.jpg HTTP/1.1
+Host: www.gutenberg.org
+Connection: keep-alive
+Accept: */*
+If-Modified-Since: Fri, 17 Oct 2014 17:26:55 GMT
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: http://www.gutenberg.org/cache/latest-covers
+Accept-Encoding: gzip, deflate
+

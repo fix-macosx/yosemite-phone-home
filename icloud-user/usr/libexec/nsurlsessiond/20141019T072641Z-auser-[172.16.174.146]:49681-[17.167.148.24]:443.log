@@ -1,0 +1,52 @@
+POST /8078008707/authorizePut HTTP/1.1
+Host: p29-content.icloud.com:443
+x-apple-mmcs-dataclass: com.apple.Dataclass.CloudKit
+x-apple-mmcs-auth: 01a19c8d2e94ebeef5b293dbdebf2daed65904f051 01feca7eda2be453177c2697f312ebafa596481a40 5959 Bfeu5AwBLRGiA9OAJg
+x-apple-request-uuid: D34C3418-2FB9-4C22-88A2-79FD55402B2C
+x-apple-mme-dsid: 8078008707
+Accept: application/vnd.com.apple.me.ubchunk+protobuf
+X-CloudKit-Container: com.apple.clouddocs
+x-mme-client-info: <VMware7,1> <Mac OS X;10.10;14A389> <com.apple.icloud.content/320 (com.apple.CloudKit/(null))>
+X-CloudKit-Zones: com.apple.TextInput
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Content-Length: 668
+User-Agent: cloudd/259.2.3 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Connection: keep-alive
+x-apple-mmcs-proto-version: 4.0
+Content-Type: application/vnd.com.apple.me.ubchunk+protobuf
+
+
+™
+¡œ.”ëîõ²“ÛŞ¿-®ÖYğQBfeu5AwBLRGiA9OAJg4
+C‰ı˜(O„ÕX<k"XÛz2Rk]L¶Š=ƒ$
+2Å¤§±»ÓaÇ@R
+&5
+PòPŒDÇO¼ùPçƒ[e¤ànÇÂ1KÑt7… ÅxÏ¦y+2æ„ »Î&Àş4
+­š°Ï%H¨Ğûƒ¸ì!kgóõDnÄ}'šÇ „¥“ë‰j#5
+²…×?-@ÚÜî‰fÏ3Â<Ov-áVêÈ²Õ%xAoñ>’o¥ı	ß§4
+R_‡akFŸõşê1vûæ²°¸èf@ÑÇœ×˜_¥ÎÑ
+ğmL%5
+¬èÜ²Ğüñ”¿Z,‘@é»úßZ(>.`$ËÛ–5Œnr4åÆø/.µYı4
+©ãÄVC&j£ë>7‘…‰‡Æs-¬i–Ğ£À¾bDT*f•%_­h‘®·15
+YHk‹Väfà\l•›©êJ™¹§û‘ıõwJRúKòã©Uí–éÑ—Ôš
+4
+u ñÒ¾éæº‘œt'B8¹ı¨]Í\ßQ\€]n€šªr2$£¢~O~+4
+ƒŠúî„’ŒPïuÄØº”šÍ"N&¤Y’P%@1òi}™q'B2? ¡ØŸ5
+±§:3…$¯¢Ê33Ìí³|!;l&>¸T/KÉ°@B.†'ıôï7°"şÊ~Ú+äS|&—óë¯¥–H@HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:26:41 GMT
+X-Apple-Request-UUID: D34C3418-2FB9-4C22-88A2-79FD55402B2C
+x-apple-mmcs-proto-version: 4.0
+X-Responding-Instance: content.12900303.st13p29ic-hpaf17261301:8003.14G54
+Content-Type: application/vnd.com.apple.me.mmcs+protobuf
+Content-Length: 718
+
+
+—
+peqRXwcBSSdNDQkAxNfPï
+us-ore-00001.s3.amazonaws.com»PUT"²/peqRXwcBSSdNDQkAxNfP?x-client-request-id=D34C3418-2FB9-4C22-88A2-79FD55402B2C&Expires=1413706901&AWSAccessKeyId=AKIAIWWR33ECHKPC2LUA&Signature=q8IguNNVoXRYak9CErQsRuD%2F%2BiQ%3D*HTTP21.1:httpsB+
+
+x-amz-dateSun, 19 Oct 2014 07:26:41 GMTB
+Content-Length5959B(
+Content-Typeapplication/octet-streamJ	s3_us_oreX©Ïı»’)C‰ı˜(O„ÕX<k"XÛz2RPòPŒDÇO¼ùPçƒ[e¤ànÇ­š°Ï%H¨Ğûƒ¸ì!²…×?-@ÚÜî‰fÏ3Â<Ov-R_‡akFŸõşê1vûæ¬èÜ²Ğüñ”¿Z,‘@é»úß©ãÄVC&j£ë>7‘…‰‡Æs-¬iYHk‹Väfà\l•›©êJ™¹§u ñÒ¾éæº‘œt'B8¹ƒŠúî„’ŒPïuÄØº”šÍ"±§:3…$¯¢Ê33Ìí³|!;l"AyfYp6vgdh4yN4Em"0
+¡œ.”ëîõ²“ÛŞ¿-®ÖYğQ"şÊ~Ú+äS|&—óë¯¥–H@

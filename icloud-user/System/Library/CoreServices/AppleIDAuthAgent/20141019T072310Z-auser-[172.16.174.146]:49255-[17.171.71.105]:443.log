@@ -1,0 +1,36 @@
+POST /dsservices/dsxmlrpc HTTP/1.1
+Host: identity.apple.com
+Content-Type: text/xml
+Connection: keep-alive
+Accept: text/xml
+User-Agent: AppleIDXMLRPC
+Content-Length: 3859
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+<?xml version="1.0"?><methodCall><methodName>com.apple.ist.idm.web.collaboration.PersonService.createCert</methodName><params><param><value><struct><member><name>encDsId</name><value><string>353951647866707369536f596e36427933354e3545773d3d</string></value></member><member><name>ClientTime</name><value><dateTime.iso8601>20141019T07:23:10Z</dateTime.iso8601></value></member><member><name>AppleIDAuthProtocolVersion</name><value><i4>101</i4></value></member><member><name>SystemVersion</name><value><string>14A389</string></value></member><member><name>ProductName</name><value><string>Mac OS X</string></value></member><member><name>dsSession</name><value><string>KQXZV2000802b7084e4b4a309d2d5d48fdd3826f1e73VKZZD34497fe75fa2dc25e40fc10d4d974cffad5e23a93f102296b3b192cab516ec091eea26df63ffc3f64105516a7f680de42e8ae8fff6bd960399f599101b7b9918aa673d050c6a790e39b9dbcd9ddf0b06811d9124bb05e38d58da005a87325e2d2f197f3efc26fa4ef7b33f4b4c0aeeef5c3dee5bf5e7b7392fb39aca7769f26fcc430190b0b83bccc59bc9b09ba4cfd38ec4e41e788fd6b9d9ed2d969ccdc0c2a6d6041e4aab281e7cbddc3184fa521f7c06553f2502cbd66c423c9c02fddc1aa24897d11f571c43e3d3c85ffd8b2d4a75563b077f984fae738a2826449490822289e37d88b7432e082859c64433c5ea33756ece8b5d74a69cfddb29b406f4d6f7b32e666c454fa6cd1142c310521623790176c0f909d34c9df0c9e8f5061ac2d84a8a0be7cdc5ef179550ddc3f0bd63a84a143f3b1bc76d58850553b5f9d7c4a5fdcaa7fd596d650f6a47755483092cb99e18738a9b3699db62c0fa81d3c3a7b9874991164aaabd277a7e7ee8b544ce4f08a670e37704712a66ec2b7347ffa15fba43e5e6db7534749db185a8ebb68171aa7cd3ec2b3f196231bea0efe6676508728f43667bada48cbe4aefb3ac348aebd130d385e2ac3ffd4a2302d3208bd379317854fb4ee24e0bd95028285ed972e6266e066f3684680362a4c566ea2bc145bbef89ab8f638d61f749b72d26bbfa5c7806fbd604f1846e825f74585b1f0c5ba70d1662879eba1e95740863756e2d7d2bdbfde99bd47c8f51f8ca05ffd236c51a3a3a0cee7aec7769e67a9a83dfa04c65dfd72697ca3c107ab7b5d08bed490de1fd82bffb88b1aceb270bd5cc8a2379c2df7c47b7443cfd9e209913a22d34396c53185d344282d09f03751dc3db30b82cfbbeaa6389ca7944d11569ade33efae4ca74f2169ccedb4b3b17246a03685b0cad8e11ba0f9614ed427148f93415ae992bc1bf0457ceecbfb2394786096120b8495826e97d1471b7bd6e1893e3bcc15cba660e023a137a5388c55492d7e53a36b4e2e448f8e5021934667dc1fa61c60f6f2fde19f8637e708eae04c0802cb09c61b35f0ff2fe7cec58bc3aa86b3b310aa88cbf90c7a8507be2671715c1cdba049757831a10ea5e42250dd88a6f25f8dab5a1cb522dab5039f34b81dc5bbad4b5801cb340a59917feab935b58f28baeaae7c09ab6dd2f12066fbb07d7290b1126c5ecc3b980cdcf32b71f05817e108d5535d98641e86937db5837bb6c9846bb459246d4dc213e6b4651e2274207b5VRSZ</string></value></member><member><name>RequestedCertificateLifetimeInSeconds</name><value><double>1209600</double></value></member><member><name>OSServicesVersion</name><value><string>640.3</string></value></member><member><name>CSR</name><value><string>-----BEGIN CERTIFICATE REQUEST-----
+MIICuDCCAaACAQAwczFSMFAGCSqGSIb3DQEJARZDMzUzOTUxNjQ3ODY2NzA3MzY5
+NTM2ZjU5NmUzNjQyNzkzMzM1NGUzNTQ1NzczZDNkQGlkZW50aXR5LmFwcGxlLmNv
+bTEdMBsGA1UEAwwUYWRtaW5AZml4LW1hY29zeC5jb20wggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQDR5VwBMmRV2jHb0CfjqW9EiuijTOo5rfQypP36GRbF
+n3U3Khs6OVpR7saPQuulLDdg9U23loVH1bs6LHTzOiVH8GfGzo1NeT/PCtCKxoiI
+QPwmHGeI3XU3vklzGNEqcB5x5u4UMAuJmVqQA3Sf5KOQmUGTRNslKMkmqaIxAE2D
+lKfgDwFxkFnmjgul1hVSj2sP9K7tLZkuZGTbNd7aNDK0GBHVJdL/NciKfOeLR/Ec
+qHvwq1nYL/9bbLHvWsg9MhtgAHU6oAdJb0rkDPnOA4CU1b+zK9JeGLles/QtQrl2
+YayVBB0Rs3rSB7jSshEbvO9S01wFgAnBCTzkX29cI9UHAgMBAAGgADANBgkqhkiG
+9w0BAQUFAAOCAQEAbOjwF7zhA95TUMi87G1A7aMCuLHsXdG89cd9r+y/GYK13i4e
+jN88bU0a84vxZR1R1sbNb5WfZuIIXuNWCIJcQBC2TLq13vpgtZbeEuVasuVOcnn+
+LzrDkML9RcH5q16O+/CT+bWO+EOEZf3FlJ+B2AJgp6XAMomQXjAiHKaGtJChtS24
+h/6QjGSIOjYIKJ/1RNzSUbiiRLyItJA0v+5mKakUEcBfI2dyBRoPxbtU9mfQ9tSe
+duAD5ryFBOIjQv+yL3jDCHfy1cSmmCtlOZXKYSvevLk4aJIU8xs9Lrij/3QTxmn4
+OuqzXQsWlbql/NZYbgu3Ia3vKYWTyhl+xM7G3Q==
+-----END CERTIFICATE REQUEST-----
+</string></value></member></struct></value></param></params></methodCall>HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:23:10 GMT
+Server: Apache-Coyote/1.1
+Content-Type: text/xml
+Content-Length: 595
+Keep-Alive: timeout=10, max=837
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="UTF-8"?><methodResponse xmlns:ex="http://ws.apache.org/xmlrpc/namespaces/extensions"><params><param><value><struct><member><name>respTimeStamp</name><value><ex:i8>1413703390671</ex:i8></value></member><member><name>encDsId</name><value>353951647866707369536f596e36427933354e3545773d3d</value></member><member><name>CertType</name><value>AUTH</value></member><member><name>Delay</name><value><i4>300</i4></value></member><member><name>CertificateToken</name><value>10453091360--38303738303038373037</value></member></struct></value></param></params></methodResponse>

@@ -1,0 +1,23 @@
+GET /y.js?x=1&q=1984%20epub&l=us-en&a=osx&safe=1 HTTP/1.1
+Host: duckduckgo.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 08:16:39 GMT
+Content-Type: application/x-javascript; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Expires: Sun, 19 Oct 2014 08:16:38 GMT
+Cache-Control: no-cache
+Cache-Control: no-cache
+
+5b2
+if (nrn) nrn('a',[{"a":"Our Accredited Online Courses Let You Study at Your Own Pace.","d":"www.NewEducationCourses.com","m":0,"s":"yahoo","p":1,"c":"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F3200671.r.msn.com%2F%3Fld%3DDvCAYIcB9248LbR9gsKEcmBDVUCUz4ZS425rNY49kcykVugkr8lxeG5sStfm3t0LjSJAENU%2DxqwWHFBBQH2gn8ZaF6QqcvgG5vyzKOQamQiy4%2DQdwKNPbszX2pOEP9ItepWHfucw%26u%3Dhttp%253a%252f%252fneweducationcourses.com%252f%253f%252bNare6hE1c0VI6CwfDmLPZ%252fRbxW7Ghn0yQPC6GD%252fJyyXdRdt4tllcpdTfCT4qVhSTQq6b%252fLWMxftd7fMSBG0sTyKf7zs%252f48LjcTCxUiD1Ewi36i3dDBaPt4OSKorX03mbh5ua5YpFlBR5RHX%252bXD%252fxs2SPf0gJv%252bSiKHKqr7ccwCX3jx6GVC%252fSDm7FQBz%252feTc6fJzZZt7G1GOwneUhdnAlKwL2tyw5rX%252bsNw%252fVjeoXBV%2526k%253dEbooks%2BFor%2BFree%2526id%253d%257bmsclkid%257d","u":"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F3200671.r.msn.com%2F%3Fld%3DDvCAYIcB9248LbR9gsKEcmBDVUCUz4ZS425rNY49kcykVugkr8lxeG5sStfm3t0LjSJAENU%2DxqwWHFBBQH2gn8ZaF6QqcvgG5vyzKOQamQiy4%2DQdwKNPbszX2pOEP9ItepWHfucw%26u%3Dhttp%253a%252f%252fneweducationcourses.com%252f%253f%252bNare6hE1c0VI6CwfDmLPZ%252fRbxW7Ghn0yQPC6GD%252fJyyXdRdt4tllcpdTfCT4qVhSTQq6b%252fLWMxftd7fMSBG0sTyKf7zs%252f48LjcTCxUiD1Ewi36i3dDBaPt4OSKorX03mbh5ua5YpFlBR5RHX%252bXD%252fxs2SPf0gJv%252bSiKHKqr7ccwCX3jx6GVC%252fSDm7FQBz%252feTc6fJzZZt7G1GOwneUhdnAlKwL2tyw5rX%252bsNw%252fVjeoXBV%2526k%253dEbooks%2BFor%2BFree%2526id%253d%257bmsclkid%257d","h":0,"k":0,"i":"","t":"Ebooks For Free","o":""}]);
+0
+

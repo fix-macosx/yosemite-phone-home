@@ -1,0 +1,223 @@
+GET / HTTP/1.1
+Host: www.texpadapp.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Connection: close
+Server: gunicorn/0.17.4
+Date: Sun, 19 Oct 2014 08:00:09 GMT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Vary: Cookie
+Via: 1.1 vegur
+
+2D73
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Texpad</title>
+		<meta name="description" content="LaTeX editor for Mac OS X, iOS, iPad, iPhone and iPod Touch, with syntax highlighting, multi-file support and integrated PDF"/>
+		<meta name="author" content="Valletta Ventures"/>
+		<link rel="shortcut icon" href="https://static.texpadapp.com/www/images/favicon.ico" type="image/x-icon"/>
+		
+			<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<![endif]-->
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		
+		<link href="https://static.texpadapp.com/www/layout/external/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+		<script src="https://static.texpadapp.com/www/layout/external/bootstrap/js/bootstrap.min.js"></script>
+		<link href="https://static.texpadapp.com/www/layout/external/fontawesome/css/font-awesome.css" rel="stylesheet"/>
+		<!--[if IE 7]>
+			<link href="https://static.texpadapp.com/www/layout/external/fontawesome/css/font-awesome-ie7.min.css" rel="stylesheet"/>
+		<![endif]-->
+		<link href="https://static.texpadapp.com/www/layout/external/ionicons/css/ionicons.css" rel="stylesheet"/>
+		<link rel="stylesheet" type="text/css" href="https://static.texpadapp.com/www/layout/external/fancybox/source/jquery.fancybox.css" media="screen" />
+		<script type="text/javascript" src="https://static.texpadapp.com/www/layout/external/fancybox/source/jquery.fancybox.js"></script>
+		<link href="https://static.texpadapp.com/www/layout/css/texpadapp.css" rel="stylesheet"/>
+		
+<script>
+$(document).ready( function() { $('.carousel').carousel({ 'pause': 'hover' });
+});
+</script>
+
+		
+		<!-- google analytics -->
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-34534554-1']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+			 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			 })();
+		</script>
+		<script>$(document).ready(function() { $(".tooltipelement").tooltip({ 'placement':'bottom','trigger':'hover','container':'body'}); });</script>
+	</head>
+	<body>
+		<div class="page-wide" style="width: 100%;margin: 0px;background-color: #2479c1; color: #ffffff;">
+			<div class="row centred text-centred" style="padding-top: 5px; padding-bottom: 5px; width: 900px;">
+				<div class="col-xs-2 col-md-2" style="text-align:left; padding-top: 0px; ">
+					<a href="/">
+						<img src="https://static.texpadapp.com/www/images/logos/texpad-logo-inverted.png" alt="Texpad" width="70px" style="padding-top: 7px;"/>
+					</a>
+				</div>
+				<div class="col-xs-10 col-md-10 right home" style="font-size: 15px;padding-top: 6px; padding-bottom: 5px;">
+					<div class="btn-group" style="">
+						<a href="/osx" class="white"
+							><span class="heading">Mac</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+	
+						<a href="/ios" class="white"
+							><span class="heading">iPad/iPhone</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+						
+						<a href="/connect" class="white"
+							><span class="heading">Connect</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+						
+						<a href="/api" class="white"
+							><span class="heading">API</span></a>&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="/support" class="white"
+							><span class="heading">Support</span></a>&nbsp;&nbsp;&nbsp;<span class="grey"></span>&nbsp;&nbsp;&nbsp;
+					</div>
+					
+					
+					<div class="btn-group left home">
+						
+							<a href="/signup" class="btn btn-default btn-md white">Create a free account</a>
+							<a href="/signin" class="btn btn-default btn-md white">Sign in</a>
+						
+					</div>
+				</div>
+			</div>
+			
+<div class="centred text-centred homepage-header">
+	<div style="margin-top: 40px;margin-bottom: 40px;"><img class="header-img" src="https://static.texpadapp.com/www/images/collateral/full-webpage1.png" alt=""></div>
+	<div class="text-centred margin20 heading" style="font: 40px 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;color: #fff;">Research is hard, writing should be easy.</div>
+	<div>
+		<span class="feature-box feature-box-inverted">Intuitive UI</span>
+		<span class="feature-box feature-box-inverted">Autocomplete</span>
+		<span class="feature-box feature-box-inverted">Syntax-Highlighting</span>
+		<span class="feature-box feature-box-inverted">Easy Typesetting</span>
+		<span class="feature-box feature-box-inverted">Document Outline</span>
+		<span class="feature-box feature-box-inverted">Error Handling</span>
+	</div>
+</div>
+
+		</div>
+			
+		
+		<!--
+-->
+		
+<div class="centred text-centred" style="margin: auto; padding-top: 40px; padding-bottom: 20px;">
+	<div class="row centred" style="width: 700px;">
+		<div class="col-xs-4 col-md-4">
+			<div class="circularbullet-medium blue-fg-on-hover" style="padding-top: 5px;"><i class="fa fa-desktop"></i></div>
+		</div>
+		<div class="col-xs-4 col-md-4">
+			<div class="circularbullet-medium blue-fg-on-hover" style="padding-top: 5px;"><i class="glyphicon glyphicon-link"></i></div>
+		</div>
+		<div class="col-xs-4 col-md-4">
+			<div class="circularbullet-medium blue-fg-on-hover" style="padding-top: 5px;"><i class="ion-iphone"></i>&nbsp;<i class="ion-ipad large"></i></div>
+		</div>
+	</div>
+</div>
+
+
+<div class="centred columns" style="width: 800px;margin-top: 50px;">
+	<div class="row centred nocolumnbreak">
+		<div class="col-xs-4 col-md-4 right"><a href="/osx"><img class="img-rounded" src="https://static.texpadapp.com/www/images/osx-icon.png" width="110px" alt="Texpad"/></a></div>
+		<div class="col-xs-8 col-md-8 left">
+			<div class="heading"><img src="https://static.texpadapp.com/www/images/logos/texpad-logo-osx.png" width="120px"/></div>
+			<div class="heading large margin-top10">On your desktop...</div>
+			<div class="heading dark-grey margin-top10" style="height: 120px;">With auto-complete, smart typesetting, a document outline view for navigation, and translation of LaTeX's log into a browsable table of errors and warnings, it is the fastest and most pleasurable way to write LaTeX documents.</div>
+			<div class="smaller dark-grey margin-top10 padding0"><i class="fa fa-desktop larger"></i>&nbsp;&nbsp;Mac</div>
+			<div class="left margin-top10">
+				<a class="btn btn-default btn-md blue"  href="/osx">Find out more...</a>
+				<a class="btn btn-default btn-md green tooltipelement" href='http://cloud.texpadapp.com/bundles/Texpad_1_6_14.zip' data-toggle="tooltip" title="Download the Texpad OS X demo now and try it for 14 days free of charge">Download</a>
+			</div>
+		</div>
+	</div>
+	<div class="row centred nocolumnbreak">
+		<div class="col-xs-4 col-md-4 text-centred right"><a href="/ios"><img class="img-rounded" src="https://static.texpadapp.com/www/images/ios-icon.png" width="90px" alt="Texpad"/></a></div>
+		<div class="col-xs-8 col-md-8 small left">
+			<div class="heading"><img src="https://static.texpadapp.com/www/images/logos/texpad-logo-ios.png" width="120px"/></div>
+			<div class="heading large margin-top10">On the go...</div>
+			<div class="heading dark-grey margin-top10" style="height: 120px;">Write &amp; compile LaTeX on your iPad, iPhone or iPod Touch using a native iOS app. With most of the features from the OS X app migrating to iOS, this is the only app you'll need to complement your writing needs on the go.</div>
+			<div class="smaller dark-grey margin-top10"><i class="ion-ipad larger"></i>&nbsp;&nbsp;iPad&nbsp;·&nbsp;<i class="ion-iphone large"></i>&nbsp;&nbsp;iPhone</div>
+			<div class="left margin-top10">
+				<a class="btn btn-default btn-md blue" href="/ios">Find out more...</a>
+				<a class="btn btn-default btn-md green tooltipelement" href="http://itunes.apple.com/app/texpad-latex-editor/id550419159?ls=1&mt=8" data-toggle="tooltip" title="Download Texpad for iOS from the App Store now">Download</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="centred columns" style="width: 800px;margin-top: 50px;">
+	<div class="row centred nocolumnbreak">
+		<div class="col-xs-4 col-md-4 right"><a href="/connect"><img class="img-rounded" src="https://static.texpadapp.com/www/images/tpc-icon.png" width="90px" alt="Texpad"/></a></div>
+		<div class="col-xs-8 col-md-8 left">
+			<div class="heading"><img src="https://static.texpadapp.com/www/images/logos/texpad-logo-connect.png" width="120px"/></div>
+			<div class="heading large margin-top10">Sync, backup and collaborate...</div>
+			<div class="heading dark-grey margin-top10" style="height: 120px;">Share your LaTeX documents with your collaborators and sync across multiple devices.</div>
+			<div class="smaller dark-grey margin-top10 padding0"><i class="fa fa-desktop larger"></i>&nbsp;&nbsp;Mac&nbsp;·&nbsp;<i class="ion-ipad larger"></i>&nbsp;&nbsp;iPad&nbsp;·&nbsp;<i class="ion-iphone large"></i>&nbsp;&nbsp;iPhone</div>
+			<div class="left margin-top10">
+				<a class="btn btn-default btn-md blue" href="/connect">Find out more...</a>
+			</div>
+		</div>
+	</div>
+<!--	<div class="row centred nocolumnbreak panel">
+		<div class="panel-heading heading">Newsreel</div>
+	</div>-->
+</div>
+<div class="margin30"></div>
+
+		<div class="main-separator"></div>
+		
+		<div style="margin-top: 40px;margin-bottom: 50px;">
+			<div class="container centred row small grey">
+				<div class="col-xs-5 col-md-5 left">
+					<div style="padding-bottom: 5px;">
+						<a class="grey" href="/blog">Blog</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+						<a class="grey" href="/aboutus">About us</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+						<a class="grey" href="http://support.texpadapp.com/discussion/new">Contact us</a>
+					</div>
+					<a class="grey" href="https://twitter.com/vallettav" alt="Follow us on twitter"><span class="ion-social-twitter"></span>&nbsp;&nbsp;Follow</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+					<a class="grey" href="https://twitter.com/intent/tweet?button_hashtag=texpad&text=Check%20out%20Texpad%20%3A%20LaTeX%20editor%20for%20Mac%20and%20iOS" alt="Tweet about your favourite feature in Texpad!">
+						<span class="ion-social-twitter-outline"></span>&nbsp;&nbsp;Tweet</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+					<a class="grey" href="https://www.facebook.com/pages/Texpad/392333077501279" alt="Like us on facebook"><span class="ion-social-facebook-outline large"></span>&nbsp;&nbsp;Like</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+					<a class="grey" href="mailto:?subject=Check out Texpad&body=Hi,%0D%0A%0D%0AHere's my new favourite LaTeX editor: http://texpadapp.com . Available for your Mac/iPad and iPhone.%0D%0A%0D%0ADownload now and rediscover the joy of LaTeX!%0D%0A%0D%0ABest,%0D%0A%0D%0A..." alt="Recommend to a friend/colleague">
+						<span class="ion-ios7-heart-outline"></span>&nbsp;&nbsp;Tell a Friend</a>
+				</div>
+				<div class="col-xs-2 col-md-2 text-centred">
+					<div style="margin-top: 10px;">
+						<img src="https://static.texpadapp.com/www/images/logos/vv/vvlogo-grey.png" alt="Vellette Ventures" width="20px" class="opaque75"/>
+						
+					</div>
+				</div>
+				<div class="col-xs-5 col-md-5 right">
+					<div style="padding-bottom: 5px;">
+						<a class="grey" href="/company">Company</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+						<a class="grey" href="/terms-and-conditions">Terms &amp; Conditions</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+						<a class="grey" href="/privacy-security">Privacy &amp; Security</a>
+					</div>
+					<span class="grey">&copy; 2011-2014 Valletta Ventures LLP. All rights reserved.</span>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
+
+0
+

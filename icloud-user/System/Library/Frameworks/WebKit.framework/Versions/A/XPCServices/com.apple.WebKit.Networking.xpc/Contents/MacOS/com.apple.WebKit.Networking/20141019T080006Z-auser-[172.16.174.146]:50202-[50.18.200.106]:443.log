@@ -1,0 +1,24 @@
+GET /iu/?u=https%3A%2F%2Fd1z22zla46lb9g.cloudfront.net%2Fimage%2F2958558550&f=1 HTTP/1.1
+Host: images.duckduckgo.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 403 Forbidden
+Server: nginx
+Date: Sun, 19 Oct 2014 08:00:07 GMT
+Content-Type: application/xml
+Transfer-Encoding: chunked
+Connection: close
+X-Cache: Error from cloudfront
+Via: 1.1 f5ae14a6e9e62248cacee98ee2cb5431.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: QkGsDbD-HfvX02Ni_yFFEoUhqzNKUmPvWRKfOVdqSO248x2-2kVtqg==
+
+e7
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>66A890C9F7F24854</RequestId><HostId>dxgzuAOAMA1buym2AEWsCakCEm+gVFncD1nAHqBUxOLuRA34NnrzLx1RzqmMp8iV</HostId></Error>
+0
+

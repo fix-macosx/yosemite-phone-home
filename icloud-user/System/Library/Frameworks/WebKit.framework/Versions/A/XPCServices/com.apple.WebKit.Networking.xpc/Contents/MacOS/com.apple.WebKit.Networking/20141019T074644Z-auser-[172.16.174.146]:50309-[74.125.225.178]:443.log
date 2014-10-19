@@ -1,0 +1,20 @@
+GET /gen_204?atyp=i&ct=phandle&cad=0,deb:0&ei=YWxDVIH9HpawyATs84KgCw&zx=1413704803932 HTTP/1.1
+Host: www.google.com
+Accept: */*
+Connection: keep-alive
+Cookie: GZ=Z=1; NID=67=IxQya6ElbCTZBx6k3SCG1O7nvxPi-0H9cWuEUB21_-FCJ99lqMoU9RwrXHnM8GhzUiPFjqEuE4l9Vrz_GqEv7Qp2EtTxeEl_wGuxhWwmxmkGLr3_2d_ZUQ0gORtZqsbN; PREF=ID=87324ecd3eea9eb1:FF=0:TM=1413704801:LM=1413704801:S=oI1Lnz_dD7oPibn7
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://www.google.com/search?client=safari&rls=en&q=If+I+use+google+as+a+search+engine,+I+know+they'll+get+my+query.+Will+Apple%3F&ie=UTF-8&oe=UTF-8
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 204 No Content
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 19 Oct 2014 07:46:44 GMT
+Server: gws
+Content-Length: 0
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Alternate-Protocol: 443:quic,p=0.01
+Connection: close
+

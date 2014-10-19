@@ -1,0 +1,22 @@
+GET /connect/ping?client_id=111845687996&domain=ebooks.adelaide.edu.au&origin=1&redirect_uri=https%3A%2F%2Fs-static.ak.facebook.com%2Fconnect%2Fxd_arbiter%2Fw9JKbyW340G.js%3Fversion%3D41%23cb%3Df24f842bc8%26domain%3Debooks.adelaide.edu.au%26origin%3Dhttps%253A%252F%252Febooks.adelaide.edu.au%252Ff3ab1a0a74%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey HTTP/1.1
+Host: www.facebook.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://ebooks.adelaide.edu.au/o/orwell/george/o79n/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Pragma: no-cache
+Strict-Transport-Security: max-age=15552000; preload
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+X-FB-Debug: P6Q09wV0clOWc8dkyfw3KSK0i3ZEULizGOuCSGxmVKsW9iz7hwVQ4bQ2LoyMC/+pi5+f8sANcZ2h+3/pChyzeA==
+Date: Sun, 19 Oct 2014 08:17:01 GMT
+Connection: close
+
+<div><span>Given URL is not allowed by the Application configuration.: One or more of the given URLs is not allowed by the App&#039;s settings.  It must match the Website URL or Canvas URL, or the domain must be a subdomain of one of the App&#039;s domains.</span><script>if (typeof console !=="undefined" && console.log) console.log("Given URL is not allowed by the Application configuration.: One or more of the given URLs is not allowed by the App's settings.  It must match the Website URL or Canvas URL, or the domain must be a subdomain of one of the App's domains.");</script></div>

@@ -1,0 +1,52 @@
+POST /escrowproxy/api/get_records HTTP/1.1
+Host: p29-escrowproxy.icloud.com:443
+Content-Type: application/x-apple-plist
+User-Agent: com.apple.lakitu/1 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Connection: keep-alive
+Accept: */*
+Accept-Language: en-us
+Content-Length: 345
+Accept-Encoding: gzip, deflate
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>GETRECORDS</string>
+	<key>label</key>
+	<string>com.apple.securebackup.record</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
+HTTP/1.1 200 OK
+Date: Sun, 19 Oct 2014 07:23:07 GMT
+X-Apple-Request-UUID: 19484781-ad50-4261-8b2f-fa344234a605
+X-Responding-Instance: escrowproxy:12900301:st13p29ic-hpaf17250801:8001:14G54:155647
+Content-Type: application/xml; charset=UTF-8
+Content-Length: 441
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>version</key>
+		<integer>1</integer>
+
+		<key>status</key>
+		<string>0</string>
+
+		<key>message</key>
+		<string>Success</string>
+
+		<key>metadataList</key>
+		<array>
+		</array>
+
+		<key>dsid</key>
+		<integer>8078008707</integer>
+
+	</dict>
+</plist>

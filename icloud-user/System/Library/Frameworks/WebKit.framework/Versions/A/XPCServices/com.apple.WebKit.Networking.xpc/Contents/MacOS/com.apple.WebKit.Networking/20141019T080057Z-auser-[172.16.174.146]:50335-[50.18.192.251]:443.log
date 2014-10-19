@@ -1,0 +1,23 @@
+GET /y.js?x=1&q=textmate&l=us-en&a=osx&safe=1 HTTP/1.1
+Host: duckduckgo.com
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 08:00:58 GMT
+Content-Type: application/x-javascript; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: close
+Expires: Sun, 19 Oct 2014 08:00:57 GMT
+Cache-Control: no-cache
+Cache-Control: no-cache
+
+a91
+if (nrn) nrn('a',[{"n":3,"a":"Search for Text Editor For Mac Os X. Find Expert Advice on About.com.","d":"About.com/Text Editor For Mac Os X","m":0,"s":"yahoo","l":"<a class=\"sponsored__sitelink\" href=\"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F2807168.r.msn.com%2F%3Fld%3DDvZnsKRQWaTjluiDx3DhNQOjVUCUw9ccxwvvKak6fsJj7dyGB28VjTOBOSBf84ezD1DlkTl27oEQVk0NTelMB8qSFfpUu8qPxhdxVdHnqLIWH%2DJNy_SOspfTwSDSYzuVKnvTwDwfHkXxa8uQmGz_MYDaDmg9I%26u%3Dindex.about.com%252f%253fl%253ddir%2526qsrc%253d999%2526askid%253dsitelink%2Dtest%2D0000%2D0000%2D000000000000%2D1%2Dab%2Dgse%2526kwid%253dText%252520Editor%252520For%252520Mac%252520Os%252520X%2526cid%253d%257bcreative%257d%2526site%253d%257bplacement%257d%2526o%253d22887\">Search About.com</a><a class=\"sponsored__sitelink\" href=\"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F2807168.r.msn.com%2F%3Fld%3DDvfVOwKV_0G2vx3bWGwV3ySzVUCUxvx%2D%2DfptpdetdoYMd1RxUuRmkfsBNeglTxfntnQ_s1GiQ8iS2Y3wFlimv4yD1uuLRtyoCoIfP87x13v4Xux_1Y8cNm_8CItPbmh0STXkfUSZj3GK2Ozt0hBJQxEQ86HK0%26u%3Dclk.about.com%252f%253fzi%253d13%252f1tO%2526ity%253dindexSEM%2526o%253d22887%2526eng%253dCSE%2526zu%253dhttp%253a%252f%252fwww.about.com\">About.com Home</a><a class=\"sponsored__sitelink\" href=\"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F2807168.r.msn.com%2F%3Fld%3DDvcwanArcND0oW8uYc_p_QBDVUCUxu8SyMUmRcGTHBYZyknPEHn62l_4g9hOJiPfcWMBnwuLZzK_F5aYjvvWpwo5520Rc9JbMDCWrv5wI2MgwHPMWTD11ocph4DrJOnAgnRmC4G%2DgOpH7wAOUoC2y3oa5SEAw%26u%3Dclk.about.com%252f%253fzi%253d13%252f1tO%2526ity%253dindexSEM%2526o%253d22887%2526eng%253dCSE%2526zu%253dhttp%253a%252f%252fwww.about.com\">About.com Article List</a>","u":"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F2807168.r.msn.com%2F%3Fld%3DDvNI1YirioTOL3sbiXaRYUsDVUCUyX5d%2DrkjST2tAFagc1TUtI_9Ggd3A6hPmWviMSBXp0z1wmoL4bNsJOGDsVpLT9Y2znS2orSX%2DjVO5F5Xq8xdBeQgY6p%2DSOv0eKiOTvDknDWg%26u%3Dhttp%253a%252f%252findex.about.com%252fslp%253f%2526q%253dtext%252beditor%252bfor%252bmac%252bos%252bx%2526sid%253dcdf38478%2Dcb5a%2D444c%2Db230%2D49c8d8b3b628%2D0%2Dab_msb%2526kwid%253dtextmate%2526cid%253d4294901942","p":1,"c":"http://r.duckduckgo.com/y.js?kh=-1&x=1&u2=http%3A%2F%2F2807168.r.msn.com%2F%3Fld%3DDvNI1YirioTOL3sbiXaRYUsDVUCUyX5d%2DrkjST2tAFagc1TUtI_9Ggd3A6hPmWviMSBXp0z1wmoL4bNsJOGDsVpLT9Y2znS2orSX%2DjVO5F5Xq8xdBeQgY6p%2DSOv0eKiOTvDknDWg%26u%3Dhttp%253a%252f%252findex.about.com%252fslp%253f%2526q%253dtext%252beditor%252bfor%252bmac%252bos%252bx%2526sid%253dcdf38478%2Dcb5a%2D444c%2Db230%2D49c8d8b3b628%2D0%2Dab_msb%2526kwid%253dtextmate%2526cid%253d4294901942","h":0,"k":0,"i":"https://s.yimg.com/pp/favicons-new/16x16_100_lOqi9cQwLkEztz4PfL9uWw.png","t":"Text Editor For Mac Os X","o":""}]);
+0
+

@@ -1,0 +1,31 @@
+OPTIONS /WebObjects/MZUserXP.woa/wa/recordStats?eventType=ITSLoadTimes&version=2.1 HTTP/1.1
+Host: metrics.mzstatic.com
+Origin: https://p30-buy.itunes.apple.com
+Access-Control-Request-Method: POST
+Content-Length: 0
+Access-Control-Request-Headers: origin, content-type
+Connection: keep-alive
+Accept: */*
+User-Agent: MacAppStore/2.0 (Macintosh; OS X 10.10; 14A389) AppleWebKit/0600.1.25
+Referer: https://p30-buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/com.apple.jingle.app.finance.DirectAction/convertWizard
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+x-apple-jingle-correlation-key: EFIVA5P4WTTDI
+access-control-allow-origin: https://p30-buy.itunes.apple.com
+access-control-allow-headers: origin, content-type
+x-apple-application-site: NWK
+apple-timing-app: 1 ms
+access-control-allow-methods: POST
+x-apple-application-instance: 5030
+x-webobjects-loadaverage: 0
+access-control-max-age: 86400
+access-control-allow-credentials: true
+Content-Length: 0
+Expires: Sun, 19 Oct 2014 08:15:30 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 19 Oct 2014 08:15:30 GMT
+Connection: close
+

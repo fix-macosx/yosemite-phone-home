@@ -1,0 +1,20 @@
+HEAD /safari/mac/8.0/index.html?localePath=en.lproj HTTP/1.1
+Host: help.apple.com
+Accept: */*
+Connection: keep-alive
+Cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi
+User-Agent: Help%20Viewer/256 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Accept-Language: en-us
+Content-Length: 0
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: Apache
+Access-Control-Allow-Origin: *
+Cteonnt-Length: 30795
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=679
+Expires: Sun, 19 Oct 2014 08:32:51 GMT
+Date: Sun, 19 Oct 2014 08:21:32 GMT
+Connection: close
+

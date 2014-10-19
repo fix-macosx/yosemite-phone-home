@@ -1,0 +1,44 @@
+PROPPATCH /8078008707/calendars/ HTTP/1.1
+Host: p29-caldav.icloud.com
+Content-Type: text/xml
+Authorization: X-MobileMe-AuthToken ODA3ODAwODcwNzpBUUFBQUFCVVEyYllJRTFxTGNlcFByZGxHekVyajRzUTF4NmQ3SGc9
+Connection: keep-alive
+Accept: */*
+User-Agent: Mac+OS+X/10.10 (14A389) CalendarAgent/315
+Content-Length: 425
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+<?xml version="1.0" encoding="UTF-8"?>
+<A:propertyupdate xmlns:A="DAV:"><A:set><A:prop><B:default-alarm-vevent-date xmlns:B="urn:ietf:params:xml:ns:caldav">BEGIN:VALARM&#13;
+X-WR-ALARMUID:93BFE176-9D2F-47A0-8D8C-EF27E938064D&#13;
+UID:93BFE176-9D2F-47A0-8D8C-EF27E938064D&#13;
+TRIGGER:-PT15H&#13;
+ATTACH;VALUE=URI:Basso&#13;
+ACTION:AUDIO&#13;
+END:VALARM&#13;
+</B:default-alarm-vevent-date></A:prop></A:set></A:propertyupdate>
+HTTP/1.1 207 Multi-Status
+Content-Length: 383
+Accept-Ranges: bytes
+Server: iCloudCalendarServer 14G54
+Last-Modified: Sun, 19 Oct 2014 14:23:30 GMT
+DAV: 1, access-control, calendar-access, calendar-schedule, calendar-auto-schedule, calendar-managed-attachments, calendarserver-sharing, calendarserver-subscribed, calendarserver-home-sync
+X-Transaction-Id: d4206904-5760-11e4-b817-78e3b5134114
+Date: Sun, 19 Oct 2014 07:23:31 GMT
+X-Responding-Server: st13p29ic-hpaf17240901 5 a63660a6f7d1a25b5a7ed66dab0da843
+Content-Type: text/xml
+
+<?xml version='1.0' encoding='UTF-8'?>
+<multistatus xmlns='DAV:'>
+  <response>
+    <href>/8078008707/calendars/</href>
+    <propstat>
+      <prop>
+        <default-alarm-vevent-date xmlns='urn:ietf:params:xml:ns:caldav'/>
+      </prop>
+      <status>HTTP/1.1 200 OK</status>
+      <responsedescription>OK</responsedescription>
+    </propstat>
+  </response>
+</multistatus>

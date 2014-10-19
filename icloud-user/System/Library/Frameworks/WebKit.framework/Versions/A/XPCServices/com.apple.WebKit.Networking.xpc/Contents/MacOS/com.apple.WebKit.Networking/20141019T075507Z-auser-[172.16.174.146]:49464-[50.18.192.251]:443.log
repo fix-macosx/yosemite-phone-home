@@ -1,0 +1,801 @@
+GET /about HTTP/1.1
+Host: duckduckgo.com
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Accept-Language: en-us
+Referer: https://duckduckgo.com/
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 19 Oct 2014 07:55:07 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 38482
+Connection: close
+ETag: "5442d11b-9652"
+Expires: Sun, 19 Oct 2014 07:55:08 GMT
+Cache-Control: max-age=1
+Strict-Transport-Security: max-age=31536000
+Accept-Ranges: bytes
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]> <html lang="en_US" class="no-js iem7"> <![endif]-->
+<!--[if lt IE 7]> <html class="ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7 no-js" lang="en_US"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 lt-ie10 lt-ie9 lt-ie8 no-js" lang="en_US"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 lt-ie10 lt-ie9 no-js" lang="en_US"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9 lt-ie10 no-js" lang="en_US"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en_US"><!--<![endif]-->
+
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8;charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
+<meta name="HandheldFriendly" content="true"/>
+
+<link rel="canonical" href="https://duckduckgo.com/about">
+
+<link rel="stylesheet" href="/s897.css" type="text/css">
+<link rel="stylesheet" href="/t897.css" type="text/css">
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" sizes="16x16 24x24 32x32 64x64"/>
+<link rel="apple-touch-icon" href="/assets/icons/meta/DDG-iOS-icon_60x60.png"/>
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/meta/DDG-iOS-icon_76x76.png"/>
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/meta/DDG-iOS-icon_120x120.png"/>
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/meta/DDG-iOS-icon_152x152.png"/>
+<link rel="image_src" href="/assets/icons/meta/DDG-icon_256x256.png"/>
+
+<link title="DuckDuckGo" type="application/opensearchdescription+xml" rel="search" href="/opensearch.xml">
+
+<meta name="twitter:site" value="@duckduckgo">
+<meta name="twitter:url" value="https://duckduckgo.com/about">
+
+<meta property="og:url" content="https://duckduckgo.com/about" />
+<meta property="og:site_name" content="DuckDuckGo" />
+
+
+	<title>About DuckDuckGo</title>
+<meta property="og:title" content="About DuckDuckGo" />
+<meta name="twitter:title" value="About DuckDuckGo">
+
+
+<meta name="description" content="Our vision is simple. To give you great results without tracking you. We're not just servers and algorithm. We're so much more.">
+
+<meta property="og:image" content="http://duckduckgo.com/assets/about/about-duckduckgo-posterimg.jpg" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="DuckDuckGo has better instant answers, less spam and clutter, and real privacy." />
+
+<meta property="og:video:height" content="544" />
+<meta property="og:video:width" content="960" />
+<meta property="og:video:type" content="application/x-shockwave-flash" />
+<meta property="og:video" content="http://dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" />
+<meta property="og:video:secure_url" content="https://dcol7pgeg4982.cloudfront.net/video/AboutDuckDuckGo-v2.mp4" />
+<meta property="og:video:type" content="video/mp4" />
+
+<meta content="544" name="video_height" />
+<meta content="960" name="video_width" />
+<meta content="application/x-shockwave-flash" name="video_type" />
+<meta name="twitter:card" value="player">
+<meta name="twitter:image" value="http://duckduckgo.com/assets/about/about-duckduckgo-posterimg.jpg">
+
+<meta name="twitter:player:width" value="960">
+<meta name="twitter:player:height" value="544">
+
+<link rel="image_src" href="/assets/about/about-duckduckgo-posterimg.jpg"/>
+
+
+  </head>
+  <body id="pg-about" class="page-about ">
+	<script type="text/javascript">settings_js_version = "/s1695.js";</script>
+<script type="text/javascript" src="/locales/en_US/LC_MESSAGES/duckduckgo-duckduckgo+sprintf+gettext+locale-simple.20141017.050413.js"></script>
+<script type="text/javascript" src="/d1695.js"></script>
+
+
+<script type="text/javascript">
+	DDG.ready(function(){
+		DDG.page = new DDG.Pages.Static();
+	});
+</script>
+
+	<div class="site-wrapper  site-wrapper--static">
+	    
+	 
+	  <div id="header_wrapper" class="header-wrap header-wrap--with-alt">
+	<div id="header" class="header  cw">
+		<div class="header__search-wrap">
+			<a href="/" class="header__logo-wrap">
+				<span class="header__logo">DuckDuckGo</span>
+			</a>
+			<div class="header__content  header__search  search-wrap--header">
+				<form id="search_form" class="search  search--header  js-search-form" name="x" action="/">
+					<input type="text" name="q" tabindex="1" autocomplete="off" id="search_form_input" class="search__input  js-search-input" placeholder="Search DuckDuckGo" />
+					<input id="search_button" class="search__button  js-search-button" type="submit" tabindex="2" value="S" />
+					<input id="search_form_input_clear" class="search__clear  empty  js-search-clear" type="button" tabindex="3" value="X" />
+					<div id="search_elements_hidden" class="search__hidden  js-search-hidden"></div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="header--aside  js-trigger-main-menu">
+		 <a class="header__button--menu" tabindex="5" href="#menu">&#8694;</a>
+	</div>
+</div>
+
+<div class="header-wrap--alt">
+	<div class="header--alt  cw  js-show-header">
+		<i class="header--alt__loupe"></i>
+		<span class="header--alt__text">Try a search!</span>
+	</div>
+	<div class="header--aside  js-trigger-main-menu">
+		 <a class="header__button--menu  header__button--alt-menu" tabindex="5" href="#menu">&#8694;</a>
+	</div>
+</div>
+
+<div class="nav-menu--slideout  js-main-menu">
+    <ul class="nav-menu__list">
+		<i class="nav-menu__close  js-trigger-main-menu">X</i>
+		
+	<ul class="nav-menu--main">
+	<li class="nav-menu__heading"><span>Menu</span></li>
+
+	<li class="nav-menu__item"><a href="/settings/" tabindex="-1">Settings</a></li>
+
+
+	<li class="nav-menu__item"><a href="/privacy/" tabindex="-1">Privacy</a></li>
+
+	<li class="nav-menu__item"><a href="https://duck.co/help/company/press" tabindex="-1">Press</a></li>
+
+	<li class="nav-menu__item  hide--mob"><a href="https://duck.co/help" tabindex="-1">Help</a></li>
+	</ul>
+	
+	<ul class="nav-menu--community  hide--mob">
+	<li class="nav-menu__heading"><span>Get Involved</span></li>
+	<li class="nav-menu__item"><a href="https://duck.co/" tabindex="-1">Community</a></li>
+	<li class="nav-menu__item"><a href="/feedback/" tabindex="-1">Feedback</a></li>
+	</ul>
+	
+	<ul class="nav-menu--add-to">
+	<li class="nav-menu__heading"><span>Add DuckDuckGo</span></li>
+	<li class="nav-menu__item js-menu-add-to-browser"></li>
+	<li class="nav-menu__item js-menu-add-to-homepage"></li>
+	</ul>
+
+	</ul>
+</div>
+
+<select id="bang" class="hide" size="2" onChange="if (ip) nbb(this);" onClick="if (!ip) nbb(this);" onBlur="bang_toggle();"></select>
+
+
+	  <div id="content_wrapper" class="content-wrap">
+	  
+		
+
+		<script src="js/r/about102.js"></script>
+<div class="abt  abt--hero  js-event-slider">
+	<div class="event-pane-wrap">
+		<div class="event-pane  js-slider">
+			<span class="event-nav  nav  nav--hero  nav--prev  js-event-prev"></span>
+			<span class="event-nav  nav  nav--hero  nav--next  js-event-next"></span>
+			<div class="event  event--first  js-event" data-text="START">
+				<div class="event__icon  logo--dax"></div>
+				<h1 class="abt__title--hero">Our Vision is Simple.</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">To give you great search results without tracking you.</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--company" data-type="company" data-date="October 29, 2007">
+				<div class="event__icon  ddgst  ddgst-idea"></div>
+				<h1 class="abt__title--hero">The Beginning</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">DuckDuckGo all started with the name and an idea to make answers easier to find.</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--company" data-type="company" data-date="February 29, 2008">
+				<div class="event__icon  ddgst  ddgst-company"></div>
+				<h1 class="abt__title--hero">It&#39;s Official</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">In early 2008, Gabriel emerged from his basement with a plan. He soon made it official by incorporating DuckDuckGo.</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--news" data-type="news" data-date="September 25, 2008">
+				<div class="event__icon  ddgst  ddgst-launch"></div>
+				<h1 class="abt__title--hero">Launch!</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">Within the year, DuckDuckGo was announced to the Hacker News community. We survived!</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--news" data-type="news" data-date="January 22, 2009">
+				<div class="event__icon  ddgst  ddgst-privacy"></div>
+				<h1 class="abt__title--hero">Anonymous</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">Inspired by conversations on reddit and because search history is so personal, DuckDuckGo decides to take a bold move and not collect or share any personal information on its users.</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--news" data-type="news" data-date="July 21, 2010">
+				<div class="event__icon  ddgst  ddgst-community"></div>
+				<h1 class="abt__title--hero">Duck.co</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">DuckDuckGo&#39;s community is its extended team. Duck.co was born from the community&#39;s need for a centralized place to swap ideas.</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--news" data-type="news" data-date="January 11, 2011">
+				<div class="event__icon  ddgst  ddgst-billboard"></div>
+				<h1 class="abt__title--hero">The Billboard</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">DuckDuckGo delivered a message in the heart of the tech world: a billboard in San Francisco that read &quot;Google tracks you. We don&#39;t.&quot;</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--company event--company--foss" data-type="company" data-date="February 26, 2011">
+				<div class="event__icon  ddgst  ddgst-love"></div>
+				<h1 class="abt__title--hero">2011 Donations</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">DuckDuckGo relies on a lot of great open-source projects to keep our gears spinning. In 2011, we decided to start paying some of that love back to the open-source community, donating to nginx, FreeBSD, Tor, Clamwin, Tahoe-LAFS and OpenSSH.</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--company" data-type="company" data-date="October 13, 2011">
+				<div class="event__icon  ddgst  ddgst-company"></div>
+				<h1 class="abt__title--hero">Series &quot;A&quot; Funding</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">Four years in, DuckDuckGo secures funding from Union Square Ventures, a group that shares the same vision of smarter search and real privacy.</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--company" data-type="company" data-date="November 30, 2011">
+				<div class="event__icon  ddgst  ddgst-company"></div>
+				<h1 class="abt__title--hero">Employee #1</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">For years Gabriel was the only full-timer. Caine Tighe changed all that, coming on board as our first official employee.</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--company" data-type="company" data-date="December 1, 2011">
+				<div class="event__icon  ddgst  ddgst-company"></div>
+				<h1 class="abt__title--hero">Headquarters</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">DuckDuckGo moves out of Gabriel&#39;s basement and into our fortress in Paoli, PA, USA. It really does look like a castle!</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--news" data-type="news" data-date="January 16, 2012">
+				<div class="event__icon  ddgst  ddgst-redesign"></div>
+				<h1 class="abt__title--hero">Redesign</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">Our first major visual overhaul introduced a new design that made you not want to close your browser the second you saw our results page. </h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--traffic" data-type="traffic" data-date="February 13, 2012">
+				<div class="event__icon  ddgst  ddgst-traffic"></div>
+				<h1 class="abt__title--hero">1,000,000!</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">Reaching 1 million searches a day was a major milestone for us, having steadily grown from 100 to 1,000 to 10,000 to 100,000 and finally to 1,000,000. That&#39;s more than 10 searches a second!</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--company event--company--foss" data-type="company" data-date="March 7, 2012">
+				<div class="event__icon  ddgst  ddgst-love"></div>
+				<h1 class="abt__title--hero">2012 Donations</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">For our second year of open-source donations we chose the theme &quot;open data/information.&quot; The company-directed portion went to Tor and the Wikimedia foundation. The community-directed portion went to unhosted.org, the Diaspora project, Freenet, and friendica.</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--news" data-type="news" data-date="May 1, 2012">
+				<div class="event__icon  ddgst  ddgst-community"></div>
+				<h1 class="abt__title--hero">DuckDuckHack</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">Our vision of getting you the best instant answers from the best sources finally merged with our vibrant community when we introduced DuckDuckHack: our open-source platform where anyone can suggest or create instant answers for our results.</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--company event--company--foss" data-type="company" data-date="February 25, 2013">
+				<div class="event__icon  ddgst  ddgst-love"></div>
+				<h1 class="abt__title--hero">2013 Donations</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">Our 3rd year of open-source donations were under the theme of &quot;fix tracking.&quot; The company portion went to the Open Street Map Foundation and the Electronic Frontier Foundation. The community directed donations to Riseup, F-Droid, NoScript, Cryptocat, and Javascript Blocker. </h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--traffic" data-type="traffic" data-date="June 10, 2013">
+				<div class="event__icon  ddgst  ddgst-traffic"></div>
+				<h1 class="abt__title--hero">2,000,000</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">483 days after reaching one million, we doubled our daily searches. This milestone happened days after people started sharing private alternatives (like us) in the wake of the NSA revelations. </h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--traffic" data-type="traffic" data-date="June 17, 2013">
+				<div class="event__icon  ddgst  ddgst-traffic"></div>
+				<h1 class="abt__title--hero">3,000,000</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">Just eight days after hitting two million searches per day, we added another million. To put this in perspective, it took 1,445 days to get to one million from the day we launched.</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--news" data-type="news" data-date="June 27, 2013">
+				<div class="event__icon  ddgst  ddgst-news"></div>
+				<h1 class="abt__title--hero">Search &amp; Stories</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">DuckDuckGo delivers an app that gives you the most interesting stories of the day packed with a convenient way to search. TIME ranked it in their, &quot;Top 50 iPhone apps of 2013.&quot;</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--traffic" data-type="traffic" data-date="August 19, 2013">
+				<div class="event__icon  ddgst  ddgst-traffic"></div>
+				<h1 class="abt__title--hero">4,000,000</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">Just over two months after hitting two million searches/day, we doubled our traffic again. People start to realize we&#39;re not a Chinese restaurant.</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--traffic" data-type="traffic" data-date="February 26, 2014">
+				<div class="event__icon  ddgst  ddgst-traffic"></div>
+				<h1 class="abt__title--hero">5,000,000</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">Five million direct searches in one day. That&#39;s 150 million a month, 1.825 billion a year! We will stop marking each million milestone now.</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--company event--company--foss" data-type="company" data-date="March 12, 2014">
+				<div class="event__icon  ddgst  ddgst-love"></div>
+				<h1 class="abt__title--hero">2014 Donations</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">Needed more than ever, our 2014 donation theme was, &quot;secure communications.&quot; Our company directed portion went to SecureDrop and NoiseTor. The community directed donations went to Lavabit, Riseup, Mailpile, and I2P.</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--company" data-type="company" data-date="March 17, 2014">
+				<div class="event__icon  ddgst  ddgst-company"></div>
+				<h1 class="abt__title--hero">Employee #10</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">We have thousands of fewer employees than the big guys, but each one is part of our family and grew out of our community. Brian Stoner joined us just in time!</h5>
+				</div>
+			</div>
+			
+			<div class="event  js-event  event--company" data-type="company" data-date="May 19, 2014">
+				<div class="event__icon  ddgst  ddgst-redesign"></div>
+				<h1 class="abt__title--hero">Reimagined</h1>
+				<div class="abt--hero__text">
+					<h5 class="abt__sub--hero">DuckDuckGo launches a reimagined and redesigned search engine with a refined look and a focus on smarter answers.</h5>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="abt__timeline  event-timeline-wrap">
+		<div class="event-timeline  js-timeline"></div>
+	</div>
+	<div class="event-timeline-wrap--yr">
+		<div class="event-timeline  event-timeline--yr  js-timeline-yr"></div>
+	</div>
+</div>
+<div class="abt  abt--alt  abt--keys">
+	<a href="#keys" class="abt__anchor ddgsi">v</a><a name="keys" class="anchor"></a>
+	<div class="cw--c">
+		<h2 class="abt__title">About Us</h2>
+		<hr class="hr--abt" />
+		<h5 class="abt__sub">
+DuckDuckGo is a search engine driven by community &ndash; you're on the team! 
+<br>We're not just servers and an algorithm. We're so much more.
+		</h5>
+		<div class="abt__row">
+			<div class="abt__key  third">
+				<i class="abt__key__icon  abt__key__icon--privacy  circle"></i>
+				<h3 class="abt__key__title">Real Privacy</h3>
+				<h6 class="abt__key__sub">We don't track you.</h6>
+				<p>From funny videos to health and finance questions, searches are a reflection of your personal life. That's why we don't collect or share personal information.</p>
+				<a class="btn  btn--abt  btn--abt--key" href="/privacy">Our Policy</a>
+			</div>
+			<div class="abt__key  third">
+				<i class="abt__key__icon  abt__key__icon--answers  circle"></i>
+				<h3 class="abt__key__title">Smarter Search</h3>
+				<h6 class="abt__key__sub">Get answers quicker.</h6>
+				<p>We help you get where you want to go in fewer clicks. We do that through instant answers, !bangs, and keyboard shortcuts. You can even help improve your search engine!</p>
+				<a class="btn  btn--abt  btn--abt--key" href="http://duckduckhack.com">Get Involved</a>
+			</div>
+			<div class="abt__key  third">
+				<i class="abt__key__icon  abt__key__icon--clutter  circle"></i>
+				<h3 class="abt__key__title">Less Clutter</h3>
+				<h6 class="abt__key__sub">Fewer ads and reduced spam.</h6>
+				<p>Our only focus is search. We don't have to promote other services like social networks in our results.  We are clutter-free and you can change the look and feel.</p>
+				<a class="btn  btn--abt  btn--abt--key" href="/settings">Tweak Settings</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="abt  abt--team">
+	<div class="cw--c">
+		<h2 class="abt__title">Our Team</h2>
+		<hr class="hr--abt" />
+		<h5 class="abt__sub">
+			Meet the DuckDuckGo core team and check out our full team <a href="https://twitter.com/duckduckgo/lists/team/members">on twitter</a>.
+			<br/>
+			Interested in working with us?  Check out our <a href="https://duck.co/help/company/hiring">hiring philosophy</a>.
+		</h5>
+		
+		<ul class="team">
+			
+			<li class="team__m  js-team-toggle">
+				<a href="https://twitter.com/yegg/">
+				<noscript>
+					<img class="team__img" src="/assets/about/team/gabriel_pxl.png" />
+					<img class="team__img--alt" src="/assets/about/team/gabriel.png" />
+				</noscript>
+				<img class="team__img  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/gabriel_pxl.png" />
+				<img class="team__img--alt  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/gabriel.png" />
+				</a>
+				<span class="team__name">Gabriel Weinberg</span>
+				<span class="team__title">Founder</span>
+				<span class="team__info">Family guy</span>
+			</li>
+			
+			<li class="team__m  js-team-toggle">
+				<a href="http://opensesame.st/">
+				<noscript>
+					<img class="team__img" src="/assets/about/team/caine_pxl.png" />
+					<img class="team__img--alt" src="/assets/about/team/caine.png" />
+				</noscript>
+				<img class="team__img  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/caine_pxl.png" />
+				<img class="team__img--alt  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/caine.png" />
+				</a>
+				<span class="team__name">Caine Tighe</span>
+				<span class="team__title">Core Components</span>
+				<span class="team__info">Border Collie</span>
+			</li>
+			
+			<li class="team__m  js-team-toggle">
+				<a href="https://twitter.com/zacpappis">
+				<noscript>
+					<img class="team__img" src="/assets/about/team/zac_pxl.png" />
+					<img class="team__img--alt" src="/assets/about/team/zac.png" />
+				</noscript>
+				<img class="team__img  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/zac_pxl.png" />
+				<img class="team__img--alt  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/zac.png" />
+				</a>
+				<span class="team__name">Zac Pappis</span>
+				<span class="team__title">Duck.co</span>
+				<span class="team__info">Lead Vocalist</span>
+			</li>
+			
+			<li class="team__m  js-team-toggle">
+				<a href="http://beicheequi9vieveetohc3aequohngu0ohsh2zeihef7eecha9op7choofohcae.com/">
+				<noscript>
+					<img class="team__img" src="/assets/about/team/russell_pxl.png" />
+					<img class="team__img--alt" src="/assets/about/team/russell.png" />
+				</noscript>
+				<img class="team__img  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/russell_pxl.png" />
+				<img class="team__img--alt  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/russell.png" />
+				</a>
+				<span class="team__name">Russell Holt</span>
+				<span class="team__title">Duck Duck Hack</span>
+				<span class="team__info">Geek Dad</span>
+			</li>
+			
+			<li class="team__m  js-team-toggle">
+				<a href="https://www.youtube.com/watch?v=09j6vMdKi3E">
+				<noscript>
+					<img class="team__img" src="/assets/about/team/jaryd_pxl.png" />
+					<img class="team__img--alt" src="/assets/about/team/jaryd.png" />
+				</noscript>
+				<img class="team__img  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/jaryd_pxl.png" />
+				<img class="team__img--alt  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/jaryd.png" />
+				</a>
+				<span class="team__name">Jaryd Malbin</span>
+				<span class="team__title">Ops</span>
+				<span class="team__info">BOFH</span>
+			</li>
+			
+			<li class="team__m  js-team-toggle">
+				<a href="https://twitter.com/sdougbrown">
+				<noscript>
+					<img class="team__img" src="/assets/about/team/doug_pxl.png" />
+					<img class="team__img--alt" src="/assets/about/team/doug.png" />
+				</noscript>
+				<img class="team__img  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/doug_pxl.png" />
+				<img class="team__img--alt  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/doug.png" />
+				</a>
+				<span class="team__name">Doug Brown</span>
+				<span class="team__title">Front-End</span>
+				<span class="team__info">Coffee Snob</span>
+			</li>
+			
+			<li class="team__m  js-team-toggle">
+				<a href="http://christophermorast.com/">
+				<noscript>
+					<img class="team__img" src="/assets/about/team/chris_pxl.png" />
+					<img class="team__img--alt" src="/assets/about/team/chris.png" />
+				</noscript>
+				<img class="team__img  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/chris_pxl.png" />
+				<img class="team__img--alt  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/chris.png" />
+				</a>
+				<span class="team__name">Chris Morast</span>
+				<span class="team__title">Design</span>
+				<span class="team__info">Margarita Enthusiast</span>
+			</li>
+			
+			<li class="team__m  js-team-toggle">
+				<a href="https://twitter.com/juantalon">
+				<noscript>
+					<img class="team__img" src="/assets/about/team/jag_pxl.png" />
+					<img class="team__img--alt" src="/assets/about/team/jag.png" />
+				</noscript>
+				<img class="team__img  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/jag_pxl.png" />
+				<img class="team__img--alt  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/jag.png" />
+				</a>
+				<span class="team__name">Jag Talon</span>
+				<span class="team__title">Open Source</span>
+				<span class="team__info">Internet Survival Expert</span>
+			</li>
+			
+			<li class="team__m  js-team-toggle">
+				<a href="https://twitter.com/bsstoner">
+				<noscript>
+					<img class="team__img" src="/assets/about/team/brian_pxl.png" />
+					<img class="team__img--alt" src="/assets/about/team/brian.png" />
+				</noscript>
+				<img class="team__img  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/brian_pxl.png" />
+				<img class="team__img--alt  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/brian.png" />
+				</a>
+				<span class="team__name">Brian Stoner</span>
+				<span class="team__title">Front-End</span>
+				<span class="team__info">Person</span>
+			</li>
+			
+			<li class="team__m  js-team-toggle">
+				<a href="https://github.com/jbarrett/">
+				<noscript>
+					<img class="team__img" src="/assets/about/team/john_pxl.png" />
+					<img class="team__img--alt" src="/assets/about/team/john.png" />
+				</noscript>
+				<img class="team__img  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/john_pxl.png" />
+				<img class="team__img--alt  js-lazyload  no-js__hide  circle" src="" data-src="/assets/about/team/john.png" />
+				</a>
+				<span class="team__name">John Barrett</span>
+				<span class="team__title">Duck.co</span>
+				<span class="team__info">Discombobulator</span>
+			</li>
+			
+		</ul>
+	</div>
+</div>
+<div class="abt  abt--hero  abt--comm">
+	<div class="cw--c">
+		<h2 class="abt__title">Our Community</h2>
+		<hr class="hr--abt" />
+		<h5 class="abt__sub">Our community is our extended team.
+<br>Join the community and help improve DuckDuckGo.</h5>
+		<div class="abt__row">
+			<div class="abt__key  third">
+				<a href="https://duck.co">
+					<i class="abt__key__icon--comm  abt__key__icon--improve"></i>
+					<h3 class="abt__key__title">Duck.co</h3>
+				</a>
+				<h6 class="abt__key__sub">Improve your search engine. </h6>
+				<p> Duck.co is the hub for the DuckDuckGo community. Create instant answers, translate pages into your languages and more.</p>
+			</div>
+			<div class="abt__key  third">
+				<a href="https://duck.co/forum">
+					<i class="abt__key__icon--comm  abt__key__icon--discuss"></i>
+					<h3 class="abt__key__title">Discuss</h3>
+				</a>
+				<h6 class="abt__key__sub">Share your thoughts.</h6>
+				<p>Our forums are a place to chat about all things DuckDuckGo. Ask questions, give feedback, and engage other community members.</p>
+			</div>
+			<div class="abt__key  third">
+				<a href="/spread">
+					<i class="abt__key__icon--comm  abt__key__icon--spread"></i>
+					<h3 class="abt__key__title">Spread</h3>
+				</a>
+				<h6 class="abt__key__sub">Give the gift of DuckDuckGo!</h6>
+				<p>Everyone could use real privacy. Join us and other community members in spreading DuckDuckGo to new users. </p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="abt  abt--alt  abt--news  js-news-slider">
+	<h2 class="abt__title">In The News</h2>
+	<div class="cw--c">
+		<ul class="abt--news__list">
+			
+			<li class="abt--news__list__item  js-news-source" data-source="theguardian"><a href="http://www.theguardian.com/technology/2014/apr/04/duckduckgo-gabriel-weinberg-secure-searches">
+				<noscript><img src="assets/about/news/ogo_theguardian.png" class="abt--news__img--theguardian" alt="The Observer" /></noscript>
+				<img src="" data-src="assets/about/news/logo_theguardian@2x.png" class="abt--news__img--theguardian  js-lazyload  no-js__hide" alt="The Observer" />
+			</a></li>
+			
+			<li class="abt--news__list__item  js-news-source" data-source="fastco"><a href="http://www.fastcolabs.com/3026698/inside-duckduckgo-googles-tiniest-fiercest-competitor">
+				<noscript><img src="assets/about/news/ogo_fastco.png" class="abt--news__img--fastco" alt="FastCoLabs" /></noscript>
+				<img src="" data-src="assets/about/news/logo_fastco@2x.png" class="abt--news__img--fastco  js-lazyload  no-js__hide" alt="FastCoLabs" />
+			</a></li>
+			
+			<li class="abt--news__list__item  js-news-source" data-source="wapost"><a href="http://www.washingtonpost.com/business/ducking-google-in-search-engines/2012/11/09/6cf3af10-2842-11e2-bab2-eda299503684_story.html">
+				<noscript><img src="assets/about/news/ogo_wapost.png" class="abt--news__img--wapost" alt="The Washington Post" /></noscript>
+				<img src="" data-src="assets/about/news/logo_wapost@2x.png" class="abt--news__img--wapost  js-lazyload  no-js__hide" alt="The Washington Post" />
+			</a></li>
+			
+			<li class="abt--news__list__item  js-news-source" data-source="time"><a href="http://www.time.com/time/specials/packages/article/0,28804,2087815_2088176_2088178,00.html">
+				<noscript><img src="assets/about/news/logo_time.png" alt="TIME" class="abt--news__img--time" /></noscript>
+				<img src="" data-src="assets/about/news/logo_time@2x.png" alt="TIME" class="abt--news__img--time  js-lazyload  no-js__hide" />
+			</a></li>
+		</ul>
+		<div class="abt--news__item-wrap">
+			
+			<div class="abt--news__item  js-news-item" data-source="theguardian">
+				<div class="abt-news  abt-news--theguardian">
+					<div class="abt-news__meta">
+						<noscript><img src="assets/about/news/the-guardian_alex-hern.png" alt="" class="abt-news__meta__img" /></noscript>
+						<img src="" data-src="assets/about/news/the-guardian_alex-hern.png" alt="" class="abt-news__meta__img  js-lazyload  no-js__hide" />
+						<div class="abt-news__meta__body">
+							<span class="abt-news__author">by Alex Hern</span>
+							<span class="abt-news__source">The Observer</span>
+							<span class="abt-news__date">4 April 2014</span>
+						</div>
+					</div>
+					<h2 class="abt-news__title">DuckDuckGo: the plucky upstart taking on Google with secure searches</h2>
+					<p class="abt-news__snippet">Gabriel Weinberg launched DuckDuckGo as a search engine that puts privacy first, rather than collecting data for advertisers and security agencies...</p>
+					<a href="http://www.theguardian.com/technology/2014/apr/04/duckduckgo-gabriel-weinberg-secure-searches" class="abt-news__link">Full Story</a>
+				</div>
+			</div>
+			
+			<div class="abt--news__item  js-news-item" data-source="fastco">
+				<div class="abt-news  abt-news--fastco">
+					<div class="abt-news__meta">
+						<noscript><img src="assets/about/news/fast-co_john-paul-titlow.png" alt="" class="abt-news__meta__img" /></noscript>
+						<img src="" data-src="assets/about/news/fast-co_john-paul-titlow.png" alt="" class="abt-news__meta__img  js-lazyload  no-js__hide" />
+						<div class="abt-news__meta__body">
+							<span class="abt-news__author">by John Paul Titlow</span>
+							<span class="abt-news__source">FastCoLabs</span>
+							<span class="abt-news__date">20 February 2014</span>
+						</div>
+					</div>
+					<h2 class="abt-news__title">Inside DuckDuckGo, Google&#39;s Tiniest, Fiercest Competitor</h2>
+					<p class="abt-news__snippet">In 2008, launching a search engine seemed like a crazy idea.  Here&#39;s how Gabriel Weinberg proved the critics wrong.</p>
+					<a href="http://www.fastcolabs.com/3026698/inside-duckduckgo-googles-tiniest-fiercest-competitor" class="abt-news__link">Full Story</a>
+				</div>
+			</div>
+			
+			<div class="abt--news__item  js-news-item" data-source="wapost">
+				<div class="abt-news  abt-news--wapost">
+					<div class="abt-news__meta">
+						<noscript><img src="assets/about/news/washington-post_michael-rosenwald.png" alt="" class="abt-news__meta__img" /></noscript>
+						<img src="" data-src="assets/about/news/washington-post_michael-rosenwald.png" alt="" class="abt-news__meta__img  js-lazyload  no-js__hide" />
+						<div class="abt-news__meta__body">
+							<span class="abt-news__author">by Michael Rosenwald</span>
+							<span class="abt-news__source">The Washington Post</span>
+							<span class="abt-news__date">9 November 2012</span>
+						</div>
+					</div>
+					<h2 class="abt-news__title">Ducking Google in search engines</h2>
+					<p class="abt-news__snippet">Not far from Valley Forge, around the corner from Bravo Pizza, up the road from Paoli Auto Body, there is an odd-looking office building that resembles a stone castle.  An eye doctor is on the first floor.  On the second floor is a search engine.</p>
+					<a href="http://www.washingtonpost.com/business/ducking-google-in-search-engines/2012/11/09/6cf3af10-2842-11e2-bab2-eda299503684_story.html" class="abt-news__link">Full Story</a>
+				</div>
+			</div>
+			
+			<div class="abt--news__item  abt__app  js-news-item" data-source="time">
+				<h4 class="abt__app__pri">DuckDuckGo <em>Search &amp; Stories</em></h4>
+				<h4 class="abt__app__sec">Time Magazine's <em>Top 50 Apps of 2013</em></h4>
+			</div>
+		</div>
+	</div>
+	<span class="nav  nav--prev  js-news-prev"></span>
+	<span class="nav  nav--next  js-news-next"></span>
+</div>
+<div class="abt  abt--email">
+	<div class="cw--c">
+		<h2 class="abt__title">Our Newsletter</h2>
+		<hr class="hr--abt" />
+		<h5 class="abt__sub">Stay up to date with all things DuckDuckGo.</h5>
+		<form class="frm--newsletter" action="https://flash.duckduckgo.com/e.js" method="post" name="y">
+			<input type="hidden" name="add" value="1" />
+			<input type="text" placeholder="Enter your email address" class="frm__input" name="from" />
+			<input type="submit" value="Subscribe" class="frm__btn  btn  btn--abt--prim" />
+			<div class="frm--newsletter__chks">
+				<label class="frm__label" for="add">
+					<input class="frm__label__chk" type="checkbox" id="add" name="add" checked="checked">
+					<span class="frm__label__txt">
+						Newsletter 
+						<span class="frm--newsletter__frq">Monthly</span>
+					</span>
+				</label>
+				<label class="frm__label" for="add2">
+					<input class="frm__label__chk" type="checkbox" id="add2" name="add2"> 
+					<span class="frm__label__txt">
+						Beta
+						<span class="frm--newsletter__frq">New stuff</span>
+					</span>
+				</label>
+				<label class="frm__label" for="add3">
+					<input class="frm__label__chk" type="checkbox" id="add3" name="add3"> 
+					<span class="frm__label__txt">
+						Spread
+						<span class="frm--newsletter__frq">Promotions</span>
+					</span>
+				</label>
+				<label class="frm__label" for="add4">
+					<input class="frm__label__chk" type="checkbox" id="add4" name="add4"> 
+					<span class="frm__label__txt">
+						Privacy
+						<span class="frm--newsletter__frq">Education</span>
+					</span>
+				</label>
+			</div>
+		</form>
+	</div>
+</div>
+<div class="abt  abt--alt  abt--nav">
+	<div class="cw--c">
+		<div class="third">
+			<div class="nav-col">
+				<h5 class="abt--nav__heading">Community</h5>
+				<ul>
+					<li><a href="https://duck.co/">Duck.co</a></li>
+					<li><a href="http://duckduckhack.com/">DuckDuckHack</a></li>
+					<li><a href="https://duck.co/translate">Translate</a></li>
+					<li><a href="https://duck.co/forum">Discuss</a></li>
+					<li><a href="https://duckduckgo.com/spread">Spread</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="third">
+			<div class="nav-col">
+				<h5 class="abt--nav__heading">Follow</h5>
+				<ul>
+					<li><a href="https://duck.co/blog">Blog</a></li>
+					<li><a href="https://twitter.com/duckduckgo">@duckduckgo</a><li>
+					<li><a href="https://twitter.com/duckduckgo/team/members">Team (twitter)</a></li>
+					<li><a href="http://www.reddit.com/r/duckduckgo">/r/duckduckgo</a></li>
+					<li><a href="https://github.com/duckduckgo">GitHub</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="third">
+			<div class="nav-col">
+				<h5 class="abt--nav__heading">More</h5>
+				<ul>
+					<li><a href="https://duck.co/help/">Help</a></li>
+					<li><a href="/privacy">Privacy</a></li>
+					<li><a href="https://duck.co/help/company/press">Press</a></li>
+					<li><a href="https://duck.co/help/company/hiring">Jobs</a></li>
+					<li><a href="/traffic">Traffic</a></li>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="dax-video" class="popover">
+	<a href="#_" class="popover__esc"></a>
+	<div class="popover__wrap  popover__wrap--video">
+		<div class="popover__box  popover__box--video">
+			<iframe src="" data-src="https://duckduckgo.com/about-video.html" class="js-lazy-src  popover__box__video" width="640" height="360"></iframe>
+			<noscript>
+				<iframe src="https://duckduckgo.com/about-video.html" class="popover__box__video" width="640" height="360"></iframe>
+			</noscript>
+		</div>
+	</div>
+</div>
+
+
+	
+		 
+		 
+		 
+			<div class="blk  blk--foot">
+	<div class="cw--c">
+			<p>&copy; <a href="https://duckduckgo.com">DuckDuckGo</a></p>
+			<p>The search engine that doesn't track you.</p>
+	</div>
+</div>
+		
+		<!-- footer //-->
+<script type="text/javascript">nip(3)</script>
+		</div> <!-- content_wrapper //-->
+	
+    </div> <!-- site-wrapper -->
+  </body>
+</html>

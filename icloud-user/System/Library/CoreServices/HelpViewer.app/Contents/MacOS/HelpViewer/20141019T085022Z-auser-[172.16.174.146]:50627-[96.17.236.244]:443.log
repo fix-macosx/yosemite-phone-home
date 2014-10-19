@@ -1,0 +1,22 @@
+GET /apps/eagle/2.1/css/app.css HTTP/1.1
+Host: help.apple.com
+Cookie: xp_ci=3z50P3SIz24ez5LdzBeyzSGjK3BUi
+Connection: keep-alive
+If-None-Match: "57dcb9-c57d-5043bd5141d00"
+Accept: text/css,*/*;q=0.1
+If-Modified-Since: Mon, 29 Sep 2014 22:31:48 GMT
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/600.1.25 (KHTML, like Gecko) Help Viewer/256
+Accept-Language: en-us
+Referer: https://help.apple.com/machelp/mac/10.10/index.html?localePath=en.lproj
+Accept-Encoding: gzip, deflate
+
+HTTP/1.1 304 Not Modified
+Content-Type: text/css
+Last-Modified: Mon, 29 Sep 2014 22:31:48 GMT
+ETag: "57dcb9-c57d-5043bd5141d00"
+Cache-Control: max-age=181
+Expires: Sun, 19 Oct 2014 08:53:23 GMT
+Date: Sun, 19 Oct 2014 08:50:22 GMT
+Connection: close
+X-N: S
+

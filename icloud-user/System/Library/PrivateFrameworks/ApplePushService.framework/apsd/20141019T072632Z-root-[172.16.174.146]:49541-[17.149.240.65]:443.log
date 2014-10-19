@@ -1,0 +1,107 @@
+POST /deviceservices/deviceActivation?device=MacOS HTTP/1.1
+Host: albert.apple.com
+Content-Type: application/x-www-form-urlencoded
+Connection: keep-alive
+Accept: */*
+User-Agent: ApplePushService/4.0 CFNetwork/720.0.9 Darwin/14.0.0 (x86_64)
+Content-Length: 7211
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+
+activation-info=%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3C%21DOCTYPE%20plist%20PUBLIC%20%22-%2F%2FApple%2F%2FDTD%20PLIST%201.0%2F%2FEN%22%20%22http%3A%2F%2Fwww.apple.com%2FDTDs%2FPropertyList-1.0.dtd%22%3E%0A%3Cplist%20version%3D%221.0%22%3E%0A%3Cdict%3E%0A%09%3Ckey%3EActivationInfoComplete%3C%2Fkey%3E%0A%09%3Ctrue%2F%3E%0A%09%3Ckey%3EActivationInfoXML%3C%2Fkey%3E%0A%09%3Cdata%3E%0A%09PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBs%0A%09aXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3%0A%09dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI%2BCjxwbGlzdCB2ZXJz%0A%09aW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk%2BQWN0aXZhdGlvblJhbmRvbW5lc3M8L2tleT4K%0A%09CTxzdHJpbmc%2BRDUzQzQ1NjAtQzAzMi00OTUzLUIwODEtOTgzRERBOTk4RkIxPC9zdHJp%0A%09bmc%2BCgk8a2V5PkFjdGl2YXRpb25TdGF0ZTwva2V5PgoJPHN0cmluZz5VbmFjdGl2YXRl%0A%09ZDwvc3RyaW5nPgoJPGtleT5CdWlsZFZlcnNpb248L2tleT4KCTxzdHJpbmc%2BMTRBMzg5%0A%09PC9zdHJpbmc%2BCgk8a2V5PkRldmljZUNlcnRSZXF1ZXN0PC9rZXk%2BCgk8ZGF0YT4KCUxT%0A%09MHRMUzFDUlVkSlRpQkRSVkpVU1VaSlEwRlVSU0JTUlZGVlJWTlVMUzB0TFMwS1RVbEpR%0A%09bGxVUTBKNWQwbENRVVJCCglhVTFUUVhkSVoxbEVWbEZSUkVSQ1pFUmlSMnhzWW01Ulox%0A%09VklWbnBoUTBKRVdsaEtNR0ZYV25CWk1rWXdXbFJEUWdwdQoJZWtGT1FtZHJjV2hyYVVj%0A%09NWR6QkNRVkZGUmtGQlQwSnFVVUYzWjFsclEyZFpSVUUyU0hNM1FucE9VQ3N4TVVSc2NH%0A%09ZEIKCWRqY3ZhVWxxWlcxRVluWlZDbnBSY0hCblYySkRRVzFJUTFwRE5WTmxNU3R5Ukds%0A%09bFQxQnBUWE5aVERFMFlqaG5SMmhCCglabGhvU1haVk4zSnJSSGxxYURCNVZXMVRRbE0y%0A%09UjFsNVdVZ0tTRGR4WTJaNVlUVlhVbEZ3VW01V09HY3JOWFZZYlhoNQoJVXpsaVNFMU9j%0A%09MWQyVXpjcmExbEZORnBZYjNwTk5YVnpiREpzUVZKd1JXOUVkSFpQTkZSVFZ3cFJWbVl2%0A%09Y1ZaM2JHRjEKCVVsbEtUbXREUVhkRlFVRmhRVUZOUVRCSFExTnhSMU5KWWpORVVVVkNR%0A%09bEZWUVVFMFIwSkJUWE4yUmxwbk0wcGxORlJWCglhMFEzQ201WVdVMU1TMGxOYzBKWVpr%0A%09bzNZM3AxWVZOSVpIbEdOa0ZLTDJWM2FHTnFOVVl5U2xobU56TXlXV2x3Y0dwSAoJSzFo%0A%09QmJWVTNRVUUwYTNaV2FsRkdabXNLY2twNGJWcEZTbFpGSzBrMkwySkVZVzlIYjJ4MmF6%0A%09Sk1NVWxTYjAwMFJFbG8KCVUwa3pXRGh4WTNSdlJHRjVSRTFsTjBWNWVFaHlTVXRhU2tv%0A%09NGVHUnJWQXBuYkhaNU1rOVVlalJMYmtGcU1YRXhiRGRICgllWFZ6TjNwbk1UQXZDaTB0%0A%09TFMwdFJVNUVJRU5GVWxSSlJrbERRVlJGSUZKRlVWVkZVMVF0TFMwdExRbz0KCTwvZGF0%0A%09YT4KCTxrZXk%2BRGV2aWNlQ2xhc3M8L2tleT4KCTxzdHJpbmc%2BTWFjT1M8L3N0cmluZz4K%0A%09CTxrZXk%2BUHJvZHVjdFR5cGU8L2tleT4KCTxzdHJpbmc%2BVk13YXJlNywxPC9zdHJpbmc%2B%0A%09Cgk8a2V5PlByb2R1Y3RWZXJzaW9uPC9rZXk%2BCgk8c3RyaW5nPjEwLjEwPC9zdHJpbmc%2B%0A%09Cgk8a2V5PlNlcmlhbE51bWJlcjwva2V5PgoJPHN0cmluZz5WTU0vVE1nZlZSd3I8L3N0%0A%09cmluZz4KCTxrZXk%2BVW5pcXVlRGV2aWNlSUQ8L2tleT4KCTxzdHJpbmc%2BNTY0RDMzRjQt%0A%09Q0M4MS1GNTUxLUMyQkUtMDgxMDRDNTI0MEQyPC9zdHJpbmc%2BCjwvZGljdD4KPC9wbGlz%0A%09dD4K%0A%09%3C%2Fdata%3E%0A%09%3Ckey%3EFairPlayCertChain%3C%2Fkey%3E%0A%09%3Cdata%3E%0A%09MIICwTCCAiqgAwIBAgINMzOvEAcjrwACrwAAATANBgkqhkiG9w0BAQUFADB7MQswCQYD%0A%09VQQGEwJVUzETMBEGA1UEChMKQXBwbGUgSW5jLjEmMCQGA1UECxMdQXBwbGUgQ2VydGlm%0A%09aWNhdGlvbiBBdXRob3JpdHkxLzAtBgNVBAMTJkFwcGxlIEZhaXJQbGF5IENlcnRpZmlj%0A%09YXRpb24gQXV0aG9yaXR5MB4XDTEwMDcyMzAyMzAwOFoXDTE1MDcyMjAyMzAwOFowZDEL%0A%09MAkGA1UEBhMCVVMxEzARBgNVBAoTCkFwcGxlIEluYy4xFzAVBgNVBAsTDkFwcGxlIEZh%0A%09aXJQbGF5MScwJQYDVQQDEx5BUE4uMzMzM0FGMTAwNzIzQUYwMDAyQUYwMDAwMDEwgZ8w%0A%09DQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKjtmzG05Ok2R5jgWOO7YpAMWG2vBcQ4xdbl%0A%09ahluvJFxI2NzOEIw5SDprOkMdAs4k32svF538mQpEK3opUds8QYDoKTb5TuaTlgVTbX4%0A%09z1623413RAb2x9HTkur52COThq0c1bXxARhHuCybiYrxgl6n0jQKHI1UAiqp0N7UTLKl%0A%09AgMBAAGjYDBeMA4GA1UdDwEB%2FwQEAwIDuDAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTc%0A%09hLSKX9SAv5fMySMHYmprtxUDgjAfBgNVHSMEGDAWgBT6DdQRkRvmsk4eBkmUEd1jYgdZ%0A%09ZDANBgkqhkiG9w0BAQUFAAOBgQAGnkmhBLT47MFR9rm%2B2kUMimmBYt17HfFc9Q%2FsRmP%2F%0A%09qHXNcrKgD7uUch5GE%2BNbAaX8MLZzOITGd6Wc1Kf%2F6g%2F24R5hgH4omhtRmj4LMRf%2BYtXt%0A%09XHVoJFfzVjLgyD3MZrfdUM5GzNqCOqEpu4IkzAIA78eD1oAjFfa1%2F56hfVavsTCCA3Ew%0A%09ggJZoAMCAQICAREwDQYJKoZIhvcNAQEFBQAwYjELMAkGA1UEBhMCVVMxEzARBgNVBAoT%0A%09CkFwcGxlIEluYy4xJjAkBgNVBAsTHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5%0A%09MRYwFAYDVQQDEw1BcHBsZSBSb290IENBMB4XDTA3MDIxNDE5MjA0MVoXDTEyMDIxNDE5%0A%09MjA0MVowezELMAkGA1UEBhMCVVMxEzARBgNVBAoTCkFwcGxlIEluYy4xJjAkBgNVBAsT%0A%09HUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MS8wLQYDVQQDEyZBcHBsZSBGYWly%0A%09UGxheSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTCBnzANBgkqhkiG9w0BAQEFAAOBjQAw%0A%09gYkCgYEAsmc8XSrnj%2FJ3z%2B8xvNEE%2Feqf0IYpkAqj%2F2RK72n0CrnvxMRjyjotIT1SjCOJ%0A%09KarbF9zLKMRpzXIkwhDB9HgdMRbF5uoZHSozvoCr3BFIBiofDmGBzXmaXRL0hJDIfPZ4%0A%09m1L4%2BvGIbhBy%2BF3LiOy2VRSXpE0LwU8nZ5mmpLPX2q0CAwEAAaOBnDCBmTAOBgNVHQ8B%0A%09Af8EBAMCAYYwDwYDVR0TAQH%2FBAUwAwEB%2FzAdBgNVHQ4EFgQU%2Bg3UEZEb5rJOHgZJlBHd%0A%09Y2IHWWQwHwYDVR0jBBgwFoAUK9BpR5R2Cf70a40uQKb3R01%2FCF4wNgYDVR0fBC8wLTAr%0A%09oCmgJ4YlaHR0cDovL3d3dy5hcHBsZS5jb20vYXBwbGVjYS9yb290LmNybDANBgkqhkiG%0A%099w0BAQUFAAOCAQEAwKBz%2BB3qHNHNxYZ1pLvrQMVqLQz%2BW%2FxuwVvXSH1AqWEtSzdwOO8G%0A%09kUuvEcIfle6IM29fcur21Xa1V1hx8D4Qw9Uuuy%2BmOnPCMmUKVgQWGZhNC3ht0KN0ZJhU%0A%099KfXHaL%2FKsN5ALKZ5%2Be71Qai60kzaWdBAZmtaLDTevSV4P0kiCoQ56No%2F617%2Btm68aV%2F%0A%09ypOizgM3A2aFkwUbMfZ1gpMv0%2FDaOTc9X%2F66zZpwwAaLIu6pzgRuJGk7FlKlwPLArkNw%0A%09hLshkUPLu7fqW7qT4Ld3ie9NVgQzXc5cWTGn1ztFVhHNrsubDqDP3JOoysVYeAAF2Zmr%0A%091l6H6pJzNFSjkxikgzCCBLswggOjoAMCAQICAQIwDQYJKoZIhvcNAQEFBQAwYjELMAkG%0A%09A1UEBhMCVVMxEzARBgNVBAoTCkFwcGxlIEluYy4xJjAkBgNVBAsTHUFwcGxlIENlcnRp%0A%09ZmljYXRpb24gQXV0aG9yaXR5MRYwFAYDVQQDEw1BcHBsZSBSb290IENBMB4XDTA2MDQy%0A%09NTIxNDAzNloXDTM1MDIwOTIxNDAzNlowYjELMAkGA1UEBhMCVVMxEzARBgNVBAoTCkFw%0A%09cGxlIEluYy4xJjAkBgNVBAsTHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRYw%0A%09FAYDVQQDEw1BcHBsZSBSb290IENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC%0A%09AQEA5JGpCR%2BR2x5HUOsF7V55hC3rNqJXTFXsixmJ3vlLbPUHqyIwAugYPvhQCdN%2FQaiY%0A%09%2BdHKZpwkaxHQo7vkGyrDH5WeegykR4tb1BY3M8vED03OFGnRyRly9V0O1X9fm%2FIlA7pV%0A%09j01dDfFkNSMVSxVZHbOU9%2Facns9QusFYUGePCLQg98usLCBvcLY%2FATCMt0PPD5098ytJ%0A%09KBrI%2Fs61uQ7ZXhzWyz21Oq30Dw4AkguxIRYudNU8DdtiFqujcZJHU1XBry9Bs%2Fj743DN%0A%095qNMRX4fTGtQlkGJxHRiCxCDQYczioGxMFjsWgQyjGizjx3eZXP%2FZ15lvEnYdp8zFGWh%0A%09d5TJLQIDAQABo4IBejCCAXYwDgYDVR0PAQH%2FBAQDAgEGMA8GA1UdEwEB%2FwQFMAMBAf8w%0A%09HQYDVR0OBBYEFCvQaUeUdgn%2B9GuNLkCm90dNfwheMB8GA1UdIwQYMBaAFCvQaUeUdgn%2B%0A%099GuNLkCm90dNfwheMIIBEQYDVR0gBIIBCDCCAQQwggEABgkqhkiG92NkBQEwgfIwKgYI%0A%09KwYBBQUHAgEWHmh0dHBzOi8vd3d3LmFwcGxlLmNvbS9hcHBsZWNhLzCBwwYIKwYBBQUH%0A%09AgIwgbYagbNSZWxpYW5jZSBvbiB0aGlzIGNlcnRpZmljYXRlIGJ5IGFueSBwYXJ0eSBh%0A%09c3N1bWVzIGFjY2VwdGFuY2Ugb2YgdGhlIHRoZW4gYXBwbGljYWJsZSBzdGFuZGFyZCB0%0A%09ZXJtcyBhbmQgY29uZGl0aW9ucyBvZiB1c2UsIGNlcnRpZmljYXRlIHBvbGljeSBhbmQg%0A%09Y2VydGlmaWNhdGlvbiBwcmFjdGljZSBzdGF0ZW1lbnRzLjANBgkqhkiG9w0BAQUFAAOC%0A%09AQEAXDaZTC14t%2B2Mm9zzd5vydtJ3ME%2FBH4WDhRuZPUc38qmbQI4s1LGQEti%2B9HOb7tJk%0A%09D8t5TzTYoj75eP9ryAfsfTmDi1Mg0zjEsb%2BaTwpr%2Fyv8WacFCXwXQFYRHnTTt4sjO0ej%0A%091W8k4uvRt3DfD0XhJ8rxbXjt57UXF6jcfiI1yiXV2Q%2FWa9SiJCMR96Gsj3OBYMYbWwkv%0A%09krL4REjwYDieFfU9JmcgijNq9w2Cz97roy%2F5U2pbZMBjM3f3OgcsVuvaDyEO2rpzGU%2B1%0A%092TZ%2FwYdV2aeZuTJC%2B9jVcZ5%2BoVK3G72TQiQSKscPHbZNnF5jyEuAF1CqitXa5PzQCQc3%0A%09sHV1IQ%3D%3D%0A%09%3C%2Fdata%3E%0A%09%3Ckey%3EFairPlaySignature%3C%2Fkey%3E%0A%09%3Cdata%3E%0A%09AQT%2Byn4D%2F2Kc6JL9Bs5pf0b5iXGli4Dqj01ugbbYmt2ZiBaC6aqWXI%2BjrimnGlCBD%2FMt%0A%09AsH6W2XzpVPJ6MeLg20uwpdfwyHQ0%2F8Wxo4sRRiTwBzqNh235FtUuK4P4v4OAt6x1D8A%0A%09bRA6pEiz8zBBJ0RL%2B0mpotcxPyNvZrHzp50%3D%0A%09%3C%2Fdata%3E%0A%3C%2Fdict%3E%0A%3C%2Fplist%3E%0AHTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+Content-Type: text/xml
+Content-Length: 6165
+Date: Sun, 19 Oct 2014 07:26:31 GMT
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Document disableHistory="true" xmlns="http://www.apple.com/itms/">
+  <Protocol>
+    <plist version="1.0" >
+      <dict>
+        <key>device-activation</key>
+        <dict>
+          <key>activation-record</key>
+          <dict>
+            <key>DeviceCertificate</key>
+            <data>LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUNuakNDQWdlZ0F3SUJBZ0lLQTNyU210Uy9QTk9wN2pBTkJna3Foa2lHOXcwQkFRVUZBREJhTVFzd0NRWUQKVlFRR0V3SlZVekVUTUJFR0ExVUVDaE1LUVhCd2JHVWdTVzVqTGpFVk1CTUdBMVVFQ3hNTVFYQndiR1VnYVZCbwpiMjVsTVI4d0hRWURWUVFERXhaQmNIQnNaU0JwVUdodmJtVWdSR1YyYVdObElFTkJNQjRYRFRFME1UQXhPVEEzCk1qRXpNbG9YRFRFMU1UQXhPVEEzTWpZek1sb3dMekV0TUNzR0ExVUVBeFlrUTBFNFJUQTNSVGd0UkVZMFJpMDAKUVVaRUxUZ3lRVU10TUVRNE1qWXdOVVk1TXpJMk1JR2ZNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0R05BRENCaVFLQgpnUURvZXpzSE0wLzdYVU9XbUFDL3YrSWlONllOdTlUTkNtbUJac0lDWWNKa0xsSjdYNnNPSjQ0K0l5eGd2WGh2CnlBYUVCOWVFaTlUdXVRUEtPSFRKU1pJRkxvWmpKZ2NmdXB4L0pybFpGQ2xHZFh5RDdtNWViSEpMMXNjdzJ4YTkKTHY2UmdUaGxlak16bTZ5WGFVQkdrU2dPMjg3aE5KWkJWLytwWENWcTVGZ2syUUlEQVFBQm80R1ZNSUdTTUI4RwpBMVVkSXdRWU1CYUFGTEwrSVNORWhwVnFlZFdCSm81ekVOaW5USTUwTUIwR0ExVWREZ1FXQkJTUDFMN3lTSVc5CnQ4Ty83U2tEeFlTY0kyUkpwREFNQmdOVkhSTUJBZjhFQWpBQU1BNEdBMVVkRHdFQi93UUVBd0lGb0RBZ0JnTlYKSFNVQkFmOEVGakFVQmdnckJnRUZCUWNEQVFZSUt3WUJCUVVIQXdJd0VBWUtLb1pJaHZkalpBWUtCQVFDQlFBdwpEUVlKS29aSWh2Y05BUUVGQlFBRGdZRUFZRXd1L3dFVFEwRGhUVi9PNFBNWmNmcXg4SUlWUk1wcmZFVXNleUM3CkMrMzFKblc3WlN1VzdJT3F1Z1pGS3FuakhLSk5Xa1F4OU1ONkw1SzlUdGt5cUpiZWw2RVU1TzJ0Y1Rzb3Z5Y1EKWGF2VlVCcnFFeTR3TEdydWxxYTVlcjJncDVwbG51RFR0NDlINnJnUkpHaEhUdzBQbm5qRUF0MFgzWllSc0hmcwpPUEk9Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K</data>
+          </dict>
+          <key>ack-received</key>
+          <true/>
+          <key>show-settings</key>
+          <true/>
+        </dict>
+      </dict>
+    </plist>
+  </Protocol>
+  <ScrollView rightInset="0" topInset="0" bottomInset="0" leftInset="0" stretchiness="1" horzScroll="as needed" vertScroll="as needed">
+    <View>
+      <Include target="main" url="https://albert.apple.com/albert/static/fontstyles.css"/>
+      <MatrixView viewName="iphoneSystemsWizard" rightInset="0" bottomInset="0" leftInset="0" topInset="0" rowFormat="100%,*">
+        <VBoxView>
+          <HBoxView minWidth="774" leftInset="50" rightInset="50">
+            <View stretchiness="1"/>
+            <VBoxView minWidth="774" topInset="0" leftInset="0" rightInset="0">
+              <PictureView width="11" topInset="8" height="12" rightInset="2" url="https://albert.apple.com/images/lock.png"/>
+              <HBoxView leftInset="0" rightInset="0" topInset="3">
+                <PictureView width="42" topInset="0" height="66" url="https://albert.apple.com/albert/images/apple_chrome.png"/>
+                <View stretchiness="1"/>
+                <PictureView width="120" topInset="8" height="37" rightInset="2" url="https://albert.apple.com/albert/images/iphonereg/logo.jpg"/>
+              </HBoxView>
+            </VBoxView>
+            <View stretchiness="1"/>
+          </HBoxView>
+          <HBoxView minWidth="770" leftInset="50" rightInset="50">
+            <View stretchiness="1"/>
+            <VBoxView topInset="0" leftInset="0" rightInset="0">
+              <View topInset="15">
+                <View rightInset="0" borderColor="999999" topInset="0" bottomInset="0" leftInset="0" borderWidth="1">
+                  <VBoxView minWidth="600" topInset="48" leftInset="85" bottomInset="50" rightInset="85">
+                    <TextView topInset="0" normalStyle="lucida18" leftInset="0" rightInset="0" bottomInset="0" textJust="center"/>
+                    <View height="30"/>
+                    <TextView topInset="0" styleSet="normal13" leftInset="0" rightInset="0" bottomInset="0" textJust="center"/>
+                    <TextView/>
+                    <TextView/>
+                    <View stretchiness="1"/>
+                  </VBoxView>
+                </View>
+                <PictureView leftInset="0" width="8" topInset="0" height="8" url="https://albert.apple.com/images/boxline/boxline_ffffff_topl.png"/>
+                <PictureView width="8" topInset="0" height="8" rightInset="0" url="https://albert.apple.com/images/boxline/boxline_ffffff_topr.png"/>
+                <PictureView leftInset="0" width="8" height="8" bottomInset="0" url="https://albert.apple.com/images/boxline/boxline_ffffff_botl.png"/>
+                <PictureView width="8" height="8" rightInset="0" bottomInset="0" url="https://albert.apple.com/images/boxline/boxline_ffffff_botr.png"/>
+              </View>
+            </VBoxView>
+            <View stretchiness="1"/>
+          </HBoxView>
+        </VBoxView>
+        <VBoxView leftInset="0" rightInset="0">
+          <View height="88"/>
+          <TextView topInset="2" leftInset="0" styleSet="basic9" textJust="center"/>
+          <TextView topInset="2" leftInset="0" styleSet="basic9" textJust="center"/>
+          <TextView topInset="2" leftInset="0" styleSet="basic9" textJust="center"/>
+          <TextView topInset="2" leftInset="0" styleSet="basic9" textJust="center"/>
+          <TextView topInset="2" leftInset="0" styleSet="basic9" textJust="center"/>
+          <View height="8"/>
+          <View height="30"/>
+          <HBoxView bottomInset="0">
+            <View stretchiness="1"/>
+            <TextView topInset="2" leftInset="0" styleSet="basic9" textJust="center">Copyright</TextView>
+            <View width="2"/>
+            <TextView topInset="2" leftInset="0" styleSet="basic9" textJust="center"/>
+            <View width="2"/>
+            <TextView topInset="2" leftInset="0" styleSet="basic9" textJust="center">
+              2014 Apple Inc.
+              <OpenURL target="main" url="http://www.apple.com/legal/">All rights reserved.</OpenURL>
+              |
+              <OpenURL target="main" url="http://www.apple.com/legal/iphone/us/privacy">Privacy Policies</OpenURL>
+              |
+              <OpenURL target="main" url="http://www.apple.com/legal/iphone/us/terms">Terms &amp; Conditions</OpenURL>
+            </TextView>
+            <View stretchiness="1"/>
+          </HBoxView>
+        </VBoxView>
+      </MatrixView>
+    </View>
+  </ScrollView>
+</Document>

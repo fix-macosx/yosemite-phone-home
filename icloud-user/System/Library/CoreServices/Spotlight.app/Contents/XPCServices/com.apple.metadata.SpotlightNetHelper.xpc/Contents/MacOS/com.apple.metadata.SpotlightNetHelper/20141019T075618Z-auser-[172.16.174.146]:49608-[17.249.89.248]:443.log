@@ -1,0 +1,21 @@
+POST /fb?key=andromeda HTTP/1.1
+Host: api.smoot.apple.com
+Content-Type: application/json
+Accept-Charset: utf-8
+Connection: keep-alive
+X-Apple-ActionSignature: AquLMVzOelaMujTDF3jwx9N7IMqAXEEvQQlxci1v73AoAAAB0AMAAAABAAABAFu+PfQ+HekdbG7dhYbPf4dsUcaO3MT+iDKGTnLlzE61G7ORids1+BA9CWNQBAuIsSdewULdubDLyMbPaEzaZZk67M76m2gp5OYIl3MNq1+7kSQSosMmPRJ1l9ZFerEIw+IkKEikCMnIKvtCAAZd7SkwfuqnvhHS2ePmbTUsCei/j7Qw0mHI1ZBJI97zmCJQdlzgQdF2z0Z5hlcwqJb8AT9rpozeGNiwQsaNzPKwyF3aLImU5aPybKQHj1a8w8dJgZZQS4Mnu+hp2hYTrloiIS3SqDPLTcLRBoEosQTEMVQpko0w3IFlPmHZh77SbJKJxP9BLglswAfvKirk6opylr4AAAAZSoJJyf/+f0+j0GEF6/4Ravtt7py+w3j57wAAAJ8BLt8G5wSOl7L0Cb+1bFiWGeOLVs8AAACGBwMqjfkNM1ZzN9ESRm6qIwo+VENuBrqwN28mtrPzVa+Epqiv0P8Mh3+d6EuEsUrfv7KZcG1N/wYw3YSOGx/2hpxPP3wzZEtRzPnPwkdnwsuTqwTxxm2ko866obQsLXUljqn5TZxO6buFXOX7W+wRS7Xu/ghDGkkWYTmYlNUK5q63WmO6MBwAAAAAAAAA
+Accept: application/json
+X-Apple-UserGuid: f8f40c1c-0384-4e19-7aad-28e0e684c78e
+User-Agent: (OS X 14A389) Spotlight/916
+Content-Length: 2162
+Accept-Encoding: gzip, deflate
+Accept-Language: en-us
+
+[{"delta":0,"timestamp":370,"input":"s","type":"search_local","ttfb":0,"latency":101},{"latency":410,"input":" ","ttfb":409,"delta_ref":"spotlight_local_search","headers":{"User-Agent":"(OS X 14A389) Spotlight\/916","X-Apple-UserGuid":"f8f40c1c-0384-4e19-7aad-28e0e684c78e","Accept-Charset":"utf-8","X-Apple-CachedResults":"[]","Accept-Encoding":"gzip, deflate","X-Apple-CachedQueries":"[]"},"type":"search_remote","timestamp":410,"delta":40,"url":"https:\/\/api.smoot.apple.com\/search?q=+&locale=en-US&time_zone=America\/Los_Angeles&calendar=gregorian&key=andromeda"},{"delta":0,"timestamp":505,"input":"saf","type":"search_local","ttfb":0,"latency":39},{"latency":390,"input":"saf","ttfb":390,"delta_ref":"spotlight_local_search","delta":353,"headers":{"Accept-Charset":"utf-8","X-Apple-UI-Scale":"1.000000","X-Apple-CachedResults":"[]","X-Apple-UserGuid":"f8f40c1c-0384-4e19-7aad-28e0e684c78e","User-Agent":"(OS X 14A389) Spotlight\/916","Accept-Encoding":"gzip, deflate","X-Apple-CachedQueries":"[]"},"type":"search_web","error":true,"timestamp":858,"url":"https:\/\/api.smoot.apple.com\/websearch?q=saf&locale=en-US&time_zone=America\/Los_Angeles&calendar=gregorian&key=andromeda"},{"results":["app","sys_pref","folders","web"],"timestamp":894,"input":"saf","type":"render","trigger_timestamp":464},{"latency":464,"input":"saf","ttfb":464,"delta_ref":"spotlight_local_search","headers":{"Accept-Charset":"utf-8","X-Apple-UI-Scale":"1.000000","X-Apple-CachedResults":"[]","X-Apple-UserGuid":"f8f40c1c-0384-4e19-7aad-28e0e684c78e","User-Agent":"(OS X 14A389) Spotlight\/916","Accept-Encoding":"gzip, deflate","X-Apple-CachedQueries":"[]"},"type":"search_remote","timestamp":932,"delta":427,"url":"https:\/\/api.smoot.apple.com\/search?q=saf&locale=en-US&time_zone=America\/Los_Angeles&calendar=gregorian&key=andromeda"},{"results":["app","sys_pref","folders","web"],"timestamp":935,"input":"saf","type":"render","trigger_timestamp":464},{"timestamp":2111,"input":"saf","type":"engagement","local_result":"app"},{"timestamp":2117,"input":"saf","type":"abandonment","method":"lost_focus"},{"timestamp":2117,"input":"saf","type":"abandonment","method":"close"}]HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Date: Sun, 19 Oct 2014 07:56:18 GMT
+Content-Length: 3
+Connection: close
+
+""

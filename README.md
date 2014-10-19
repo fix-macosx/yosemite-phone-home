@@ -1,18 +1,16 @@
 # E.T. Phone Home?
 
 This repository provides a corpus of network communications automatically sent
-to Apple by a standard installation of OS X Yosemite.
+to Apple by a standard installation of OS X Yosemite; we're using this dataset
+to [explore how Yosemite shares user data with Apple](https://fix-macosx.com).
 
-This was collected using our
+The provided data was collected using our
 [Net Monitor](https://github.com/fix-macosx/net-monitor) toolkit; more information regarding usage and methodology is provided below.
-
-Using this data, we can trace the lifecycle of user identifying data
-as used by Mac OS X Yosemite.
 
 ## Examples
 
-The following assume a user that has enabled all privacy options -- *including* disabling
-of analytics via the "Diagnostics and Usage Data" option.
+The following occur with all privacy options enabled -- including disabling
+analytics (i.e., *Diagnostics and Usage Data*).
 
 **About this Mac**
 

@@ -3,7 +3,7 @@
 This repository provides a corpus of network communications automatically sent
 to Apple by a standard installation of OS X Yosemite.
 
-This was collecte using our
+This was collected using our
 [Net Monitor](https://github.com/fix-macosx/net-monitor) toolkit; more information regarding usage and methodology is provided below.
 
 Using this data, we can trace the lifecycle of user identifying data

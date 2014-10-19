@@ -1,7 +1,7 @@
 # E.T. Phone Home?
 
 This repository provides a corpus of network communications automatically sent
-to Apple by a standard installation of OS X Yosemite; we're using this dataset
+to Apple by OS X Yosemite; we're using this dataset
 to [explore how Yosemite shares user data with Apple](https://fix-macosx.com).
 
 The provided data was collected using our

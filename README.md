@@ -55,8 +55,8 @@ Non-TCP traffic (such as UDP, ICMP) is logged in pcap format in `udp-monitor/*.p
 
 * This data was collected over the course of a few hours, and with only minimal interaction with the system and applications. It is
 not a complete representative set of all data potentially collected by Yosemite; for example:
-** `icloud-user-r0` dataset does not contain the diagnostics data periodically sent to Apple.
-** Cursory usage means that application-specific logs are not representative -- e.g., when setting up a Mail account, we only entered information on the first screen.
+	* `icloud-user-r0` dataset does not contain the diagnostics data periodically sent to Apple.
+	* Cursory usage means that application-specific logs are not representative -- e.g., when setting up a Mail account, we only entered information on the first screen.
 * Correlation of sockets with file system executable paths is reasonably accurate; actual correspondance should be sanity checked (we've
 seen cases where `proc_pidpath()` returned paths for processes that could not be running).
 * TLS traffic using client certificates cannot be captured in plaintext by default. For

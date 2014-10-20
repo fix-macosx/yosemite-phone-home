@@ -14,7 +14,7 @@ analytics (i.e., *Diagnostics and Usage Data*).
 
 **About this Mac**
 
-When the user selects 'About this Mac' from the Apple menu, Yosemite phones home and `s_vi`, a unique analytics identifier, is [included in the request](eff-user-r0/Applications/Utilities/System Information.app/Contents/MacOS/System Information/20141019T192957Z-effuser-[172.16.174.146]:49495-[23.3.12.195]:80.log). (`si_vi` is used by [Adobe/Omniture's analytics software](http://microsite.omniture.com/t2/help/en_US/whitepapers/cookies/cookies_analytics.html#concept_98805569FE284595B34A7684647D7C71__section_5D50A078DE444D12B7D927D68FF3B679)).
+When the user selects 'About this Mac' from the Apple menu, Yosemite phones home and `s_vi`, a unique analytics identifier, is [included in the request](eff-user-r0/Applications/Utilities/System Information.app/Contents/MacOS/System Information/20141019T192957Z-effuser-[172.16.174.146]:49495-[23.3.12.195]:80.log). (`s_vi` is used by [Adobe/Omniture's analytics software](http://microsite.omniture.com/t2/help/en_US/whitepapers/cookies/cookies_analytics.html#concept_98805569FE284595B34A7684647D7C71__section_5D50A078DE444D12B7D927D68FF3B679)).
 
 If we search the logs for the cookie value, we can find:
 

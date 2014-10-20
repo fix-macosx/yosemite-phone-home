@@ -25,7 +25,7 @@ If we search the logs for the cookie value, we can find:
 
 Having read DuckDuckGo's privacy statements, you might decide to switch Safari's default search to DuckDuckGo. If we enter a new search in Safari, we can then search the logged data to see who the search terms are actually sent to.
 
-The logs show that a copy of your Safari searches are [still sent to Apple](eff-user-r0/Applications/Safari.app/Contents/MacOS/Safari/20141019T204534Z-effuser-[172.16.174.146]:49700-[17.249.89.247]:443.log), *even when selecting DuckDuckGo as your search provider, and 'Spotlight Suggestions' are disabled*.
+The logs show that a copy of your Safari searches are [still sent to Apple](eff-user-r0/Applications/Safari.app/Contents/MacOS/Safari/20141019T204534Z-effuser-[172.16.174.146]:49700-[17.249.89.247]:443.log), *even when selecting DuckDuckGo as your search provider, and 'Spotlight Suggestions' are disabled* in [System Preferences > Spotlight](https://fix-macosx.com/assets/img/spotlight_terms.16cdcfbf.png).
 
 **Non-Cloud Mail Account**
 

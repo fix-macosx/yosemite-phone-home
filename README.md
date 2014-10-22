@@ -71,7 +71,7 @@ decode data that was encoded for transmission via URL encoding, base64, protobuf
 Help is requested in all of the following areas:
 
 * Finding and [documenting](https://github.com/fix-macosx/fix-macosx/issues) privacy issues.
-* Enhanced automated dataset visualization/decoding.
+* Enhanced [automated dataset visualization/decoding](https://github.com/fix-macosx/net-monitor/tree/protocol_decoding).
 * Adding application-specific support for processes using client-certificates to [SSLsplit](https://github.com/fix-macosx/sslsplit).
 * Automated (re-)generation of the datasets (e.g, scripting installation and application use).
 * Using [net-monitor](https://github.com/fix-macosx/net-monitor) to gather data from AirDrop, Handoff, and other technologies that are difficult to run in a VM environment.
